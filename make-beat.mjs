@@ -1,6 +1,7 @@
 // Zero-dependency MIDI generator for Logic Pro.
 // Run: node make-beat.mjs
-// Writes drums.mid, chords.mid, bass.mid, melody.mid next to this file.
+// Writes drums.mid, chords.mid, bass.mid, melody.mid, and a combined beat.mid.
+// Open beat.mid with Logic Pro to auto-create a project with four tracks.
 
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -38,6 +39,15 @@ function tempoMeta(bpm) {
   return Buffer.concat([
     Buffer.from([0x00, 0xff, 0x51, 0x03]),
     Buffer.from([(us >> 16) & 0xff, (us >> 8) & 0xff, us & 0xff]),
+  ]);
+}
+
+function trackName(name) {
+  const bytes = Buffer.from(name, "utf8");
+  return Buffer.concat([
+    Buffer.from([0x00, 0xff, 0x03]),
+    vlq(bytes.length),
+    bytes,
   ]);
 }
 
@@ -86,21 +96,18 @@ function scheduleToEvents(schedule) {
   return out;
 }
 
-function makeDrums(outPath, bars = 4) {
-  const sixteenth = TPB / 4;
-  const KICK = 36,
-    SNARE = 38,
-    CHAT = 42,
-    OHAT = 46;
-  const ch = 9;
+// --- part builders: each returns {name, track}  ---
 
+function drumsPart(bars = 4) {
+  const sixteenth = TPB / 4;
+  const KICK = 36, SNARE = 38, CHAT = 42, OHAT = 46;
+  const ch = 9;
   const patterns = [
     { pat: "x..x..x...x..x..", pitch: KICK, vel: 110, accent: false },
     { pat: "....x.......x...", pitch: SNARE, vel: 105, accent: false },
     { pat: "x.x.x.x.x.x.x.x.", pitch: CHAT, vel: 75, accent: true },
     { pat: "..........x.....", pitch: OHAT, vel: 80, accent: false },
   ];
-
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
     const barOffset = bar * 16 * sixteenth;
@@ -115,18 +122,19 @@ function makeDrums(outPath, bars = 4) {
       }
     }
   }
-
-  const metaTrack = buildTrack([tempoMeta(BPM), TIME_SIG, END_OF_TRACK]);
-  const drumTrack = buildTrack([...scheduleToEvents(schedule), END_OF_TRACK]);
-  writeFileSync(outPath, buildSMF([metaTrack, drumTrack]));
+  return {
+    name: "Drums",
+    track: buildTrack([trackName("Drums"), ...scheduleToEvents(schedule), END_OF_TRACK]),
+  };
 }
 
-function makeChords(outPath) {
+function chordsPart() {
+  // Fm7, Dbmaj7, Abmaj7, Ebmaj7
   const chords = [
-    [53, 56, 60, 63], // Fm7
-    [49, 53, 56, 60], // Dbmaj7
-    [56, 60, 63, 67], // Abmaj7
-    [51, 55, 58, 62], // Ebmaj7
+    [53, 56, 60, 63],
+    [49, 53, 56, 60],
+    [56, 60, 63, 67],
+    [51, 55, 58, 62],
   ];
   const ch = 0;
   const barTicks = TPB * 4;
@@ -139,14 +147,18 @@ function makeChords(outPath) {
       schedule.push({ tick: end, kind: 0, ch, pitch: n, vel: 0 });
     }
   });
-
-  const metaTrack = buildTrack([tempoMeta(BPM), TIME_SIG, END_OF_TRACK]);
-  const events = [programChange(0, ch, 4), ...scheduleToEvents(schedule), END_OF_TRACK];
-  writeFileSync(outPath, buildSMF([metaTrack, buildTrack(events)]));
+  return {
+    name: "Chords",
+    track: buildTrack([
+      trackName("Chords"),
+      programChange(0, ch, 4),
+      ...scheduleToEvents(schedule),
+      END_OF_TRACK,
+    ]),
+  };
 }
 
-function makeBass(outPath) {
-  // Roots one octave down: F, Db, Ab, Eb
+function bassPart() {
   const roots = [29, 25, 32, 27];
   const ch = 1;
   const sixteenth = TPB / 4;
@@ -163,19 +175,23 @@ function makeBass(outPath) {
       }
     }
   });
-
-  const metaTrack = buildTrack([tempoMeta(BPM), TIME_SIG, END_OF_TRACK]);
-  const events = [programChange(0, ch, 38), ...scheduleToEvents(schedule), END_OF_TRACK];
-  writeFileSync(outPath, buildSMF([metaTrack, buildTrack(events)]));
+  return {
+    name: "Bass",
+    track: buildTrack([
+      trackName("Bass"),
+      programChange(0, ch, 38),
+      ...scheduleToEvents(schedule),
+      END_OF_TRACK,
+    ]),
+  };
 }
 
-function makeMelody(outPath) {
-  // Per bar: [pitch, start_in_16ths, length_in_16ths]
+function melodyPart() {
   const hits = [
-    [0, [[72, 0, 2], [75, 2, 2], [77, 4, 2], [75, 6, 2], [72, 8, 4]]],   // Fm7
-    [1, [[77, 0, 3], [80, 3, 3], [79, 6, 4]]],                           // Dbmaj7
-    [2, [[75, 0, 2], [79, 2, 2], [80, 4, 3], [79, 7, 3], [75, 10, 4]]],  // Abmaj7
-    [3, [[70, 0, 2], [72, 2, 2], [75, 4, 6]]],                           // Ebmaj7
+    [0, [[72, 0, 2], [75, 2, 2], [77, 4, 2], [75, 6, 2], [72, 8, 4]]],
+    [1, [[77, 0, 3], [80, 3, 3], [79, 6, 4]]],
+    [2, [[75, 0, 2], [79, 2, 2], [80, 4, 3], [79, 7, 3], [75, 10, 4]]],
+    [3, [[70, 0, 2], [72, 2, 2], [75, 4, 6]]],
   ];
   const ch = 2;
   const sixteenth = TPB / 4;
@@ -189,19 +205,39 @@ function makeMelody(outPath) {
       schedule.push({ tick: end, kind: 0, ch, pitch, vel: 0 });
     }
   }
-
-  const metaTrack = buildTrack([tempoMeta(BPM), TIME_SIG, END_OF_TRACK]);
-  const events = [programChange(0, ch, 5), ...scheduleToEvents(schedule), END_OF_TRACK];
-  writeFileSync(outPath, buildSMF([metaTrack, buildTrack(events)]));
+  return {
+    name: "Melody",
+    track: buildTrack([
+      trackName("Melody"),
+      programChange(0, ch, 5),
+      ...scheduleToEvents(schedule),
+      END_OF_TRACK,
+    ]),
+  };
 }
 
-const files = [
-  ["drums.mid", () => makeDrums(join(HERE, "drums.mid"), 4)],
-  ["chords.mid", () => makeChords(join(HERE, "chords.mid"))],
-  ["bass.mid", () => makeBass(join(HERE, "bass.mid"))],
-  ["melody.mid", () => makeMelody(join(HERE, "melody.mid"))],
-];
-for (const [name, fn] of files) {
-  fn();
-  console.log(`Wrote ${join(HERE, name)}`);
+function metaTrack(name) {
+  return buildTrack([
+    trackName(name),
+    tempoMeta(BPM),
+    TIME_SIG,
+    END_OF_TRACK,
+  ]);
 }
+
+function writeSolo(outPath, name, partTrack) {
+  writeFileSync(outPath, buildSMF([metaTrack(name), partTrack]));
+}
+
+// Emit individual files (still handy for mixing into an existing project)
+const parts = [drumsPart(4), chordsPart(), bassPart(), melodyPart()];
+for (const p of parts) {
+  const file = p.name.toLowerCase() + ".mid";
+  writeSolo(join(HERE, file), p.name, p.track);
+  console.log("Wrote", file);
+}
+
+// Emit combined file — open this one with Logic Pro.
+const combined = buildSMF([metaTrack("Conductor"), ...parts.map((p) => p.track)]);
+writeFileSync(join(HERE, "beat.mid"), combined);
+console.log("Wrote beat.mid");

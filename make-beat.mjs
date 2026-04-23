@@ -225,19 +225,9 @@ function metaTrack(name) {
   ]);
 }
 
-function writeSolo(outPath, name, partTrack) {
-  writeFileSync(outPath, buildSMF([metaTrack(name), partTrack]));
-}
-
-// Emit individual files (still handy for mixing into an existing project)
+// Emit the combined multi-track MIDI file — open it with Logic Pro to
+// auto-create a project with tempo 140, time sig 4/4, and four named tracks.
 const parts = [drumsPart(4), chordsPart(), bassPart(), melodyPart()];
-for (const p of parts) {
-  const file = p.name.toLowerCase() + ".mid";
-  writeSolo(join(HERE, file), p.name, p.track);
-  console.log("Wrote", file);
-}
-
-// Emit combined file — open this one with Logic Pro.
 const combined = buildSMF([metaTrack("Conductor"), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), combined);
 console.log("Wrote beat.mid");

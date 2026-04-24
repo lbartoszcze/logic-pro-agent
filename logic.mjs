@@ -62,7 +62,10 @@ const CMD = {
     setLibrarySearch(patch);
     const coord = findLibraryRow(patch);
     if (coord === "none") throw new Error(`patch not found in Library: ${patch}`);
-    doubleClick(coord);
+    const [x, y] = coord.split(",").map(Number);
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    makePixelClicker(pid, window_id).click(x, y, { count: 2 });
     sleep(0.8);
     console.log(`loaded ${patch} on ${hint}`);
   },

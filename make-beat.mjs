@@ -1,124 +1,122 @@
-// Zero-dependency MIDI generator for Logic Pro.
-// Run: node make-beat.mjs
-// Writes drums.mid, chords.mid, bass.mid, melody.mid, and a combined beat.mid.
-// Open beat.mid with Logic Pro to auto-create a project with four tracks.
+// Beat generator for Logic Pro.
+// Usage:
+//   node make-beat.mjs                                    # trap, F minor, 140 bpm
+//   node make-beat.mjs --style=lo-fi --key=Am             # swap style and key
+//   node make-beat.mjs --bpm=96 --style=boom-bap
+//   node make-beat.mjs --style=drill --key=Em --bpm=140
+// Styles: trap, lo-fi, boom-bap, drill. Keys: minor only (e.g. Fm, Am, Ebm).
 
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import {
+  TPB,
+  tempoMeta,
+  trackName,
+  TIME_SIG,
+  END_OF_TRACK,
+  programChange,
+  buildTrack,
+  buildSMF,
+  scheduleToEvents,
+} from "./lib/midi.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const TPB = 480;
-const BPM = 140;
 
-function vlq(n) {
-  if (n === 0) return Buffer.from([0]);
-  const bytes = [n & 0x7f];
-  n >>= 7;
-  while (n) {
-    bytes.push((n & 0x7f) | 0x80);
-    n >>= 7;
+// --- styles ---------------------------------------------------------------
+
+const STYLES = {
+  trap: {
+    bpm: 140,
+    drums: { kick: "x..x..x...x..x..", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "..........x....." },
+    chords: ["i7", "VI7", "III7", "VII7"],
+    instruments: { chords: 4, bass: 38, melody: 5 },
+  },
+  "lo-fi": {
+    bpm: 85,
+    drums: { kick: "x.......x...x...", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
+    chords: ["i7", "VI7", "iv7", "III7"],
+    instruments: { chords: 4, bass: 33, melody: 5 },
+  },
+  "boom-bap": {
+    bpm: 92,
+    drums: { kick: "x.......x.......", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
+    chords: ["i", "iv", "VII", "III"],
+    instruments: { chords: 1, bass: 33, melody: 26 },
+  },
+  drill: {
+    bpm: 140,
+    drums: { kick: "x...x...x...x...", snare: "....x.......x...", chat: "x.x.x.xxx.x.x.xx", ohat: "................" },
+    chords: ["i", "v", "VI", "VII"],
+    instruments: { chords: 4, bass: 38, melody: 5 },
+  },
+};
+
+// Scale-degree → semitone offsets from the key root, in natural minor.
+// "i" = minor triad, "i7" = minor 7, etc. Capitalised degrees are major
+// chords built from that scale step.
+const DEGREES = {
+  i:     [0, 3, 7],
+  i7:    [0, 3, 7, 10],
+  iv:    [5, 8, 12],
+  iv7:   [5, 8, 12, 15],
+  v:     [7, 10, 14],
+  V:     [7, 11, 14],
+  VI:    [8, 12, 15],
+  VI7:   [8, 12, 15, 19],
+  III:   [3, 7, 10],
+  III7:  [3, 7, 10, 14],
+  VII:   [10, 14, 17],
+  VII7:  [10, 14, 17, 21],
+};
+
+// --- key parsing ----------------------------------------------------------
+
+const NOTE_TO_SEMI = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+
+function parseKey(str) {
+  const m = str.match(/^([A-G])([#b]?)m?$/);
+  if (!m) throw new Error(`unparseable key: ${str}`);
+  const base = NOTE_TO_SEMI[m[1]];
+  const acc = m[2] === "#" ? 1 : m[2] === "b" ? -1 : 0;
+  const pc = (base + acc + 12) % 12;
+  // Octave 4: C4 = 60. Root MIDI = 48 + pc so chord voicings sit around middle C.
+  return 48 + pc;
+}
+
+// --- argv -----------------------------------------------------------------
+
+function parseArgs(argv) {
+  const out = { style: "trap", key: "Fm", bpm: null };
+  for (const a of argv) {
+    const m = a.match(/^--([^=]+)=(.+)$/);
+    if (m) out[m[1]] = m[2];
   }
-  return Buffer.from(bytes.reverse());
-}
-
-function u32be(n) {
-  const b = Buffer.alloc(4);
-  b.writeUInt32BE(n >>> 0, 0);
-  return b;
-}
-
-function u16be(n) {
-  const b = Buffer.alloc(2);
-  b.writeUInt16BE(n & 0xffff, 0);
-  return b;
-}
-
-function tempoMeta(bpm) {
-  const us = Math.round(60_000_000 / bpm);
-  return Buffer.concat([
-    Buffer.from([0x00, 0xff, 0x51, 0x03]),
-    Buffer.from([(us >> 16) & 0xff, (us >> 8) & 0xff, us & 0xff]),
-  ]);
-}
-
-function trackName(name) {
-  const bytes = Buffer.from(name, "utf8");
-  return Buffer.concat([
-    Buffer.from([0x00, 0xff, 0x03]),
-    vlq(bytes.length),
-    bytes,
-  ]);
-}
-
-const TIME_SIG = Buffer.from([0x00, 0xff, 0x58, 0x04, 4, 2, 24, 8]);
-const END_OF_TRACK = Buffer.from([0x00, 0xff, 0x2f, 0x00]);
-
-function noteOn(delta, ch, pitch, vel) {
-  return Buffer.concat([vlq(delta), Buffer.from([0x90 | ch, pitch, vel])]);
-}
-
-function noteOff(delta, ch, pitch) {
-  return Buffer.concat([vlq(delta), Buffer.from([0x80 | ch, pitch, 0])]);
-}
-
-function programChange(delta, ch, program) {
-  return Buffer.concat([vlq(delta), Buffer.from([0xc0 | ch, program])]);
-}
-
-function buildTrack(eventBufs) {
-  const body = Buffer.concat(eventBufs);
-  return Buffer.concat([Buffer.from("MTrk"), u32be(body.length), body]);
-}
-
-function buildSMF(tracks) {
-  const header = Buffer.concat([
-    Buffer.from("MThd"),
-    u32be(6),
-    u16be(1),
-    u16be(tracks.length),
-    u16be(TPB),
-  ]);
-  return Buffer.concat([header, ...tracks]);
-}
-
-function scheduleToEvents(schedule) {
-  schedule.sort((a, b) => a.tick - b.tick || a.kind - b.kind);
-  const out = [];
-  let prev = 0;
-  for (const e of schedule) {
-    const delta = e.tick - prev;
-    out.push(
-      e.kind === 1 ? noteOn(delta, e.ch, e.pitch, e.vel) : noteOff(delta, e.ch, e.pitch)
-    );
-    prev = e.tick;
-  }
+  if (!STYLES[out.style]) throw new Error(`unknown style: ${out.style}. choices: ${Object.keys(STYLES).join(", ")}`);
   return out;
 }
 
-// --- part builders: each returns {name, track}  ---
+// --- parts ----------------------------------------------------------------
 
-function drumsPart(bars = 4) {
+function drumsPart(style, bars) {
   const sixteenth = TPB / 4;
-  const KICK = 36, SNARE = 38, CHAT = 42, OHAT = 46;
   const ch = 9;
-  const patterns = [
-    { pat: "x..x..x...x..x..", pitch: KICK, vel: 110, accent: false },
-    { pat: "....x.......x...", pitch: SNARE, vel: 105, accent: false },
-    { pat: "x.x.x.x.x.x.x.x.", pitch: CHAT, vel: 75, accent: true },
-    { pat: "..........x.....", pitch: OHAT, vel: 80, accent: false },
+  const lanes = [
+    { pat: style.drums.kick,  pitch: 36, vel: 110, accent: false },
+    { pat: style.drums.snare, pitch: 38, vel: 105, accent: false },
+    { pat: style.drums.chat,  pitch: 42, vel: 75,  accent: true  },
+    { pat: style.drums.ohat,  pitch: 46, vel: 80,  accent: false },
   ];
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
-    const barOffset = bar * 16 * sixteenth;
-    for (const { pat, pitch, vel, accent } of patterns) {
+    const offset = bar * 16 * sixteenth;
+    for (const { pat, pitch, vel, accent } of lanes) {
       for (let i = 0; i < pat.length; i++) {
-        if (pat[i] === "x") {
-          const t = barOffset + i * sixteenth;
-          const v = accent && i % 4 === 0 ? vel + 10 : vel;
-          schedule.push({ tick: t, kind: 1, ch, pitch, vel: v });
-          schedule.push({ tick: t + sixteenth - 10, kind: 0, ch, pitch, vel: 0 });
-        }
+        if (pat[i] !== "x") continue;
+        const t = offset + i * sixteenth;
+        const v = accent && i % 4 === 0 ? vel + 10 : vel;
+        schedule.push({ tick: t, kind: 1, ch, pitch, vel: v });
+        schedule.push({ tick: t + sixteenth - 10, kind: 0, ch, pitch, vel: 0 });
       }
     }
   }
@@ -128,106 +126,103 @@ function drumsPart(bars = 4) {
   };
 }
 
-function chordsPart() {
-  // Fm7, Dbmaj7, Abmaj7, Ebmaj7
-  const chords = [
-    [53, 56, 60, 63],
-    [49, 53, 56, 60],
-    [56, 60, 63, 67],
-    [51, 55, 58, 62],
-  ];
+function chordsPart(style, keyRoot) {
   const ch = 0;
   const barTicks = TPB * 4;
   const schedule = [];
-  chords.forEach((notes, i) => {
+  style.chords.forEach((degName, i) => {
+    const semis = DEGREES[degName];
+    if (!semis) throw new Error(`unknown chord degree: ${degName}`);
     const start = i * barTicks;
     const end = start + barTicks - 20;
-    for (const n of notes) {
-      schedule.push({ tick: start, kind: 1, ch, pitch: n, vel: 80 });
-      schedule.push({ tick: end, kind: 0, ch, pitch: n, vel: 0 });
+    for (const semi of semis) {
+      const pitch = keyRoot + 5 + semi; // +5 so voicings sit around middle C
+      schedule.push({ tick: start, kind: 1, ch, pitch, vel: 80 });
+      schedule.push({ tick: end, kind: 0, ch, pitch, vel: 0 });
     }
   });
   return {
     name: "Chords",
     track: buildTrack([
       trackName("Chords"),
-      programChange(0, ch, 4),
+      programChange(0, ch, style.instruments.chords),
       ...scheduleToEvents(schedule),
       END_OF_TRACK,
     ]),
   };
 }
 
-function bassPart() {
-  const roots = [29, 25, 32, 27];
+function bassPart(style, keyRoot) {
   const ch = 1;
   const sixteenth = TPB / 4;
-  const kickPat = "x..x..x...x..x..";
   const schedule = [];
-  roots.forEach((root, bar) => {
-    const barOffset = bar * 16 * sixteenth;
-    for (let i = 0; i < kickPat.length; i++) {
-      if (kickPat[i] === "x") {
-        const t = barOffset + i * sixteenth;
-        const pitch = i === 12 ? root + 12 : root;
-        schedule.push({ tick: t, kind: 1, ch, pitch, vel: 100 });
-        schedule.push({ tick: t + sixteenth * 2 - 10, kind: 0, ch, pitch, vel: 0 });
-      }
+  style.chords.forEach((degName, bar) => {
+    const semis = DEGREES[degName];
+    const root = keyRoot - 24 + semis[0]; // two octaves below chord voicing
+    const offset = bar * 16 * sixteenth;
+    const pat = style.drums.kick;
+    for (let i = 0; i < pat.length; i++) {
+      if (pat[i] !== "x") continue;
+      const t = offset + i * sixteenth;
+      const pitch = i === 12 ? root + 12 : root;
+      schedule.push({ tick: t, kind: 1, ch, pitch, vel: 100 });
+      schedule.push({ tick: t + sixteenth * 2 - 10, kind: 0, ch, pitch, vel: 0 });
     }
   });
   return {
     name: "Bass",
     track: buildTrack([
       trackName("Bass"),
-      programChange(0, ch, 38),
+      programChange(0, ch, style.instruments.bass),
       ...scheduleToEvents(schedule),
       END_OF_TRACK,
     ]),
   };
 }
 
-function melodyPart() {
-  const hits = [
-    [0, [[72, 0, 2], [75, 2, 2], [77, 4, 2], [75, 6, 2], [72, 8, 4]]],
-    [1, [[77, 0, 3], [80, 3, 3], [79, 6, 4]]],
-    [2, [[75, 0, 2], [79, 2, 2], [80, 4, 3], [79, 7, 3], [75, 10, 4]]],
-    [3, [[70, 0, 2], [72, 2, 2], [75, 4, 6]]],
+function melodyPart(style, keyRoot) {
+  // Pentatonic-ish motif in scale degrees (semitones from key root).
+  const motifs = [
+    [[7, 0, 2], [10, 2, 2], [12, 4, 2], [10, 6, 2], [7, 8, 4]],
+    [[12, 0, 3], [15, 3, 3], [14, 6, 4]],
+    [[10, 0, 2], [14, 2, 2], [15, 4, 3], [14, 7, 3], [10, 10, 4]],
+    [[5, 0, 2], [7, 2, 2], [10, 4, 6]],
   ];
   const ch = 2;
   const sixteenth = TPB / 4;
   const schedule = [];
-  for (const [bar, events] of hits) {
-    const barOffset = bar * 16 * sixteenth;
-    for (const [pitch, start, length] of events) {
-      const t = barOffset + start * sixteenth;
+  motifs.forEach((motif, bar) => {
+    const offset = bar * 16 * sixteenth;
+    for (const [semi, start, length] of motif) {
+      const t = offset + start * sixteenth;
       const end = t + length * sixteenth - 10;
-      schedule.push({ tick: t, kind: 1, ch, pitch, vel: 90 });
-      schedule.push({ tick: end, kind: 0, ch, pitch, vel: 0 });
+      schedule.push({ tick: t, kind: 1, ch, pitch: keyRoot + 12 + semi, vel: 90 });
+      schedule.push({ tick: end, kind: 0, ch, pitch: keyRoot + 12 + semi, vel: 0 });
     }
-  }
+  });
   return {
     name: "Melody",
     track: buildTrack([
       trackName("Melody"),
-      programChange(0, ch, 5),
+      programChange(0, ch, style.instruments.melody),
       ...scheduleToEvents(schedule),
       END_OF_TRACK,
     ]),
   };
 }
 
-function metaTrack(name) {
-  return buildTrack([
-    trackName(name),
-    tempoMeta(BPM),
-    TIME_SIG,
-    END_OF_TRACK,
-  ]);
+function metaTrack(name, bpm) {
+  return buildTrack([trackName(name), tempoMeta(bpm), TIME_SIG, END_OF_TRACK]);
 }
 
-// Emit the combined multi-track MIDI file — open it with Logic Pro to
-// auto-create a project with tempo 140, time sig 4/4, and four named tracks.
-const parts = [drumsPart(4), chordsPart(), bassPart(), melodyPart()];
-const combined = buildSMF([metaTrack("Conductor"), ...parts.map((p) => p.track)]);
-writeFileSync(join(HERE, "beat.mid"), combined);
-console.log("Wrote beat.mid");
+// --- main -----------------------------------------------------------------
+
+const args = parseArgs(process.argv.slice(2));
+const style = STYLES[args.style];
+const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
+const keyRoot = parseKey(args.key);
+
+const parts = [drumsPart(style, 4), chordsPart(style, keyRoot), bassPart(style, keyRoot), melodyPart(style, keyRoot)];
+const smf = buildSMF([metaTrack("Conductor", bpm), ...parts.map((p) => p.track)]);
+writeFileSync(join(HERE, "beat.mid"), smf);
+console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM)`);

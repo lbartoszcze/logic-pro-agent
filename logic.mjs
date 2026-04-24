@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-// logic.mjs - Logic Pro X automation CLI.
-// Usage: node logic.mjs <command> [args...]
-//   tracks | select <hint> | play | stop | rewind |
-//   swap <track> <patch> | mute <track> | solo <track> |
-//   search <query> | undo | redo | save-as <path> | open <file>
+// logic.mjs - Logic Pro X automation CLI. Two backends:
+//   AX + cliclick  (default, raises Logic): tracks, select, play, stop, rewind,
+//                  swap, mute, solo, search, undo, redo, save-as, open
+//   cua-driver     (keeps Logic in the background):
+//                  cua-init, cua-snapshot, cua-click <idx>, cua-play, cua-stop,
+//                  cua-press <key>, cua-type <text>, cua-find <label>
 
 import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
@@ -20,6 +21,15 @@ import {
   osa,
   sleep,
 } from "./lib/logic-ax.mjs";
+import {
+  ensureDaemon,
+  getLogic,
+  snapshot,
+  clickIndex,
+  pressKey,
+  typeText,
+  parseIndexedTree,
+} from "./lib/logic-cua.mjs";
 
 const CMD = {
   tracks() {
@@ -99,6 +109,70 @@ const CMD = {
   open([file]) {
     if (!file) throw new Error("open <path>");
     execFileSync("open", ["-a", "Logic Pro X", resolve(file)]);
+  },
+
+  "cua-init"() {
+    const state = ensureDaemon();
+    const { pid, window_id } = getLogic();
+    console.log(JSON.stringify({ daemon: state, pid, window_id }, null, 2));
+  },
+
+  "cua-snapshot"() {
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    console.log(snapshot(pid, window_id));
+  },
+
+  "cua-click"([idx]) {
+    if (!idx) throw new Error("cua-click <element_index>");
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    console.log(clickIndex(pid, window_id, parseInt(idx)));
+  },
+
+  "cua-play"() {
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    const tree = snapshot(pid, window_id);
+    const items = parseIndexedTree(tree);
+    const play = items.find((i) => i.role === "AXCheckBox" && i.label === "Play");
+    if (!play) throw new Error("Play button not found in AX tree");
+    console.log(clickIndex(pid, window_id, play.index));
+  },
+
+  "cua-stop"() {
+    ensureDaemon();
+    const { pid } = getLogic();
+    // Spacebar toggles transport in Logic; direct key_post is reliable even
+    // when the main window is occluded or the Stop button is outside the AX
+    // snapshot due to focus state.
+    console.log(pressKey(pid, "space"));
+  },
+
+  "cua-press"([key]) {
+    if (!key) throw new Error("cua-press <key>");
+    ensureDaemon();
+    const { pid } = getLogic();
+    console.log(pressKey(pid, key));
+  },
+
+  "cua-type"(args) {
+    const text = args.join(" ");
+    if (!text) throw new Error("cua-type <text>");
+    ensureDaemon();
+    const { pid } = getLogic();
+    console.log(typeText(pid, text));
+  },
+
+  "cua-find"(args) {
+    const label = args.join(" ");
+    if (!label) throw new Error("cua-find <label>");
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    const tree = snapshot(pid, window_id);
+    const items = parseIndexedTree(tree);
+    const hits = items.filter((i) => i.label.toLowerCase().includes(label.toLowerCase()));
+    console.log(JSON.stringify(hits, null, 2));
   },
 };
 

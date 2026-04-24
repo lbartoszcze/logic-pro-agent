@@ -26,6 +26,8 @@ import {
   getLogic,
   snapshot,
   clickIndex,
+  doubleClickIndex,
+  setValue,
   pressKey,
   typeText,
   parseIndexedTree,

@@ -87,7 +87,7 @@ function parseKey(str) {
 // --- argv -----------------------------------------------------------------
 
 function parseArgs(argv) {
-  const out = { style: "trap", key: "Fm", bpm: null };
+  const out = { style: "trap", key: "Fm", bpm: null, bars: "16" };
   for (const a of argv) {
     const m = a.match(/^--([^=]+)=(.+)$/);
     if (m) out[m[1]] = m[2];
@@ -126,21 +126,22 @@ function drumsPart(style, bars) {
   };
 }
 
-function chordsPart(style, keyRoot) {
+function chordsPart(style, keyRoot, bars) {
   const ch = 0;
   const barTicks = TPB * 4;
   const schedule = [];
-  style.chords.forEach((degName, i) => {
+  for (let bar = 0; bar < bars; bar++) {
+    const degName = style.chords[bar % style.chords.length];
     const semis = DEGREES[degName];
     if (!semis) throw new Error(`unknown chord degree: ${degName}`);
-    const start = i * barTicks;
+    const start = bar * barTicks;
     const end = start + barTicks - 20;
     for (const semi of semis) {
       const pitch = keyRoot + 5 + semi; // +5 so voicings sit around middle C
       schedule.push({ tick: start, kind: 1, ch, pitch, vel: 80 });
       schedule.push({ tick: end, kind: 0, ch, pitch, vel: 0 });
     }
-  });
+  }
   return {
     name: "Chords",
     track: buildTrack([
@@ -152,11 +153,12 @@ function chordsPart(style, keyRoot) {
   };
 }
 
-function bassPart(style, keyRoot) {
+function bassPart(style, keyRoot, bars) {
   const ch = 1;
   const sixteenth = TPB / 4;
   const schedule = [];
-  style.chords.forEach((degName, bar) => {
+  for (let bar = 0; bar < bars; bar++) {
+    const degName = style.chords[bar % style.chords.length];
     const semis = DEGREES[degName];
     const root = keyRoot - 24 + semis[0]; // two octaves below chord voicing
     const offset = bar * 16 * sixteenth;
@@ -168,7 +170,7 @@ function bassPart(style, keyRoot) {
       schedule.push({ tick: t, kind: 1, ch, pitch, vel: 100 });
       schedule.push({ tick: t + sixteenth * 2 - 10, kind: 0, ch, pitch, vel: 0 });
     }
-  });
+  }
   return {
     name: "Bass",
     track: buildTrack([
@@ -180,7 +182,7 @@ function bassPart(style, keyRoot) {
   };
 }
 
-function melodyPart(style, keyRoot) {
+function melodyPart(style, keyRoot, bars) {
   // Pentatonic-ish motif in scale degrees (semitones from key root).
   const motifs = [
     [[7, 0, 2], [10, 2, 2], [12, 4, 2], [10, 6, 2], [7, 8, 4]],
@@ -191,7 +193,8 @@ function melodyPart(style, keyRoot) {
   const ch = 2;
   const sixteenth = TPB / 4;
   const schedule = [];
-  motifs.forEach((motif, bar) => {
+  for (let bar = 0; bar < bars; bar++) {
+    const motif = motifs[bar % motifs.length];
     const offset = bar * 16 * sixteenth;
     for (const [semi, start, length] of motif) {
       const t = offset + start * sixteenth;
@@ -199,7 +202,7 @@ function melodyPart(style, keyRoot) {
       schedule.push({ tick: t, kind: 1, ch, pitch: keyRoot + 12 + semi, vel: 90 });
       schedule.push({ tick: end, kind: 0, ch, pitch: keyRoot + 12 + semi, vel: 0 });
     }
-  });
+  }
   return {
     name: "Melody",
     track: buildTrack([
@@ -221,8 +224,15 @@ const args = parseArgs(process.argv.slice(2));
 const style = STYLES[args.style];
 const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
 const keyRoot = parseKey(args.key);
+const bars = parseInt(args.bars);
+if (!Number.isFinite(bars) || bars < 1) throw new Error(`bad --bars: ${args.bars}`);
 
-const parts = [drumsPart(style, 4), chordsPart(style, keyRoot), bassPart(style, keyRoot), melodyPart(style, keyRoot)];
+const parts = [
+  drumsPart(style, bars),
+  chordsPart(style, keyRoot, bars),
+  bassPart(style, keyRoot, bars),
+  melodyPart(style, keyRoot, bars),
+];
 const smf = buildSMF([metaTrack("Conductor", bpm), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), smf);
-console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM)`);
+console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars)`);

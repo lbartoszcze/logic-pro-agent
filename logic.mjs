@@ -26,11 +26,12 @@ import {
   getLogic,
   snapshot,
   clickIndex,
-  doubleClickIndex,
   setValue,
   pressKey,
   typeText,
   parseIndexedTree,
+  makePixelClicker,
+  cuaSwap,
 } from "./lib/logic-cua.mjs";
 
 const CMD = {
@@ -175,6 +176,13 @@ const CMD = {
     const items = parseIndexedTree(tree);
     const hits = items.filter((i) => i.label.toLowerCase().includes(label.toLowerCase()));
     console.log(JSON.stringify(hits, null, 2));
+  },
+
+  "cua-swap"([trackHint, patchName]) {
+    if (!trackHint || !patchName) throw new Error("cua-swap <track-hint> <patch>");
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    console.log(cuaSwap(pid, window_id, trackHint, patchName));
   },
 };
 

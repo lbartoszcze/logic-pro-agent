@@ -6,8 +6,7 @@
 //                  cua-init, cua-snapshot, cua-click <idx>, cua-play,
 //                  cua-stop, cua-press <key>, cua-type <text>, cua-find <label>,
 //                  cua-swap <track> <patch>, cua-master, cua-mute <track>,
-//                  cua-solo <track>, cua-save [name], cua-bounce [name],
-//                  cua-compress <track>
+//                  cua-solo <track>, cua-save [name], cua-bounce [name]
 
 import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
@@ -19,7 +18,7 @@ import { ensureDaemon, getLogic, makePixelClicker } from "./lib/logic-cua.mjs";
 import {
   cuaInit, cuaSnapshotCmd, cuaClickCmd, cuaPlayCmd, cuaStopCmd,
   cuaPressCmd, cuaTypeCmd, cuaFindCmd, cuaSwapCmd, cuaMaster,
-  cuaMute, cuaSolo, cuaSave, cuaBounce, cuaCompress,
+  cuaMute, cuaSolo, cuaSave, cuaBounce,
 } from "./lib/logic-cua-cmds.mjs";
 
 const CMD = {
@@ -84,7 +83,6 @@ const CMD = {
   "cua-solo":     cuaSolo,
   "cua-save":     cuaSave,
   "cua-bounce":   cuaBounce,
-  "cua-compress": cuaCompress,
 };
 
 const [cmd, ...rest] = process.argv.slice(2);

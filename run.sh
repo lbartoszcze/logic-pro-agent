@@ -52,4 +52,9 @@ case "$STYLE" in
     ;;
 esac
 
+# Drop Logic 11 Mastering Assistant on the stereo out — auto EQ + compression
+# + adaptive limiter, tuned to the project. Same skip-on-failure semantics so
+# older Logic versions without Mastering Assistant don't break the pipeline.
+node logic.mjs cua-master || true
+
 echo "Beat ready in Logic. 'node logic.mjs cua-play' to play (no focus steal)."

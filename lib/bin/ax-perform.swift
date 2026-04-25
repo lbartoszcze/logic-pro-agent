@@ -11,9 +11,19 @@
 // Usage:
 //   ax-perform <pid> <help-prefix> <slot-index> "<action-name>"
 //   e.g. ax-perform 71817 "Audio Effect slot." 1 "Open plug-in menu with legacy plug-ins"
+//
+//   ax-perform --list <pid> <help-prefix>
+//   e.g. ax-perform --list 71817 "Audio Effect slot."
+//
+//   ax-perform --hold <x> <y> <hold-ms>
+//   Posts a mouse-down at screen point (x,y), sleeps hold-ms,
+//   then mouse-up. Used for Logic's empty insert slots which
+//   pop their plug-in chooser on click-and-hold rather than
+//   a discrete click.
 
 import ApplicationServices
 import Foundation
+import CoreGraphics
 
 func die(_ msg: String) -> Never {
   FileHandle.standardError.write((msg + "\n").data(using: .utf8)!)
@@ -21,9 +31,26 @@ func die(_ msg: String) -> Never {
 }
 
 let args = CommandLine.arguments
+
+// --hold <x> <y> <ms> — post a mouseDown, sleep, mouseUp at screen point.
+if args.count == 5 && args[1] == "--hold",
+   let hx = Double(args[2]), let hy = Double(args[3]),
+   let holdMs = Int(args[4]) {
+  let pt = CGPoint(x: hx, y: hy)
+  if let down = CGEvent(mouseEventSource: nil, mouseType: .leftMouseDown, mouseCursorPosition: pt, mouseButton: .left) {
+    down.post(tap: .cghidEventTap)
+  }
+  usleep(useconds_t(holdMs * 1000))
+  if let up = CGEvent(mouseEventSource: nil, mouseType: .leftMouseUp, mouseCursorPosition: pt, mouseButton: .left) {
+    up.post(tap: .cghidEventTap)
+  }
+  print("hold-clicked (\(Int(hx)), \(Int(hy))) for \(holdMs)ms")
+  exit(0)
+}
+
 let listMode = args.count == 4 && args[1] == "--list"
 guard listMode || (args.count == 5 && pid_t(args[1]) != nil && Int(args[3]) != nil) else {
-  die("usage:\n  ax-perform <pid> <help-prefix> <slot-index> <action-name>\n  ax-perform --list <pid> <help-prefix>")
+  die("usage:\n  ax-perform <pid> <help-prefix> <slot-index> <action-name>\n  ax-perform --list <pid> <help-prefix>\n  ax-perform --hold <x> <y> <ms>")
 }
 let pid: pid_t = listMode ? pid_t(args[2])! : pid_t(args[1])!
 let helpPrefix: String = listMode ? args[3] : args[2]

@@ -53,8 +53,14 @@ case "$STYLE" in
 esac
 
 # Drop Logic 11 Mastering Assistant on the stereo out — auto EQ + compression
-# + adaptive limiter, tuned to the project. Same skip-on-failure semantics so
-# older Logic versions without Mastering Assistant don't break the pipeline.
+# + adaptive limiter, tuned to the project.
 node logic.mjs cua-master || true
+sleep 1.5
+
+# Render the mastered project to audio. File lands in Logic's default Bounces
+# folder (usually ~/Music/Logic/Bounces/). Tagged with style + key + bpm.
+BOUNCE_NAME="beat-${STYLE}-${RANDOM}"
+node logic.mjs cua-bounce "$BOUNCE_NAME" || true
 
 echo "Beat ready in Logic. 'node logic.mjs cua-play' to play (no focus steal)."
+echo "Audio rendered: ~/Music/Logic/Bounces/${BOUNCE_NAME}.aif"

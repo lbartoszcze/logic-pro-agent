@@ -207,6 +207,30 @@ const CMD = {
     console.log("Mastering Assistant inserted on Stereo Out");
   },
 
+  "cua-save"([filename]) {
+    // Cmd+S — opens Save dialog if untitled, no-op if already saved.
+    // If untitled, sets the filename and clicks Save in the dialog.
+    const name = filename || "logic-pro-agent-project";
+    ensureDaemon();
+    const { pid } = getLogic();
+    hotkey(pid, ["cmd", "s"]);
+    sleep(0.7);
+    const saveWin = findWindowId(pid, "Save");
+    if (!saveWin) {
+      console.log("Project saved (no dialog needed — already had a path)");
+      return;
+    }
+    const tree = snapshot(pid, saveWin);
+    const nameIdx = tree.match(/\[(\d+)\] AXTextField[^\n]*saveAsNameTextField/);
+    const saveBtnIdx = tree.match(/\[(\d+)\] AXButton "Save"/);
+    if (nameIdx) setValue(pid, saveWin, parseInt(nameIdx[1]), name);
+    sleep(0.2);
+    if (!saveBtnIdx) throw new Error("Save button not found in dialog");
+    clickIndex(pid, saveWin, parseInt(saveBtnIdx[1]));
+    sleep(0.6);
+    console.log(`Project saved as ${name}`);
+  },
+
   "cua-bounce"([filename]) {
     // File > Bounce > Project (Cmd+B) → confirm format dialog → save dialog.
     // Output lands in ~/Music/Audio Music Apps/Bounces/<filename>.aif.

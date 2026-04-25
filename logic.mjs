@@ -187,6 +187,25 @@ const CMD = {
     const { pid, window_id } = getLogic();
     console.log(cuaSwap(pid, window_id, trackHint, patchName));
   },
+
+  "cua-master"() {
+    // Logic 11 Mastering Assistant — drops a full pro mastering chain on
+    // the stereo output (EQ + Compressor + Adaptive Limiter, auto-tuned
+    // to the project's content). Pure menu-pick path, fully background.
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    const tree = snapshot(pid, window_id);
+    const mixIdx = tree.match(/\[(\d+)\] AXMenuBarItem "Mix"/);
+    if (!mixIdx) throw new Error("Mix menu bar item not found");
+    clickIndex(pid, window_id, parseInt(mixIdx[1]), "pick"); // open Mix menu
+    sleep(0.3);
+    const tree2 = snapshot(pid, window_id);
+    const maIdx = tree2.match(/\[(\d+)\] AXMenuItem "Mastering Assistant…"/);
+    if (!maIdx) throw new Error("Mastering Assistant menu item not found");
+    clickIndex(pid, window_id, parseInt(maIdx[1]), "pick"); // pick Mastering Assistant
+    sleep(1.0);
+    console.log("Mastering Assistant inserted on Stereo Out");
+  },
 };
 
 const [cmd, ...rest] = process.argv.slice(2);

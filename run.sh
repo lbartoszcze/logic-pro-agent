@@ -62,5 +62,17 @@ sleep 1.5
 BOUNCE_NAME="beat-${STYLE}-${RANDOM}"
 node logic.mjs cua-bounce "$BOUNCE_NAME" || true
 
+BOUNCE_FILE="$HOME/Music/Logic/Bounces/${BOUNCE_NAME}.aif"
 echo "Beat ready in Logic. 'node logic.mjs cua-play' to play (no focus steal)."
-echo "Audio rendered: ~/Music/Logic/Bounces/${BOUNCE_NAME}.aif"
+echo "Audio rendered: $BOUNCE_FILE"
+
+# Wait for the bounce file to actually appear, then play it through the
+# system speakers via afplay so you hear the result without opening Logic.
+for i in $(seq 1 30); do
+  if [ -f "$BOUNCE_FILE" ] && [ "$(stat -f %z "$BOUNCE_FILE" 2>/dev/null || echo 0)" -gt 100000 ]; then
+    echo "Playing $BOUNCE_FILE (Ctrl+C to stop)..."
+    afplay "$BOUNCE_FILE"
+    break
+  fi
+  sleep 0.5
+done

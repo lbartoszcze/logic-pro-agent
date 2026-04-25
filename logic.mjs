@@ -207,6 +207,34 @@ const CMD = {
     console.log("Mastering Assistant inserted on Stereo Out");
   },
 
+  "cua-mute"([trackHint]) {
+    if (!trackHint) throw new Error("cua-mute <track-hint>");
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    const tree = snapshot(pid, window_id);
+    const m = tree.match(new RegExp(
+      `\\[(\\d+)\\] AXLayoutItem \\(Track \\d+ [“"][^”"]*${trackHint.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[^”"]*[”"]\\)`));
+    if (!m) throw new Error(`track not found: ${trackHint}`);
+    clickIndex(pid, window_id, parseInt(m[1])); // selects the track (background)
+    sleep(0.2);
+    pressKey(pid, "m"); // M = mute selected track
+    console.log(`muted ${trackHint}`);
+  },
+
+  "cua-solo"([trackHint]) {
+    if (!trackHint) throw new Error("cua-solo <track-hint>");
+    ensureDaemon();
+    const { pid, window_id } = getLogic();
+    const tree = snapshot(pid, window_id);
+    const m = tree.match(new RegExp(
+      `\\[(\\d+)\\] AXLayoutItem \\(Track \\d+ [“"][^”"]*${trackHint.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[^”"]*[”"]\\)`));
+    if (!m) throw new Error(`track not found: ${trackHint}`);
+    clickIndex(pid, window_id, parseInt(m[1]));
+    sleep(0.2);
+    pressKey(pid, "s"); // S = solo selected track
+    console.log(`soloed ${trackHint}`);
+  },
+
   "cua-save"([filename]) {
     // Cmd+S — opens Save dialog if untitled, no-op if already saved.
     // If untitled, sets the filename and clicks Save in the dialog.

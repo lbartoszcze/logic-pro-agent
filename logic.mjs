@@ -18,7 +18,7 @@ import { ensureDaemon, getLogic, makePixelClicker } from "./lib/logic-cua.mjs";
 import {
   cuaInit, cuaSnapshotCmd, cuaClickCmd, cuaPlayCmd, cuaStopCmd,
   cuaPressCmd, cuaTypeCmd, cuaFindCmd, cuaSwapCmd, cuaMaster,
-  cuaMute, cuaSolo, cuaSave, cuaBounce,
+  cuaMute, cuaSolo, cuaSave, cuaBounce, cuaTempo,
 } from "./lib/logic-cua-cmds.mjs";
 
 const CMD = {
@@ -83,6 +83,7 @@ const CMD = {
   "cua-solo":     cuaSolo,
   "cua-save":     cuaSave,
   "cua-bounce":   cuaBounce,
+  "cua-tempo":    cuaTempo,
 };
 
 const [cmd, ...rest] = process.argv.slice(2);

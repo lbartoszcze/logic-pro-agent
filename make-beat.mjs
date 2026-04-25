@@ -33,6 +33,8 @@ import {
   trap808Bar,
   hatRoll,
   motifIndex,
+  sectionOf,
+  partActiveIn,
 } from "./lib/production.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -125,26 +127,37 @@ function drumsPart(style, bars) {
   const schedule = [];
 
   for (let bar = 0; bar < bars; bar++) {
+    if (!partActiveIn("drums", sectionOf(bar, bars))) {
+      // outro: drums step out — just a quiet kick on beat 1 to keep time.
+      const t = bar * 16 * sixteenth;
+      emit(schedule, t, ch, KICK, 70, sixteenth - 8);
+      continue;
+    }
     const barOffset = bar * 16 * sixteenth;
     const fill = isFillBar(bar, bars) || isFinalFillBar(bar, bars);
     const pat = fill ? FILL_PATTERNS[style.styleName] || style.drums : style.drums;
+    const inIntro = sectionOf(bar, bars) === "intro";
+    const inChorus = sectionOf(bar, bars) === "chorus";
 
     for (let i = 0; i < 16; i++) {
       const t = swungTick(barOffset + i * sixteenth, sixteenth, style.swing);
       if (pat.kick[i] === "x")  emit(schedule, t, ch, KICK,  humanVel(112), sixteenth - 8);
       if (pat.snare[i] === "x") emit(schedule, t, ch, SNARE, humanVel(105), sixteenth - 8);
-      if (pat.chat[i] === "x")  emit(schedule, t, ch, CHAT,  humanVel(style.hatVel(i), 4), sixteenth - 12);
+      // Intro: only quarter-note hats. Chorus: 1/32 doubles on every downbeat.
+      const playHat = inIntro ? i % 4 === 0 : pat.chat[i] === "x";
+      if (playHat) emit(schedule, t, ch, CHAT, humanVel(style.hatVel(i), 4), sixteenth - 12);
+      if (inChorus && i % 4 === 0) {
+        const halfStep = Math.round(sixteenth / 2);
+        emit(schedule, t + halfStep, ch, CHAT, humanVel(style.hatVel(i) - 20, 3), halfStep - 6);
+      }
       if (pat.ohat[i] === "x")  emit(schedule, t, ch, OHAT,  humanVel(82), sixteenth - 8);
     }
 
-    // Trap-style 1/32 hat roll into the next downbeat on bars 4 and 8 of each phrase.
     if (style.hatRolls && (bar + 1) % 4 === 0 && !fill) {
       for (const r of hatRoll(barOffset, beatTicks)) {
         emit(schedule, swungTick(r.tick, sixteenth, style.swing), ch, CHAT, r.vel, r.length);
       }
     }
-
-    // Crash on the downbeat of every 8-bar section.
     if (isSectionStart(bar) && bar % 8 === 0) {
       emit(schedule, barOffset, ch, CRASH, 100, beatTicks * 2);
     }
@@ -160,11 +173,14 @@ function chordsPart(style, keyRoot, bars) {
   const barTicks = TPB * 4;
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
+    if (!partActiveIn("chords", sectionOf(bar, bars))) continue;
     const semis = DEGREES[style.chords[bar % style.chords.length]];
     const start = bar * barTicks;
     const end = start + barTicks - 30;
+    // Outro: half-bar chord stab + rest, lets the loop breathe.
+    const len = sectionOf(bar, bars) === "outro" ? Math.round(barTicks / 2) - 30 : end - start;
     for (const semi of semis) {
-      emit(schedule, start, ch, keyRoot + 5 + semi, humanVel(78, 4), end - start);
+      emit(schedule, start, ch, keyRoot + 5 + semi, humanVel(78, 4), len);
     }
   }
   return {
@@ -221,7 +237,8 @@ function melodyPart(style, keyRoot, bars) {
   const sixteenth = TPB / 4;
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
-    if (isFillBar(bar, bars) || isFinalFillBar(bar, bars)) continue; // breathe on fills
+    if (isFillBar(bar, bars) || isFinalFillBar(bar, bars)) continue;
+    if (!partActiveIn("melody", sectionOf(bar, bars))) continue;
     const motif = motifs[motifIndex(bar, motifs.length)];
     const barOffset = bar * 16 * sixteenth;
     for (const [semi, start, length] of motif) {

@@ -20,6 +20,20 @@ import {
   buildSMF,
   scheduleToEvents,
 } from "./lib/midi.mjs";
+import {
+  reseed,
+  humanVel,
+  swungTick,
+  trapHatVel,
+  lofiHatVel,
+  isFillBar,
+  isFinalFillBar,
+  isSectionStart,
+  FILL_PATTERNS,
+  trap808Bar,
+  hatRoll,
+  motifIndex,
+} from "./lib/production.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -28,63 +42,62 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const STYLES = {
   trap: {
     bpm: 140,
+    swing: 54,
     drums: { kick: "x..x..x...x..x..", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "..........x....." },
     chords: ["i7", "VI7", "III7", "VII7"],
     instruments: { chords: 4, bass: 38, melody: 5 },
+    hatVel: trapHatVel,
+    hatRolls: true,
+    sparse808: true,
   },
   "lo-fi": {
     bpm: 85,
+    swing: 58,
     drums: { kick: "x.......x...x...", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
     chords: ["i7", "VI7", "iv7", "III7"],
     instruments: { chords: 4, bass: 33, melody: 5 },
+    hatVel: lofiHatVel,
+    hatRolls: false,
+    sparse808: false,
   },
   "boom-bap": {
     bpm: 92,
+    swing: 56,
     drums: { kick: "x.......x.......", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
     chords: ["i", "iv", "VII", "III"],
     instruments: { chords: 1, bass: 33, melody: 26 },
+    hatVel: lofiHatVel,
+    hatRolls: false,
+    sparse808: false,
   },
   drill: {
     bpm: 140,
+    swing: 50,
     drums: { kick: "x...x...x...x...", snare: "....x.......x...", chat: "x.x.x.xxx.x.x.xx", ohat: "................" },
     chords: ["i", "v", "VI", "VII"],
     instruments: { chords: 4, bass: 38, melody: 5 },
+    hatVel: trapHatVel,
+    hatRolls: true,
+    sparse808: true,
   },
 };
 
-// Scale-degree → semitone offsets from the key root, in natural minor.
-// "i" = minor triad, "i7" = minor 7, etc. Capitalised degrees are major
-// chords built from that scale step.
 const DEGREES = {
-  i:     [0, 3, 7],
-  i7:    [0, 3, 7, 10],
-  iv:    [5, 8, 12],
-  iv7:   [5, 8, 12, 15],
-  v:     [7, 10, 14],
-  V:     [7, 11, 14],
-  VI:    [8, 12, 15],
-  VI7:   [8, 12, 15, 19],
-  III:   [3, 7, 10],
-  III7:  [3, 7, 10, 14],
-  VII:   [10, 14, 17],
-  VII7:  [10, 14, 17, 21],
+  i:    [0, 3, 7],         i7:   [0, 3, 7, 10],
+  iv:   [5, 8, 12],        iv7:  [5, 8, 12, 15],
+  v:    [7, 10, 14],       V:    [7, 11, 14],
+  VI:   [8, 12, 15],       VI7:  [8, 12, 15, 19],
+  III:  [3, 7, 10],        III7: [3, 7, 10, 14],
+  VII:  [10, 14, 17],      VII7: [10, 14, 17, 21],
 };
 
-// --- key parsing ----------------------------------------------------------
-
 const NOTE_TO_SEMI = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
-
 function parseKey(str) {
   const m = str.match(/^([A-G])([#b]?)m?$/);
   if (!m) throw new Error(`unparseable key: ${str}`);
-  const base = NOTE_TO_SEMI[m[1]];
-  const acc = m[2] === "#" ? 1 : m[2] === "b" ? -1 : 0;
-  const pc = (base + acc + 12) % 12;
-  // Octave 4: C4 = 60. Root MIDI = 48 + pc so chord voicings sit around middle C.
+  const pc = (NOTE_TO_SEMI[m[1]] + (m[2] === "#" ? 1 : m[2] === "b" ? -1 : 0) + 12) % 12;
   return 48 + pc;
 }
-
-// --- argv -----------------------------------------------------------------
 
 function parseArgs(argv) {
   const out = { style: "trap", key: "Fm", bpm: null, bars: "16" };
@@ -92,32 +105,48 @@ function parseArgs(argv) {
     const m = a.match(/^--([^=]+)=(.+)$/);
     if (m) out[m[1]] = m[2];
   }
-  if (!STYLES[out.style]) throw new Error(`unknown style: ${out.style}. choices: ${Object.keys(STYLES).join(", ")}`);
+  if (!STYLES[out.style]) throw new Error(`unknown style: ${out.style}`);
   return out;
 }
 
 // --- parts ----------------------------------------------------------------
 
+const KICK = 36, SNARE = 38, CHAT = 42, OHAT = 46, CRASH = 49;
+
+function emit(schedule, t, ch, pitch, vel, len) {
+  schedule.push({ tick: t, kind: 1, ch, pitch, vel });
+  schedule.push({ tick: t + len, kind: 0, ch, pitch, vel: 0 });
+}
+
 function drumsPart(style, bars) {
   const sixteenth = TPB / 4;
+  const beatTicks = TPB;
   const ch = 9;
-  const lanes = [
-    { pat: style.drums.kick,  pitch: 36, vel: 110, accent: false },
-    { pat: style.drums.snare, pitch: 38, vel: 105, accent: false },
-    { pat: style.drums.chat,  pitch: 42, vel: 75,  accent: true  },
-    { pat: style.drums.ohat,  pitch: 46, vel: 80,  accent: false },
-  ];
   const schedule = [];
+
   for (let bar = 0; bar < bars; bar++) {
-    const offset = bar * 16 * sixteenth;
-    for (const { pat, pitch, vel, accent } of lanes) {
-      for (let i = 0; i < pat.length; i++) {
-        if (pat[i] !== "x") continue;
-        const t = offset + i * sixteenth;
-        const v = accent && i % 4 === 0 ? vel + 10 : vel;
-        schedule.push({ tick: t, kind: 1, ch, pitch, vel: v });
-        schedule.push({ tick: t + sixteenth - 10, kind: 0, ch, pitch, vel: 0 });
+    const barOffset = bar * 16 * sixteenth;
+    const fill = isFillBar(bar, bars) || isFinalFillBar(bar, bars);
+    const pat = fill ? FILL_PATTERNS[style.styleName] || style.drums : style.drums;
+
+    for (let i = 0; i < 16; i++) {
+      const t = swungTick(barOffset + i * sixteenth, sixteenth, style.swing);
+      if (pat.kick[i] === "x")  emit(schedule, t, ch, KICK,  humanVel(112), sixteenth - 8);
+      if (pat.snare[i] === "x") emit(schedule, t, ch, SNARE, humanVel(105), sixteenth - 8);
+      if (pat.chat[i] === "x")  emit(schedule, t, ch, CHAT,  humanVel(style.hatVel(i), 4), sixteenth - 12);
+      if (pat.ohat[i] === "x")  emit(schedule, t, ch, OHAT,  humanVel(82), sixteenth - 8);
+    }
+
+    // Trap-style 1/32 hat roll into the next downbeat on bars 4 and 8 of each phrase.
+    if (style.hatRolls && (bar + 1) % 4 === 0 && !fill) {
+      for (const r of hatRoll(barOffset, beatTicks)) {
+        emit(schedule, swungTick(r.tick, sixteenth, style.swing), ch, CHAT, r.vel, r.length);
       }
+    }
+
+    // Crash on the downbeat of every 8-bar section.
+    if (isSectionStart(bar) && bar % 8 === 0) {
+      emit(schedule, barOffset, ch, CRASH, 100, beatTicks * 2);
     }
   }
   return {
@@ -131,15 +160,11 @@ function chordsPart(style, keyRoot, bars) {
   const barTicks = TPB * 4;
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
-    const degName = style.chords[bar % style.chords.length];
-    const semis = DEGREES[degName];
-    if (!semis) throw new Error(`unknown chord degree: ${degName}`);
+    const semis = DEGREES[style.chords[bar % style.chords.length]];
     const start = bar * barTicks;
-    const end = start + barTicks - 20;
+    const end = start + barTicks - 30;
     for (const semi of semis) {
-      const pitch = keyRoot + 5 + semi; // +5 so voicings sit around middle C
-      schedule.push({ tick: start, kind: 1, ch, pitch, vel: 80 });
-      schedule.push({ tick: end, kind: 0, ch, pitch, vel: 0 });
+      emit(schedule, start, ch, keyRoot + 5 + semi, humanVel(78, 4), end - start);
     }
   }
   return {
@@ -155,20 +180,22 @@ function chordsPart(style, keyRoot, bars) {
 
 function bassPart(style, keyRoot, bars) {
   const ch = 1;
-  const sixteenth = TPB / 4;
+  const beatTicks = TPB;
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
-    const degName = style.chords[bar % style.chords.length];
-    const semis = DEGREES[degName];
-    const root = keyRoot - 24 + semis[0]; // two octaves below chord voicing
-    const offset = bar * 16 * sixteenth;
-    const pat = style.drums.kick;
-    for (let i = 0; i < pat.length; i++) {
-      if (pat[i] !== "x") continue;
-      const t = offset + i * sixteenth;
-      const pitch = i === 12 ? root + 12 : root;
-      schedule.push({ tick: t, kind: 1, ch, pitch, vel: 100 });
-      schedule.push({ tick: t + sixteenth * 2 - 10, kind: 0, ch, pitch, vel: 0 });
+    const semis = DEGREES[style.chords[bar % style.chords.length]];
+    const root = keyRoot - 24 + semis[0];
+    const barOffset = bar * 4 * beatTicks;
+
+    if (style.sparse808) {
+      // Trap/drill: 2 long sustained notes per bar (kick-anchored, no per-hit retrigger).
+      for (const ev of trap808Bar(bar, root, beatTicks)) {
+        emit(schedule, barOffset + ev.tick, ch, ev.pitch, humanVel(ev.vel, 4), ev.length);
+      }
+    } else {
+      // Lo-fi / boom-bap: walking root note on beats 1 and 3.
+      emit(schedule, barOffset, ch, root, humanVel(96, 5), beatTicks * 2 - 20);
+      emit(schedule, barOffset + beatTicks * 2, ch, root, humanVel(92, 5), beatTicks * 2 - 20);
     }
   }
   return {
@@ -183,24 +210,24 @@ function bassPart(style, keyRoot, bars) {
 }
 
 function melodyPart(style, keyRoot, bars) {
-  // Pentatonic-ish motif in scale degrees (semitones from key root).
+  // Four phrase-length motifs (one per 4-bar section). Sparse, leaves space.
   const motifs = [
-    [[7, 0, 2], [10, 2, 2], [12, 4, 2], [10, 6, 2], [7, 8, 4]],
-    [[12, 0, 3], [15, 3, 3], [14, 6, 4]],
-    [[10, 0, 2], [14, 2, 2], [15, 4, 3], [14, 7, 3], [10, 10, 4]],
-    [[5, 0, 2], [7, 2, 2], [10, 4, 6]],
+    [[7, 0, 4], [10, 4, 4], [12, 8, 4], [10, 12, 4]],
+    [[12, 0, 6], [15, 6, 4], [14, 10, 6]],
+    [[10, 0, 4], [14, 4, 4], [15, 8, 6], [14, 14, 2]],
+    [[5, 0, 4], [7, 4, 4], [10, 8, 4], [12, 12, 4]],
   ];
   const ch = 2;
   const sixteenth = TPB / 4;
   const schedule = [];
   for (let bar = 0; bar < bars; bar++) {
-    const motif = motifs[bar % motifs.length];
-    const offset = bar * 16 * sixteenth;
+    if (isFillBar(bar, bars) || isFinalFillBar(bar, bars)) continue; // breathe on fills
+    const motif = motifs[motifIndex(bar, motifs.length)];
+    const barOffset = bar * 16 * sixteenth;
     for (const [semi, start, length] of motif) {
-      const t = offset + start * sixteenth;
-      const end = t + length * sixteenth - 10;
-      schedule.push({ tick: t, kind: 1, ch, pitch: keyRoot + 12 + semi, vel: 90 });
-      schedule.push({ tick: end, kind: 0, ch, pitch: keyRoot + 12 + semi, vel: 0 });
+      const t = swungTick(barOffset + start * sixteenth, sixteenth, style.swing);
+      const len = length * sixteenth - 10;
+      emit(schedule, t, ch, keyRoot + 12 + semi, humanVel(88, 5), len);
     }
   }
   return {
@@ -218,14 +245,14 @@ function metaTrack(name, bpm) {
   return buildTrack([trackName(name), tempoMeta(bpm), TIME_SIG, END_OF_TRACK]);
 }
 
-// --- main -----------------------------------------------------------------
-
 const args = parseArgs(process.argv.slice(2));
-const style = STYLES[args.style];
+const style = { ...STYLES[args.style], styleName: args.style };
 const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
 const keyRoot = parseKey(args.key);
 const bars = parseInt(args.bars);
 if (!Number.isFinite(bars) || bars < 1) throw new Error(`bad --bars: ${args.bars}`);
+
+reseed((bpm * 1000 + keyRoot) >>> 0);
 
 const parts = [
   drumsPart(style, bars),
@@ -235,4 +262,4 @@ const parts = [
 ];
 const smf = buildSMF([metaTrack("Conductor", bpm), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), smf);
-console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars)`);
+console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars, humanized + fills)`);

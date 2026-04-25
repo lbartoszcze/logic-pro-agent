@@ -32,6 +32,9 @@ import {
   parseIndexedTree,
   makePixelClicker,
   cuaSwap,
+  hotkey,
+  waitForWindow,
+  findWindowId,
 } from "./lib/logic-cua.mjs";
 
 const CMD = {
@@ -189,22 +192,44 @@ const CMD = {
   },
 
   "cua-master"() {
-    // Logic 11 Mastering Assistant — drops a full pro mastering chain on
-    // the stereo output (EQ + Compressor + Adaptive Limiter, auto-tuned
-    // to the project's content). Pure menu-pick path, fully background.
     ensureDaemon();
     const { pid, window_id } = getLogic();
     const tree = snapshot(pid, window_id);
     const mixIdx = tree.match(/\[(\d+)\] AXMenuBarItem "Mix"/);
     if (!mixIdx) throw new Error("Mix menu bar item not found");
-    clickIndex(pid, window_id, parseInt(mixIdx[1]), "pick"); // open Mix menu
+    clickIndex(pid, window_id, parseInt(mixIdx[1]), "pick");
     sleep(0.3);
     const tree2 = snapshot(pid, window_id);
     const maIdx = tree2.match(/\[(\d+)\] AXMenuItem "Mastering Assistant…"/);
     if (!maIdx) throw new Error("Mastering Assistant menu item not found");
-    clickIndex(pid, window_id, parseInt(maIdx[1]), "pick"); // pick Mastering Assistant
+    clickIndex(pid, window_id, parseInt(maIdx[1]), "pick");
     sleep(1.0);
     console.log("Mastering Assistant inserted on Stereo Out");
+  },
+
+  "cua-bounce"([filename]) {
+    // File > Bounce > Project (Cmd+B) → confirm format dialog → save dialog.
+    // Output lands in ~/Music/Audio Music Apps/Bounces/<filename>.aif.
+    const name = filename || "logic-pro-agent-beat";
+    ensureDaemon();
+    const { pid } = getLogic();
+    hotkey(pid, ["cmd", "b"]);
+    const cfgWin = waitForWindow(pid, "Bounce ");
+    let tree = snapshot(pid, cfgWin);
+    const okIdx = tree.match(/\[(\d+)\] AXButton "OK"/);
+    if (!okIdx) throw new Error("Bounce config dialog OK button not found");
+    clickIndex(pid, cfgWin, parseInt(okIdx[1]));
+    const saveWin = waitForWindow(pid, "Bounce ");
+    sleep(0.4);
+    tree = snapshot(pid, saveWin);
+    const nameIdx = tree.match(/\[(\d+)\] AXTextField[^\n]*saveAsNameTextField/);
+    const bounceIdx = tree.match(/\[(\d+)\] AXButton "Bounce"/);
+    if (!nameIdx || !bounceIdx) throw new Error("Save dialog name or Bounce button not found");
+    setValue(pid, saveWin, parseInt(nameIdx[1]), name);
+    sleep(0.2);
+    clickIndex(pid, saveWin, parseInt(bounceIdx[1]));
+    sleep(2);
+    console.log(`Bounce started: ${name}.aif (Logic's default Bounces folder, usually ~/Music/Logic/Bounces/)`);
   },
 };
 

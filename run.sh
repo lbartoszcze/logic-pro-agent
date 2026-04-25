@@ -36,11 +36,7 @@ node logic.mjs cua-init >/dev/null
 case "$STYLE" in
   trap)
     node logic.mjs cua-swap "SoCal" "Electro Trap Combo" || true
-    # Try a sidechained 808 first (lives in EDM Bass subcategory — cua-swap
-    # walks subcategories when patch isn't in default view). If unavailable,
-    # fall through to Tough 808 Bass as a safe stock 808.
-    node logic.mjs cua-swap "Pulse Bass" "Sidechain Electro Bass" \
-      || node logic.mjs cua-swap "Pulse Bass" "Tough 808 Bass" || true
+    node logic.mjs cua-swap "Pulse Bass" "Tough 808 Bass" || true
     node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
     ;;
   drill)

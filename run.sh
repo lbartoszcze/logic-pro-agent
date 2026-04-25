@@ -37,12 +37,18 @@ case "$STYLE" in
   trap)
     node logic.mjs cua-swap "SoCal" "Electro Trap Combo" || true
     node logic.mjs cua-swap "Pulse Bass" "Tough 808 Bass" || true
+    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
     ;;
   drill)
     node logic.mjs cua-swap "SoCal" "Electro Trap Combo" || true
     node logic.mjs cua-swap "Pulse Bass" "Heavy 808 Bass" || true
+    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
     ;;
-  lo-fi|boom-bap)
+  lo-fi)
+    node logic.mjs cua-swap "Pulse Bass" "Soft Acoustic Bass" || true
+    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
+    ;;
+  boom-bap)
     ;;
 esac
 

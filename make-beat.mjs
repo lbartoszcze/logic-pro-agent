@@ -173,17 +173,17 @@ function chordsPart(style, keyRoot, bars) {
   const ch = 0;
   const barTicks = TPB * 4;
   const schedule = [];
+  const ccs = []; // CC1 swell events: {tick, value}
   for (let bar = 0; bar < bars; bar++) {
     if (!partActiveIn("chords", sectionOf(bar, bars))) continue;
     const semis = DEGREES[style.chords[bar % style.chords.length]];
     const start = bar * barTicks;
-    const end = start + barTicks - 30;
-    // Outro: half-bar chord stab + rest, lets the loop breathe.
-    const len = sectionOf(bar, bars) === "outro" ? Math.round(barTicks / 2) - 30 : end - start;
-    for (const semi of semis) {
-      emit(schedule, start, ch, keyRoot + 5 + semi, humanVel(78, 4), len);
-    }
+    const len = sectionOf(bar, bars) === "outro" ? Math.round(barTicks / 2) - 30 : barTicks - 30;
+    for (const semi of semis) emit(schedule, start, ch, keyRoot + 5 + semi, humanVel(78, 4), len);
+    for (let s = 0; s < 6; s++) ccs.push({ tick: start + Math.round((s / 6) * barTicks * 0.75), value: 30 + Math.round((s / 5) * 80) });
+    ccs.push({ tick: start + Math.round(barTicks * 0.9), value: 50 });
   }
+  for (const c of ccs) schedule.push({ tick: c.tick, kind: 2, ch, cc: 1, value: c.value });
   return {
     name: "Chords",
     track: buildTrack([

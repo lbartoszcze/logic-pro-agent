@@ -64,9 +64,11 @@ const STYLES = {
     sparse808: false,
   },
   drill: {
-    bpm: 140,
+    bpm: 142,
     swing: 50,
-    drums: { kick: "x...x...x...x...", snare: "....x.......x...", chat: "x.x.x.xxx.x.x.xx", ohat: "................" },
+    // Drill: kick syncopated with offbeat hits, snare lands on 4 with ghosts
+    // before, hats use 1/32 triplet rolls for the rolling drill feel.
+    drums: { kick: "x..x..xx..x.x...", snare: "..g.....g.g.x.g.", chat: "x.xxx.x.x.xx.xxx", ohat: "................" },
     chords: ["i", "v", "VI", "VII"],
     instruments: { chords: 4, bass: 38, melody: 5 },
     hatVel: trapHatVel,

@@ -46,7 +46,7 @@ const STYLES = {
   "lo-fi": {
     bpm: 85,
     swing: 58,
-    drums: { kick: "x.......x...x...", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
+    drums: { kick: "x.......x...x...", snare: "..g.x.g.g.g.x.g.", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
     chords: ["i7", "VI7", "iv7", "III7"],
     instruments: { chords: 4, bass: 33, melody: 5 },
     hatVel: lofiHatVel,
@@ -56,7 +56,7 @@ const STYLES = {
   "boom-bap": {
     bpm: 92,
     swing: 56,
-    drums: { kick: "x.......x.......", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
+    drums: { kick: "x.......x.......", snare: "...gx.g.g...x.g.", chat: "x.x.x.x.x.x.x.x.", ohat: "................" },
     chords: ["i", "iv", "VII", "III"],
     instruments: { chords: 1, bass: 33, melody: 26 },
     hatVel: lofiHatVel,

@@ -19,7 +19,7 @@ import {
   cuaInit, cuaSnapshotCmd, cuaClickCmd, cuaPlayCmd, cuaStopCmd,
   cuaPressCmd, cuaTypeCmd, cuaFindCmd, cuaSwapCmd, cuaMaster,
   cuaMute, cuaSolo, cuaSave, cuaBounce, cuaTempo, cuaCycle, cuaMetronome,
-  cuaUndo, cuaRedo,
+  cuaUndo, cuaRedo, cuaTracks,
 } from "./lib/logic-cua-cmds.mjs";
 
 const CMD = {
@@ -89,6 +89,7 @@ const CMD = {
   "cua-metronome":  cuaMetronome,
   "cua-undo":       cuaUndo,
   "cua-redo":       cuaRedo,
+  "cua-tracks":     cuaTracks,
 };
 
 const [cmd, ...rest] = process.argv.slice(2);

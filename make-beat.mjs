@@ -36,7 +36,7 @@ const STYLES = {
   trap: {
     bpm: 140,
     swing: 54,
-    drums: { kick: "x..x..x...x..x..", snare: "....x.......x...", chat: "x.x.x.x.x.x.x.x.", ohat: "..........x....." },
+    drums: { kick: "x..x..x...x..x..", snare: "...gx..g....x.g.", chat: "x.x.x.x.x.x.x.x.", ohat: "..........x....." },
     chords: ["i7", "VI7", "III7", "VII7"],
     instruments: { chords: 4, bass: 38, melody: 5 },
     hatVel: trapHatVel,
@@ -134,6 +134,7 @@ function drumsPart(style, bars) {
       const t = swungTick(barOffset + i * sixteenth, sixteenth, style.swing);
       if (pat.kick[i] === "x")  emit(schedule, t, ch, KICK,  humanVel(112), sixteenth - 8);
       if (pat.snare[i] === "x") emit(schedule, t, ch, SNARE, humanVel(105), sixteenth - 8);
+      else if (pat.snare[i] === "g") emit(schedule, t, ch, SNARE, humanVel(38, 6), sixteenth - 12);
       // Intro: only quarter-note hats. Chorus: 1/32 doubles on every downbeat.
       const playHat = inIntro ? i % 4 === 0 : pat.chat[i] === "x";
       if (playHat) emit(schedule, t, ch, CHAT, humanVel(style.hatVel(i), 4), sixteenth - 12);

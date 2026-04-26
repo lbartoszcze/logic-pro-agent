@@ -22,20 +22,10 @@ import {
   scheduleToEvents,
 } from "./lib/midi.mjs";
 import {
-  reseed,
-  humanVel,
-  swungTick,
-  trapHatVel,
-  lofiHatVel,
-  isFillBar,
-  isFinalFillBar,
-  isSectionStart,
-  FILL_PATTERNS,
-  trap808Bar,
-  hatRoll,
-  motifIndex,
-  sectionOf,
-  partActiveIn,
+  reseed, humanVel, swungTick, trapHatVel, lofiHatVel,
+  isFillBar, isFinalFillBar, isSectionStart, FILL_PATTERNS,
+  trap808Bar, hatRoll, motifIndex, sectionOf, partActiveIn,
+  sidechainCC7,
 } from "./lib/production.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -205,14 +195,18 @@ function bassPart(style, keyRoot, bars) {
     const barOffset = bar * 4 * beatTicks;
 
     if (style.sparse808) {
-      // Trap/drill: 2 long sustained notes per bar (kick-anchored, no per-hit retrigger).
       for (const ev of trap808Bar(bar, root, beatTicks)) {
         emit(schedule, barOffset + ev.tick, ch, ev.pitch, humanVel(ev.vel, 4), ev.length);
       }
     } else {
-      // Lo-fi / boom-bap: walking root note on beats 1 and 3.
       emit(schedule, barOffset, ch, root, humanVel(96, 5), beatTicks * 2 - 20);
       emit(schedule, barOffset + beatTicks * 2, ch, root, humanVel(92, 5), beatTicks * 2 - 20);
+    }
+    // Pseudo-sidechain: CC7 ducks volume on every kick hit so the bass pumps.
+    if (style.sparse808) {
+      for (const cc of sidechainCC7(style.drums.kick, barOffset, beatTicks / 4)) {
+        schedule.push({ tick: cc.tick, kind: 2, ch, cc: 7, value: cc.value });
+      }
     }
   }
   return {

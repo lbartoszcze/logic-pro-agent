@@ -12,6 +12,7 @@ import { dirname, join } from "node:path";
 import {
   TPB,
   tempoMeta,
+  tempoMetaAt,
   trackName,
   TIME_SIG,
   END_OF_TRACK,
@@ -258,8 +259,24 @@ function melodyPart(style, keyRoot, bars) {
   };
 }
 
-function metaTrack(name, bpm) {
-  return buildTrack([trackName(name), tempoMeta(bpm), TIME_SIG, END_OF_TRACK]);
+function metaTrack(name, bpm, bars) {
+  // Add tempo automation: subtle slow-down at outro (last phrase) for that
+  // wave-y "Runaway" finish. Only when there are enough bars for the section
+  // logic to actually mean something.
+  const events = [trackName(name), tempoMeta(bpm), TIME_SIG];
+  if (bars >= 16) {
+    const barTicks = TPB * 4;
+    // Outro phrase (last 4 bars): step down 4 BPM at the start of the
+    // final phrase, another 2 at the very last bar — Logic interpolates.
+    const outroStart = (Math.floor(bars / 4) - 1) * 4 * barTicks;
+    const lastBar = (bars - 1) * barTicks;
+    let cursor = 0;
+    events.push(tempoMetaAt(outroStart - cursor, bpm - 4));
+    cursor = outroStart;
+    events.push(tempoMetaAt(lastBar - cursor, bpm - 6));
+  }
+  events.push(END_OF_TRACK);
+  return buildTrack(events);
 }
 
 const args = parseArgs(process.argv.slice(2));
@@ -277,6 +294,6 @@ const parts = [
   bassPart(style, keyRoot, bars),
   melodyPart(style, keyRoot, bars),
 ];
-const smf = buildSMF([metaTrack("Conductor", bpm), ...parts.map((p) => p.track)]);
+const smf = buildSMF([metaTrack("Conductor", bpm, bars), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), smf);
-console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars, humanized + fills)`);
+console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars, humanized + fills + outro tempo dip)`);

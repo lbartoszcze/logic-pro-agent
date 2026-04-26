@@ -83,9 +83,10 @@ func childrenOf(_ elem: AXUIElement) -> [AXUIElement] {
 }
 
 func walk(_ elem: AXUIElement) {
-  if roleOf(elem) == kAXButtonRole as String,
-     let h = helpOf(elem),
-     h.hasPrefix(helpPrefix) {
+  // Match by AXHelp prefix regardless of role — Logic uses both AXButton
+  // (insert slots) and AXStaticText (Library categories) with the same
+  // help-text convention. Role filter would miss the latter.
+  if let h = helpOf(elem), h.hasPrefix(helpPrefix) {
     found.append(elem)
   }
   for c in childrenOf(elem) {

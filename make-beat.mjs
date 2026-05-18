@@ -1,10 +1,7 @@
-// Beat generator for Logic Pro.
-// Usage:
-//   node make-beat.mjs                                    # trap, F minor, 140 bpm
-//   node make-beat.mjs --style=lo-fi --key=Am             # swap style and key
-//   node make-beat.mjs --bpm=96 --style=boom-bap
-//   node make-beat.mjs --style=drill --key=Em --bpm=140
-// Styles: trap, lo-fi, boom-bap, drill. Keys: minor only (e.g. Fm, Am, Ebm).
+// Beat generator for Logic Pro. e.g. `node make-beat.mjs --style=lo-fi
+// --key=Am --bpm=96`. `--list-styles` lists archetypes (trap/lo-fi/
+// boom-bap/drill, minor keys). Omitted --key/--bars take the archetype
+// pack value (lib/logic/styles.mjs), else the global default.
 
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -27,6 +24,7 @@ import {
   trap808Bar, hatRoll, motifIndex, sectionOf, partActiveIn,
   sidechainCC7,
 } from "./lib/production.mjs";
+import { listStyles, styleDefault } from "./lib/logic/styles.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -95,7 +93,13 @@ function parseKey(str) {
 }
 
 function parseArgs(argv) {
-  const out = { style: "trap", key: "Fm", bpm: null, bars: "16" };
+  if (argv.includes("--list-styles")) {
+    for (const s of listStyles()) console.log(`${s.name.padEnd(10)} ${s.key} ${String(s.bars).padStart(2)}b  ${s.description}`);
+    process.exit(0);
+  }
+  // No hard key/bars defaults — unset so the archetype pack value fills
+  // in when the user did not pass an explicit flag.
+  const out = { style: "trap", bpm: null };
   for (const a of argv) {
     const m = a.match(/^--([^=]+)=(.+)$/);
     if (m) out[m[1]] = m[2];
@@ -279,8 +283,8 @@ function metaTrack(name, bpm, bars) {
 const args = parseArgs(process.argv.slice(2));
 const style = { ...STYLES[args.style], styleName: args.style };
 const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
-const keyRoot = parseKey(args.key);
-const bars = parseInt(args.bars);
+const keyRoot = parseKey(args.key || styleDefault(args.style, "key") || "Fm");
+const bars = parseInt(args.bars || styleDefault(args.style, "bars") || 16);
 if (!Number.isFinite(bars) || bars < 1) throw new Error(`bad --bars: ${args.bars}`);
 
 reseed((bpm * 1000 + keyRoot) >>> 0);
@@ -293,4 +297,4 @@ const parts = [
 ];
 const smf = buildSMF([metaTrack("Conductor", bpm, bars), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), smf);
-console.log(`Wrote beat.mid (${args.style}, ${args.key}, ${bpm} BPM, ${bars} bars, humanized + fills + outro tempo dip)`);
+console.log(`Wrote beat.mid (${args.style}, ${args.key || styleDefault(args.style, "key") || "Fm"}, ${bpm} BPM, ${bars} bars, humanized + fills + outro tempo dip)`);

@@ -21,6 +21,8 @@ import {
   cuaMute, cuaSolo, cuaSave, cuaBounce, cuaTempo, cuaCycle, cuaMetronome,
   cuaUndo, cuaRedo, cuaTracks, cuaZoomFit,
 } from "./lib/logic-cua-cmds.mjs";
+import { clickMenu, listMenus, getAttr, setAttr, performAction, dumpTree, dialogPress } from "./lib/logic/menu.mjs";
+import { WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 
 const CMD = {
   tracks() { console.log(JSON.stringify(listTracks(), null, 2)); },
@@ -91,6 +93,35 @@ const CMD = {
   "cua-redo":       cuaRedo,
   "cua-tracks":     cuaTracks,
   "cua-zoom-fit":   cuaZoomFit,
+
+  // ---- Non-capturing AX surface (mirror of the FCP driver) ----
+  menu(args) {
+    if (args.length < 2) throw new Error('menu <Top> [<Sub>...] <Leaf>   e.g. menu File Save');
+    clickMenu(args); console.log("menu: " + args.join(" → "));
+  },
+  menus() { process.stdout.write(listMenus()); },
+  "ax-get"([attr, ...rest]) {
+    if (!attr || !rest.length) throw new Error("ax-get <attr> <needle...>");
+    process.stdout.write(getAttr(rest.join(" "), attr) + "\n");
+  },
+  "ax-set"([attr, needle, ...v]) {
+    if (!attr || !needle || !v.length) throw new Error("ax-set <attr> <needle> <value>");
+    setAttr(needle, attr, v.join(" ")); console.log(`ax-set ${attr} of "${needle}" = ${v.join(" ")}`);
+  },
+  "ax-press"([action, ...rest]) {
+    if (!action || !rest.length) throw new Error("ax-press <action> <needle...>");
+    performAction(rest.join(" "), action); console.log(`ax-press ${action} on "${rest.join(" ")}"`);
+  },
+  "dialog-button"([...rest]) {
+    if (!rest.length) throw new Error("dialog-button <label...>");
+    dialogPress(rest.join(" ")); console.log("dialog button: " + rest.join(" "));
+  },
+  dump() { process.stdout.write(dumpTree()); },
+  wrappers() {
+    console.log(`Named wrappers (${Object.keys(WRAPPERS).length}):`);
+    for (const [g, ns] of WRAPPERS_HELP) { console.log("  " + g + ":"); console.log("    " + ns.join("  ")); }
+  },
+  ...WRAPPERS,
 };
 
 const [cmd, ...rest] = process.argv.slice(2);

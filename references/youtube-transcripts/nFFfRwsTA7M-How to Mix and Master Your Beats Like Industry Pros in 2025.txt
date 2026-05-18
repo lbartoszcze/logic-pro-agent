@@ -1,0 +1,335 @@
+in this video I'm going to show you my
+three-step process how to mix your Beats
+and have them sound professional going
+from
+this to something like
+[Music]
+this I use logic pro to make my Beats
+and to mix my Beats but it doesn't
+matter what software what door you're
+using and if you stick around to the end
+I got a gift for you so what is mixing
+so a few years ago right at the
+beginning when I was just making beats
+and doing Studio sessions I noticed that
+every single time I played a beat that I
+spent hours making and definitely
+sounded good the idea was good I'd press
+play they just wouldn't sound as good as
+when another producer hit play on their
+beat the artists would just always say
+next skip skip they just weren't feeling
+it but I noticed whenever I press play
+on a collab beat that I did with another
+producer who finished it off and mixed
+the beat immediately the artist would
+perk up and be like yeah let's choose
+this one and I was just all down to the
+mix the beat sounded way better in the
+speakers and immediately it just
+inspired the vibe so mixing for me is a
+a crucial step when it comes to making
+beats it's the process we go through to
+make your song Sound the best that it
+can it involves essentially putting all
+your layers together and making them
+sound cohesive so when we press play it
+sounds really really good the process
+that I do to mix my Beats nowadays it
+doesn't really take too long it's quite
+simple to do now just before we jump
+into the mix one thing to be aware of is
+your environment of where you're mixing
+the beat right now I'm in my home studio
+and it's really really echoey even
+though I've got these amazing studio
+monitors these are the Adam a7x is I
+don't use these to mix my Beats just
+because the echo is just crazy it's not
+going to sound good ideally you want to
+have a nice soundproof room or Studio I
+did notice when I was mixing my Beats in
+my old Studio they were hitting way
+harder just because the Acoustics was
+perfect but we don't always have access
+to that we got to use what we got
+sometimes I use these DT 99 pros and
+sometimes I use some II headphones as
+well so step one let's organize all of
+our sounds for hip-hop beats like trap
+and drill I personally like to have my
+Melodies at the top and then my 808s and
+my kick at the bottom I also like to
+have them in a group together so for my
+Melodies I select everything and I'm
+going to create a track stack you can
+have it in a folder I choose to have it
+in a summon stack so if I want to I can
+apply effects to All of My Melody at the
+same time and then I'm going to do the
+same thing for my drums but I'm going to
+leave out my 808 and my kit having them
+in a summon track is just sending them
+all to the same bus which is going to be
+super useful soon also got everything
+labeled at the side just to make it easy
+for me to identify what is what now that
+we got the organization out the way we
+can move on to step two which is really
+really crucial we're going to start to
+level our beat out and clean everything
+up so here we're just going to remove
+unwanted frequencies and any click
+sounds or anything that we don't want
+when I was listening to my
+beat I noticed there's a click sound in
+my 808 so I'm actually just going to
+fade out the ending a little
+bit when it comes to my track I like to
+think of it as a box full of frequencies
+we've got low frequencies which is
+usually the base we've got high frequenc
+quencies which is like high hats and in
+the middle is like The Melodies the
+posan the voice and we want to try and
+fill up the Spectrum as much as possible
+some sounds they take up the frequency
+nicely but some sounds are going to
+overlap if they overlap too much then
+that's when things can sound muddy and
+that's where we want to go ahead and
+carve out space with our EQ so for
+example I got my high hat sound here
+that's taking up the high frequencies
+and then I got my clap now it's taking
+up most of the mid frequencies but it's
+also got a lot of low end low end that I
+probably won't need I don't need all of
+that I just want to try and focus on the
+mids and cleaning up this low frequency
+section that's going to give us more
+space for the base usually I go through
+my sounds and comb it through with EQ
+but with some sounds you have to be
+careful because for example I've got
+this snare stomp
+sound it's got some low end I don't want
+to take out too much though because
+that's the character of this sound I do
+want it to have some lower so you just
+got to really hear and use your ears and
+figure out where you want to carve
+out so let's start with leveling out our
+Melody usually as I'm making a beat I'm
+leveling as I go along but here we're
+just going to do it from the begin so
+the main part of My Melody is the piano
+that's going to be the main
+sound I'm going to take out a little bit
+of low end but not too
+much and then we got the
+keys now this is hitting in the same
+kind of
+frequencies which means it's going to
+overlap which is also fine because
+that's the crepe style that we're going
+for there's ways that we can get it
+working together so I can use a little
+bit of Reverb to just drown out that
+second sound maybe even just turn it
+down a little
+bit I think that works let's add in our
+flu I want that to be more in the high
+end so I'm going to take out a lot of
+that low
+end because this sound is my lead I
+really do want it to stand out and to do
+this we can use a technique called
+panion so back in the day when bands and
+musicians used to record to tape within
+the recording room the musicians used to
+play in different positions so for
+example the drummer would be in the
+middle but even his high hats might be
+slightly off to the right and then maybe
+the open hat to the left and next to the
+drummer perhaps the guitarist was maybe
+even more to the left maybe even let say
+violin player was to the right and this
+is what made the recording sound stereo
+so with pan and we're doing the same
+thing we're creating the illusion of
+space and making things sound wider but
+also this helps with clashing frequency
+so when we listen back we can hear two
+different instruments rather in it just
+s all together and all kind of Muddy so
+with my flute I might just pan it
+slightly to the
+right I got the halftime flute on the
+left but I'm actually just going to turn
+this down even
+more and it's a background sound so
+let's just Dr it out with a bit more
+Reverb so I got this crazy transition
+effect in here I'm actually going to
+take out some more lows cuz I really
+just want the highs in here this is more
+of just a creative
+decision and to turn it down as
+well and then I want to add some delay
+and some Reverb to this when it comes to
+your effects in the Train by the way the
+order does matter so usually you want to
+have your eqs and stuff at the top then
+you could put in your creative kind of
+effects like delays and stuff and then
+your Reverb at the bottom but also this
+is a creative choice so you can mess
+around with the orders and see what
+works best for you and then the last
+part is my drone
+just turn it up a little bit just a
+background sound just to fill out the
+frequencies I'm happy with my melody
+that sounds good let's move on to the
+drums later in this video I'm going to
+show you what I throw on my master
+channel to really get my Beats hitting
+hard but before we get into that I want
+to show you how to level out your drums
+so it's ready to start knocking and
+within my beat I like my drums to be
+slightly louder than a Melody that's
+like the thing that I want to feel the
+most so I'm going to start with my 808
+now I know some people mix according to
+numbers so for example they want their
+88 hitting at a certain DB but what I
+try and do is just make sure that it's
+not in the
+red so we have space for the effect
+that's going to make it hit
+hard and if I have a kick then I'm just
+going to turn up the kick I want my kick
+to be just slightly louder than my 808
+next I'll move on to my main clap and I
+want that to be quite
+loud then my high hats which I want to
+be loud but not as loud as my clap so I
+just adjust
+that's sounding good to me then I want
+to listen to like my open hats and stuff
+right now they're a bit
+loud and then the percussion which again
+I want to be a little bit lower than my
+claps as you can see I've got some stuff
+pan to the left and pan to the right
+just to give it that wider
+Dimension also with your 808 with your
+Baseline switch it from stereo to mono
+and just this simple thing is actually
+just going to make it hit a little bit
+harder so now we're sounding like
+this that sounds way better so now we've
+got our drums leveled and our Melody
+leveled let's just play it all together
+and hear that how that sounds in context
+with each other
+and just use your ears to adjust to how
+you like
+it now we've done that crucial step of
+leaving out all our sound we can start
+adding effects to really make our drums
+hit hard so the reason why I put all my
+drums stacked up in a bus is so I can
+add some effects to it and one thing
+that I do like to do is add in a plugin
+by sound toys called decapitator what
+this does is just add a little bit of
+saturation so if I play my drums if we
+turn the drive all the way up
+up it's actually making it sound a
+little bit gritty I don't want to put
+the drive too high though let's turn it
+down just makes everything hit a bit
+hard so now on our Master Channel first
+thing I like to do is just take out some
+of that low end just a tiny tiny bit
+right at the end and some highend right
+at the beginning because we don't really
+need any of that super super high-end
+bleeding out our ears won't even hear
+past that anyway and then also I like to
+just do a little EQ boost
+here then personally I like to add in
+the tiniest of tiniest of Reverb I'm
+going to add in an a plate from vintage
+verb and literally just turn it all the
+way down and then adjust
+upwards cuz too much it starts to make
+your beat sound a little bit
+weird but with just a little bit it just
+adds in a little bit of Crypt and then
+just for some more subtle highs I'm
+going to use a free plugin by slate
+digit to it's called Fresh Air and I'm
+just going to add some high air in
+there if you put it all the way up you
+can hear the
+difference things sound really really
+crisp but I don't want too much high air
+just a little
+bit now I know there's a myth that FL
+Studio hits way harder than beats made
+in logic prox and I think the reason why
+is because on the master channel on FL
+Studio it comes with a plugin called the
+soft Clipper and when you put that on it
+makes everything hit really hard in
+logic prox there isn't one on the master
+so we're going to manually add that one
+that I found that works really really
+well is the tr5 Classic Clipper by using
+the Clipper we're going to allow our
+beat to be effectively louder but
+without the harshness at the top and
+that's the sound that we've become
+really really accustomed to when we're
+hearing those hard a weits in trap beats
+these days they all got the soft Clipper
+sound on it and that's kind of like the
+standard right now I'm just going to
+leave it in
+theault you see if I turn it up it does
+hit harder but it also gets very kind of
+muddled so just adjust to your
+liking there's a lot more stuff you
+could add to your master Channel again
+it's kind just down on preference and
+how you want your beat to sound they
+also got an AI mastering tool which
+analyzes your beat around what you got
+but sometimes I feel like it levels up
+my beat too much whereas I want the bass
+to hit way harder than the melody
+awesome so now you got your beat to a
+point that you like it's always nice to
+go and reference it so play it in your
+airpods or play it on your phone play it
+in your car see if it's still hitting
+how you're hearing it in your door and
+the more you do this the better you're
+going to get at mixing your Beats and
+hearing where you want it to get to and
+if you've made it all the way to the end
+remember in the beginning I said I have
+a gift for you I have a few different
+templates for my master Channel I'm
+going to leave all of them in the
+description below you can go ahead and
+download them for free they're
+definitely going to enhance your Beats
+and you can tweak them to your liking to
+get them hitting exactly how you want
+them to

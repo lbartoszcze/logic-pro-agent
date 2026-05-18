@@ -1,0 +1,254 @@
+foreign
+[Music]
+if you're a beginner in logic pro and
+you want to know how to make some fire
+beats I got you I would recommend you
+changing this view so we're going to
+click this arrow on the display mode and
+then we're going to come down here to
+custom now we can see way more and this
+is going to be very important very soon
+next we want to set the tempo we're
+going to hit the letter k on our
+keyboard and this is going to enable our
+metronome
+let's say we want to make like a
+somewhat Up Tempo type beat around like
+97.
+so what you could do now is hit the
+letter c on your keyboard and this
+enables the cycle or The Loop range now
+we can set this from measure one to
+measure five now the next thing you want
+to do is get familiar with the sound
+libraries but I'm actually going to come
+up here to all sounds and I'm going to
+use the producer kits because these
+sound really professional so I'm going
+to come down here to track girl and I'm
+going to go to electronic drum kit and
+then I'm going to pull up hard knocking
+so I'm gonna pull up the drum machine
+designer by clicking this the DMD
+what I'm going to do now is find what
+sounds stick out to me
+now we're going to start a pattern
+so now what we can do is hit the letter
+r on our keyboard to hit record and I'm
+going to record this kick drum pattern
+now we're going to x out of this
+and then we're going to hit this Arrow
+right here and this is going to show us
+all of the one shots in this drum kit so
+now we're going to click on this region
+we're going to hit the letter Q to
+quantize
+all right
+and this quantized it to a 16th note all
+right now let's add a snare on the two
+and four
+now we can double click this midi region
+now what we're going to do is quantize
+these snares so we're going to highlight
+all of these
+then we're going to come over here and
+quantize it to an eighth note
+all right so now I'm going to show you
+another way to program Drums by using
+the step sequencer let's check this out
+so we already have the kick and snare
+we're going to do some hi-hats so we'll
+use this one hard knocking hat so we're
+going to do is right click on this so
+you can do control and click and we're
+going to create a pattern region right
+here now we want to make sure this
+pattern region lines up properly so to
+start this at measure one and then we're
+going to set these steps to 16 steps
+we're going to leave this set to row
+step rate to 16.
+and now we can click this Arrow right
+here and it gives us an automatic hi-hat
+pattern
+so what I want is I'm going to take out
+every last note so this one here and
+take that out we're going to take this
+one out and so on and so forth
+value out of this video don't forget to
+smash that like button subscribe to the
+YouTube channel and turn on Bell
+notifications especially if you're a
+logic pro user now that we have this
+hi-hat pattern
+we're going to move this behind the beat
+a little bit then we can come over here
+to the channel strip and click down to
+where it says more now we're going to
+delay this a couple of ticks so I'm
+going to start with 29 ticks
+so by delaying your hi-hats it gives you
+a real professional sound out the gate
+now this is according to your taste if
+you like it more on top of the beat
+that's fine but I like to delay my
+hi-hats just a little bit let's add some
+Dynamics to this so we're going to click
+over here to Velocity value and this is
+going to allow us to have a more Dynamic
+hi-hat so we could do like 67 and 73 and
+we can kind of you know variate these a
+little bit so they're not all the same
+now we got a crazy Groove to build on
+now let's organize the drums we're going
+to convert this to a midi region by
+right clicking and then we're going to
+come over here to where it says convert
+to MIDI region now we have that as midi
+then we're going to take this file this
+has the kick and snare all on one midi
+region we're gonna put these on separate
+regions we're going to right click on
+this and then we're going to do separate
+note by pitch
+and now this puts everything on the
+corresponding one shot
+now we can close the folder up
+so we have space in our Arrangement
+window now let's add a harmonic
+progression with some melodic presence
+so we're going to add a new track by
+clicking the plus sign then we're going
+to come down here
+to Alchemy now here's where you can
+browse through this Library
+it's a lot to choose from you have a
+whole lot so let's start with keys and
+then let's do layered and let's do clean
+this is a nice patch this is called
+driplet harp
+and what I'm going to do right now is
+add a progression
+these types of chords on the go check
+out my vibes midi pack below
+all right next we're going to add some
+bass now since we already used a Alchemy
+instrument we can just click this right
+here this duplicate track or you can do
+command and D then we're going to come
+over here to Bass sub and then we're
+going to do change this back to all and
+then we're gonna go to 808 mutation base
+now we're going to add this base
+tip for beginners let's get into it
+we're going to make this 808 cut so
+we're going to come over here to audio
+effects then we're going to come down
+here to Distortion and then we're going
+to come over here to distortion
+and now we can customize how hard we
+want this 808 to not
+see there
+now you can make this cut even more by
+turning this up the tone up and the
+drive up
+I'm gonna give you guys a bonus tip
+we're gonna go back to the drums click
+up here
+and then we're going to come over here
+to the hi-hats
+and then we're gonna add some in between
+hi-hat rolls we're going to change this
+grid value so I told you why this is
+important so we're going to come up here
+to where it says division
+and we're going to change this to a
+30-second note division you see you have
+more block choices so what we're going
+to do now is click on this one and we're
+going to trim this back
+and then hit option on our keyboard
+while we're still holding
+and then we're going to drag this over
+to the right and then we're going to
+fill in all of these additional boxes
+and that sounds like this
+so now let's listen to that phrase so
+far
+now I'm gonna give you guys another Pro
+bonus tip to make this interesting I am
+going to hit the letter A in the piano
+roll so make sure you're clicking in
+here hit the letter a and now you see we
+have these velocity points and so now
+we're going to Crescendo into the next
+beat so I'm going to start by clicking
+all the way down here
+stretching across and releasing at the
+next note
+now we're going to attempt to make a
+Melody now if you're just a beginner if
+you don't play keys don't worry about it
+my vibes midi pack will help you out a
+lot in this department let's make a
+little Melody we're gonna go into the
+Retro synth Library
+and this patch that I landed on is
+called electricity lead now here's where
+we're going to add some miscellaneous
+and or auxiliary so what I'm going to do
+now is find something arpeggiated and I
+want to have something that sounds on
+the vocal side of arpeggiate and let's
+see what crystals and voices sounds like
+and then we're going to put some space
+designer directly on this
+let's increase the size to about 150
+that's nice
+now we're going to do a short
+arrangement for this video because I
+want you guys to get the concept and
+once you get it you can run with it
+let's do a short arrangement I would
+recommend just copying the course a
+couple of times just for beginners so
+we're going to do is hit command a to
+highlight everything then we're going to
+do command R to repeat everything and
+let's repeat this three times so we have
+a total of four so what I recommend you
+do is start off with some type of intro
+so we're going to mute this region of
+drums by hitting the letter M and you
+can change this in your settings you can
+go to logic pro key commands
+edit assignments we're going to type in
+the search mute and so here it is right
+here main window tracks and various
+editors mute notes regions cells folders
+on and off I changed it to the letter M
+okay so we're going to start with this
+second time maybe add the drums
+now we're going to set this up we're
+gonna come over here and we're going to
+chop this up so we're going to use our
+Marquee tool for the first time and we
+can set up our Marquee tool right over
+here and you can see where it's set to
+Marquee tool then what we're going to do
+is hit command on our keyboard and hold
+it and you see we get this plus sign
+we're going to click and drag over to
+the right to the end of that region and
+we're going to hit the letter M to mute
+just that piece and that sounds like
+this
+everything comes in now
+all right now let's listen to that all
+the way through
+yeah
+here we go
+came out pretty smooth right now if you
+want to go to the next level and making
+a pro beat check out these videos right
+over here

@@ -1,0 +1,389 @@
+all right guys so you guys have been
+asking me how to mix and master a song
+in logic pro let's get right into it
+[Music]
+so we're going to start with the kick
+okay
+let's add the rim in
+high hats
+let's get the symbol
+see the Chimes
+okay that's a good starting point
+because it's really low and that's where
+we want to start so we have head room to
+add everything else so the next thing
+I'm going to do is come over here to the
+stereo out and I am going to use all
+stock plugins as agree so we're going to
+come to Dynamics then we're going to
+come over here to limiter and I'm going
+to start out by turning this gain up
+starting out at about 6 DB and we're
+gonna mix into this limiter
+now let's add the 808s in
+foreign
+sitting at a sweet spot let's start to
+embellish the drums and the 808 I like
+to mix those together as one unit so
+let's get into it so let's start with
+this Kick Drum
+I'm gonna add some Channel EQ
+and get this beater up
+nice I'm turning up about 1K now what
+we're gonna do with this kick is roll
+off some of the frequencies that we
+don't need
+all right
+we're gonna put some EQ on the rim shot
+now these drums don't need a whole lot
+I'm gonna do some drum bus processing so
+we're just gonna roll off again follow
+that same process that we did earlier
+with the kick
+up some 1K
+so it cuts
+nice
+let's follow the same process with the
+hi-hats so you can see this is already
+rolled off it's not a lot happening down
+here but just to be safe let's just do
+it
+now that we've eqed majority of the
+drums let me explain this to you really
+quickly the reason why we're rolling off
+this low end that we don't need is
+because the low end carries frequencies
+that we might not be able to hear
+audibly in our studio but if you play
+these in a big Club setting where they
+have like big Subs you'll hear those
+frequencies down there that will hinder
+your mix and also if you want your mix
+loud because I know we want our mixes
+blazing loud we need to make sure that
+we roll off some of the low end and some
+of the top end that is unnecessary that
+you don't need to make sure that you
+have a transparent mix so next we're
+going to do the Chimes
+see we've got some stuff down here so we
+got to roll that off and look we got
+some activity down here
+so let's roll this off
+so we're going to pull up the EQ on the
+808 and the EQ on the kick drum and I
+want to see where there's any friction
+are they hitting in the same frequency
+range if so we want to reduce one of the
+other
+so they're both getting a lot of love
+around the same space around this 40
+Hertz or so so what I'm going to do is
+I'm going to sacrifice some of the 808
+so I'm Gonna Roll Off just a hair of
+this 40 right over here and just turn it
+down just a little bit let's narrow this
+out just a little bit and we're going to
+come over here to that 40 where that
+kick is and just turn this down ever so
+slightly
+all right so now I'm going to boost some
+of this low end I'm going to narrow this
+out a little bit and try to get below
+the 40 Hertz
+so
+see that there so now this boost is
+happening around this 20 to 30 Hertz we
+cut out just a little bit of that 40 and
+now we've boosted where the kick is not
+so you're gonna feel a nice Rumble this
+808 down here where the kick is not and
+that's going to really be transparent
+and help us in the long run I'm going to
+color these 808s now that we got the EQ
+out of the way so we're gonna grab some
+of the Distortion and then I'm just
+gonna grab a little bit of bit Crusher
+and get some more harmonics out of this
+808.
+so we'll do about 10 bit they're going
+to turn this drive up
+all right so we know we're working with
+now we can blend this in the mix
+yeah
+now let's go ahead and create a bus or a
+track stack for the drums in the 808 and
+then we're gonna mix them all together
+combined so we're gonna do right now is
+right click on this and we can do create
+track stack
+and then we'll do this as a summing
+stack now we have all of the drums and
+the 808 in one track stack
+so what I'm going to do now is I'm going
+to reach for a different EQ to add some
+nice Sizzle on the drums so we're going
+to come over here to Vintage EQ
+collection and then we're going to come
+over here to Vintage tube EQ and we're
+just gonna beef up the drum bus all
+together we're gonna add some Sizzle and
+a little bit of low end
+see there nice little bump
+now we can turn a drive up if you want
+to to get more saturation so let's check
+that out
+turn it off
+back on
+I'm gonna put some a little bit of
+compression on the drum so we're going
+to come over here to Dynamics and then
+we're going to come over here to
+compressor and what I'm going to do
+right now is do some nice mild
+compression
+here's with it off
+here's what it on
+off
+on
+all right it's subtle but it's warming
+up the drums all together taking away
+that bland sound and now character and
+life is coming out of the Rhythm Section
+so what I do from this point on is just
+add in other instruments gradually and
+just start to do the same process with
+the EQ
+foreign that's a good rough spot with
+just EQ now I'm going to bring the
+vocals into the picture and this is
+really important because this is going
+to allow me to know where to apply EQ
+bumps within the keys and anything in
+the 808s etc etc so let's bring the
+rough vocals in
+place
+all right so now we're going to start to
+work on the vocals I don't want to mix
+the vocals last I want to mix the music
+around her vocals and make it work that
+way I'm going to start with some of
+course you name the EQ but I'm going to
+EQ the track stack the lead vocals track
+stack I'm a Surf Rider I'm a deep diver
+you're gonna take Faith to get in these
+Waters
+and my ears are going to tell me what to
+do next
+someone had to bring me to the surface
+let me catch my breath tell me what
+I ain't a Surf Rider I'm a deep diver he
+gonna take Faith all right so I'm just
+doing some cleaning right now and
+finding all the spots that I don't like
+and I'm trying to make this work with
+the track as well
+okay now that we got the cleaning done I
+am going to compress this vocal so we're
+going to reach for a compressor and
+we're gonna start with again mild
+gonna take Faith to get in these Waters
+let me catch my breath tell me you're
+worth it all
+took a deep breath knew I had to go back
+back to that cheek Ursa love read the
+lost souls and we gon scrap Mama tell me
+leave no one behind open doors
+blend this in so let's uh turn the
+output gain down a little bit
+I'm a Surf Rider I'm a deep diver he
+so we're gonna come back over to EQ so
+let's come over here and let's go into
+the vintage collection and we're gonna
+add some of this tube EQ I really like
+this a lot on vocals and drums
+I ain't a Surf Rider I'm a deep diver
+Waters someone had to bring me to the
+surface let me catch my breath tell me
+you're worth it all so that's a good
+spot so now I'm going to add a de-esser
+at the top of her chain now and after
+that de-essing we'll be able to get more
+brightness more clarity come over here
+to Dynamics and then we're gonna put a
+de-esser 2 on here
+I know I ain't a spider I'm a deep diver
+someone how to bring me to the surface
+worth it all that's decent right there
+it doesn't need a whole lot now that we
+have that after the tube EQ I'm gonna go
+into another compressor different
+compressor this time classic VCA for
+some more compression
+I'm a Surf Rider I'm a deep diver
+you're worth it all now that we have
+that now we can bring the output down
+Surf Rider I'm a deep diver
+now with that I'm gonna add some Reverb
+And Delay click over here to the bus and
+we're gonna go over here to bus four
+and it's going to open this up right
+here for us Oxford we're just gonna name
+this verb and what we're going to use is
+some space designer so we're going to
+come down here to reverb and then we're
+gonna do
+um space designer
+and we're going to put the wetness all
+the way up uh the dry all the way down
+because this is on a bus and we're going
+to turn up this vocal into the Reverb
+and make tweaks on the Reverb
+I'm a deep diver he gonna take Faith to
+get in these Waters someone had to bring
+me to the surface let me catch my breath
+tell me you're worth it all and then
+we're gonna come over here to the output
+EQ and make some tweaks to the Reverb as
+well
+you're worth it all so what you want to
+do right now is find a Reverb that
+matches the vibe of the track or gives
+it the correct space now let's add a
+delay I'm going to use um the stereo
+delay this is one of my go-to's and
+we're going to set this up to have a
+nice ping pong so this is going to be a
+quarter note this is going to be an
+eighth note now typically the eighth
+note tends to run out faster than the
+quarter note so we're going to extend
+the feedback on the eighth note let's
+listen to how that sounds
+to get in these Waters that's nice so
+what we're gonna do is we're actually
+going to EQ this delay to tailor the EQ
+it comes with a high cut and low cut
+filter but I want to have more control I
+know
+took a deep breath and I had to go back
+back to that cheek Ursula for the lost
+souls and we gonna scrap this gets the
+delay out of the way of the hi-hats and
+the clarity of her main lead vocal so
+this is a really good hack for getting
+uh clear effects on your your vocal now
+let's get a rough mix on the bgvs and
+then we're gonna start to blend the
+music in to fill the Gap because right
+now we have the vocal the drums and then
+everything else is kind of stuck in this
+big gap so we're gonna fix that let's go
+into the bgvs we're going to apply the
+same processing on uh the bgv so we're
+just going to take this click on it hit
+option and drag it over to the right and
+we're just going to drag all these over
+home
+less
+let's listen to that with the track
+now I know where to fill in these gaps
+with EQ on the piano on the roads on the
+bass etc etc and enhancements on the
+drums Bus Let's dig in let's go ahead
+and put some compression on this
+thank you
+let's put it in with the track
+now we're gonna add some EQ to this now
+that we got it tamed we're going to
+embellish this now so we're going to
+come over here to EQ and we're going to
+go to Vintage EQ then we're going to
+come over here to Vintage console EQ
+we're going to add some mids to this
+Waters I'm gonna come over here to the
+master stereo out I'm gonna start off
+with bumping up this high end because
+logic natively sounds a little dark so
+I'm gonna bump up this high end just a
+little bit
+back to that cheek Ursula free the lost
+souls a week on scrap
+perfect so I'm literally just taking you
+through my real life process so I'm
+gonna do right now is I'm going to take
+all of the keys so the all the pianos
+and the roads we're gonna bust all these
+now or do a track stack now we have all
+these and now we're going to put some
+processing on the vintage collection
+then we're gonna go to graphic EQ
+I'm
+and just a little bit of 250.
+and then now that we got that we're
+going to compress the whole Keys
+busy
+there we go now we can turn the keys bus
+down
+so we're gonna come back up here to our
+drums and here's where we're gonna add
+some glue we already got some
+compression but we're going to take this
+a step further so we're gonna do right
+here is put a little bit of this bit
+Crusher on the whole drum kit
+now we can blend this in with the track
+back back
+see they're very transparent difference
+now I'm gonna put some compression on
+the hi-hats because now that we have
+this big Crusher on there it's kind of
+enhancing a lot of the hi-hats
+and you can see with that compression on
+the hi-hat it allows the vocal to be in
+the front instead of the hi-hat being in
+the front so what we're going to do
+right now is put a little bit more
+Master bus processing on everything for
+our nice master so the first thing I
+want to do is start metering this our
+loudness meter so I'm going to get this
+right here loudness meter this is going
+to let us know our loves our loudness
+unit full scale I try to hit around
+negative nine negative a somewhere
+around there we got our Channel EQ now
+we're going to add a compressor on the
+master bus
+to a place
+let's come over here to a multi-band
+compressor we're going to put this just
+before our limiter so let's come over
+here Dynamics and then we're going to
+come over here to multi-presser this is
+going to allow us to compress and
+control multiple bands
+so this is our low band
+here's our low mid
+all right then here's our uh mid higher
+mid
+and then we have our highs which is
+right over here
+I want you back home
+so let's go ahead and let's add the last
+limiter so we're going to do the
+Adaptive limiter so we're going to go to
+Dynamics adaptive limiter
+all right now here's the finished
+product check it out always
+so as you can see it doesn't take a
+whole lot to get a good sound in logic
+now you want to make sure you're
+recording is solid hope you guys got
+value out of this video if you did give
+your boy a thumbs up subscribe to the
+YouTube channel turn on Bell
+notifications and stick around because I
+got two more videos for you to take your
+production to the next level right over
+here

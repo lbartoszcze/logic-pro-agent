@@ -1,0 +1,160 @@
+Beat Making Basics
+What's good YouTube? Beat Making Basics
+back again with another dope video. If
+you're new to my channel, please do me a
+favor, like and comment on the video and
+please subscribe to my channel. Hit
+those bell notifications so you know
+when we're going to post. Today's video,
+I want to talk about how to master your
+beats if you're a beginner, okay, in
+Logic Pro 10. All right. Now, I have a
+beat that we mixed in the last video. I
+want to just kind of talk about some
+things to before we get into the actual
+mastering of the beat, okay? Now, what
+is mastering? Basically, in my layman's
+terms definition, it's basically making
+the the beat or whatever track you're
+using sound radio friendly,
+um, industry standard. So, basically,
+what it's going to mean is it's going to
+be on the same loudness of all of the
+tracks that you would hear on the radio
+or hear on TV and different things of
+that nature. And, um, it will sound as
+clean and as crisp and as full as those
+tracks are. So, what can we do to master
+our tracks if you're a beginner, right?
+Now, the first thing I want to show here
+is on the stereo out, as you will see, I
+turned it down about halfway, about
+-4.6.
+And what that does it gives it some
+headroom.
+I'll just kind of play the beat like
+kind of like on a hook part and you can
+kind of just see what I'm talking about
+here. Let me just turn it up a little
+bit.
+So, as you can see, it's not really like
+clipping too much and that's because we
+turned this down. Now, what we're going
+to do to like raise the volume and make
+it, you know, master is first of all, we
+want to bounce down the track as a wave
+file. So, how we do it in Logic, we're
+just going to push down command and B
+and it's going to pull up this option
+right here. Whenever I do this, what I
+do is I make sure the the file format is
+wave, the resolution is 24-bit and the
+sample rate I'll go ahead and bump that
+up to 48,000, okay?
+I would go ahead and leave the file type
+as interleaved and dithering as none.
+Normalize, I leave that off. And then
+I'll just go ahead and bounce that down
+to my desktop, okay? So, I'll make sure
+I go here over here to my desktop and
+I'll just say like no cap
+or the the beat name and then like
+rough, just so I know
+that, um,
+this is the rough version or the un-
+unmastered version. So, what I'll do is
+I'll bounce it down
+and then what we're going to want to do
+is we're going to want to create a brand
+new,
+um, session in Logic Pro 10.
+All right. So, that's what we're going
+to do now.
+Um, I'm going to go ahead and close this
+out.
+Matter of fact, we're going to just
+going to open up like this and we'll
+just say new.
+Um, don't close. It doesn't matter.
+And
+I'm going to pull it like this.
+So, you just go ahead and put out a
+audio track here
+and then once you have that going, you
+can come over here to this area right
+here and this is going to allow you to
+find that track. So, you just go to all
+files, desktop
+and then you can go over here and look
+for the track here. So, we called this
+no cap and rough wave. So,
+I'm just going to drag that bad boy in
+like this.
+We can change the project
+and import the tempo.
+Click off of that, okay? So, now, as you
+can see, we have the track in here. Now,
+I want you to pay attention to the
+stereo out. Let's let's play this track
+like right here during the hook. So,
+let's check that out. Let's look at the
+actual track.
+And as you can see, it's not clipping
+too bad. The plugin that I would put on
+here, which is a stock plugin, just to
+help with mastering is going to be
+called
+adaptive limiter, okay?
+Adaptive limiter. So, you just go over
+here under dynamics, go to adaptive
+limiter and push stereo.
+You want to put this on the stereo out
+and what I would recommend doing is just
+going ahead and taking this, uh, ceiling
+and just go down to -0.1
+dB. Put true peak detection on and just
+go ahead and play it from there.
+And that's a simple thing you can do.
+Now, also what you could do here is push
+the gain up just a little bit. So, um,
+you don't want it to sound distorted or
+whatever. I would really recommend
+putting it at like maybe 2 dB. To start
+off there is a pretty safe place to put
+it and it's going to boost the level of
+the, uh, overall track up some. So,
+check that out now.
+And you can actually go ahead and push
+it up even more until it, you know,
+right before it starts distorting. Let's
+see.
+And what that did is basically it kept
+the track from peaking but also raised
+the level or overall volume of the track
+up to where, you know, it's going to
+sound industry standard. Now, what you
+can do if you want is go ahead and drag
+another track that's already mastered
+into the session. I'm not going to do
+that for copyright reasons, but if you
+want to like A/B it, you can go ahead
+and drag it in and just like mute this
+track, listen to that one and then mute
+the other one and listen and just see
+where the volume level is. But overall,
+you just want to make sure it's not
+clipping and make sure it's not sounding
+distorted and everything like that. This
+is, of course, if you're just going to
+be putting this track out like on
+streaming services and different things
+like that or just sending it out for
+artists to listen to, etc. Um, if you
+have any questions about this, leave it
+in the comment section. I do appreciate
+y'all watching and make sure again that
+you subscribe to my channel. We're
+trying to go and take this this, uh,
+channel up to the next level. I love
+y'all. I appreciate y'all and I will see
+you in the next video. Peace.

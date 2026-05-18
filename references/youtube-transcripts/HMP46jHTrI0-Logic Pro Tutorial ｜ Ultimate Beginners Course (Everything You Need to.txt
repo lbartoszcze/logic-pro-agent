@@ -1,0 +1,3253 @@
+what's up guys it's tony holiday and
+welcome to my absolute zero beginners
+course for people getting started with
+logic pro if you know nothing about
+music music production or logic pro the
+software this is the right place for you
+because what i'm going to be doing is
+breaking everything down from scratch if
+you've never opened logic pro before to
+helping you create your very first song
+this course is going to go over how to
+get started on your journey as a music
+producer whether you're trying to make
+it a career or if you're just trying to
+take it more seriously as a hobby or
+it's something that you're just doing
+completely for fun this course is for
+you if you know absolutely nothing about
+logic pro we're going to be going over
+the following topics basic terms and
+definitions that you should know as a
+music producer what to do when you open
+logic pro for the first time the layout
+and landscape of logic pro where things
+are how they work how to start a project
+and start making music that you like
+using loops how to take that starting
+point from the project and turn it into
+a full song how to finish your track so
+it's ready to listen and share with your
+friends and family and a bonus section
+which is some directional advice on how
+to improve as a music producer by the
+end of this course you'll have a basic
+understanding of how a song is produced
+and made how to confidently navigate
+logic pro so that you can actually build
+songs and you will have your very own
+song that you've produced this course is
+designed to be a hand holding course for
+people who have never used logic pro if
+you're already familiar with logic pro
+and have been playing around in it
+before this course might be a bit slow
+for you however there might be tidbits
+of information for you to really
+solidify the foundation of music
+production in case you're having some
+issues with that i encourage you to
+watch and re-watch what you need to and
+you can navigate throughout this course
+using the timestamps down below in the
+description box the last thing that i
+want to add is i will save the project
+file for this song that i'm going to be
+making with you guys and i'll make it
+available for download with a link down
+in the description this way if it's a
+certain concept that you're trying to
+revisit and you want to use my project
+file it's fully available to you to use
+for free download link is down below in
+the description you're going to be
+making some progress today and who knows
+maybe it'll be the first step to
+something a lot bigger but the most
+important thing is we take the first
+step and that's exactly what this course
+is going to do so with all that being
+said let's get started and jump into
+logic pro and start exploring the world
+of music production
+all right you guys so let's get started
+with the first lesson
+in music production and using logic pro
+before we actually jump into the program
+i'm just going to go over some basic
+terms and definitions that will really
+be helpful for you when it comes to
+producing music this will be a really
+quick section and then after this i'm
+going to show you some things that you
+should absolutely do to get started when
+you first open logic pro and then after
+that we're actually going to dive in and
+start making a song here are some basic
+musical and music production based
+definitions that you should know melody
+in basic terms melody is essentially the
+tune it's what you hum back when you
+have a song in your head or maybe you
+heard a song on the radio and you keep
+humming it as you go throughout your day
+in a more specific definition it's a
+collection of musical pitches that make
+up a musical phrase drums or percussion
+in basic terms this is the beat maybe
+you've been at a family barbecue before
+and your aunt kathy has had a couple too
+many coolers and she starts to clap her
+hands to the songs playing on the
+speakers
+that's the beat and in this case
+especially with production
+it's used by drums and percussion that's
+what creates the beat or the tempo of a
+song drums are a very important part of
+music they're used to keep tempo which
+is the speed of the song and also to
+keep other musicians and instruments in
+time so we can all work cohesively
+together they create a basic rhythm that
+we can attach onto very easily bass bass
+is a lower frequency melody usually but
+not always bass is a little more simple
+in variation when comparing it to a
+regular melody in a higher frequency
+bass fills out the low frequencies of a
+track and helps fill up the melody
+spectrum samples now the term sample and
+samples has taken on a lot of different
+definitions over the years especially as
+music production has become more
+accessible to people in today's terms a
+sample typically refers to a
+pre-recorded audio piece of music and it
+can be used over and over and over in
+new productions this could be anything
+from a loop which we'll be talking about
+shortly and we'll actually be using to
+create our song a one shot which is a
+single sound that doesn't loop over and
+over in a specific tempo and also old
+songs that have been pre-recorded and
+chopped up in different ways and forms
+to make a newer sounding song loops
+loops are short pieces of music
+typically at a specific tempo these can
+be used in your productions and are
+usually made by other people and the
+reason why they're so popular is because
+you don't have to have any musical
+background in order to use a loop and
+make a production loops will go from
+start to finish and at the finish
+they'll go back to the start and loop
+nicely as a piece of music a loop can be
+defined with any type of music melody
+drums bass vocals so on and so forth
+pretty much anything can become a loop
+and is therefore a very powerful tool to
+use when creating music if you have no
+musical background or understanding we
+are going to be using loops to build our
+track today midi now midi is actually an
+acronym for musical instrument digital
+interface this is the technology that we
+use in order to write music inside of
+digital programs imagine if we wanted to
+create a song from scratch today without
+having all of the fake midi instruments
+that are in the software that we have we
+would need every instrument that we want
+in the song in a space where we can
+record them we would need to know how to
+play every instrument or have someone
+there that could play different
+instruments and we would need to record
+them without mistakes and in the perfect
+tempo every time luckily for us because
+of technology we have midi now midi
+gives us access to almost any instrument
+at our fingertips and if you don't have
+it stock and logic pro you can usually
+purchase very obscure instruments that
+work in midi and we can create different
+parts of a song using the same process
+so if i grew up playing guitar but i
+wanted to play piano the musical theory
+behind each instrument is the same
+however it's hard to take your skills
+knowing how to play a guitar and
+immediately apply them to piano midi
+actually attaches a bridge between the
+two so it's the same process for each
+instrument we won't be using midi very
+much in this course if at all however
+this is something that you will
+definitely get used to if you want to
+start writing your own music and last
+but certainly not least is da or d-a-w
+and what this stands for is digital
+audio workstation daw will be used as an
+acronym in a lot of online forums or
+people talking about different programs
+this refers to the programs that we can
+use to make music digitally in our case
+it's logic pro this also refers to
+ableton fl studio pro tools etc etc any
+program that makes music falls under
+this umbrella those are some basic
+definitions especially if you've never
+made music before that you should
+understand and how they work it's a way
+that you're going to communicate with
+other music producers and also talk
+about different parts of music when
+you're trying to explain things to other
+people or you know a track is missing a
+certain part with all that out of the
+way let's actually jump into the program
+now and we're going to go over some
+basic things that you should do when you
+first download logic pro and you're
+opening it for the very first time
+so i'm simply on my desktop here which
+you should be able to see because i'm
+screen recording now and to open up
+logic pro you can do this by using
+spotlight or going into your
+applications i'm going to use spotlight
+because it's easiest for me so what you
+can do is press command space on your
+keyboard
+and type in logic
+this is provided that you've actually
+downloaded logic pro so if you don't
+have the software you're going to need
+to go to the app store purchase and pay
+for it and download the actual software
+i have it here so i'm going to click
+logic pro and press enter on my keyboard
+so that i can go into the program i'm
+going to create a brand new empty
+project now like i said i want to remind
+you i have the project files down below
+in the description so if you want to
+follow along exactly what i do you can
+download those however i encourage you
+to use your own brand new project
+because that'll give you the freedom to
+change certain things that maybe i've
+already done in there so we're gonna go
+create new project okay and here from
+the very beginning it's going to ask us
+to choose a track type we're gonna go to
+software instrument however it doesn't
+really matter in this case because all
+i'm gonna be showing you right now is
+how to get started when you first
+download logic pro we're not actually
+going to be making any music yet
+but this is just a basic window that
+you'll get every time you start a new
+project so let's do software instrument
+this is what logic pro will look like as
+a basic blank empty project and yours
+should look something similar but you
+might be noticing a few differences
+right off the bat however just keep in
+mind that if something doesn't look
+quite the same don't panic this section
+is totally okay without doing any
+changes there's three things that we
+need to do when we first open logic pro
+especially if you want to have all of
+the features available to you when
+opening logic pro number one we need to
+download all of the additional samples
+and content that comes with the purchase
+of logic pro at the time of this video
+it's around 80 gigabytes i believe you
+don't have to download all of it however
+i highly recommend doing so because it
+gives you a ton of instrument libraries
+that you would otherwise have to pay
+money for to get and they sound pretty
+good the other reason why we need to do
+this is in that additional content is
+what's called apple loops now apple
+loops are loops of music like i talked
+about before that we can use in our
+project royalty free at no extra cost
+and we can use them any way we like we
+can even sell the music that we're
+making using these loops so they're a
+very important tool especially for
+getting started if you don't have any
+musical background now here's how you
+can download the content you're going to
+go up to the left window here under
+logic pro you're going to click that and
+you're going to go down here to where it
+says sound library now this little
+window opens up on the side and you're
+going to do download all available
+sounds i recommend doing this typically
+overnight the 80 gigabytes can take a
+while especially if you don't have the
+best internet connection and then what
+you can do is open it up the next day
+and be ready to go i actually have all
+of them already downloaded so i'm not
+going to do this but this is what you
+should do for sure to start number two
+the things we need to do the first time
+we open logic pro this isn't an absolute
+necessity however it will help you out
+in the long run especially when you
+start to accumulate lots and lots of
+samples and your projects start to get a
+lot bigger and that is we're going to
+move that sample library that we've just
+downloaded onto an external hard drive
+if you don't have an external hard drive
+that's okay they're pretty affordable at
+this time and i recommend getting
+something that's at least a solid state
+hard drive or an ssd and something at at
+least 500 gigabytes i would say that way
+you can move these samples over to the
+external hard drive which actually eases
+the cpu load on your system so as your
+projects get bigger and bigger and
+bigger what happens is your computer
+actually runs the whole project file and
+then your sample library will be where
+your samples are held so they can
+actually work together to even out the
+cpu load when you have large projects
+now it's very simple to do this once you
+have all the additional samples
+downloaded simply go back to the same
+menu logic pro sound library and we're
+going to do relocate sound library now
+once you click that it'll give you the
+different options as to where you can
+move it i have mine actually stored on
+this one here which is called files and
+that's an external hard drive that i
+have that i use to house all of my
+musical samples last but certainly not
+least in fact this is probably the most
+important one is we need to turn on
+advanced settings for logic pro a lot of
+the capabilities that logic pro has
+aren't available right out of the box we
+need to tell logic to allow us to have
+those options now this is how we're
+going to do that logic pro
+preferences
+advanced and from here you just have to
+click this box which is enable complete
+features
+and then you can close this one up now
+with all that being said let's actually
+jump into logic and i'm going to start
+showing you where things fit in logic
+and i'm going to give you a layout and
+the landscape of it in the next video
+i'll see in a second
+in the last video i told you about some
+basic terms and definitions and some
+general housekeeping for us to get
+started with the program in this video
+i'm going to show you how to navigate
+logic pro and the different areas of the
+program that provide different features
+this is what logic pro looks like when
+you've opened up a brand new basic
+project i've made a few changes but this
+is what yours should look like as well
+before we get started i'm going to close
+a few windows here that do come up every
+time you open a new project so i'm going
+to press y on my keyboard and i and now
+we have an absolute basic look at logic
+pro what we're looking at right now is
+actually the arrangement window and this
+is where you build or arrange your
+tracks you'll have different pieces of
+music in all of these sections here
+these are tracks which the music is
+played through so when we stack new
+tracks on top of each other
+these are going to be all different
+tracks with different parts of a song
+one could be melody one could be drums
+one could be bass and we have the option
+to choose when they appear in the track
+and when they don't appear in the track
+and that's what we'll play back in this
+section here this is our timeline and as
+you can see when i move this marquee
+here the time at the top here changes
+and i can also change by the time and
+it'll move the marquee so when i move
+this along and i press play
+if there was music here it would play
+back for you this is probably where
+you're going to find most of your time
+being spent in logic pro next up as you
+can see i've made these tracks here well
+they have something attached to them
+what's called an inspector now i can
+open up the track inspector by pressing
+i on my keyboard
+and this is kind of like the housing
+parameters for each of these tracks
+now you can see that these ones all here
+are software instruments and what that
+means is that they're using midi they're
+like the fake instruments i was talking
+about in the terms and definition
+section we can also have a different
+type an audio track
+and what this one is
+is actually used to record things so if
+i had a microphone and i wanted to
+record myself singing i would use an
+audio track it's an external audio
+recording track
+now as you can see if i click this one
+here which is a software instrument and
+this one here which is an audio track
+some things actually change on the
+inspector here on the left
+and that's because there's different
+rules and different parameters for each
+of the tracks now a software instrument
+here
+has this little instrument drop down and
+this is where i can explore all of
+logic's different plugins and different
+things that we can add to the track
+with a recorded track we don't have that
+because the sound that we're using from
+an audio track is actually being
+recorded externally however one thing
+that they do have in common is this one
+here which is audio effects and these
+are different effects that you're going
+to apply to what's actually playing back
+the music whether it's a software
+instrument a fake instrument in the
+computer or audio someone's singing or
+maybe you've recorded somebody playing
+guitar you can add the same audio
+effects on top of the bass sound now as
+you can see as well at the top here we
+have the midi defaults and this is the
+region so this is different parameters
+that we can actually apply to things if
+we make a software instrument track
+so this is a midi region here we can
+apply different parameters using this
+region inspector in the audio region
+here as well
+we can apply different parameters here
+too
+it all depends on the type of track that
+it is
+now what type of tracks can we actually
+create well if i do this plus button
+here this will help us make a new track
+so i can click that and these are the
+track types that we have for the options
+i primarily use software instrument and
+audio track i would say 95 percent of
+the time logic has a feature here called
+drummer and what this is is an
+algorithmic drummer that will play along
+with your track based on tempo type of
+song genre etc etc
+i actually never use this feature i
+haven't found it to be good enough
+sounding to replace the percussion and
+drum sounds that i want to have in a
+track so i never use this external midi
+i wouldn't worry too much about that
+that's going to be if you're actually
+using an external instrument but you
+want to record it to midi and guitar
+bass is kind of like a preset for things
+that if you're recording an audio track
+that has guitar or bass you can find the
+same parameters in audio but guitar bass
+actually just has more effects pre-built
+on top so it can be useful in some
+instances but primarily i use software
+instrument and audio we can cancel this
+because we already have the two
+different types of tracks here and i'm
+going to keep going with the explaining
+of what happens in the logic pro
+landscape here we have two different
+sections open now we have the
+arrangement window which has our tracks
+housed and we also have the inspector
+here which is the housing for different
+parameters of each of those tracks i'm
+going to get rid of this midi window
+here and i'm also going to get rid of
+these two software instruments the next
+window that i want to bring up is the
+library or the instrument library and we
+can access this by pressing y on our
+keyboard so press y
+and this is the library here with all of
+the logic instruments as long as you've
+downloaded all the additional content
+you should have access to all of these
+if you haven't you might see little
+download icons next to these words here
+that's because you need to download the
+additional content and that gives you
+access to those sounds a lot of people
+don't really like the stock sounds of
+logic but i found that if you can
+manipulate them right there's actually
+some really great sounds in here so we
+have different electronic drum kits
+these are all from different eras and
+different genres we have keyboards
+mallets orchestral instruments you know
+there's choirs fake chamber choirs we
+have different pianos a steinway grand
+piano a yamaha grand piano so on and so
+forth one of the most traditional ones
+that i use a lot of the time to start
+tracks is i'll use a yamaha grand piano
+so i'll go to piano i'll click yamaha
+grand
+and as you can see here the actual icon
+on my software instrument just changed
+it's a piano now it says yamaha grand
+piano
+i grab my headphones i can also bring up
+a midi keyboard within the software by
+pressing command k
+and this is a musical typing midi
+keyboard so asdf refers to my actual
+keyboard keys but it'll play c d e f on
+the actual musical notes
+you can also move in octaves with this
+by pressing x to go up an octave
+or z to go down an octave
+the point i wanted to show you is that
+with this musical typing and the yamaha
+grand piano we now have a piano sound
+without having a piano anywhere in this
+room
+super super helpful when it comes to us
+making tracks if i wanted to change this
+let's say i wanted a mallet
+let's go with marimba
+now if i play the same keys
+[Music]
+we have the sound of a marimba so you
+can already see how powerful the library
+section is here because you have
+literally a library of instruments at
+your fingertips to be used with midi and
+you can add them into your track you
+could have a whole orchestra with just
+logic pro and the sounds that it's
+giving you pretty powerful another great
+way to explore the library is if you go
+up here to where it says all sounds you
+can see different sound packs that
+they've given you and some of my
+favorites that were more recently added
+to logic pro are the producer packs so i
+actually really like some of the
+producers that they've got for logic pro
+i really love tom mish take a day trip
+track girl selection oak felder to be
+honest i love all of them in one way or
+another but you can actually click them
+so if i do selection
+shout out joe k these are going to be
+the sounds that selection made for logic
+pro to emulate their sound so there's a
+different bass there's drum kits
+keyboards okay if i go to take a day
+trip so they have all these different
+sounds that they've probably used in
+popular songs on the charts and you have
+them in your library with logic pro now
+one thing that you won't have in the
+logic pro library is access to third
+party presets what i mean when i say
+third party is i mean additional
+instrument libraries that you've
+downloaded elsewhere outside of the
+apple ecosystem or logic pro and to
+access those what you're going to need
+to do is make a new software instrument
+and go here to where it says instrument
+now as you can see here in my most
+recent ones i have some third-party ones
+available omnisphere serum vital contact
+vinyl guitar etc etc
+you can access them in the logic library
+but what you'll have to do is actually
+make it onto the track and then save it
+as a preset and go into user patches and
+find it i find that takes too long
+personally i just access them with the
+instrument drop down on the inspector
+moving on now we're gonna go from the
+left side of the screen over here to the
+right side now what i'm going to press
+to start off is there's two separate
+windows we're going to start with the
+finder and i can press f on my keyboard
+and that's going to appear on the right
+side there
+now this one i typically use to find my
+third party samples if i go to all files
+here you can see that i have bookmarks
+with my drum kits midi loops etc etc
+things like that to help me make music
+faster my suggestion to you is make a
+folder on your computer somewhere call
+it samples or drum kits or whatever you
+like and every third-party sample you
+get put it in there and then create a
+bookmark so you always can access it in
+logic it's as simple as pressing f on
+your keyboard to get the finder it's
+kind of like a browser of your computer
+outside of the program and then go to
+this one here which is bookmarks which
+will give you all of your bookmarked
+folders really easy way for you to find
+the files that you need for your project
+without making you search for them other
+than that you can also go to these
+different icons here and that's going to
+explore your internal finder folder on
+your mac now the second window that i
+want to show you on the right hand side
+here and this one is going to be very
+important for us today is called apple
+loops and we can open that by pressing o
+on our keyboard
+now we have two different options here
+and i want you to focus on the apple
+loop section here
+these
+are all loops that have been given to us
+as part of those additional content
+downloads
+these are essential when it comes to
+getting started with music production
+especially if you don't have a musical
+background because you can sort by
+instrument by genre or by descriptor to
+find what you want it also gives you a
+really good idea of what certain genres
+sound like broken down if you're
+wondering what a house drums sound like
+we can go genre house instrument drums
+and now we have
+samples of different house drums to give
+us an idea of what they sound like
+if we want to do something like i don't
+know jazz drums we can do the same thing
+go down here and we have 76 samples of
+different jazz drums so it really gives
+you the flexibility to create any type
+of track you want simply by using the
+additional content given to you by apple
+at no extra charge very cool something
+else i want to note about apple loops is
+these sounds are royalty free and a lot
+of these samples and loops have been
+used in actually very big and popular
+songs that have been released in the
+past i can't remember any of the names
+of them at the moment but if you do some
+google searching i'm sure you can find
+it this is the section that we're going
+to be using to build our track today so
+we'll come back to this shortly now i've
+shown you the majority of the features
+that i want to go over with you in logic
+there's a couple more that i'll show you
+but we won't necessarily be using
+there's two of these number one is live
+loops so i can close up apple loops
+close up the library and inspector and
+that's this one here if i click that you
+can see that it actually opens up kind
+of a separate arrangement window now
+this is logic's version of like ableton
+live now it's more used for playing live
+using apple's live loops feature i never
+use this or at least at this point in my
+career i haven't used this so i'm not
+going to go over that i just want to let
+you know that it's here and if you want
+to learn more about it you can go on
+apple.com logic pro it'll explain to you
+how to get started with using that the
+other one that i want to showcase to you
+is the toolbar and that's at the top
+here in this light gray section with
+this clock horlage section as well i
+very rarely use the actual icons on the
+toolbar which is why mine is quite bare
+and it might look a little different to
+yours i strongly recommend you get good
+at using hotkeys hotkeys will make your
+workflow better easier faster and once
+you have them engrained you will wonder
+why you weren't using them in the first
+place the whole point of creating a good
+workflow is that you can stay in flow
+state and really create the tracks that
+you're hearing in your head as quickly
+as possible or at least get the ideas in
+the software as quick as possible for
+that you definitely need to learn
+hotkeys but i will show you how to add
+certain icons and change different
+parameters up here because you might
+find other things useful that i don't so
+to do that you can right click the
+toolbar and go customize control bar and
+display
+and these are all the different
+parameters that you can add to your
+toolbar or take away
+i like a nice clean look up here so i
+don't really have very much
+the only thing that i have a lot of
+things clicked is maybe the lcd because
+i find these to actually be useful
+pieces of information that i can use
+other than that i don't really use it so
+once you've set this the way you like
+you can simply go save as default and
+then you can click off this and this
+will open that way every time you open a
+new project all right so that was kind
+of a general overview of the actual
+software logic pro in the next video
+what we're going to actually be doing is
+starting to build our track and taking
+the steps to know how to build the track
+that we want to build so stay tuned for
+the next video and let's start making
+some music
+as you can see here i have just the
+project that we had open before i'm
+actually going to delete all of these
+and we're going to start fresh with a
+brand new software instrument and the
+library opened up nicely on the left
+side here for us to have a starting
+point that's great but we're actually
+not going to be using that today so we
+can close that and we can press o on our
+to open up apple loops
+this is where we're gonna actually drag
+music into our arrangement window to
+start to build our song
+now i know i said that we're gonna be
+making music in this video and i do mean
+that but there is a few things that we
+need to get right before we start
+looking for loops as you can see here in
+apple loops there's over 30 000
+different samples so it really helps
+when we can narrow down what we're
+looking for and what kind of track we
+want to make before we even start
+looking because that will give us a nice
+starting point and it will be quicker
+for us to actually get samples that we
+like into our track here's the best way
+to start a project you need to know two
+things to start now they don't have to
+be this way for the whole track you can
+change these later on but it's a great
+starting point for you when you start
+looking for loops when you start writing
+music and those two things are the bpm
+or beats per minute and this actually
+tells you how fast the track is and the
+second thing is the key of the song and
+this tells you which group of notes we
+want to kind of hang out with let's
+start with the key
+key is a variety of musical pitches that
+all sound good together remember when we
+talked about melody before and how it
+makes a musical phrase well to make that
+musical phrase sound good we need to use
+notes that are in the same key in modern
+western music there's 12 keys and each
+of those 12 keys has notes in it that
+fit together the notes that fall outside
+of the key are out of key now this is
+subjective there's certain notes that
+are in these scales that can and can't
+be used based on certain parameters but
+we won't get into that please take
+everything i'm saying as not as a rule
+but more as like a basic guideline for
+you to get started the important thing
+is is that we need to know the key of
+the song before we start so we know
+which notes to start with bpm or beats
+per minute is exactly as the definition
+says it's how many beats fit into a one
+minute time span or 60 seconds we can
+determine that in our lcd clock up here
+in the toolbar you can see here we have
+this 120 that's the tempo of our song or
+the beats per minute i can change this
+by double clicking and typing in
+different things so i could do 60 beats
+per minute which is half the one we just
+had
+now 60 beats per minute there's 60
+seconds in a minute so this is going to
+be one beat every second something else
+you can do as well is turn on your
+metronome to know how fast the tempo is
+i can do that by pressing k on my
+and because this is 60 beats per minute
+and you can see the clock here the beats
+fall every single second 60 beats per
+minute 60 seconds in a minute they're
+exactly in time if we wanted to do it
+every half second well we could change
+it back to the default that we had 120
+and now if we play this
+it's twice as fast as the 60 beats per
+minute now this is very important
+because different genres have different
+tempos sometimes radically different
+tempos for example something like lo-fi
+or hip-hop might fall between like 70
+bpm all the way to the quickest maybe
+around 95. whereas house music or dance
+music sits around 120-128
+trap or hip-hop these days is kind of
+falling between 140 and usually even up
+to 170 sometimes so the tempo can
+differentiate based on the genre and
+it's super important to know this before
+you start especially if you're using
+loops because loops are dictated by the
+tempo and key that they've been made in
+so sometimes if you drag a loop in that
+is at a certain tempo it'll actually
+sound kind of off you need to use it at
+the specific tempo and key that it's
+been made to be used at or something
+very close now we can actually get
+started on making our track and we're
+going to use a basis for that chances
+are why you got into music production is
+you like listening to music
+now if you want to start making music
+like the music that you listen to this
+is a great way for you to have a
+starting point to do that the tempo and
+the key to find loops that are similar
+to the music you like listening to and
+then use them to actually create the
+track we have a great website for this
+which is called toon bat we're going to
+use toon bat to get the bpm and the key
+of a song that we like and then we're
+gonna build a track similar to that song
+using loops with the same parameters if
+that doesn't make sense just follow
+along and you'll have a better
+understanding of what i mean in just a
+second so first step is to go to
+toonbat.com this is a very helpful tool
+when it comes to finding bpms and keys
+of songs that you already like so as you
+can see right now these are the top
+tracks that are actually being searched
+on toon bat we have harry styles jack
+harlow obviously this cop probably
+changes time to time with what songs
+come out
+but for us we're going to actually
+search a song that we like and we want
+to emulate or how to sound like this is
+the part of the actual course where you
+can fork off from what i'm doing and
+start doing your own thing the artist
+that i'm going to try emulate is the
+pretty standard popular artist calvin
+harris now calvin harris has been around
+for a while so there's a couple
+different genres that calvin harris has
+made i'm going to kind of stick to like
+the house calvin harris like 18 months
+album kind of era so something that's a
+kind of housy dancy
+genre and we're going to find the key
+and bpm of some of those songs and we're
+going to use that to start using loops
+to create our song i'm going to search
+calvin harris
+and then i'm going to go search
+and now we have all these calvin harris
+songs we have the key here and the bpm
+right next to it so the pieces of
+information are here now we just need to
+decide which song we kind of want to
+sound like
+so more modern calvin harris would be
+you know potion with dual lip and young
+thug the kind of 18 months one was uh
+like summer that era their slide feels
+so close
+and you can kind of get an idea of how
+fast tracks are based on you know
+thinking about these songs or listening
+back to them so for example like summer
+is kind of older calvin harris now and
+it sits around 128. well that's like a
+house kind of a dancy uh bpm whereas now
+he's kind of laying back into the funk
+wave vol 1 vol 2 vibe where he's getting
+a lot of popular artists to feature
+rappers and such well rappers don't
+really jump on house tracks so much so
+for example potion it's sitting around
+100 slide 104
+feels 101 so it's kind of sitting around
+there i'm going to stick to the house
+calvin harris for this one and that's
+because apple loops has a ton of house
+loops and they're really easy to kind of
+showcase what i'm trying to show you
+guys so summer let's look at this one
+it's an e minor around 128 so let's just
+remember that for the moment we'll move
+down here feel so close is kind of
+around the same time frame and that's in
+g major and funny enough g major is
+actually the same as e minor it's just
+starts and ends on a different note
+we won't get into that too much right
+now but that's just interesting to note
+that they relatively sound the same and
+they're also at 128 bpm this is what you
+came for with rihanna a minor and 124 so
+we're starting to see a trend here that
+in that era of calvin harris the 120
+bpms are sort of where we want to sit
+let's go back to our project
+we're going to do
+125 bpm something kind of average in the
+middle there we'll go back to toon bat
+and let's see a minor
+e minor g major for the sake of summer
+and feel so close being the similar keys
+like that we're going to use e minor for
+our track and we know that we're going
+to be searching for loops that are
+around g minor and we can also do that
+in our track by going back to the custom
+control bar and we can add key signature
+and save as default
+and now we can change this
+to
+e minor
+now what this is going to do is all the
+apple loops that we drag into our
+project now are going to be
+automatically tuned to e minor so we
+don't have to do any of that work this
+is super super helpful for us especially
+when we're just testing different sounds
+different loops if i was chained to
+change this to d minor it's going to do
+the same thing with d minor if i didn't
+change this to c major it's going to do
+the same thing for that so on and so
+forth but for our sake we're going to
+use e minor
+and 125 bpm the two crucial points of
+starting our track are done the rest
+here now is trial and error of you
+exploring different loops what sounds
+good together so now let's open up apple
+loops and let's start to search for
+loops based on the parameters that we've
+just given ourselves so we can press o
+and now we can start searching by
+instrument and genre and adding them
+into the project to make a loop that
+we're happy with this is the fun part
+and where we're actually going to create
+our track
+so for genre i'm going to go to house
+because that's kind of the genre that
+we're looking at that's the calvin
+harris that we're trying to kind of
+emulate here
+for instrument i'm going to start with
+some piano so i'm going to go to piano
+now we've only been given four samples
+here out of the whole apple loops
+library so we might want to not restrict
+this so much but let's start with just
+taking a listen to some of these and see
+if we want to work with them
+it's almost a little too vichy for me i
+don't know if i want that in this case
+cascade piano stabs sounds like
+something we would use in this case
+so to bring this into our project all we
+need to do is drag that
+and put it into our arrange window and
+release it
+and now i want you to take note of a
+couple things that just happened here
+number one
+you can see that this loop automatically
+went to this point right here and that
+is at the end of the fourth bar now
+music is typically told especially in
+modern western music in lengths of four
+bars or a multiple of four four eight 16
+32 etc etc the loop didn't go
+six it didn't go to seven it didn't go
+to three it went to four this is a very
+important part of making a loop the
+other thing that i want you to notice as
+well
+is that we have this up at the top here
+which is a little bit lighter gray than
+this one over here
+and this is actually the loop function
+of logic pro and we can turn that on by
+pressing c on our keyboard and it goes
+yellow like that this is important
+because it allows us to play the loop
+over and over and over and over again
+without having to drag this back to the
+beginning pressing play
+it plays to the end then we drag it back
+to the beginning pressing play
+this is going to go to the end here and
+it's going to loop and then it's going
+to go back to the beginning so let me
+show you this really quick
+you see how it went to the end of the
+four and then right back to the one
+that's because we have this loop
+function on and like i said you can do
+that by pressing c on your keyboard
+let's get rid of this software
+instrument track and we're going to keep
+this piano track i think it's a nice
+start for a calvin harris style song at
+this bpm in this key so let's search for
+something else the things that i'm
+looking for here is i want to have a
+melody i want to have some drums and i
+want to have some bass those are the
+three kind of elements that we have we
+might have
+two different melodies one being the
+main melody and one being the counter
+melody and then one bass and one drum
+loop and then we'll kind of mix that
+together to be our track so the next
+thing i'm going to search for is a lead
+or like a counter melody i don't want to
+do piano because we already have that
+that's going to sit as the chords in the
+background so i can uncheck piano but
+i'm going to stay on house
+and calvin harris sometimes is kind of
+like an electro house
+kind of feeling especially in that era
+now i'm going to go to instrument
+and maybe do synth and let's see what we
+can find in this area something that i
+forgot to mention as well before when
+you're looking for loops
+we have two little sections here and one
+says tem dot dot dot which is actually
+tempo
+and that is the bpm's of these loops
+now they will automatically change to
+our project tempo because these are
+apple loops and they've been analyzed by
+apple
+so when we drag that in it'll actually
+sit
+as this four bar section that we had
+there before and the second is the key
+and this is going to be the key of the
+original loop
+we can change this parameter down here
+play in song key or play an original key
+so if i play this erie vox synth here
+what i'm just listening back to is the
+song key so that's actually being played
+in e minor because we've set that up
+here the original one if i change it
+play an original key
+we can hear it's a lot lower and that's
+because it's being played in c minor
+that's also something important is you
+can play it in the song key when you're
+searching for different loops to give
+you a better idea of how it's going to
+fit in your already made loops let's
+look for a lead i'm going to search the
+loops for
+lead
+let's try this aftershock synth lead
+it's at tempo 125 also the same as our
+project and it's in c minor which isn't
+too far from e minor so it should sound
+cohesive so let's try this
+that's
+very calvin harris-like from that era so
+let's drag this in click and hold that
+we're going to drag it just underneath
+our cascade piano stabs and now we see
+we have aftershock synth lead and we
+have it just underneath it's the same
+length as cascade piano stabs and it's
+been automatically modified to be in the
+same key e minor that we've set up here
+i'm going to zoom in on this one a
+little bit
+and what i'm doing for that is i'm just
+holding option and then i'm pushing with
+two fingers up on my trackpad and this
+is our new four bar loop here so let's
+play it together and see if it sounds
+good see if it sounds like we want to
+keep building this
+i like it i definitely know some things
+that we need to fix with it but that's
+going to be later on in the video but i
+think that this is going to be just a
+nice
+combination of something we can use to
+build this calvin harris style track now
+something to keep in mind as well is we
+you don't have to use the same or the
+first one you find you can look down
+this whole list
+of things that you're looking for so for
+the sake of this i'm going to mute this
+one and i just did that by pressing m on
+my keyboard you can also use this one
+here and let's just find another lead to
+see if there's a better one so let's try
+this memory synth lead one 128 bpm close
+enough in g minor it's a little farther
+away than c minor but it should be fine
+so let's try it
+i already know this one's not going to
+sound as good as the other one but let's
+just drag it in so we can test
+so make sure you drag to the beginning
+we see that it ends at the fourth bar
+here so let's play it
+a couple things i just want to note i
+don't like the way this sounds versus
+the other one it's too low
+it's clashing with the piano too much
+it's too similar of syncopation and what
+that is is the way that it's being
+played is too similar to this piano so
+they're just actually going to class
+with each other it's not going to be
+complementary so let's delete this one
+let's try one more and if we don't find
+anything we're going to stick with our
+aftershock synth lead
+so this one's a little bit different new
+day synth lead 03. it's different than
+the piano
+in the way that it's syncopated it's
+still around 128 and g minor so it's
+going to be automatically a bit lower
+when we drag it in because it's going to
+be similar to like that memory synth
+lead but let's just test it and see how
+it sounds that's the beauty of having
+this software is when you have the tempo
+and the key set you can test as many
+loops as you want and see where they fit
+together
+so bring it back to the beginning what
+i'm doing to do that is i'm pressing
+return on my keyboard and that'll
+automatically bring the playhead back to
+the beginning and then i press spacebar
+to play the track through
+so that one actually sounds a lot better
+than the previous one let's test it
+against the aftershock synthesis so
+we'll unmute the aftershock and we'll
+now mute the new day synth so let's play
+this
+i think i still like the aftershock
+synth lead just the way it sounds but
+this is my point is that it's a lot of
+trial and error especially if you're
+working with loops to finding something
+that you like sits together but it's
+also the beauty of the software of logic
+pro is if you have the bpm and the key
+you can drag in whatever you like and
+it's going to automatically analyze it
+and make it the same all you need to do
+is drag loops that sound good together
+so we can delete new day synth o3 i just
+highlighted that and i pressed delete on
+my keyboard and these are going to be
+our main kind of melody the cascade
+piano stabs and the aftershock synth
+lead is going to be like our counter
+melody on top of that we still need two
+more things
+let's make it three we need a base so
+something to sit as the lower frequency
+melody underneath these two we need a
+drum loop something that's just kind of
+like a kick and a clap and then we're
+going to add a percussion loop as well
+and the reason we're going to do them
+separately is because we want to effect
+them separately you can drag in a full
+drum loop without question but you don't
+have the same freedom that you have if
+it's separate tracks and the reason for
+that is because sometimes we want higher
+frequency things to sit down a little
+bit if we want maybe our uh our chords
+and leads to really stand out we want
+the low end to be up a little bit so
+this is again the freedom of loops
+sometimes you can use just a regular
+drum loop the whole thing on top
+and sometimes you need to actually break
+down the loop into each individual part
+and then you can mix it differently
+depending how you want to do that let's
+look for a base let's stay in house we
+don't need to be electro house but let's
+go to instrument and we can take out
+lead here in the search which will give
+us more options
+and now we're going to search for base
+let's try this 80s forever base um
+underneath these house dance leads and
+chords
+it still has the tempo of 125 the key is
+f minor so it's a bit different but like
+i said the software is going to analyze
+it and change it for us so let's take a
+listen to this loop
+not bad let's drag it in and see how it
+sounds
+let's play it with just the cascade
+piano stabs
+and without the aftershock synth lead so
+we can go about this two ways as well we
+could mute the aftershock synth lead but
+another thing you can do is if you're
+testing different tracks without certain
+ones is you can press this s here on the
+ones that you want and that's what's
+known as soloing so you can solo the
+cascade piano stabs and it automatically
+mutes the other two because the only one
+soloed is the piano stabs you can also
+do that with the bass so now we've just
+added the bass to the piano stabs this
+becomes very useful when you have large
+projects because you're going to want to
+be testing multiple different tracks at
+one time in this case we'll just solo
+the piano stabs and the forefoot base
+i don't mind it it actually sounds kind
+of cohesive um it definitely is playing
+at like a similar syncopation not quite
+the same the differences sound not too
+bad together so let's try maybe one more
+bass loop and if we don't like it we'll
+stick with this one
+i can already tell that's going to be
+too busy
+let's try this analog wonder bass so i'm
+going to drag that one in
+now what i can do here is i can solo
+that one and i can unsolo the 80s
+forever bass now let's take a listen to
+the piano and the analog wonder bass
+so let's take a listen to the 80s
+forever one more time
+i think in this case i'm going to go
+with the 80s forever so we can solo that
+we can delete the analog wonder base and
+we can actually take the solo off of the
+whole thing as well and they can do that
+by pressing this one here which is clear
+recall solo which will automatically
+unsolo anything that is so low alright
+two last pieces for our track here and
+they both fall under drums
+so we can unselect bass we can go all
+drums and now we can search by beats
+and we'll stick to house as well now
+these tempos are all sitting around the
+120 range which is what we wanted
+the keys don't really apply to drums
+this is a bit subjective some people say
+that there actually are pitches with
+certain drum hits and with something
+like an 808 there definitely is but
+typically drums don't have a pitch
+they're a transient
+that has too many pitches going on you
+can't definitively say what one is a lot
+of people will argue with me with that
+in the comments that's okay but i'm
+sticking with that for the basic purpose
+of it you can tune a kick drum you can
+tune a snare
+but there's so many different
+frequencies going on it's hard to say
+that snare is a sharp or that snare is
+d-flat let's find a drum loop
+i'm gonna use this complete package bead
+here we're going to drag that into our
+project
+and now you can see this one's only half
+the length of our other loops here this
+is an easy problem to fix all you need
+to do is highlight this region here by
+clicking it and then you can press
+command r which will duplicate it and
+that way you can have another exact
+duplicate over next to it
+if i drag the playhead out here you see
+there's this little gap and that just
+signifies that there's two different
+audio regions we can also change that by
+highlighting the track and pressing j on
+our keyboard
+non-continuous audio regions require the
+creation of a new audio file create
+and it creates a brand new loop for us i
+like to have all my loops the same
+length with no breaks in between because
+this comes into play
+later when we're arranging and i'll
+explain that later on but for now i'm
+just going to show you how to do that
+now let's take a listen to our whole
+loop here with the drums
+without the drums that we just added
+now this isn't mixed properly so you
+can't hear them exactly the way you want
+to we'll do that later but i can already
+tell that drums add so much to a track
+especially in the house genre where
+drums is kind of like the focal point
+everything else kind of fits around the
+drums because house is meant to be for
+dancing it's meant to have tempo it's
+meant to have beat the last thing that
+we're going to add to our track here is
+what's known as a topper or percussion
+and usually what kind of loops these are
+is they're things like hi-hats maybe
+some off-beat cowbells
+clap snares things like that and what
+they do is when you play them with
+something with a kick drum and a clap so
+just a simple boom
+boom
+like a four on the floor it really adds
+movement and feeling to it so that's
+what we're gonna look for next so what
+i'm gonna do unmute the drums and i'm
+gonna solo the drums and when we add in
+the topper there we're gonna test it
+against the drums first because if the
+topper doesn't work with the basic drum
+beat it's not going to work with the
+rest of the track anyways the rhythm
+needs to be different and accentuate
+different things but they still need to
+be cohesive and work together so let's
+take a look in our apple loops for a
+topper
+let's try this daybreak beach topper
+as you can see there's no kick drum in
+that when we listen to it that's perfect
+because we already have our kick drum in
+the other drum loop this is going to
+accentuate the kick and clap in our
+other loop by having all these different
+hats and other things in it so we can
+drag that into our project
+and we can solo it and we'll test it
+against the drum loop
+sounds pretty good to me if this is your
+first time producing music and you're
+listening to this
+you might not even be able to tell the
+difference but if i actually unsolo this
+you'll notice that the drum loop now
+sounds very hollow it's missing
+something
+and then if i add the topper in
+there's so much more movement and just
+it just it literally makes you want to
+dance more by having that in there so
+it's important to have those two
+different elements together especially
+when you're getting started because it's
+so easy to drag a topper on top of just
+a basic kick drum and it's going to be
+very important later when we're going to
+be mixing this track so now we actually
+have all the elements of our track and
+what we want to use so let's play all
+these loops together and kind of take a
+listen to what we just created using
+different loops to make a new creation
+i don't mind it i know exactly what
+we're gonna do going forward after this
+to make it all sound better together
+but this already i'm really happy with
+and if you're not happy with yours
+pick it apart and find out what you
+don't like about it and get rid of that
+loop and get a new loop in and test
+different things never settle
+necessarily like don't put something
+there just for the sake of it it doesn't
+necessarily have to make you wow
+but everything together should at least
+sound cohesive and sound good and not
+clash too much with each other now one
+more thing i want to mention before we
+move on to the next section this is
+likely going to be our chorus
+why because it actually has
+all of our loops that we've created in
+this particular track obviously if you
+have a project with 100 tracks you're
+not going to have all 100 playing at the
+chorus that doesn't make any sense
+but for the sake of this basic music
+production course i'm showing you that
+these are the basic elements of what
+goes into a track melody bass drums when
+they all work together that's what
+creates the biggest section of the song
+or most full section which is typically
+the chorus so going forward after this
+what we're going to be doing is we're
+actually going to mix these tracks
+together so they sound a little better
+some of these already sound a bit
+overwhelming at certain parts and we're
+not able to hear other parts of the song
+that we really want to hear
+and we're going to arrange this loop
+so like i said we've kind of dictated
+that this is going to be our chorus well
+we need to work backwards from this full
+loop into actually telling a story with
+the song the verse might be a little
+more quiet it might have just the piano
+or it might have just the drums and bass
+we don't know yet we're gonna get there
+when we start arranging but what i want
+you to think about is that we're gonna
+work backwards from this particular loop
+into making a full song starting at the
+chorus so i'll see you in the next
+section
+in our last video we learned how to go
+from having a blank empty project with
+no ideas to having the starting point
+for a song and starting to add loops to
+fit together to emulate the song that
+we're trying to make we chose a key and
+bpm of the song that we really like or
+the genre we really like and want to
+sound like and we built a four bar loop
+using the parameters that we set for
+ourself the key in bpm to make ourselves
+kind of a chorus or something that we're
+going to use to build the rest of our
+song now what we're going to do is cover
+very basic mixing and arrangement in
+order to turn it into a full track let's
+start with mixing at this point guys
+we've chosen all the loops that we want
+for our track so we actually don't need
+apple loops anymore so i can press o on
+my keyboard and get rid of that what we
+can do here is we can see our track
+we've made this four bar loop we have
+the cascade piano stabs the aftershock
+synth lead the 80s forever base the
+complete package beat which is like our
+kick and clap or snare
+and the daybreak beach topper which fits
+on top of the kick and clap let's start
+mixing these together so they sound a
+little better if i play this back right
+now
+it sounds good everything works it's in
+key it's in the same tempo but some
+frequencies or some tracks are actually
+battling for room against other tracks
+so if i was to what's called bounce this
+right now which is kind of make it into
+an mp3 or wav file
+if we listen back to it it would be
+really taxing in our ears there'd be a
+lot of information a lot of musical and
+audio information going in at one time
+we don't want that we want it to be nice
+and cohesive together
+this is where mixing comes into play
+what i'm about to show you
+is
+simply a drop of water in comparison to
+a large iceberg it's not even the tip of
+the iceberg as to what proper mixing
+engineers and mastering engineers do
+with music what i'm showing you is very
+very basic steps to get a track that
+you've started using loops to sound a
+little bit more cohesive together
+is not mixing in comparison to what a
+mixing engineer can do this is simply
+some basic volume leveling some basic eq
+compression and later on i don't even
+want to call it mastering but we're
+going to say it's finishing the track so
+i just want you to understand that
+before we go into this mixing isn't
+simply leveling volumes and calling it a
+day but that is what i'm going to show
+you in this particular video one of the
+most powerful things you can do when
+mixing a track or mixing tracks together
+is simply level the volumes you'll find
+that by taking volumes down
+you actually create more space than if
+you just keep pushing volumes up we
+don't want to have a loudness war here
+with our tracks we want to simply allow
+them to fit together better so let's get
+started doing that
+now the first thing that i notice
+already is that the drums need to be
+louder
+house music hip-hop music and pop music
+these days is very very focused on the
+beat the tempo and how it makes you feel
+and dance so immediately i'm going to
+turn down all of the instruments and
+base here to zero and now we just have
+the
+basic complete package beat and then
+daybreak beach topper
+from this one
+i'd probably take down the topper a
+it has lots going on and we kind of just
+want that to fit nicely amongst
+the kick and clap we don't want it to
+overpower it or make it really present
+we want our body to kind of feel that
+with dance music anyways so let's turn
+this one down a little bit
+another really good technique for mixing
+is rather than
+bringing it down from zero and finding
+where it fits start it at no volume at
+all
+and bring it up until you feel like it
+fits in the track
+i like it sitting right there this is
+around negative 5.5 db and we're sitting
+our complete package beat at zero here
+or plus one let's make it zero now a
+couple more windows that i want to bring
+up here to help guide you along the
+mixing process number one i'm mixing the
+volumes by just dragging these simple
+volume faders down and up here you can
+actually do this with a more visual look
+by pressing x on your keyboard to bring
+up your mixing window
+and we now see here we have all our
+different tracks and we can see how loud
+they are in relativity to each other as
+well as the stereo out which is what
+we're going to use to bounce this track
+afterwards if you like the visual of
+having the mixer and all the different
+knobs this way this is what a actual
+like mixing studio looks like with the
+hardware you're gonna have it laid out
+in front of you like that
+please use that please use whatever
+works best for you for me personally i
+like to have them like this if we only
+have a certain amount of tracks it's
+just easier for me the second one i want
+to bring up which if you don't want to
+use the mixing window here
+is pressing i on your keyboard to bring
+up the inspector
+and that's going to give you the
+level of volume here or the gain level
+on the left side here so if i play this
+i'm on the complete package beat here
+you can see that we're peaking at around
+negative 9.2 on that track
+and the stereo out is negative 7.4 you
+don't need to worry too much about the
+numbers the only thing that you need to
+do is make sure that you're not going
+over zero because that's going to
+introduce something called clipping the
+point is if it sounds good and you can
+keep it sounding good when you've
+bounced it out to a finished mp3 or wav
+file then it is good if you're happy
+with the way it sounds and other people
+are too who cares but the point is that
+this is a tool for you to understand
+when your volumes are too loud if they
+go over the clipping threshold there's
+going to be certain distortions
+introduced to your track that you might
+not want so to avoid this
+simply make sure it doesn't go over zero
+let's just level the volume so they all
+fit together nicely so i've done the two
+drums now let's add in the bass so i'm
+actually going to solo these three here
+just so it gives you a better visual of
+what we're actually working with the
+bass is currently at
+negative infinity so you can't hear it
+we're going to add it in nicely with the
+actual kick and the daybreak topper so
+that it fits in nicely
+so i'm gonna have it sit around there
+it's sitting at negative point five this
+base isn't really that
+present i can show you how to make that
+better later but for now it's kind of
+just sitting nicely with the complete
+package beat
+now let's add in the piano stabs and
+then last but not least we'll do the
+after shock synth lead so cascade piano
+stabs we'll solo it to bring it into the
+track and now let's actually make the
+volume fade so we can hear the piano
+stabs nicely without taking up too much
+of the other space
+so i like that one around there negative
+4.5 last but not least let's add the
+aftershock synth lead let's solo it or
+in this case because it's the last thing
+we need to solo we can simply clear the
+solo so that all the tracks are playing
+and we'll just move the volume fader up
+so it fits nicely
+so i like it to sit around there it's
+coming in louder than the piano stabs
+and i kind of want that it's like a very
+focal point of the mix
+we want to know that it's the chorus
+when this comes in so now we've leveled
+out our different levels of the tracks
+here by moving the volume fader up and
+down what i want us to do now is play
+the whole loop together with our newly
+leveled volumes and i want you to take a
+look at this stereo out here and see
+where the actual gain gets to so let's
+do one loop of this
+the peak of this
+is at negative three which is great
+we're not clipping we're not introducing
+any new distortion or sound into this
+that we don't want a lot of people will
+tell you oh go to negative point one or
+go to negative six or negative three
+please don't worry about that for the
+moment for now
+let's just not go over zero you might be
+asking yourself well tony in this case
+shouldn't i just bring everything up to
+uh 2.9 db so we're at negative 0.1
+no let's not do that because we're going
+to be adding in some effects and other
+things that can alter this
+stereo out gain output as well the only
+thing i want you to do level out your
+tracks and keep the stereo out below
+zero now the next part of mixing this we
+are going to add in some basic eq or a
+short form for equalization what
+equalization is
+is you're actually taking a specific
+plug-in
+that can do more than just the volume
+but it can boost
+certain frequencies in the track these
+loops are made for the full frequency
+spectrum
+so that means that in this piano here
+there's actually going to be low
+frequency information that we maybe
+don't want because it's interfering with
+the base with a kick drum the same goes
+with parts of the drum loop maybe this
+daybreak beach topper has certain
+frequencies in the high end that we
+really want but the mid ones we don't
+want as much because that's where the
+piano is sitting eq
+is kind of like a box
+that you have a finite amount that you
+can fit in and you want everything to
+fit in perfectly like a tetris game
+almost
+so that when your listener is listening
+to your track everything fits in nicely
+the bass isn't too loud it's not
+overpowering the kick drum is present it
+makes you feel the beat but it's not
+overpowering the melody the whole thing
+needs to work together and fit together
+and that's what eq really really helps
+with you so let's do some basic eq on
+some of these tracks and i'll show you
+how it's going to help you fit them
+together better the first one that we're
+going to do is we're going to take
+this aftershock synth lead and this
+cascade piano stabs and we're going to
+take away the low end frequencies
+because
+those aren't what we want to hear from
+these particular tracks to add an eq you
+can do this two ways
+what i always do is i just click this
+box that says eq and it adds it there
+and this is the basic channel eq that
+comes with logic pro
+i'm going to close that for a second
+because we're going to add another one
+on aftershock synth lead and the other
+way to do this is go into the inspector
+under audio effects now it's in my
+recent because i just added it but i can
+go to eq channel eq stereo and it adds
+one there as well
+you can do whatever works for you i
+suggest clicking the box because it's
+quicker this is where it gets a little
+bit more tricky
+and you might be asking yourself well
+tony with eq
+why don't i just turn the volume down of
+this track to fit the other one well
+this is a good example in the aftershock
+synth lead this will give you a visual
+this gain knob here is kind of like a
+volume knob so if i push this up
+you see that we've just added all this
+frequency information here across the
+whole spectrum i bring this back down to
+zero which you can do by holding option
+and clicking
+you can see these little colors here
+with the little dots and these are known
+as bands
+you can move up certain frequencies or
+down certain frequencies and you can
+decide how
+you know thin or fat you want that band
+to be to take out or boost certain
+frequencies and now if we bring up the
+whole volume of the track
+you can see that there's this little
+notch missing here
+this is super important because what
+it's doing is leaving that space
+it's boosting the rest of the track but
+it's not boosting that space or it might
+be but you've actually taken away
+most of it to begin with so it's not
+going to clash with other instruments
+trying to fit in that space let's go
+back to zero
+same with this band we'll bring it to
+zero to make a nice even
+looking channel eq curve with the piano
+stabs let's go to our eq here let's solo
+it let's play it
+and let's look at the frequency spectrum
+and see the low end information to do
+this we can actually click on the
+analyzer and click pre or pardon me
+click post and turn it to pre so let's
+listen to this
+you probably didn't think beforehand
+that all this information down here
+existed the piano is a high frequency
+instrument it's being played up here you
+assume it's a melody a melodic
+instrument so we can actually add this
+one down here which looks like a little
+hockey stick so click that and this
+little red portion comes up
+we can click and drag this all the way
+up to let's do right here at around 200
+hertz wherever this red
+area is it's taking out
+the frequencies that we've told it to by
+dragging over top of them and we set
+this to pre beforehand
+so we we can see this here this eq if i
+click this now and i do post
+when i play this next you'll see nothing
+will appear in this red area so let's
+play this again
+i do pre
+you see that there is all this
+information here so those frequencies
+have been eliminated now we don't need
+to hear them anymore and we've just
+created space
+for our base
+and for our kick drum because they also
+reside in those low frequencies simply
+by just taking out the frequencies of
+the other one and we couldn't even
+really hear them anyways another example
+that'll be very common is your bass and
+your kick drum will compete for
+frequencies and that's because they're
+both sitting in a low frequency range so
+here's a trick to help you put them
+together let's listen to the complete
+we're going to solo that we're going to
+add an eq to it and we're simply going
+to look at the spectrum and we're going
+to listen to the beat
+right away i can see that this area down
+is the primary kick drum frequencies
+we're simply going to take this orange
+one which is what's known as a shelf
+and we're going to boost it let's say
+3 db and i'm gonna sit this around like
+this area 90. so now this whole
+frequency spectrum down here been risen
+by three decibels
+we're also going to take this green band
+and we're going to lower it maybe around
+200 to 400 in this area here
+and i'm making this skinnier by using
+two fingers on my trackpad and going up
+down will make it fatter we want to make
+it maybe around here this is a test we
+will likely move this one later
+but let's close this and just know that
+we're ducking it by three decibels which
+we can see down here so we'll close this
+eq
+and now we're going to go to the 80s
+forever base and we're going to add an
+eq and we're going to solo it and we're
+going to listen to this before adding
+anything
+let's test this out by taking out all of
+this low frequency information where the
+kick drum has a lot of frequency
+information and just see if we can
+actually tell a difference with this
+so there definitely is some sub bass in
+there that could really fit nicely in
+the track but we want it to
+work again with our kick drum
+so what we can do is we're going to make
+this at 100
+and we're going to take out all of those
+frequencies underneath that and that's
+going to save room for that little boost
+that we made with the shelf for the kick
+drum if you remember correctly on the
+kick drum eq we also took this green
+band and we ducked around 300 for three
+decibels
+so let's do the reverse of that with
+this one put this up three decibels
+and let's listen to this and see the
+difference with and without it
+so that was width let's take it off
+it boosts a little bit let's just turn
+it on let's use this hertz parameter
+here and we'll drag it up and down and
+see where the most frequencies
+sound the best and we can also boost the
+gain on this a lot to test and really
+hear it
+after doing that i actually want it to
+sit around 300 a little more so let's do
+plus three decibels at 300 this is going
+to accentuate that mid-range that kind
+of distortion bite of the base and we'll
+go back to the complete package beats
+and make sure that we're ducking 300
+at three decibels as well
+we're making space for that base to be a
+little more crunchy because on this
+complete package beat
+this kick drum is a very big focal point
+and then some of the high end slash mid
+where the snare and clap is so now let's
+listen to them together with the eqs and
+then i'll take the eqs off and we'll see
+if there's a difference we'll solo the
+80s forever base
+and we'll solo the complete package beat
+and we're going to play this
+let's take off the eqs
+it's very subtle the differences
+but i can tell from listening to it that
+they sound so much better together when
+you help them fit together by taking out
+certain frequencies you don't need in
+certain tracks and adding them
+in the other track and vice versa in
+this case we took out the frequencies of
+the 80s forever base under 100 hertz why
+well because it didn't accentuate enough
+of what we wanted in the base
+but in the complete package beat the
+kick drum is really what we wanted to
+hear so we boosted that frequency under
+100. it just makes things fit together
+better
+and gives you more optionality and how
+to actually fit things together instead
+of just boosting and lowering volumes
+this is what eq is and it's so so so
+important especially when it comes to
+later stages of your music production
+when you start to get better and more
+and more tracks get involved everything
+needs a space in the frequency spectrum
+let's do a couple more simple eq tricks
+that i'll go over very quickly without
+explaining the theory of it but just
+know that i'm carving frequencies out
+and adding frequencies where they need
+to be the daybreak beach topper let's
+solo it
+there's all this low frequency
+information and we really just want it
+to be high frequency so we can take this
+and we can cut out everything down there
+again for people that are mixing
+engineers or people watching this that
+do know how to use eq
+what i'm doing is a very simplified
+version
+of this
+i don't think that you should just
+automatically add an eq and take out the
+low end for the purposes of this course
+i want to show you how things fit
+it sounds the same way that we wanted to
+we can add the complete package beats
+and after adding that eq i think we have
+a little bit more room for volume with
+the daybreak beach topper so i'm going
+to boost this up maybe another db
+let's play the whole loop now and make
+sure that we've set the eqs where we
+want to make things fit together in the
+best way possible
+i know what we need to do we need to
+make the aftershock synth lead and the
+cascade piano stabs fit together better
+there's too many clashing frequencies
+there and we really need to
+differentiate them in the cascade piano
+stabs
+i'm going to cut out frequencies that
+the aftershock synth lead really really
+needs to accentuate with i'm going to
+click the eq on this and we're going to
+simply watch the eq of the aftershock
+synth bleed and boost where we want them
+i can see here that around 800 hertz is
+where the majority of that buzziness is
+coming from the lead that we really like
+and want i'm going to boost it by 3 db
+at 800 hertz
+now i immediately am going to go to the
+piano and i'm going to test to make sure
+that when i take out 3 db it still
+sounds good so let's go to 800
+let's take out three db
+and let's play it
+you can definitely tell a difference
+because it's a melody and this is
+starting to get into the mid to high
+range of where the melody frequencies
+kind of lay but it's not enough to keep
+in here at the expense of making the
+aftershock synth lead not work let's
+leave it in there let's add the
+aftershock synth lead and let's take a
+listen
+so we did that to make room for the
+synth lead well we should actually fill
+in part of the piano that we don't need
+in the synth lead so let's take a listen
+to the piano
+i think what we can do is add this wide
+shelf towards the end right around 2000
+hertz
+and we'll boost it by three
+and we'll do the same thing to this
+aftershock synth lead we will take this
+to 2000
+and we will take it down
+by three now let's listen to this
+and with the whole loop
+now what we've done is we've added some
+basic eq to the whole loop and different
+tracks and different frequencies to help
+it fit together better the first step is
+always doing the volumes afterwards eq
+out what you don't need and add what you
+do and make your mixture sound cleaner
+and more glued together something i want
+to talk about which we're not
+necessarily going to go too in depth on
+in this particular course is compression
+compression is also equally as important
+as eq what compression is is it's taking
+the quiet parts of a track and making
+them louder is taking the loud parts of
+a track and making them quieter i'm not
+going to use a compressor on any of
+these particular tracks because
+compression becomes very useful when you
+start to have groups of tracks which
+we're not going to get into in this
+course because this is a basic course
+but what i just want you to know is that
+compression is something that you should
+research and learn at the earliest stage
+possible of you getting into music
+production especially when you start to
+have projects that are over
+five tracks because it's so so helpful
+we are going to be using compression at
+the very end of this course to help glue
+our final track together i don't want to
+use the term but mastering uses
+compression to bring up certain parts of
+the track and tame other parts to make
+it fit together better what we're doing
+is not mastering it's finishing the
+track which is going to be a very very
+very basic mastering lesson i just want
+you to know that compression is very
+important and you should without
+question be using it and researching how
+it works in your tracks another thing
+that we won't be necessarily using on
+these tracks but something that you
+would definitely want to explore is
+using different audio effects on
+different parts of your track so luckily
+these loops that we got from apple loops
+all sound pretty good out of the box but
+if you're recording a guitar just
+playing basic guitar or piano or using
+the yamaha grand in logic they sound
+very
+dry now what dry is is there isn't any
+effects on top to bring it to life a
+very popular one is reverb which
+basically makes an instrument feel like
+it's in an actual space so for example
+this cascade piano stabs if i solo it
+there's already reverb on this track
+from the loop
+but what i'll do is i'll add a reverb so
+you understand what i'm saying in terms
+of adding more ambiance and space to the
+track you can do this with not just
+reverb but any audio effect and we're
+not going to be adding any onto these
+tracks but i will show you how to access
+them and you can add them onto your
+tracks if need be so we have the cascade
+piano stabs here in the inspector we can
+go down to just under the channel eq and
+it says click to insert audio effect
+plugin so we'll click that and now we
+have all of our options for audio
+effects this can be a little bit
+intimidating off the bat
+especially if you don't know what
+certain things do but the more you spend
+in here and the more tracks you use
+the more understanding you'll have about
+what audio effects do what we're going
+to go to reverb
+and we're just going to use a space
+designer which is a stock reverb that
+comes with logic and it sounds great
+stereo
+and now we have this reverb plug-in on
+top of our cascade piano stabs track so
+let's listen to this cascade piano stabs
+without the reverb to start and then
+i'll add it on and you can see what i
+mean
+now let's turn the space designer on
+you can see that it's actually bleeding
+into each other a lot more and that's
+the reverb like i said there's already
+reverb on this actual track that's been
+printed into this audio file so we don't
+need this you can click there and do no
+plug-in but if you feel like a track is
+is very dry and it actually needs some
+more feeling to it reverb is a great
+option for that and these audio effects
+here there's tons of different ones for
+you to explore and add your tracks and
+see where they fit best and you'll start
+to recognize certain effects that you've
+maybe heard in the past we're not going
+to be using any on this project except
+for the eq so i'm going to turn the solo
+off of that but i just wanted to show
+you where you can find audio effects and
+start exploring with different ones on
+different tracks we've done some basic
+mixing with our five audio loops here
+now in the next section what we're going
+to do is we know it fits together all
+the tracks but we want to start telling
+a story using the arrangement of moving
+tracks across the board taking certain
+tracks out at certain parts to keep our
+listener interested and this is
+basically the beginning of you starting
+to make a song the journey of the actual
+song being played through i'll see in
+the next video in just a second
+now we're going to actually take our
+loop that we've mixed and make it into a
+full song
+this is called arrangement and what
+we're going to be doing is taking our
+eight bar loop duplicating it across our
+project and then we're going to take out
+and add parts of the loop in to tell a
+story to keep our listener interested
+for the full length of the track so we
+can see our loop here that we had in the
+last video we have the piano the lead
+the bass and the two drum tracks
+underneath there so to arrange this loop
+out to start telling the story what we
+can do is we can highlight all of these
+by either pressing command a and you can
+see all the regions highlighted there or
+we can click and drag all of the regions
+so that they're all highlighted now at
+this point we're going to press command
+r to duplicate across our project across
+our arrangement window so we have
+multiple of these choruses and we can
+start to take out and add things that we
+need now arrangement is a very
+interesting part of music production
+because it's very subjective some people
+tend to like different parts of the song
+more than others and therefore might
+really accentuate that part of the track
+when they're producing it
+the most important thing you can do is
+just try to tell a story with what you
+have available so that's exactly what
+we're going to do with our loop here
+we're going to change our cursor to the
+eraser tool and we can actually do that
+by pressing t to bring up this little
+menu and you can see all of these little
+letters on the side here when i go down
+those are the corresponding letters that
+i can press and it will give me the tool
+that's listed next to it so if i press e
+we can get our eraser tool
+and now you can see that we can erase
+regions throughout our arrangement
+window there and this makes it a lot
+easier for arranging tracks because you
+have the capability for you to actually
+visually see what's being played and
+where you should and shouldn't add
+things back and forth so i'm going to
+add those regions back in because i
+don't want to take those out there but a
+couple things to keep in mind when you
+are arranging things if we were to just
+play the four bar loop across the whole
+track our listener would get very bored
+very quickly we need to start with
+something small and then bring it in
+slowly and then at the chorus like we
+said that we're working backwards from
+that's where we're going to have the
+maximum tracks playing for the kind of
+chorus loop we created earlier what i'm
+going to do is think for a second what i
+would like to start with and then start
+adding elements to this something else
+to keep in mind is that music is
+typically arranged in bars of four four
+and eight bar loops depending on the
+genre and how fast it is is sort of the
+section amount that you want to give a
+track without adding or taking anything
+away now as things get more complicated
+you can definitely have little nuances
+and things throughout the track but for
+the sake of keeping this simple let's
+just think in portions of four bar loops
+because that's exactly what we made for
+our chorus i actually really like the
+cascade piano stabs to start off i think
+that it's a nice part of the track to
+introduce to people at the beginning so
+we're going to get rid of everything
+underneath that and just have the piano
+stabs to start and introduce something
+after that we'll start from the
+beginning and i'm going to play this
+through and this is what it will sound
+like when the person clicks play on our
+track for the first time
+i'm going to stop it right before it
+goes into the next loop there because we
+haven't taken anything out yet and it's
+going to be just a lot of sound coming
+at you at one time now we have to think
+to ourselves what part of the track do
+we want to add next if we played the
+piano stabs over again for one loop
+chances are our listener is going to get
+bored and probably turn our track off so
+we need to add at least one more thing
+and what i think we should do is add
+either the base
+or we should add this daybreak beach
+topper i think it's different enough
+that the listener will notice
+something's been added and realize that
+we're building them up to something but
+it's not busy enough like the aftershock
+synth lead or the package beat that it
+immediately feels like we're in the
+chorus let's try the daybreak beach
+topper and not the base and we'll see if
+that sounds good if not we will maybe
+add the bass so we'll start from the
+beginning press play
+after this first eight bars i think that
+we should go into the chorus because
+that really is bringing in what we're
+trying to give the person let's also
+take the base out from this 9 all the
+way to 13 here and we'll use the base in
+the second half of the chorus
+so this part is going to be the intro
+this part is going to be the chorus
+and after here at the 17th bar
+we're going to start a verse like i said
+there can be different amounts that
+people use for the intro or for verses
+or chorus but traditionally in a lot of
+popular music you'll find an intro being
+maybe 8 bars or 16 bars then you move
+into the chorus or the hook and then you
+drop into the verse which is going to be
+a bit longer typically twice the length
+of a chorus so in this case we're going
+to make the verse
+this long here which is a total of 16
+bars
+4 8 12 and 16. after the chorus we're
+going to go back into kind of bringing
+it back down to strip down to nothing
+and then the verse we're going to build
+it up and drop it again at another
+chorus we can start to take things out
+after the chorus here
+should we do the piano again or should
+we actually do something even a little
+bit more stripped back let's try just
+start with the bass and the topper and
+see how that sounds after the chorus
+so i'll turn the loop function off by
+pressing c
+i'll start on the second half of the
+chorus here and really take note of what
+happens after this chorus finishes into
+this section here at the beginning of
+the verse where we don't have much going
+on see if it sounds pleasing to you and
+then keep moving forward if it does
+sound good if it doesn't we'll
+reapproach and we'll have a different
+track in there to start
+so that sounds more like a breakdown to
+me i think that we made a mistake by
+just having the bass in there with the
+topper so what we're going to do
+is we'll get rid of these
+and we will simply highlight the whole
+stack again
+we will click and hold and then press
+option so that little plus adds and
+we'll move it back
+so that we have the full stack again and
+we can reapproach this let's keep it
+simple like what we did with the intro
+and we'll just have the piano so we can
+erase everything here except the piano
+and now we can start adding little
+things all the way up to this point here
+in which we'll make a bit of a breakdown
+before the chorus i think we can get rid
+of the topper the base and the lead
+so that it's going to go with the piano
+and the kick drum
+then from this point we can actually get
+rid of the synth lead and the topper so
+it has the bass
+and then this breakdown here will
+approach after listening to these first
+three sections of the verse so let's
+take a listen
+i actually really like the way that that
+sounds so far if this track sounds very
+bare it's because it is and this is
+actually something where a vocalist
+really comes into play nicely a lot of
+the times instrumentals can be very
+boring or very basic and when you add a
+vocalist on top that's the right amount
+of differentiation you need in order for
+it to really bring the track to life
+in this instance like i said because
+this is a hand holding beginners course
+i just want you to start thinking about
+the arrangement concept of how tracks
+are actually arranged to tell the story
+for the breakdown i liked the way that
+the bass and the topper sounded that we
+kind of tried for the beginning of the
+verse at the beginning so we'll take out
+the package beat the synth lead and the
+now the verse is going to lead into this
+little breakdown and then we'll go back
+to the chorus right here so let's listen
+from the end of this little verse
+section through the breakdown and we'll
+go into the beginning of the chorus and
+see how that sounds
+usually when you listen to tracks that
+are on spotify or that are really
+popular amongst people there's so many
+more things going on there's things like
+audio effects risers sweeps sweep ups
+sweep downs white noise all to make you
+really notice that there's changes going
+on and this is a very stripped down
+version however i'm going to show you a
+little trick that is very commonly used
+and is actually a great trick to use
+when you don't have many tools to work
+with right before the chorus if we zoom
+in here
+this is the last bar in our little
+breakdown before the chorus
+well we can take out parts of the drum
+loop so that it really just accentuates
+the bass and that's our last thing we're
+taking out as much frequencies and sound
+as possible so that when the chorus
+comes in there is absolutely everything
+going on from previously having nothing
+going on so we can grab the edge of this
+daybreak beach topper region and go to
+the bottom right corner so we get that
+icon there
+now if you click and you drag
+you'll notice that it disappears and now
+this track space is vacant so the
+daybreak beach topper goes all the way
+from here to here so three of the four
+bars and then it drops out at the end
+leaving just the bass playing on the 30
+second bar in the 33rd bar we have the
+chorus so let's listen to this breakdown
+one more time and it'll kind of give you
+an idea of how we accentuated the base
+to bring everything stripped down to
+nothing and then drop it into the chorus
+the other thing that i want to do is get
+rid of the synth lead from the first
+portion of the chorus and that kind of
+just gives it another addition when we
+move to the second part of the chorus
+here so it'll drop in like this
+we created an intro a hook or a course
+we've moved into a verse which has a
+little breakdown at the end and into the
+second chorus now at this point we're
+kind of starting to rinse and repeat we
+would create a second verse another
+chorus then maybe another bridge or
+breakdown and then finally another
+chorus and an outro we won't go too much
+in depth for that right now but what
+we're going to do to just get to the end
+of this song so i can show you how to
+finish it
+is we're going to duplicate this across
+so we have another set another verse and
+a chorus we can erase these two
+particular blocks
+we can grab from here we know this is
+the beginning of the verse
+so we'll grab all of these
+and we can do command r to repeat that
+so now we have another duplicate of the
+verse right after the chorus
+so we can kind of reuse certain parts of
+our arrangement and they're far enough
+away from each other that the listener
+still thinks that they're different to
+finish off the track we're going to make
+kind of another breakdown or bridge and
+then it's going to go into one last
+chorus and an outro to finish off the
+song
+so
+the breakdown i really liked this bass
+and topper breakdown that we did before
+but maybe we should change it up by
+using the actual synth lead to make the
+listener really wonder what's going on
+so we're going to duplicate this synth
+lead across twice we can hold option and
+click this
+and drag that over once
+and again
+or you can also highlight the region and
+press command r twice
+it's up to you and i think what we
+should do is have
+this topper as well so i've highlighted
+those regions i'm pressing command r to
+repeat it over
+and we know that after this eight bar is
+we want to have another chorus
+so we can grab these ones
+and we can click option
+and drag it over there this is where
+you'd have the vocalist come in and
+really accentuate an important piece of
+the music where it's tying it all
+together before our big chorus at the
+end
+so let's take a listen
+let's do the same thing that we did with
+the topper here where we take it out and
+it really accentuates the lead
+before going back to the big chorus
+and we'll actually put the lead in there
+on the chorus as well because it's nice
+to continue that onward
+now we can add an outro
+i think i'm just gonna use the piano
+like we started with which kind of ties
+the track all together again and then
+that will be the finish of our track
+now if we put the playhead right at the
+end of the last region here and we look
+up on the lcd here we can see that the
+time of the track is 2 minutes and 41
+seconds depends how many verses how many
+choruses how long your sections are how
+long your regions will determine the
+length of the track in a typical house
+track this is pretty short but again for
+the purposes of this course i just want
+to show you how to actually arrange
+tracks and what you can do to make
+different parts of the track sound
+different from each other despite using
+the same sounds all the way throughout
+so we know this is going to be the end
+of our track we can zoom out and we can
+grab this little arrow in the corner and
+just drag it right to the end of our
+region
+so that when we end up bouncing out this
+track the length of the mp3 or wav file
+will be the length of exactly where we
+have the end of the track at this is a
+very basic overview of arrangement and
+how you can take things out and add
+things in to tell a story just by
+starting with your 8 bar loop i won't
+play this for you start to finish but
+you get an idea of how things work in
+terms of where the piano is where you
+should use certain things how long
+certain parts of the song should be now
+if you want to get better at this the
+best way to do that is simply by
+listening to the songs that you want to
+emulate you'll notice some deep house
+tracks are maybe 10 minutes long and the
+intro is three minutes
+well in our case our intro is only 15
+seconds everything is different in that
+sense but really notice when you're
+listening to music what's coming in
+what's leaving and what parts of the
+song have certain elements in it that's
+a really great way to improve your
+arrangements and also just have a better
+understanding of where things fit
+together in the next section and the
+final section of this logic pro music
+production course i'm going to show you
+how to finish your tracks so what we've
+done is we've made the loop we've mixed
+the tracks we've arranged it into a song
+now what i want to do is show you how
+you can get it ready to bounce out to an
+mp3 or a wav file upload to a streaming
+platform share with friends and family
+or simply just listen to it yourself and
+move on with your music production
+career so let's get into that section
+all right ladies and gentlemen we are
+finally on the last section of this
+logic pro crash course for how to get
+started using logic pro from an absolute
+beginner we're going to finish off our
+track here and prepare it to be bounced
+out to an mp3 or a wav file so that we
+can share with friends and family or
+listen to ourselves and try and improve
+now what i really want to reiterate to
+you is that what i'm about to show you
+is by no means mastering what i'm about
+to show you is simply finishing this
+track so that when you bounce it out
+it's not really really quiet and you
+can't hear it we're going to be taking
+the track that we've made and we're
+going to put on some simple logic stock
+plugins that are known as mastering
+plugins and we're going to finish it off
+and bring the volume up so it sounds
+full but i suggest that you just follow
+along here with what i'm saying knowing
+that it's not professional mastering now
+because this is a basic logic pro course
+i'm going to use stock logic pro plugins
+to show you of how to finish your tracks
+we have our final track here that we
+arranged in the last section of the
+video
+what i want to do is i'm going to loop
+the loudest part of our track here which
+is going to be the second half of our
+choruses and you can see that here it's
+because we have all of these tracks
+playing at one time the next thing that
+we want to do is start adding mastering
+plugins to the stereo out the stereo out
+is the second one in the inspector here
+we can also pull up our mixer by
+pressing x and we can see the stereo out
+and this is the area where we're going
+to add our mastering plugins number one
+we're going to do is add what's called a
+linear phase eq this differentiates from
+a channel eq i can't tell you exactly
+the differences for it but what it is
+it's a more heavy duty eq i don't think
+that i have enough mastering skill to
+really show you how to use this properly
+but one thing that i want to show you is
+in this drop down you can go to
+mastering and this is a preset that's
+included when you download all of the
+additional content for logic pro so you
+see there's dance music type eq there's
+final mix ballad final mix dance hip hop
+pop rock etc let's do a dance music type
+eq because we were trying to kind of
+emulate calvin harris in the sense so
+it's like a pop dancy track the loops
+we've used are house dance loops so
+let's start with this particular preset
+and see what they're doing with the eq
+and if we actually need this or if this
+isn't what we're shooting for so we'll
+click that preset basically what we can
+see is they've increased the gain across
+the board here and they've ducked out
+about two decibels around 3 500 hertz
+now i can't tell you again the specifics
+of why they've done this
+but let's just play it with this preset
+on it and then we'll take the preset off
+and we'll compare if it sounds better
+we'll keep it if it doesn't we'll get
+rid of it
+and now let's play without
+i actually like the way that it sounds
+better with that particular preset
+mastering isn't about using presets and
+templates it's definitely a process that
+involves you diving in and learning
+about why you're boosting certain things
+or taking certain things away in this
+particular instance i'm going to say
+let's use the linear phase eq with this
+preset and we'll move on to the next
+plug-in below this one the next one that
+we want to do is a compressor now i know
+i mentioned compression beforehand in
+the mixing part of this course and i'm
+going to explain some basic parameters
+of compression now a compression is
+something that you should really
+research and look up yourself and the
+best thing that you can do is just test
+use it on your projects where it's
+necessary and know when to use it let's
+go over some basic parameters and i'm
+going to add the compressor to squish
+this track so that it sounds like a nice
+cohesive wall of sound that we can
+bounce out to an mp3 or wav file
+underneath the linear eq we can click
+this open spot and we can go to
+compressor which is under dynamics
+compressor stereo now this is what the
+stock logic pro compressor looks like
+and you'll notice here under the factory
+default under the drop down there is all
+these other presets as well and i
+believe there is a set of mastering
+presets
+now i would like to use just the
+compressor tools and these are just some
+options that we can use as a baseline
+again for compression on our stereo out
+for the final track i think what i want
+to do is something like platinum analog
+tape so we'll click that one
+and now it's set these different
+parameters for us based on that template
+i'm going to go over these parameters
+really briefly for you and just give you
+an understanding of how they work but
+again this is a plug-in that you should
+really dive into separately watch
+compressor videos and how a compressor
+works as i explained briefly before what
+a compressor does is it takes the quiet
+parts of a track makes them loud takes
+the loud parts of a track and makes them
+quiet
+this is especially useful in mastering
+because we've already done all our
+mixing we know where things want to sit
+in the track but there are probably
+little pockets that we need to fill in
+with sound this helps bring those
+pockets up or tame certain frequencies
+so that they're not the focal point of
+the track and really clipping our track
+in certain ways so let's listen to this
+with the preset that we've set here and
+then we'll make changes as we go about
+it
+the first thing that i noticed right off
+the bat is we actually just clipped with
+this being put on top now that's going
+to be based on certain parameters here
+most likely the auto gain being at zero
+what we can do
+is we can turn all of our tracks down
+by selecting one holding shift and
+selecting the top one
+and then we can bring all of our tracks
+down
+so that we no longer clip so let's play
+this again
+we're still clipping by 0.6
+let's bring it down a little more
+so now we're at negative 0.9 now let's
+go back to the compressor and let's take
+a look at the meter in the graph and see
+what it's doing
+so right away we notice the needle is
+kind of hanging out around negative 4
+negative three that's not a lot of
+compression and that's actually pretty
+much what we want in this particular
+case if you absolutely squash your track
+you're gonna be bringing up parts that
+are quiet way too loud
+and it's just not what we want in a
+mastering process mastering is about
+using subtle compression and subtle eq
+to really bring out or take away parts
+of the track that you don't want in this
+case let's listen to it without and with
+and we'll see how it sounds
+the first thing that i notice is it
+really brings up that aftershock synth
+lead to really sit as a focal point it
+also really brings up the bass
+now these are two things that i think
+maybe needed a little more life in them
+in comparison with the drums and the
+other piano i think that sounds pretty
+good for the chorus let's take a listen
+though as soon as we leave the chorus
+at that point we just have this piano
+it sounds better than i expected however
+i will go over some of the parameters
+and we can make some subtle changes just
+so you understand what they actually do
+threshold this is the point in which the
+signal is going to start making the
+compressor work so as soon as our song
+goes over negative 12 db
+that's when the compressor is going to
+come in
+if it goes below that it's not going to
+be affected by the compressor the ratio
+is how much the compressor is going to
+take the track down so as soon as our
+audio signal goes over negative 12.5 db
+it's going to be reduced by a ratio of
+1.6 to 1. therefore taming the
+transients that are going over that
+particular threshold these are the two
+main components of a compressor make up
+gain is the amount of gain that you're
+going to add that is lost by compression
+so if we're going to be taming certain
+parts of the actual signal there's going
+to be certain parts that need to be
+brought up in order for it to kind of be
+equal at that point now knee is going to
+be how sharp you want the compressor to
+actually act when it breaks the
+threshold so when it's at one here we'll
+take a look at the graph for this
+example and we turn it down to zero
+you can see that the knee changes it's a
+lot sharper when it goes over this
+negative 12.5
+versus if we bring it to one it's
+actually a more gradual curve before
+getting that what this means is that if
+it goes over the threshold and it's at
+zero
+it's going to immediately be compressed
+by one point six to one whereas the
+other way is maybe a bit before negative
+12.5 it might start to compress it a
+little bit and a little bit more and a
+little bit more so it's a little bit
+smoother of a compression as we approach
+the threshold that we've set attack and
+release are two different parameters to
+tell the compressor when we want it to
+act and when we want it to release
+attack this is in milliseconds here is
+going to be how long after the threshold
+do we want it to start acting now you
+might ask yourself why would you want to
+delay on that a certain example is if
+you really want a kick drum transient to
+really be present in a track and you
+want it to thump like that
+even just delaying it by 47 or 50
+milliseconds it will allow that initial
+transient through and then compress the
+rest of the kick drum now release is the
+opposite of attack how long do you want
+the compressor to hold on for versus
+when do you want it to start attacking
+all of these other parameters are also
+very useful but these six are kind of
+the main that you need to worry about
+and really
+train your ears to understand what they
+do now a limiter is what we're going to
+be using next on our finishing track
+chain or mastering chain if you will but
+we're not going to be using it inside
+this particular compressor i like the
+way that this preset and template came
+out because it gives us some subtle
+compression and it brings up the part of
+the tracks that needed to be
+presented more but it doesn't compress
+too much in the sense that we're now
+presenting just a wall of sound and it's
+uncomfortable to listen to we can close
+up the compressor and we can add our
+last particular part of this mastering
+chain which is going to be a limiter
+we'll click this one here we'll go down
+to dynamics we'll go down to limiter and
+we'll do stereo now this is a basic
+limiter that comes with logic pro so the
+purpose of the limiter is to make sure
+that the audio signal does not go over 0
+db it's going to limit our audio signal
+so that we're not going to have any of
+that clipping or distortion and we can
+do that by pushing the audio signal with
+this gain knob here let's turn our loop
+function back on by pressing c
+you can see that that yellow section is
+highlighted again and it's at zero gain
+right now so we're not adding any
+additional gain let's play this and
+let's push the gain until we hear
+distortion and then we'll start to back
+off
+so you could see when i pushed the gain
+around plus four and and beyond we
+actually started to go over zero and
+then it gave us this red output and the
+yellow warnings here and you could start
+to hear some distortion being introduced
+so that's what we don't want
+the reason we want the limiter is to
+limit the signal and keep it clean while
+bringing loudness and fullness to the
+track i think that we should sit here at
+plus 3.2 so we can close this up
+and now we have this basic chain here
+that we've made to help finish off our
+track and really bring it to life so
+let's take a listen to the track without
+these and then i'll add them afterwards
+and we can do a bit of a comparison
+another way to remove plugins very
+quickly if you have them in sequence
+like this is you can click the top one
+and then drag down and it will actually
+turn off the other ones so watch this
+now we have nothing on the stereo out
+let's take a listen to this without
+everything
+and now we'll add everything on top
+it sounds much fuller it sounds better
+it sounds more like we could listen to
+that in our headphones it's not going to
+be super quiet now we're approaching the
+end of this logic pro music production
+crash course and i hope that you've
+learned what goes into music production
+and the different stages in which you
+really need to improve at in order to
+become a really good music producer
+again i really want to hit home that a
+lot of the topics that i touched on
+were just a raindrop in terms of the tip
+of an iceberg
+for how you really can dive in and learn
+and get better at and become more
+skilled at music is a process that i
+don't think you ever truly conquer it's
+just something that you could always be
+adding to your tool belt and getting
+better at but this is an absolute bare
+bones cliff notes version of how to take
+a song from absolutely nothing just an
+idea in your head or someone that you
+admire listening to and at least turn it
+into a finished track that you can share
+with your friends or listen to or share
+with your family the absolute last step
+of this is we're going to do what's
+called bouncing our track now i did some
+prep work for this and i did tell you
+about it but what we've done is we moved
+the end of the track to right here which
+is the end of the last region so that
+means when we bounce this track it's
+going to be finished right at the region
+here at 241. we did some mastering or
+finishing of the track using the linear
+phase eq the compressor and finally the
+limiter to bring up the signal to make
+sure it's at a level we want to hear now
+what we can do is take our track and
+bounce it to a wave or mp3 file to do
+that we're going to select one of the
+tracks here and then we're going to
+click off of it to an open area on the
+arranged window so nothing is
+highlighted so you don't want that you
+don't want that you don't want any of
+this you just want to make sure nothing
+is highlighted then we're going to go to
+the beginning of the track press return
+and now we're going to bounce the track
+by going up to file
+bounce
+project or section and you notice here
+on the side you can also do command b
+that's typically what i do because i
+like hotkeys so command b
+and this is the section you can use to
+actually bounce your song i don't really
+know much about these different
+parameters pcm here is the destination
+this is a wav file and you also have mp3
+here as well i usually bounce to wave
+because it's a lossless audio quality
+it's always good to double check the
+start so this is one one one one that
+just means that we're at the very
+beginning of our track and the end is in
+the 85th bar so if i cancel this and go
+out and we see that the end is at in
+fact 85
+go back to the beginning command e for
+and then what we can do is hit ok and
+that's going to give us our finished wav
+file we can name this
+logic pro free course
+track
+i'll save it to my desktop
+and then we can just click
+bounce and that will only take a second
+and what it's doing is it's compressing
+and it's writing it to the wav file or
+mp3 file format and that's pretty much
+it guys thank you so much for sticking
+with me throughout the whole process of
+this logic pro course i really hope that
+if you were approaching music production
+and you had no prior knowledge that you
+learned something and you can at least
+piece together yourself a little bit of
+a map so that you can start a track and
+finish a track i think that one of the
+hardest things to do as a producer is
+finish tracks it's so easy to make eight
+bar loop after eight bar loop after
+eight bar loop and never take it farther
+than that however it's very very
+necessary if you do wanna progress as a
+producer with that being said this is
+the last lesson of the course but i am
+going to do one little bonus section of
+this course just after this so i suggest
+you stick around and what that's going
+to be is my suggestions and directional
+advice for how i think you can get
+better as a music producer this is the
+absolutely basic bare bones but what i
+want to do is point you in the right
+direction to getting better so stick
+around and check out that last video but
+thank you so much for following along in
+terms of the course content and i hope
+that you learned something and
+progressed as a music producer today
+all right you guys so this is the last
+section of my logic pro crash course for
+you guys again i want to reiterate how
+much i appreciate you sticking around
+and i hope that you've learned something
+to help with your foundational music
+production skills now before i leave you
+i just want to leave you with a few more
+things in terms of how to get better
+like i said today i showed you the
+absolute basic bare bones of what it
+takes to make a track and what it takes
+to go into a track but i think it's
+super important to push yourself and
+really see results from day one and
+we've just made a track from scratch
+today and i've given you the steps to do
+so keep making tracks keep finishing
+tracks keep pushing through when you're
+not into making tracks and i promise you
+you'll get better as a producer here are
+some other resources that i want to
+share with you that really helped me
+progress as a producer and i think that
+they're there for a reason and will
+really help you as well so let me show
+you these the first thing that i want to
+tell you about the logic also has built
+into it with all the additional content
+is demo projects now this happens when
+you first open up logic you'll get this
+prompt here so you can do the new
+project your recent projects starter
+grids for live loops there's different
+tutorials to actually walk you through
+logic and they're done by logic pro as
+well but this one here demo projects now
+these are actual projects that are
+professional songs as you can see
+there's billy eilish there's little nas
+x what they are is a great way for you
+to explore how a professional producer
+approaches a track so quite literally if
+you highlight on billy eilish ocean eyes
+you can see composed and produced by
+phineas o'connell so that's billy
+alice's brother who's her producer if
+you click into this which i will
+just go billy eilish ocean eyes choose
+so this is the actual project file that
+phineas used for billy eilish ocean eyes
+he uses logic pro he's quite an avid
+supporter of logic pro and you can see
+how he puts things together to make this
+song so it's very cool because you can
+see
+billy's vocals here so there's the verse
+vocals the harmony the vocal stack which
+you see if you hit this little arrow
+here there's the lead vocal the layers
+you can go down and see the vocal
+textures the dark pad
+everything that went into this track
+this is the broken down version and you
+can see how different elements are used
+in a professionally produced and popular
+track one of my favorite things to do is
+open up these demo projects and look at
+parts of the song that i'm struggling
+with and seeing what they've done to
+really produce a full track
+so for example on this dark pad here
+looks like he's done some basic eq he's
+brought up certain frequencies ducked a
+few
+and then you know the custom piano he's
+again eq'd some things out he's added a
+compressor a bit crusher it's really
+cool to turn on and off plugins and see
+what they do
+with real professional produced tracks i
+strongly encourage you to open up these
+demo projects and explore them
+solo different tracks and play them so
+you can get an idea of what different
+sounds sound like a couple other things
+that i want to tell you as well we used
+apple loops to make our track those
+loops that were given to us by apple
+included in logic pro there's also a
+great website called splice.com now
+splice has become a forefront in the
+music industry in terms of providing one
+shots and loops and i really like the
+way that they've presented loops to you
+and you also get a monthly credit system
+so i believe at this time it's 9.99 a
+month and you get 100 credits which
+equals 100 samples or 100 downloads per
+month there's a lot of great producers
+that release packs on splice some of my
+favorite packs are also coming from
+there and they're at a pretty affordable
+price too the thing that i love about
+splice is you can actually search by
+genre bpm and key just like in logic and
+it's a good way to just explore some
+loops outside of logic as well like i
+said there's 30 000 loops in apple loops
+so it would be pretty hard to go through
+all of them and know everything but you
+will find if you go down rabbit holes of
+certain genres you eventually will get
+to a point where you're not finding
+anything new this is where splice is
+great because they always have updating
+loops coming in from lots of different
+sample labels and some of those sample
+labels are being used in professional
+tracks all across the world highly
+recommend checking out splice.com
+they're great for finding loops the last
+things i want to say is just a few words
+from me and this is just more words of
+encouragement and some directional
+advice things are explore your curiosity
+if you find a genre or a song that you
+like take note of how fast it is notice
+the tempo try and download it from the
+internet put it into your project and
+try and find out the key or add things
+on top of it or take things away put it
+in your project and see how the
+arrangement is see where the verse is
+see where the chorus is see what they
+take out and what they bring in just
+listen and always be studying when
+you're listening to music music is
+without question for enjoyment and i
+think it's important to set aside time
+to listen to music strictly for that
+however if you're sitting on the bus or
+in transit or you're going to work and
+you want to improve yourself as a
+producer really listen to the track that
+you're listening to and how it's put
+together i guarantee you'll pick up
+little things that you want to add into
+your track later or different
+arrangement tips and tricks and
+techniques trying to copy and emulate
+people is great and in my opinion it's
+the best way to get better however just
+because someone tells you not to do
+something in music production doesn't
+necessarily mean don't do it try new
+things don't be afraid to push the
+boundary because that's truly where
+innovation comes from just because i
+told you something in this course that
+you should do and that's the way it is
+does not mean that you should listen to
+me what happens if you push the limiter
+past the gain and it introduces
+distortion well this is actually how the
+birth of like a lot of the south florida
+rap scene happened
+they were just using limiters and
+pushing them and putting lots of
+distortion and that actually created a
+whole scene listen to tracks emulate
+them but also don't be afraid to try new
+things and push the boundary and last
+but without question not least
+practice you always need to put the time
+in you need to train your ears to learn
+what you like what you don't like what
+works in certain situations and what
+doesn't you're never going to get better
+just by taking a course or just by
+downloading another sample pack or
+getting a new plugin
+you absolutely need to put the time in
+that goes with it practice is going to
+be your best friend and at times you're
+going to be very frustrated and maybe
+not want to produce music for a little
+while and that's totally okay because
+we've all been there the most important
+thing you can do is just open up your
+doll when you get some spare time or if
+you have an hour and you want to just
+put a little loop together
+absolutely do it everything that i've
+said today is useless without you
+actually putting it into action so if
+you can do that i guarantee you you're
+going to be a better music producer
+every single day if you just show up
+thank you so much for sticking around
+and watching this logic pro crash course
+for absolute zero beginners i think it's
+about time i get so many questions and
+comments in my email dms and also on
+youtube comments i hope that this course
+provided some insight for you if you
+liked it please do hit the like button
+subscribe to my channel and check out my
+more premium courses as well because
+those are going to actually take you to
+the next level if you're trying to learn
+how to maybe write your own music use
+things like midi use different
+instruments rather than just dragging
+and dropping in loops but with that
+being said you guys thank you so much
+for sticking around this is tony holiday
+and hopefully i'll see you again soon
+take care

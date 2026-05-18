@@ -1,0 +1,3752 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:01.510 align:start position:0%
+ 
+if<00:00:00.440><c> you're</c><00:00:00.599><c> new</c><00:00:00.760><c> to</c><00:00:00.880><c> logic</c><00:00:01.120><c> pro</c><00:00:01.280><c> and</c><00:00:01.319><c> you</c><00:00:01.400><c> don't</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+if you're new to logic pro and you don't
+ 
+
+00:00:01.520 --> 00:00:02.990 align:start position:0%
+if you're new to logic pro and you don't
+know<00:00:01.680><c> where</c><00:00:01.760><c> to</c><00:00:01.880><c> start</c><00:00:02.399><c> this</c><00:00:02.520><c> video</c><00:00:02.720><c> is</c><00:00:02.840><c> for</c>
+
+00:00:02.990 --> 00:00:03.000 align:start position:0%
+know where to start this video is for
+ 
+
+00:00:03.000 --> 00:00:04.030 align:start position:0%
+know where to start this video is for
+you<00:00:03.240><c> so</c><00:00:03.360><c> I'm</c><00:00:03.439><c> going</c><00:00:03.560><c> to</c><00:00:03.639><c> walk</c><00:00:03.760><c> you</c><00:00:03.840><c> through</c>
+
+00:00:04.030 --> 00:00:04.040 align:start position:0%
+you so I'm going to walk you through
+ 
+
+00:00:04.040 --> 00:00:05.470 align:start position:0%
+you so I'm going to walk you through
+everything<00:00:04.319><c> you</c><00:00:04.440><c> need</c><00:00:04.600><c> to</c><00:00:04.720><c> know</c><00:00:05.160><c> so</c><00:00:05.319><c> that</c><00:00:05.400><c> you</c>
+
+00:00:05.470 --> 00:00:05.480 align:start position:0%
+everything you need to know so that you
+ 
+
+00:00:05.480 --> 00:00:07.150 align:start position:0%
+everything you need to know so that you
+can<00:00:05.600><c> get</c><00:00:05.759><c> up</c><00:00:05.879><c> and</c><00:00:06.000><c> running</c><00:00:06.359><c> making</c><00:00:06.640><c> beats</c>
+
+00:00:07.150 --> 00:00:07.160 align:start position:0%
+can get up and running making beats
+ 
+
+00:00:07.160 --> 00:00:09.870 align:start position:0%
+can get up and running making beats
+recording<00:00:07.879><c> and</c><00:00:08.559><c> mixing</c><00:00:09.120><c> your</c><00:00:09.320><c> own</c><00:00:09.519><c> music</c>
+
+00:00:09.870 --> 00:00:09.880 align:start position:0%
+recording and mixing your own music
+ 
+
+00:00:09.880 --> 00:00:11.589 align:start position:0%
+recording and mixing your own music
+let's<00:00:10.040><c> get</c><00:00:10.160><c> into</c><00:00:10.360><c> it</c><00:00:10.599><c> so</c><00:00:10.719><c> you've</c><00:00:10.920><c> downloaded</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+let's get into it so you've downloaded
+ 
+
+00:00:11.599 --> 00:00:13.709 align:start position:0%
+let's get into it so you've downloaded
+logic<00:00:12.000><c> pro</c><00:00:12.240><c> you've</c><00:00:12.440><c> downloaded</c><00:00:12.880><c> your</c><00:00:13.120><c> sample</c>
+
+00:00:13.709 --> 00:00:13.719 align:start position:0%
+logic pro you've downloaded your sample
+ 
+
+00:00:13.719 --> 00:00:16.710 align:start position:0%
+logic pro you've downloaded your sample
+packs<00:00:14.000><c> you've</c><00:00:14.240><c> downloaded</c><00:00:15.200><c> the</c><00:00:15.720><c> instruments</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+packs you've downloaded the instruments
+ 
+
+00:00:16.720 --> 00:00:18.189 align:start position:0%
+packs you've downloaded the instruments
+and<00:00:17.160><c> you're</c><00:00:17.359><c> ready</c><00:00:17.520><c> to</c><00:00:17.680><c> go</c><00:00:17.840><c> you're</c><00:00:17.960><c> ready</c><00:00:18.119><c> to</c>
+
+00:00:18.189 --> 00:00:18.199 align:start position:0%
+and you're ready to go you're ready to
+ 
+
+00:00:18.199 --> 00:00:20.029 align:start position:0%
+and you're ready to go you're ready to
+start<00:00:18.400><c> creating</c><00:00:18.680><c> some</c><00:00:18.920><c> music</c><00:00:19.480><c> so</c><00:00:19.720><c> first</c><00:00:19.920><c> of</c>
+
+00:00:20.029 --> 00:00:20.039 align:start position:0%
+start creating some music so first of
+ 
+
+00:00:20.039 --> 00:00:22.870 align:start position:0%
+start creating some music so first of
+all<00:00:20.680><c> let's</c><00:00:21.000><c> open</c><00:00:21.279><c> up</c><00:00:21.640><c> logic</c><00:00:22.080><c> pro</c><00:00:22.600><c> so</c><00:00:22.760><c> we're</c>
+
+00:00:22.870 --> 00:00:22.880 align:start position:0%
+all let's open up logic pro so we're
+ 
+
+00:00:22.880 --> 00:00:24.710 align:start position:0%
+all let's open up logic pro so we're
+going<00:00:22.960><c> to</c><00:00:23.119><c> go</c><00:00:23.240><c> to</c><00:00:23.640><c> empty</c><00:00:24.039><c> project</c><00:00:24.439><c> double</c>
+
+00:00:24.710 --> 00:00:24.720 align:start position:0%
+going to go to empty project double
+ 
+
+00:00:24.720 --> 00:00:26.750 align:start position:0%
+going to go to empty project double
+click<00:00:24.920><c> on</c><00:00:25.119><c> empty</c><00:00:25.599><c> project</c><00:00:26.199><c> and</c><00:00:26.359><c> it's</c><00:00:26.480><c> going</c><00:00:26.599><c> to</c>
+
+00:00:26.750 --> 00:00:26.760 align:start position:0%
+click on empty project and it's going to
+ 
+
+00:00:26.760 --> 00:00:29.310 align:start position:0%
+click on empty project and it's going to
+give<00:00:26.880><c> you</c><00:00:27.359><c> some</c><00:00:27.640><c> options</c><00:00:28.119><c> got</c><00:00:28.240><c> four</c><00:00:28.480><c> options</c>
+
+00:00:29.310 --> 00:00:29.320 align:start position:0%
+give you some options got four options
+ 
+
+00:00:29.320 --> 00:00:32.630 align:start position:0%
+give you some options got four options
+MIDI<00:00:30.080><c> pattern</c><00:00:30.640><c> session</c><00:00:30.960><c> player</c><00:00:31.640><c> and</c><00:00:31.840><c> audio</c>
+
+00:00:32.630 --> 00:00:32.640 align:start position:0%
+MIDI pattern session player and audio
+ 
+
+00:00:32.640 --> 00:00:34.110 align:start position:0%
+MIDI pattern session player and audio
+when<00:00:32.759><c> you</c><00:00:32.880><c> click</c><00:00:33.079><c> on</c><00:00:33.360><c> each</c><00:00:33.520><c> one</c><00:00:33.680><c> of</c><00:00:33.800><c> these</c><00:00:34.000><c> it's</c>
+
+00:00:34.110 --> 00:00:34.120 align:start position:0%
+when you click on each one of these it's
+ 
+
+00:00:34.120 --> 00:00:36.150 align:start position:0%
+when you click on each one of these it's
+going<00:00:34.200><c> to</c><00:00:34.320><c> give</c><00:00:34.440><c> you</c><00:00:34.559><c> some</c><00:00:34.840><c> different</c><00:00:35.200><c> options</c>
+
+00:00:36.150 --> 00:00:36.160 align:start position:0%
+going to give you some different options
+ 
+
+00:00:36.160 --> 00:00:37.950 align:start position:0%
+going to give you some different options
+to<00:00:36.360><c> choose</c><00:00:36.719><c> from</c><00:00:37.120><c> so</c><00:00:37.280><c> for</c><00:00:37.440><c> now</c><00:00:37.600><c> we</c><00:00:37.680><c> just</c><00:00:37.800><c> going</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+to choose from so for now we just going
+ 
+
+00:00:37.960 --> 00:00:39.790 align:start position:0%
+to choose from so for now we just going
+choose<00:00:38.200><c> midi</c><00:00:38.800><c> and</c><00:00:39.040><c> down</c><00:00:39.239><c> here</c><00:00:39.360><c> you</c><00:00:39.480><c> can</c><00:00:39.559><c> see</c><00:00:39.719><c> in</c>
+
+00:00:39.790 --> 00:00:39.800 align:start position:0%
+choose midi and down here you can see in
+ 
+
+00:00:39.800 --> 00:00:42.510 align:start position:0%
+choose midi and down here you can see in
+the<00:00:39.960><c> details</c><00:00:40.879><c> box</c><00:00:41.879><c> we're</c><00:00:42.039><c> going</c><00:00:42.160><c> to</c><00:00:42.239><c> choose</c>
+
+00:00:42.510 --> 00:00:42.520 align:start position:0%
+the details box we're going to choose
+ 
+
+00:00:42.520 --> 00:00:44.350 align:start position:0%
+the details box we're going to choose
+empty<00:00:42.840><c> Channel</c><00:00:43.200><c> strip</c><00:00:43.719><c> if</c><00:00:43.800><c> you</c><00:00:43.960><c> choose</c>
+
+00:00:44.350 --> 00:00:44.360 align:start position:0%
+empty Channel strip if you choose
+ 
+
+00:00:44.360 --> 00:00:46.510 align:start position:0%
+empty Channel strip if you choose
+default<00:00:44.800><c> patch</c><00:00:45.079><c> I</c><00:00:45.360><c> believe</c><00:00:45.719><c> it</c><00:00:45.960><c> brings</c><00:00:46.160><c> up</c><00:00:46.320><c> all</c>
+
+00:00:46.510 --> 00:00:46.520 align:start position:0%
+default patch I believe it brings up all
+ 
+
+00:00:46.520 --> 00:00:48.510 align:start position:0%
+default patch I believe it brings up all
+different<00:00:46.840><c> type</c><00:00:47.039><c> of</c><00:00:47.239><c> buses</c><00:00:47.640><c> and</c><00:00:47.800><c> stuff</c><00:00:48.120><c> that</c>
+
+00:00:48.510 --> 00:00:48.520 align:start position:0%
+different type of buses and stuff that
+ 
+
+00:00:48.520 --> 00:00:49.790 align:start position:0%
+different type of buses and stuff that
+it's<00:00:48.640><c> going</c><00:00:48.760><c> to</c><00:00:48.840><c> get</c><00:00:48.960><c> a</c><00:00:49.039><c> bit</c><00:00:49.199><c> complicated</c><00:00:49.640><c> for</c>
+
+00:00:49.790 --> 00:00:49.800 align:start position:0%
+it's going to get a bit complicated for
+ 
+
+00:00:49.800 --> 00:00:51.910 align:start position:0%
+it's going to get a bit complicated for
+you<00:00:50.039><c> straight</c><00:00:50.360><c> away</c><00:00:50.960><c> so</c><00:00:51.120><c> we</c><00:00:51.239><c> can</c><00:00:51.399><c> keep</c><00:00:51.600><c> that</c><00:00:51.719><c> an</c>
+
+00:00:51.910 --> 00:00:51.920 align:start position:0%
+you straight away so we can keep that an
+ 
+
+00:00:51.920 --> 00:00:53.709 align:start position:0%
+you straight away so we can keep that an
+empty<00:00:52.239><c> Channel</c><00:00:52.520><c> strip</c><00:00:53.039><c> leave</c><00:00:53.280><c> the</c><00:00:53.359><c> audio</c>
+
+00:00:53.709 --> 00:00:53.719 align:start position:0%
+empty Channel strip leave the audio
+ 
+
+00:00:53.719 --> 00:00:56.310 align:start position:0%
+empty Channel strip leave the audio
+output<00:00:54.079><c> on</c><00:00:54.280><c> stereo</c><00:00:54.800><c> output</c><00:00:55.640><c> and</c><00:00:55.879><c> number</c><00:00:56.160><c> of</c>
+
+00:00:56.310 --> 00:00:56.320 align:start position:0%
+output on stereo output and number of
+ 
+
+00:00:56.320 --> 00:00:57.950 align:start position:0%
+output on stereo output and number of
+tracks<00:00:56.879><c> we're</c><00:00:57.079><c> just</c><00:00:57.239><c> going</c><00:00:57.320><c> to</c><00:00:57.480><c> stick</c><00:00:57.760><c> with</c>
+
+00:00:57.950 --> 00:00:57.960 align:start position:0%
+tracks we're just going to stick with
+ 
+
+00:00:57.960 --> 00:01:00.549 align:start position:0%
+tracks we're just going to stick with
+one<00:00:58.960><c> create</c><00:00:59.480><c> so</c><00:00:59.600><c> I</c><00:00:59.680><c> just</c><00:01:00.000><c> quickly</c><00:01:00.239><c> walk</c><00:01:00.399><c> you</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+one create so I just quickly walk you
+ 
+
+00:01:00.559 --> 00:01:02.470 align:start position:0%
+one create so I just quickly walk you
+through<00:01:01.399><c> what</c><00:01:01.519><c> you</c><00:01:01.600><c> can</c><00:01:01.760><c> see</c><00:01:01.960><c> straight</c><00:01:02.280><c> away</c>
+
+00:01:02.470 --> 00:01:02.480 align:start position:0%
+through what you can see straight away
+ 
+
+00:01:02.480 --> 00:01:04.590 align:start position:0%
+through what you can see straight away
+so<00:01:02.680><c> up</c><00:01:02.840><c> here</c><00:01:02.960><c> we've</c><00:01:03.160><c> got</c><00:01:03.399><c> the</c><00:01:03.559><c> control</c><00:01:03.960><c> bar</c><00:01:04.439><c> and</c>
+
+00:01:04.590 --> 00:01:04.600 align:start position:0%
+so up here we've got the control bar and
+ 
+
+00:01:04.600 --> 00:01:07.670 align:start position:0%
+so up here we've got the control bar and
+on<00:01:04.720><c> the</c><00:01:04.920><c> left</c><00:01:05.360><c> you've</c><00:01:05.640><c> got</c><00:01:06.400><c> your</c><00:01:07.040><c> your</c><00:01:07.240><c> library</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+on the left you've got your your library
+ 
+
+00:01:07.680 --> 00:01:09.950 align:start position:0%
+on the left you've got your your library
+for<00:01:07.880><c> your</c><00:01:08.040><c> different</c><00:01:08.280><c> sounds</c><00:01:08.799><c> and</c><00:01:08.960><c> you've</c><00:01:09.159><c> got</c>
+
+00:01:09.950 --> 00:01:09.960 align:start position:0%
+for your different sounds and you've got
+ 
+
+00:01:09.960 --> 00:01:12.990 align:start position:0%
+for your different sounds and you've got
+your<00:01:10.200><c> inspector</c><00:01:10.799><c> window</c><00:01:11.640><c> panel</c><00:01:12.520><c> and</c><00:01:12.720><c> you've</c>
+
+00:01:12.990 --> 00:01:13.000 align:start position:0%
+your inspector window panel and you've
+ 
+
+00:01:13.000 --> 00:01:16.390 align:start position:0%
+your inspector window panel and you've
+also<00:01:13.360><c> got</c><00:01:13.520><c> the</c><00:01:13.680><c> option</c><00:01:13.960><c> to</c><00:01:14.320><c> have</c><00:01:15.240><c> the</c><00:01:15.479><c> help</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+also got the option to have the help
+ 
+
+00:01:16.400 --> 00:01:18.429 align:start position:0%
+also got the option to have the help
+help<00:01:16.720><c> function</c><00:01:17.080><c> on</c><00:01:17.320><c> so</c><00:01:17.600><c> when</c><00:01:17.720><c> you</c><00:01:17.880><c> hover</c><00:01:18.159><c> over</c>
+
+00:01:18.429 --> 00:01:18.439 align:start position:0%
+help function on so when you hover over
+ 
+
+00:01:18.439 --> 00:01:20.910 align:start position:0%
+help function on so when you hover over
+something<00:01:19.119><c> it</c><00:01:19.240><c> will</c><00:01:19.479><c> just</c><00:01:19.759><c> it</c><00:01:19.840><c> will</c><00:01:20.040><c> tell</c><00:01:20.280><c> you</c>
+
+00:01:20.910 --> 00:01:20.920 align:start position:0%
+something it will just it will tell you
+ 
+
+00:01:20.920 --> 00:01:24.149 align:start position:0%
+something it will just it will tell you
+exactly<00:01:21.920><c> what</c><00:01:22.280><c> it</c><00:01:22.479><c> does</c><00:01:23.320><c> for</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+exactly what it does for
+ 
+
+00:01:24.159 --> 00:01:27.390 align:start position:0%
+exactly what it does for
+example<00:01:25.159><c> stop</c><00:01:25.479><c> button</c><00:01:26.200><c> playhead</c><00:01:26.720><c> position</c>
+
+00:01:27.390 --> 00:01:27.400 align:start position:0%
+example stop button playhead position
+ 
+
+00:01:27.400 --> 00:01:29.990 align:start position:0%
+example stop button playhead position
+Tempo<00:01:27.960><c> so</c><00:01:28.119><c> if</c><00:01:28.200><c> you</c><00:01:28.280><c> ever</c><00:01:28.439><c> get</c><00:01:28.600><c> stuck</c><00:01:29.000><c> then</c><00:01:29.920><c> you</c>
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+Tempo so if you ever get stuck then you
+ 
+
+00:01:30.000 --> 00:01:31.950 align:start position:0%
+Tempo so if you ever get stuck then you
+could<00:01:30.119><c> leave</c><00:01:30.280><c> that</c><00:01:30.439><c> on</c><00:01:30.600><c> but</c><00:01:30.720><c> I</c><00:01:30.799><c> like</c><00:01:30.960><c> to</c><00:01:31.759><c> keep</c>
+
+00:01:31.950 --> 00:01:31.960 align:start position:0%
+could leave that on but I like to keep
+ 
+
+00:01:31.960 --> 00:01:34.429 align:start position:0%
+could leave that on but I like to keep
+that<00:01:32.119><c> turned</c><00:01:32.439><c> off</c><00:01:32.880><c> it's</c><00:01:33.079><c> a</c><00:01:33.200><c> bit</c><00:01:33.399><c> confusing</c><00:01:34.280><c> so</c>
+
+00:01:34.429 --> 00:01:34.439 align:start position:0%
+that turned off it's a bit confusing so
+ 
+
+00:01:34.439 --> 00:01:36.550 align:start position:0%
+that turned off it's a bit confusing so
+here<00:01:34.560><c> we</c><00:01:34.720><c> got</c><00:01:34.799><c> the</c><00:01:35.040><c> toolbar</c><00:01:35.799><c> button</c><00:01:36.280><c> I</c><00:01:36.360><c> don't</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+here we got the toolbar button I don't
+ 
+
+00:01:36.560 --> 00:01:38.190 align:start position:0%
+here we got the toolbar button I don't
+really<00:01:36.720><c> bother</c><00:01:37.040><c> with</c><00:01:37.240><c> that</c><00:01:37.600><c> you</c><00:01:37.799><c> can</c><00:01:38.000><c> if</c><00:01:38.119><c> you</c>
+
+00:01:38.190 --> 00:01:38.200 align:start position:0%
+really bother with that you can if you
+ 
+
+00:01:38.200 --> 00:01:40.469 align:start position:0%
+really bother with that you can if you
+want<00:01:38.399><c> to</c><00:01:39.240><c> but</c><00:01:39.439><c> just</c><00:01:39.560><c> to</c><00:01:39.759><c> keep</c><00:01:39.920><c> it</c><00:01:40.079><c> simple</c><00:01:40.399><c> we're</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+want to but just to keep it simple we're
+ 
+
+00:01:40.479 --> 00:01:42.230 align:start position:0%
+want to but just to keep it simple we're
+not<00:01:40.600><c> going</c><00:01:40.680><c> to</c><00:01:40.759><c> bother</c><00:01:41.000><c> with</c><00:01:41.159><c> that</c><00:01:42.000><c> and</c><00:01:42.119><c> then</c>
+
+00:01:42.230 --> 00:01:42.240 align:start position:0%
+not going to bother with that and then
+ 
+
+00:01:42.240 --> 00:01:44.109 align:start position:0%
+not going to bother with that and then
+You'<00:01:42.399><c> got</c><00:01:42.560><c> your</c><00:01:42.759><c> smart</c><00:01:43.119><c> control</c><00:01:43.520><c> button</c><00:01:43.920><c> so</c>
+
+00:01:44.109 --> 00:01:44.119 align:start position:0%
+You' got your smart control button so
+ 
+
+00:01:44.119 --> 00:01:45.749 align:start position:0%
+You' got your smart control button so
+that<00:01:44.240><c> will</c><00:01:44.399><c> bring</c><00:01:44.600><c> up</c><00:01:44.960><c> certain</c><00:01:45.280><c> plugins</c><00:01:45.640><c> that</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+that will bring up certain plugins that
+ 
+
+00:01:45.759 --> 00:01:49.350 align:start position:0%
+that will bring up certain plugins that
+you<00:01:45.920><c> using</c><00:01:46.840><c> and</c><00:01:47.680><c> you</c><00:01:47.880><c> got</c><00:01:48.040><c> your</c><00:01:48.200><c> mixer</c><00:01:49.200><c> and</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+you using and you got your mixer and
+ 
+
+00:01:49.360 --> 00:01:51.670 align:start position:0%
+you using and you got your mixer and
+this<00:01:49.479><c> one</c><00:01:49.719><c> here</c><00:01:49.840><c> you</c><00:01:50.000><c> got</c><00:01:50.200><c> your</c><00:01:51.200><c> your</c><00:01:51.360><c> midi</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+this one here you got your your midi
+ 
+
+00:01:51.680 --> 00:01:54.389 align:start position:0%
+this one here you got your your midi
+editor<00:01:52.320><c> your</c><00:01:52.520><c> edit</c><00:01:52.799><c> window</c><00:01:53.280><c> your</c><00:01:53.439><c> editor</c><00:01:54.240><c> so</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+editor your edit window your editor so
+ 
+
+00:01:54.399 --> 00:01:57.149 align:start position:0%
+editor your edit window your editor so
+you<00:01:54.640><c> can</c><00:01:55.640><c> edit</c><00:01:55.920><c> some</c><00:01:56.159><c> midi</c><00:01:56.560><c> down</c><00:01:56.759><c> here</c><00:01:56.920><c> if</c><00:01:57.039><c> you</c>
+
+00:01:57.149 --> 00:01:57.159 align:start position:0%
+you can edit some midi down here if you
+ 
+
+00:01:57.159 --> 00:01:57.870 align:start position:0%
+you can edit some midi down here if you
+want
+
+00:01:57.870 --> 00:01:57.880 align:start position:0%
+want
+ 
+
+00:01:57.880 --> 00:02:00.550 align:start position:0%
+want
+to<00:01:58.880><c> we'll</c><00:01:59.119><c> get</c><00:01:59.240><c> to</c><00:01:59.399><c> that</c><00:01:59.479><c> in</c><00:01:59.600><c> a</c><00:01:59.680><c> bit</c><00:02:00.200><c> so</c><00:02:00.439><c> here</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+to we'll get to that in a bit so here
+ 
+
+00:02:00.560 --> 00:02:03.350 align:start position:0%
+to we'll get to that in a bit so here
+we've<00:02:00.719><c> got</c><00:02:00.840><c> the</c><00:02:01.000><c> rewind</c><00:02:01.560><c> rewind</c><00:02:02.200><c> forward</c><00:02:02.880><c> stop</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+we've got the rewind rewind forward stop
+ 
+
+00:02:03.360 --> 00:02:07.149 align:start position:0%
+we've got the rewind rewind forward stop
+play<00:02:04.079><c> record</c><00:02:05.079><c> rewind</c><00:02:05.640><c> in</c><00:02:05.920><c> place</c><00:02:06.200><c> is</c><00:02:06.399><c> that</c><00:02:06.759><c> free</c>
+
+00:02:07.149 --> 00:02:07.159 align:start position:0%
+play record rewind in place is that free
+ 
+
+00:02:07.159 --> 00:02:10.029 align:start position:0%
+play record rewind in place is that free
+tempor<00:02:07.640><c> recording</c><00:02:08.520><c> and</c><00:02:08.720><c> you</c><00:02:08.879><c> got</c><00:02:09.039><c> your</c><00:02:09.239><c> cycle</c>
+
+00:02:10.029 --> 00:02:10.039 align:start position:0%
+tempor recording and you got your cycle
+ 
+
+00:02:10.039 --> 00:02:12.949 align:start position:0%
+tempor recording and you got your cycle
+option<00:02:10.479><c> so</c><00:02:10.640><c> you</c><00:02:10.759><c> can</c><00:02:10.959><c> Loop</c><00:02:11.360><c> a</c><00:02:11.720><c> section</c><00:02:12.720><c> over</c>
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+option so you can Loop a section over
+ 
+
+00:02:12.959 --> 00:02:14.990 align:start position:0%
+option so you can Loop a section over
+here<00:02:13.080><c> we've</c><00:02:13.239><c> got</c><00:02:13.440><c> the</c><00:02:13.920><c> display</c><00:02:14.640><c> that</c><00:02:14.720><c> shows</c>
+
+00:02:14.990 --> 00:02:15.000 align:start position:0%
+here we've got the display that shows
+ 
+
+00:02:15.000 --> 00:02:17.710 align:start position:0%
+here we've got the display that shows
+you<00:02:15.160><c> your</c><00:02:15.519><c> Beats</c><00:02:15.920><c> your</c><00:02:16.120><c> bars</c><00:02:16.480><c> your</c><00:02:16.680><c> Tempo</c><00:02:17.440><c> your</c>
+
+00:02:17.710 --> 00:02:17.720 align:start position:0%
+you your Beats your bars your Tempo your
+ 
+
+00:02:17.720 --> 00:02:20.270 align:start position:0%
+you your Beats your bars your Tempo your
+time<00:02:18.040><c> signature</c><00:02:18.720><c> the</c><00:02:18.959><c> key</c><00:02:19.239><c> that</c><00:02:19.360><c> you're</c><00:02:19.519><c> in</c>
+
+00:02:20.270 --> 00:02:20.280 align:start position:0%
+time signature the key that you're in
+ 
+
+00:02:20.280 --> 00:02:21.710 align:start position:0%
+time signature the key that you're in
+and<00:02:20.480><c> this</c><00:02:20.599><c> can</c><00:02:20.720><c> all</c><00:02:20.879><c> be</c><00:02:21.000><c> changed</c><00:02:21.360><c> if</c><00:02:21.440><c> you</c><00:02:21.560><c> want</c>
+
+00:02:21.710 --> 00:02:21.720 align:start position:0%
+and this can all be changed if you want
+ 
+
+00:02:21.720 --> 00:02:25.070 align:start position:0%
+and this can all be changed if you want
+to<00:02:21.959><c> you</c><00:02:22.040><c> can</c><00:02:22.400><c> just</c><00:02:23.400><c> click</c><00:02:23.599><c> on</c><00:02:23.879><c> that</c><00:02:24.280><c> little</c>
+
+00:02:25.070 --> 00:02:25.080 align:start position:0%
+to you can just click on that little
+ 
+
+00:02:25.080 --> 00:02:28.750 align:start position:0%
+to you can just click on that little
+arrow<00:02:25.640><c> and</c><00:02:26.160><c> change</c><00:02:26.560><c> it</c><00:02:27.239><c> to</c><00:02:28.239><c> whatever</c><00:02:28.560><c> you're</c>
+
+00:02:28.750 --> 00:02:28.760 align:start position:0%
+arrow and change it to whatever you're
+ 
+
+00:02:28.760 --> 00:02:30.589 align:start position:0%
+arrow and change it to whatever you're
+comfortable<00:02:29.319><c> with</c><00:02:29.519><c> seeing</c>
+
+00:02:30.589 --> 00:02:30.599 align:start position:0%
+comfortable with seeing
+ 
+
+00:02:30.599 --> 00:02:32.509 align:start position:0%
+comfortable with seeing
+just<00:02:30.720><c> going</c><00:02:30.800><c> to</c><00:02:30.879><c> leave</c><00:02:31.000><c> it</c><00:02:31.080><c> on</c><00:02:31.280><c> Beats</c><00:02:32.280><c> and</c>
+
+00:02:32.509 --> 00:02:32.519 align:start position:0%
+just going to leave it on Beats and
+ 
+
+00:02:32.519 --> 00:02:35.869 align:start position:0%
+just going to leave it on Beats and
+project<00:02:32.840><c> for</c><00:02:33.080><c> now</c><00:02:34.080><c> here</c><00:02:34.239><c> you've</c><00:02:34.519><c> got</c><00:02:35.519><c> got</c><00:02:35.680><c> your</c>
+
+00:02:35.869 --> 00:02:35.879 align:start position:0%
+project for now here you've got got your
+ 
+
+00:02:35.879 --> 00:02:38.470 align:start position:0%
+project for now here you've got got your
+replace<00:02:36.360><c> button</c><00:02:37.040><c> and</c><00:02:37.200><c> you've</c><00:02:37.400><c> got</c><00:02:37.519><c> your</c>
+
+00:02:38.470 --> 00:02:38.480 align:start position:0%
+replace button and you've got your
+ 
+
+00:02:38.480 --> 00:02:42.990 align:start position:0%
+replace button and you've got your
+solo<00:02:39.640><c> button</c><00:02:40.640><c> and</c><00:02:40.800><c> we've</c><00:02:41.000><c> got</c><00:02:41.200><c> the</c><00:02:41.879><c> can</c><00:02:42.200><c> in</c><00:02:42.840><c> and</c>
+
+00:02:42.990 --> 00:02:43.000 align:start position:0%
+solo button and we've got the can in and
+ 
+
+00:02:43.000 --> 00:02:45.589 align:start position:0%
+solo button and we've got the can in and
+your<00:02:43.319><c> metronome</c><00:02:44.319><c> here's</c><00:02:44.599><c> the</c><00:02:44.760><c> volume</c><00:02:45.200><c> overall</c>
+
+00:02:45.589 --> 00:02:45.599 align:start position:0%
+your metronome here's the volume overall
+ 
+
+00:02:45.599 --> 00:02:47.550 align:start position:0%
+your metronome here's the volume overall
+volume<00:02:46.360><c> please</c><00:02:46.599><c> don't</c><00:02:46.840><c> touch</c><00:02:47.159><c> that</c><00:02:47.440><c> just</c>
+
+00:02:47.550 --> 00:02:47.560 align:start position:0%
+volume please don't touch that just
+ 
+
+00:02:47.560 --> 00:02:50.750 align:start position:0%
+volume please don't touch that just
+leave<00:02:47.760><c> it</c><00:02:47.920><c> in</c><00:02:48.560><c> zero</c><00:02:49.560><c> and</c><00:02:49.800><c> on</c><00:02:49.920><c> the</c><00:02:50.080><c> right</c><00:02:50.400><c> here</c>
+
+00:02:50.750 --> 00:02:50.760 align:start position:0%
+leave it in zero and on the right here
+ 
+
+00:02:50.760 --> 00:02:53.430 align:start position:0%
+leave it in zero and on the right here
+we've<00:02:51.040><c> got</c><00:02:51.760><c> the</c><00:02:52.000><c> list</c><00:02:52.760><c> so</c><00:02:53.000><c> this</c><00:02:53.080><c> will</c><00:02:53.200><c> be</c><00:02:53.319><c> your</c>
+
+00:02:53.430 --> 00:02:53.440 align:start position:0%
+we've got the list so this will be your
+ 
+
+00:02:53.440 --> 00:02:55.270 align:start position:0%
+we've got the list so this will be your
+list<00:02:53.680><c> once</c><00:02:53.879><c> you</c><00:02:54.000><c> start</c><00:02:54.200><c> to</c><00:02:54.360><c> create</c><00:02:54.680><c> you</c><00:02:54.920><c> see</c>
+
+00:02:55.270 --> 00:02:55.280 align:start position:0%
+list once you start to create you see
+ 
+
+00:02:55.280 --> 00:02:58.190 align:start position:0%
+list once you start to create you see
+all<00:02:55.560><c> different</c><00:02:56.319><c> stuff</c><00:02:56.560><c> going</c><00:02:56.800><c> on</c><00:02:56.920><c> in</c><00:02:57.200><c> here</c>
+
+00:02:58.190 --> 00:02:58.200 align:start position:0%
+all different stuff going on in here
+ 
+
+00:02:58.200 --> 00:03:00.670 align:start position:0%
+all different stuff going on in here
+event<00:02:58.599><c> marker</c><00:02:59.080><c> Tempo</c><00:02:59.480><c> signature</c>
+
+00:03:00.670 --> 00:03:00.680 align:start position:0%
+event marker Tempo signature
+ 
+
+00:03:00.680 --> 00:03:02.509 align:start position:0%
+event marker Tempo signature
+all<00:03:00.840><c> of</c><00:03:01.000><c> that</c><00:03:01.239><c> stuff</c><00:03:01.720><c> you</c><00:03:01.879><c> got</c><00:03:01.959><c> your</c><00:03:02.080><c> notepad</c>
+
+00:03:02.509 --> 00:03:02.519 align:start position:0%
+all of that stuff you got your notepad
+ 
+
+00:03:02.519 --> 00:03:04.910 align:start position:0%
+all of that stuff you got your notepad
+so<00:03:02.640><c> you</c><00:03:02.720><c> can</c><00:03:03.120><c> write</c><00:03:03.360><c> some</c><00:03:03.640><c> stuff</c><00:03:03.920><c> down</c><00:03:04.519><c> for</c><00:03:04.720><c> the</c>
+
+00:03:04.910 --> 00:03:04.920 align:start position:0%
+so you can write some stuff down for the
+ 
+
+00:03:04.920 --> 00:03:07.350 align:start position:0%
+so you can write some stuff down for the
+project<00:03:05.319><c> or</c><00:03:05.519><c> on</c><00:03:05.680><c> the</c><00:03:05.920><c> partic</c><00:03:06.400><c> the</c><00:03:06.840><c> individual</c>
+
+00:03:07.350 --> 00:03:07.360 align:start position:0%
+project or on the partic the individual
+ 
+
+00:03:07.360 --> 00:03:10.149 align:start position:0%
+project or on the partic the individual
+track<00:03:07.959><c> which</c><00:03:08.120><c> is</c><00:03:08.560><c> cool</c><00:03:09.200><c> and</c><00:03:09.319><c> then</c><00:03:09.480><c> you</c><00:03:09.680><c> got</c><00:03:10.040><c> you</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+track which is cool and then you got you
+ 
+
+00:03:10.159 --> 00:03:13.149 align:start position:0%
+track which is cool and then you got you
+got<00:03:10.280><c> your</c><00:03:10.400><c> Loops</c><00:03:11.000><c> your</c><00:03:11.120><c> sound</c><00:03:11.599><c> packs</c><00:03:12.599><c> and</c><00:03:12.840><c> here</c>
+
+00:03:13.149 --> 00:03:13.159 align:start position:0%
+got your Loops your sound packs and here
+ 
+
+00:03:13.159 --> 00:03:15.470 align:start position:0%
+got your Loops your sound packs and here
+is<00:03:13.360><c> your</c><00:03:13.680><c> project</c><00:03:14.000><c> folder</c><00:03:14.440><c> so</c><00:03:15.000><c> once</c><00:03:15.159><c> you</c><00:03:15.280><c> start</c>
+
+00:03:15.470 --> 00:03:15.480 align:start position:0%
+is your project folder so once you start
+ 
+
+00:03:15.480 --> 00:03:18.070 align:start position:0%
+is your project folder so once you start
+to<00:03:15.599><c> save</c><00:03:15.959><c> things</c><00:03:16.720><c> you'll</c><00:03:16.959><c> see</c><00:03:17.159><c> them</c><00:03:17.519><c> appear</c><00:03:17.799><c> in</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+to save things you'll see them appear in
+ 
+
+00:03:18.080 --> 00:03:19.750 align:start position:0%
+to save things you'll see them appear in
+here<00:03:18.480><c> and</c><00:03:18.599><c> then</c><00:03:18.799><c> you</c><00:03:18.959><c> got</c><00:03:19.080><c> your</c><00:03:19.200><c> all</c><00:03:19.400><c> files</c>
+
+00:03:19.750 --> 00:03:19.760 align:start position:0%
+here and then you got your all files
+ 
+
+00:03:19.760 --> 00:03:21.430 align:start position:0%
+here and then you got your all files
+where<00:03:19.920><c> you</c><00:03:20.000><c> can</c><00:03:20.120><c> just</c><00:03:20.280><c> navigate</c><00:03:20.680><c> to</c><00:03:21.159><c> different</c>
+
+00:03:21.430 --> 00:03:21.440 align:start position:0%
+where you can just navigate to different
+ 
+
+00:03:21.440 --> 00:03:22.830 align:start position:0%
+where you can just navigate to different
+samples<00:03:21.799><c> or</c><00:03:21.959><c> whatever</c><00:03:22.280><c> stuff</c><00:03:22.519><c> that</c><00:03:22.599><c> it</c><00:03:22.720><c> is</c>
+
+00:03:22.830 --> 00:03:22.840 align:start position:0%
+samples or whatever stuff that it is
+ 
+
+00:03:22.840 --> 00:03:24.430 align:start position:0%
+samples or whatever stuff that it is
+that<00:03:22.959><c> you're</c><00:03:23.080><c> using</c><00:03:23.599><c> and</c><00:03:23.799><c> want</c><00:03:23.920><c> to</c><00:03:24.040><c> bring</c><00:03:24.239><c> into</c>
+
+00:03:24.430 --> 00:03:24.440 align:start position:0%
+that you're using and want to bring into
+ 
+
+00:03:24.440 --> 00:03:26.630 align:start position:0%
+that you're using and want to bring into
+your<00:03:24.599><c> project</c><00:03:25.120><c> which</c><00:03:25.319><c> is</c><00:03:25.519><c> cool</c><00:03:26.159><c> so</c><00:03:26.319><c> let's</c><00:03:26.480><c> go</c>
+
+00:03:26.630 --> 00:03:26.640 align:start position:0%
+your project which is cool so let's go
+ 
+
+00:03:26.640 --> 00:03:29.190 align:start position:0%
+your project which is cool so let's go
+back<00:03:26.760><c> to</c><00:03:26.879><c> the</c><00:03:27.080><c> left</c><00:03:27.879><c> got</c><00:03:28.040><c> your</c><00:03:28.159><c> library</c><00:03:29.080><c> here</c>
+
+00:03:29.190 --> 00:03:29.200 align:start position:0%
+back to the left got your library here
+ 
+
+00:03:29.200 --> 00:03:30.670 align:start position:0%
+back to the left got your library here
+you're<00:03:29.280><c> going</c><00:03:29.360><c> to</c><00:03:29.439><c> have</c><00:03:29.519><c> all</c><00:03:29.799><c> s</c><00:03:30.040><c> the</c><00:03:30.200><c> different</c>
+
+00:03:30.670 --> 00:03:30.680 align:start position:0%
+you're going to have all s the different
+ 
+
+00:03:30.680 --> 00:03:32.390 align:start position:0%
+you're going to have all s the different
+sample<00:03:31.040><c> packs</c><00:03:31.239><c> that</c><00:03:31.360><c> you've</c><00:03:31.519><c> downloaded</c>
+
+00:03:32.390 --> 00:03:32.400 align:start position:0%
+sample packs that you've downloaded
+ 
+
+00:03:32.400 --> 00:03:34.190 align:start position:0%
+sample packs that you've downloaded
+press<00:03:32.680><c> y</c><00:03:32.959><c> get</c><00:03:33.080><c> rid</c><00:03:33.200><c> of</c><00:03:33.319><c> that</c><00:03:33.720><c> and</c><00:03:33.840><c> then</c><00:03:33.959><c> you've</c>
+
+00:03:34.190 --> 00:03:34.200 align:start position:0%
+press y get rid of that and then you've
+ 
+
+00:03:34.200 --> 00:03:37.270 align:start position:0%
+press y get rid of that and then you've
+got<00:03:34.640><c> your</c><00:03:35.319><c> inspector</c><00:03:35.879><c> panel</c><00:03:36.720><c> which</c><00:03:36.840><c> is</c><00:03:37.000><c> for</c>
+
+00:03:37.270 --> 00:03:37.280 align:start position:0%
+got your inspector panel which is for
+ 
+
+00:03:37.280 --> 00:03:40.350 align:start position:0%
+got your inspector panel which is for
+your<00:03:38.080><c> instruments</c><00:03:38.840><c> and</c><00:03:39.000><c> your</c><00:03:39.239><c> audio</c><00:03:40.080><c> whenever</c>
+
+00:03:40.350 --> 00:03:40.360 align:start position:0%
+your instruments and your audio whenever
+ 
+
+00:03:40.360 --> 00:03:41.910 align:start position:0%
+your instruments and your audio whenever
+you<00:03:40.439><c> make</c><00:03:40.599><c> a</c><00:03:40.720><c> channel</c><00:03:41.439><c> you're</c><00:03:41.560><c> going</c><00:03:41.680><c> to</c><00:03:41.760><c> see</c>
+
+00:03:41.910 --> 00:03:41.920 align:start position:0%
+you make a channel you're going to see
+ 
+
+00:03:41.920 --> 00:03:43.789 align:start position:0%
+you make a channel you're going to see
+this<00:03:42.080><c> channel</c><00:03:42.319><c> strip</c><00:03:42.879><c> appear</c><00:03:43.480><c> and</c><00:03:43.599><c> that's</c>
+
+00:03:43.789 --> 00:03:43.799 align:start position:0%
+this channel strip appear and that's
+ 
+
+00:03:43.799 --> 00:03:45.390 align:start position:0%
+this channel strip appear and that's
+where<00:03:43.920><c> you</c><00:03:44.040><c> can</c><00:03:44.319><c> add</c><00:03:44.519><c> your</c><00:03:44.760><c> effects</c><00:03:45.239><c> your</c>
+
+00:03:45.390 --> 00:03:45.400 align:start position:0%
+where you can add your effects your
+ 
+
+00:03:45.400 --> 00:03:48.350 align:start position:0%
+where you can add your effects your
+instruments<00:03:46.280><c> and</c><00:03:46.920><c> all</c><00:03:47.080><c> the</c><00:03:47.239><c> good</c><00:03:47.480><c> stuff</c><00:03:48.000><c> so</c><00:03:48.200><c> to</c>
+
+00:03:48.350 --> 00:03:48.360 align:start position:0%
+instruments and all the good stuff so to
+ 
+
+00:03:48.360 --> 00:03:50.630 align:start position:0%
+instruments and all the good stuff so to
+quickly<00:03:48.640><c> walk</c><00:03:48.920><c> you</c><00:03:49.159><c> through</c><00:03:50.080><c> this</c><00:03:50.239><c> midi</c>
+
+00:03:50.630 --> 00:03:50.640 align:start position:0%
+quickly walk you through this midi
+ 
+
+00:03:50.640 --> 00:03:52.789 align:start position:0%
+quickly walk you through this midi
+Channel<00:03:51.040><c> you've</c><00:03:51.200><c> got</c><00:03:51.360><c> your</c><00:03:51.879><c> settings</c><00:03:52.680><c> where</c>
+
+00:03:52.789 --> 00:03:52.799 align:start position:0%
+Channel you've got your settings where
+ 
+
+00:03:52.799 --> 00:03:55.630 align:start position:0%
+Channel you've got your settings where
+you<00:03:52.920><c> can</c><00:03:53.319><c> save</c><00:03:54.159><c> stuff</c><00:03:54.760><c> from</c><00:03:55.079><c> the</c><00:03:55.239><c> channel</c><00:03:55.560><c> that</c>
+
+00:03:55.630 --> 00:03:55.640 align:start position:0%
+you can save stuff from the channel that
+ 
+
+00:03:55.640 --> 00:03:58.270 align:start position:0%
+you can save stuff from the channel that
+you<00:03:55.840><c> created</c><00:03:56.840><c> EQ</c><00:03:57.319><c> double</c><00:03:57.560><c> click</c><00:03:57.720><c> on</c><00:03:57.840><c> the</c><00:03:57.920><c> EQ</c><00:03:58.200><c> is</c>
+
+00:03:58.270 --> 00:03:58.280 align:start position:0%
+you created EQ double click on the EQ is
+ 
+
+00:03:58.280 --> 00:04:00.910 align:start position:0%
+you created EQ double click on the EQ is
+going<00:03:58.400><c> to</c><00:03:58.480><c> bring</c><00:03:58.640><c> up</c><00:03:59.120><c> logic</c><00:03:59.480><c> proos</c><00:03:59.879><c> stock</c><00:04:00.200><c> EQ</c>
+
+00:04:00.910 --> 00:04:00.920 align:start position:0%
+going to bring up logic proos stock EQ
+ 
+
+00:04:00.920 --> 00:04:02.110 align:start position:0%
+going to bring up logic proos stock EQ
+now<00:04:01.040><c> you're</c><00:04:01.159><c> going</c><00:04:01.280><c> to</c><00:04:01.360><c> see</c><00:04:01.560><c> on</c><00:04:01.680><c> your</c><00:04:01.879><c> first</c>
+
+00:04:02.110 --> 00:04:02.120 align:start position:0%
+now you're going to see on your first
+ 
+
+00:04:02.120 --> 00:04:04.589 align:start position:0%
+now you're going to see on your first
+insert<00:04:03.040><c> just</c><00:04:03.239><c> get</c><00:04:03.400><c> rid</c><00:04:03.560><c> of</c><00:04:03.680><c> that</c><00:04:04.040><c> instrument</c>
+
+00:04:04.589 --> 00:04:04.599 align:start position:0%
+insert just get rid of that instrument
+ 
+
+00:04:04.599 --> 00:04:05.670 align:start position:0%
+insert just get rid of that instrument
+that's<00:04:04.760><c> where</c><00:04:04.879><c> you</c><00:04:05.000><c> open</c><00:04:05.200><c> up</c><00:04:05.360><c> all</c><00:04:05.480><c> your</c>
+
+00:04:05.670 --> 00:04:05.680 align:start position:0%
+that's where you open up all your
+ 
+
+00:04:05.680 --> 00:04:08.630 align:start position:0%
+that's where you open up all your
+instruments<00:04:06.599><c> so</c><00:04:06.799><c> if</c><00:04:06.879><c> we</c><00:04:07.040><c> wanted</c><00:04:07.280><c> to</c><00:04:07.560><c> say</c><00:04:07.879><c> for</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+instruments so if we wanted to say for
+ 
+
+00:04:08.640 --> 00:04:12.789 align:start position:0%
+instruments so if we wanted to say for
+example<00:04:09.640><c> choose</c><00:04:09.879><c> a</c><00:04:10.079><c> dram</c>
+
+00:04:12.789 --> 00:04:12.799 align:start position:0%
+ 
+ 
+
+00:04:12.799 --> 00:04:15.390 align:start position:0%
+ 
+syn<00:04:13.799><c> that's</c><00:04:14.040><c> how</c><00:04:14.159><c> you</c><00:04:14.319><c> open</c><00:04:14.599><c> your</c>
+
+00:04:15.390 --> 00:04:15.400 align:start position:0%
+syn that's how you open your
+ 
+
+00:04:15.400 --> 00:04:17.349 align:start position:0%
+syn that's how you open your
+instruments<00:04:16.400><c> and</c><00:04:16.519><c> then</c><00:04:16.720><c> next</c><00:04:16.919><c> section</c><00:04:17.199><c> you've</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+instruments and then next section you've
+ 
+
+00:04:17.359 --> 00:04:20.430 align:start position:0%
+instruments and then next section you've
+got<00:04:17.440><c> your</c><00:04:17.560><c> audio</c><00:04:17.959><c> effects</c><00:04:18.280><c> so</c><00:04:18.919><c> your</c><00:04:19.079><c> eqs</c><00:04:19.759><c> your</c>
+
+00:04:20.430 --> 00:04:20.440 align:start position:0%
+got your audio effects so your eqs your
+ 
+
+00:04:20.440 --> 00:04:23.749 align:start position:0%
+got your audio effects so your eqs your
+compressors<00:04:21.199><c> your</c><00:04:22.040><c> phases</c><00:04:22.639><c> modulation</c><00:04:23.520><c> all</c>
+
+00:04:23.749 --> 00:04:23.759 align:start position:0%
+compressors your phases modulation all
+ 
+
+00:04:23.759 --> 00:04:25.189 align:start position:0%
+compressors your phases modulation all
+all<00:04:23.880><c> of</c><00:04:24.040><c> that</c><00:04:24.199><c> type</c><00:04:24.360><c> of</c><00:04:24.520><c> stuff</c><00:04:24.840><c> that's</c><00:04:25.000><c> where</c>
+
+00:04:25.189 --> 00:04:25.199 align:start position:0%
+all of that type of stuff that's where
+ 
+
+00:04:25.199 --> 00:04:27.629 align:start position:0%
+all of that type of stuff that's where
+you<00:04:25.560><c> open</c><00:04:25.840><c> up</c><00:04:26.040><c> your</c><00:04:26.240><c> audio</c><00:04:26.639><c> effects</c><00:04:27.360><c> got</c><00:04:27.520><c> your</c>
+
+00:04:27.629 --> 00:04:27.639 align:start position:0%
+you open up your audio effects got your
+ 
+
+00:04:27.639 --> 00:04:30.909 align:start position:0%
+you open up your audio effects got your
+send<00:04:28.080><c> here</c><00:04:28.400><c> which</c><00:04:28.720><c> is</c><00:04:29.720><c> sends</c><00:04:30.080><c> allows</c><00:04:30.360><c> you</c><00:04:30.479><c> to</c>
+
+00:04:30.909 --> 00:04:30.919 align:start position:0%
+send here which is sends allows you to
+ 
+
+00:04:30.919 --> 00:04:33.189 align:start position:0%
+send here which is sends allows you to
+send<00:04:31.199><c> some</c><00:04:31.440><c> signal</c><00:04:31.759><c> to</c><00:04:31.919><c> a</c><00:04:32.120><c> bus</c><00:04:32.400><c> and</c><00:04:32.560><c> an</c><00:04:32.680><c> ORS</c>
+
+00:04:33.189 --> 00:04:33.199 align:start position:0%
+send some signal to a bus and an ORS
+ 
+
+00:04:33.199 --> 00:04:36.189 align:start position:0%
+send some signal to a bus and an ORS
+which<00:04:33.720><c> is</c><00:04:34.720><c> maybe</c><00:04:35.240><c> a</c><00:04:35.320><c> little</c><00:04:35.520><c> bit</c><00:04:35.680><c> too</c><00:04:35.880><c> much</c><00:04:36.039><c> to</c>
+
+00:04:36.189 --> 00:04:36.199 align:start position:0%
+which is maybe a little bit too much to
+ 
+
+00:04:36.199 --> 00:04:38.870 align:start position:0%
+which is maybe a little bit too much to
+get<00:04:36.360><c> into</c><00:04:37.080><c> in</c><00:04:37.240><c> this</c><00:04:37.479><c> video</c><00:04:38.479><c> here's</c><00:04:38.720><c> your</c>
+
+00:04:38.870 --> 00:04:38.880 align:start position:0%
+get into in this video here's your
+ 
+
+00:04:38.880 --> 00:04:41.790 align:start position:0%
+get into in this video here's your
+stereo<00:04:39.320><c> output</c><00:04:40.320><c> stereo</c><00:04:40.720><c> out</c><00:04:40.960><c> so</c><00:04:41.160><c> all</c><00:04:41.639><c> your</c>
+
+00:04:41.790 --> 00:04:41.800 align:start position:0%
+stereo output stereo out so all your
+ 
+
+00:04:41.800 --> 00:04:44.029 align:start position:0%
+stereo output stereo out so all your
+signal<00:04:42.160><c> will</c><00:04:42.240><c> be</c><00:04:42.400><c> going</c><00:04:42.639><c> to</c><00:04:43.080><c> the</c><00:04:43.280><c> stereo</c><00:04:43.680><c> out</c>
+
+00:04:44.029 --> 00:04:44.039 align:start position:0%
+signal will be going to the stereo out
+ 
+
+00:04:44.039 --> 00:04:45.990 align:start position:0%
+signal will be going to the stereo out
+which<00:04:44.160><c> is</c><00:04:44.400><c> this</c><00:04:45.120><c> channel</c><00:04:45.520><c> here</c><00:04:45.800><c> you</c><00:04:45.880><c> can</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+which is this channel here you can
+ 
+
+00:04:46.000 --> 00:04:48.270 align:start position:0%
+which is this channel here you can
+change<00:04:46.320><c> that</c><00:04:46.479><c> you</c><00:04:46.560><c> can</c><00:04:46.720><c> put</c><00:04:46.840><c> them</c><00:04:46.960><c> on</c><00:04:47.280><c> buses</c>
+
+00:04:48.270 --> 00:04:48.280 align:start position:0%
+change that you can put them on buses
+ 
+
+00:04:48.280 --> 00:04:50.310 align:start position:0%
+change that you can put them on buses
+which<00:04:48.479><c> like</c><00:04:48.600><c> I</c><00:04:48.680><c> said</c><00:04:48.840><c> is</c><00:04:48.960><c> a</c><00:04:49.080><c> little</c><00:04:49.280><c> bit</c><00:04:50.080><c> too</c>
+
+00:04:50.310 --> 00:04:50.320 align:start position:0%
+which like I said is a little bit too
+ 
+
+00:04:50.320 --> 00:04:53.710 align:start position:0%
+which like I said is a little bit too
+much<00:04:50.520><c> for</c><00:04:50.720><c> this</c><00:04:50.880><c> video</c><00:04:51.880><c> I</c><00:04:52.039><c> feel</c><00:04:52.840><c> and</c><00:04:53.120><c> this</c><00:04:53.400><c> hair</c>
+
+00:04:53.710 --> 00:04:53.720 align:start position:0%
+much for this video I feel and this hair
+ 
+
+00:04:53.720 --> 00:04:57.230 align:start position:0%
+much for this video I feel and this hair
+is<00:04:53.840><c> your</c><00:04:54.039><c> automation</c><00:04:54.759><c> so</c><00:04:54.880><c> you</c><00:04:55.000><c> can</c><00:04:55.840><c> use</c><00:04:56.240><c> this</c>
+
+00:04:57.230 --> 00:04:57.240 align:start position:0%
+is your automation so you can use this
+ 
+
+00:04:57.240 --> 00:05:00.390 align:start position:0%
+is your automation so you can use this
+to<00:04:57.479><c> create</c><00:04:58.280><c> automation</c><00:04:59.199><c> so</c><00:04:59.800><c> automation</c><00:05:00.240><c> is</c>
+
+00:05:00.390 --> 00:05:00.400 align:start position:0%
+to create automation so automation is
+ 
+
+00:05:00.400 --> 00:05:02.029 align:start position:0%
+to create automation so automation is
+you<00:05:00.520><c> can</c><00:05:00.639><c> automate</c><00:05:01.039><c> your</c><00:05:01.199><c> volumes</c><00:05:01.720><c> you</c><00:05:01.800><c> can</c>
+
+00:05:02.029 --> 00:05:02.039 align:start position:0%
+you can automate your volumes you can
+ 
+
+00:05:02.039 --> 00:05:05.270 align:start position:0%
+you can automate your volumes you can
+automate<00:05:02.840><c> almost</c><00:05:03.280><c> anything</c><00:05:04.280><c> inside</c><00:05:05.080><c> that</c>
+
+00:05:05.270 --> 00:05:05.280 align:start position:0%
+automate almost anything inside that
+ 
+
+00:05:05.280 --> 00:05:07.469 align:start position:0%
+automate almost anything inside that
+channel<00:05:06.280><c> which</c><00:05:06.440><c> comes</c><00:05:06.639><c> in</c><00:05:06.800><c> handy</c><00:05:07.199><c> when</c><00:05:07.320><c> you're</c>
+
+00:05:07.469 --> 00:05:07.479 align:start position:0%
+channel which comes in handy when you're
+ 
+
+00:05:07.479 --> 00:05:09.590 align:start position:0%
+channel which comes in handy when you're
+creating<00:05:08.120><c> doing</c><00:05:08.360><c> your</c><00:05:08.479><c> mixing</c><00:05:08.919><c> or</c><00:05:09.400><c> you're</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+creating doing your mixing or you're
+ 
+
+00:05:09.600 --> 00:05:12.590 align:start position:0%
+creating doing your mixing or you're
+creating<00:05:10.039><c> and</c><00:05:10.240><c> you</c><00:05:10.720><c> adding</c><00:05:11.039><c> a</c><00:05:11.199><c> few</c><00:05:11.560><c> effects</c><00:05:11.960><c> or</c>
+
+00:05:12.590 --> 00:05:12.600 align:start position:0%
+creating and you adding a few effects or
+ 
+
+00:05:12.600 --> 00:05:14.510 align:start position:0%
+creating and you adding a few effects or
+some<00:05:12.919><c> type</c><00:05:13.039><c> of</c><00:05:13.199><c> air</c><00:05:13.440><c> candy</c><00:05:13.720><c> so</c><00:05:13.880><c> it</c><00:05:13.960><c> just</c><00:05:14.120><c> keeps</c>
+
+00:05:14.510 --> 00:05:14.520 align:start position:0%
+some type of air candy so it just keeps
+ 
+
+00:05:14.520 --> 00:05:16.670 align:start position:0%
+some type of air candy so it just keeps
+interest<00:05:14.919><c> in</c><00:05:15.120><c> your</c><00:05:15.360><c> music</c><00:05:16.080><c> and</c><00:05:16.199><c> then</c><00:05:16.479><c> the</c>
+
+00:05:16.670 --> 00:05:16.680 align:start position:0%
+interest in your music and then the
+ 
+
+00:05:16.680 --> 00:05:20.830 align:start position:0%
+interest in your music and then the
+stereo<00:05:17.360><c> outputs</c><00:05:18.360><c> stereo</c><00:05:19.319><c> mono</c><00:05:20.319><c> add</c><00:05:20.600><c> your</c>
+
+00:05:20.830 --> 00:05:20.840 align:start position:0%
+stereo outputs stereo mono add your
+ 
+
+00:05:20.840 --> 00:05:24.550 align:start position:0%
+stereo outputs stereo mono add your
+effects<00:05:21.639><c> got</c><00:05:21.800><c> the</c><00:05:21.919><c> EQ</c><00:05:22.680><c> again</c><00:05:23.680><c> Logic</c><00:05:23.960><c> Pro</c><00:05:24.240><c> Stock</c>
+
+00:05:24.550 --> 00:05:24.560 align:start position:0%
+effects got the EQ again Logic Pro Stock
+ 
+
+00:05:24.560 --> 00:05:28.070 align:start position:0%
+effects got the EQ again Logic Pro Stock
+EQ<00:05:25.560><c> you</c><00:05:25.680><c> can</c><00:05:25.840><c> get</c><00:05:26.000><c> rid</c><00:05:26.120><c> of</c><00:05:26.280><c> that</c><00:05:26.520><c> by</c><00:05:27.080><c> just</c>
+
+00:05:28.070 --> 00:05:28.080 align:start position:0%
+EQ you can get rid of that by just
+ 
+
+00:05:28.080 --> 00:05:31.590 align:start position:0%
+EQ you can get rid of that by just
+pressing<00:05:28.639><c> command</c><00:05:29.720><c> command</c><00:05:30.120><c> and</c><00:05:30.520><c> click</c><00:05:31.400><c> and</c>
+
+00:05:31.590 --> 00:05:31.600 align:start position:0%
+pressing command command and click and
+ 
+
+00:05:31.600 --> 00:05:33.110 align:start position:0%
+pressing command command and click and
+again<00:05:31.800><c> you</c><00:05:31.880><c> can</c><00:05:32.080><c> do</c><00:05:32.240><c> some</c><00:05:32.440><c> automation</c><00:05:32.919><c> on</c>
+
+00:05:33.110 --> 00:05:33.120 align:start position:0%
+again you can do some automation on
+ 
+
+00:05:33.120 --> 00:05:35.950 align:start position:0%
+again you can do some automation on
+there<00:05:33.240><c> if</c><00:05:33.360><c> you</c><00:05:33.479><c> want</c><00:05:34.160><c> and</c><00:05:34.319><c> that's</c><00:05:34.960><c> your</c>
+
+00:05:35.950 --> 00:05:35.960 align:start position:0%
+there if you want and that's your
+ 
+
+00:05:35.960 --> 00:05:38.029 align:start position:0%
+there if you want and that's your
+balance<00:05:36.600><c> button</c><00:05:37.039><c> so</c><00:05:37.319><c> when</c><00:05:37.600><c> once</c><00:05:37.800><c> you've</c>
+
+00:05:38.029 --> 00:05:38.039 align:start position:0%
+balance button so when once you've
+ 
+
+00:05:38.039 --> 00:05:39.990 align:start position:0%
+balance button so when once you've
+created<00:05:38.520><c> all</c><00:05:38.720><c> your</c><00:05:38.880><c> music</c><00:05:39.400><c> you</c><00:05:39.520><c> can</c><00:05:39.720><c> balance</c>
+
+00:05:39.990 --> 00:05:40.000 align:start position:0%
+created all your music you can balance
+ 
+
+00:05:40.000 --> 00:05:42.550 align:start position:0%
+created all your music you can balance
+it<00:05:40.120><c> down</c><00:05:40.280><c> to</c><00:05:40.520><c> wavel</c><00:05:41.199><c> MP3</c><00:05:42.199><c> which</c><00:05:42.360><c> I'll</c><00:05:42.440><c> will</c>
+
+00:05:42.550 --> 00:05:42.560 align:start position:0%
+it down to wavel MP3 which I'll will
+ 
+
+00:05:42.560 --> 00:05:44.270 align:start position:0%
+it down to wavel MP3 which I'll will
+show<00:05:42.720><c> you</c><00:05:42.960><c> later</c><00:05:43.160><c> on</c><00:05:43.280><c> in</c><00:05:43.400><c> the</c><00:05:43.520><c> video</c><00:05:44.160><c> next</c>
+
+00:05:44.270 --> 00:05:44.280 align:start position:0%
+show you later on in the video next
+ 
+
+00:05:44.280 --> 00:05:45.510 align:start position:0%
+show you later on in the video next
+thing<00:05:44.400><c> I</c><00:05:44.479><c> want</c><00:05:44.560><c> to</c><00:05:44.639><c> talk</c><00:05:44.800><c> about</c><00:05:44.960><c> is</c><00:05:45.080><c> setting</c><00:05:45.360><c> up</c>
+
+00:05:45.510 --> 00:05:45.520 align:start position:0%
+thing I want to talk about is setting up
+ 
+
+00:05:45.520 --> 00:05:47.870 align:start position:0%
+thing I want to talk about is setting up
+your<00:05:45.919><c> your</c><00:05:46.039><c> med</c><00:05:46.360><c> keyboard</c><00:05:47.240><c> and</c><00:05:47.400><c> your</c><00:05:47.520><c> order</c>
+
+00:05:47.870 --> 00:05:47.880 align:start position:0%
+your your med keyboard and your order
+ 
+
+00:05:47.880 --> 00:05:49.670 align:start position:0%
+your your med keyboard and your order
+interface<00:05:48.360><c> so</c><00:05:48.560><c> if</c><00:05:48.680><c> you've</c><00:05:48.880><c> got</c><00:05:49.080><c> say</c><00:05:49.280><c> for</c>
+
+00:05:49.670 --> 00:05:49.680 align:start position:0%
+interface so if you've got say for
+ 
+
+00:05:49.680 --> 00:05:52.790 align:start position:0%
+interface so if you've got say for
+example<00:05:50.680><c> um</c><00:05:51.080><c> Apollo</c><00:05:51.520><c> twin</c><00:05:51.919><c> you</c><00:05:52.080><c> go</c><00:05:52.240><c> to</c><00:05:52.440><c> logic</c>
+
+00:05:52.790 --> 00:05:52.800 align:start position:0%
+example um Apollo twin you go to logic
+ 
+
+00:05:52.800 --> 00:05:56.430 align:start position:0%
+example um Apollo twin you go to logic
+pro<00:05:53.080><c> settings</c><00:05:54.039><c> audio</c><00:05:55.039><c> and</c><00:05:55.280><c> just</c><00:05:55.479><c> choose</c>
+
+00:05:56.430 --> 00:05:56.440 align:start position:0%
+pro settings audio and just choose
+ 
+
+00:05:56.440 --> 00:05:59.350 align:start position:0%
+pro settings audio and just choose
+whatever<00:05:57.560><c> audio</c><00:05:58.560><c> interface</c><00:05:59.160><c> that</c><00:05:59.240><c> you're</c>
+
+00:05:59.350 --> 00:05:59.360 align:start position:0%
+whatever audio interface that you're
+ 
+
+00:05:59.360 --> 00:06:00.150 align:start position:0%
+whatever audio interface that you're
+using
+
+00:06:00.150 --> 00:06:00.160 align:start position:0%
+using
+ 
+
+00:06:00.160 --> 00:06:02.469 align:start position:0%
+using
+I'm<00:06:00.280><c> using</c><00:06:00.800><c> the</c><00:06:00.960><c> Apollo</c><00:06:01.280><c> twin</c><00:06:01.600><c> so</c><00:06:01.840><c> that's</c><00:06:02.360><c> what</c>
+
+00:06:02.469 --> 00:06:02.479 align:start position:0%
+I'm using the Apollo twin so that's what
+ 
+
+00:06:02.479 --> 00:06:04.390 align:start position:0%
+I'm using the Apollo twin so that's what
+I<00:06:02.560><c> would</c><00:06:02.759><c> choose</c><00:06:03.199><c> here</c><00:06:03.759><c> choose</c><00:06:04.080><c> whatever</c>
+
+00:06:04.390 --> 00:06:04.400 align:start position:0%
+I would choose here choose whatever
+ 
+
+00:06:04.400 --> 00:06:06.390 align:start position:0%
+I would choose here choose whatever
+you've<00:06:04.600><c> got</c><00:06:05.400><c> if</c><00:06:05.520><c> you</c><00:06:05.639><c> haven't</c><00:06:05.880><c> got</c><00:06:06.000><c> one</c><00:06:06.280><c> then</c>
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+you've got if you haven't got one then
+ 
+
+00:06:06.400 --> 00:06:07.589 align:start position:0%
+you've got if you haven't got one then
+you're<00:06:06.520><c> just</c><00:06:06.680><c> going</c><00:06:06.759><c> to</c><00:06:06.919><c> probably</c><00:06:07.160><c> use</c><00:06:07.440><c> the</c>
+
+00:06:07.589 --> 00:06:07.599 align:start position:0%
+you're just going to probably use the
+ 
+
+00:06:07.599 --> 00:06:09.990 align:start position:0%
+you're just going to probably use the
+match<00:06:07.840><c> Judo</c><00:06:08.240><c> speakers</c><00:06:09.000><c> but</c><00:06:09.240><c> I</c><00:06:09.319><c> would</c><00:06:09.680><c> strongly</c>
+
+00:06:09.990 --> 00:06:10.000 align:start position:0%
+match Judo speakers but I would strongly
+ 
+
+00:06:10.000 --> 00:06:12.550 align:start position:0%
+match Judo speakers but I would strongly
+suggest<00:06:10.680><c> that</c><00:06:10.800><c> you</c><00:06:10.919><c> get</c><00:06:11.080><c> an</c><00:06:11.199><c> noo</c><00:06:11.599><c> interface</c><00:06:12.440><c> if</c>
+
+00:06:12.550 --> 00:06:12.560 align:start position:0%
+suggest that you get an noo interface if
+ 
+
+00:06:12.560 --> 00:06:14.950 align:start position:0%
+suggest that you get an noo interface if
+you're<00:06:13.319><c> looking</c><00:06:13.599><c> to</c><00:06:14.120><c> take</c><00:06:14.319><c> this</c><00:06:14.440><c> a</c><00:06:14.560><c> little</c><00:06:14.759><c> bit</c>
+
+00:06:14.950 --> 00:06:14.960 align:start position:0%
+you're looking to take this a little bit
+ 
+
+00:06:14.960 --> 00:06:17.350 align:start position:0%
+you're looking to take this a little bit
+serious<00:06:15.680><c> so</c><00:06:15.800><c> I</c><00:06:15.880><c> just</c><00:06:16.000><c> want</c><00:06:16.080><c> to</c><00:06:16.199><c> go</c><00:06:16.319><c> to</c><00:06:17.000><c> Project</c>
+
+00:06:17.350 --> 00:06:17.360 align:start position:0%
+serious so I just want to go to Project
+ 
+
+00:06:17.360 --> 00:06:19.950 align:start position:0%
+serious so I just want to go to Project
+handling<00:06:18.120><c> and</c><00:06:18.280><c> in</c><00:06:18.440><c> general</c><00:06:19.319><c> if</c><00:06:19.400><c> you</c><00:06:19.599><c> click</c><00:06:19.800><c> on</c>
+
+00:06:19.950 --> 00:06:19.960 align:start position:0%
+handling and in general if you click on
+ 
+
+00:06:19.960 --> 00:06:21.870 align:start position:0%
+handling and in general if you click on
+General<00:06:20.440><c> and</c><00:06:20.560><c> project</c><00:06:20.880><c> handling</c><00:06:21.560><c> you</c><00:06:21.680><c> can</c>
+
+00:06:21.870 --> 00:06:21.880 align:start position:0%
+General and project handling you can
+ 
+
+00:06:21.880 --> 00:06:24.070 align:start position:0%
+General and project handling you can
+change<00:06:22.319><c> what</c><00:06:22.479><c> happens</c><00:06:23.400><c> when</c><00:06:23.599><c> you</c><00:06:23.720><c> open</c><00:06:23.919><c> a</c>
+
+00:06:24.070 --> 00:06:24.080 align:start position:0%
+change what happens when you open a
+ 
+
+00:06:24.080 --> 00:06:26.510 align:start position:0%
+change what happens when you open a
+session<00:06:24.319><c> in</c><00:06:24.440><c> logic</c><00:06:24.759><c> pro</c><00:06:25.319><c> startup</c><00:06:25.800><c> action</c><00:06:26.400><c> you</c>
+
+00:06:26.510 --> 00:06:26.520 align:start position:0%
+session in logic pro startup action you
+ 
+
+00:06:26.520 --> 00:06:28.350 align:start position:0%
+session in logic pro startup action you
+can<00:06:26.639><c> select</c><00:06:26.919><c> a</c><00:06:27.080><c> template</c><00:06:27.599><c> you</c><00:06:27.680><c> can</c><00:06:28.000><c> say</c><00:06:28.199><c> to</c>
+
+00:06:28.350 --> 00:06:28.360 align:start position:0%
+can select a template you can say to
+ 
+
+00:06:28.360 --> 00:06:30.749 align:start position:0%
+can select a template you can say to
+logic<00:06:28.639><c> do</c><00:06:28.840><c> nothing</c><00:06:29.240><c> or</c><00:06:29.639><c> open</c><00:06:30.240><c> your</c><00:06:30.440><c> most</c>
+
+00:06:30.749 --> 00:06:30.759 align:start position:0%
+logic do nothing or open your most
+ 
+
+00:06:30.759 --> 00:06:33.589 align:start position:0%
+logic do nothing or open your most
+recent<00:06:31.520><c> recent</c><00:06:32.160><c> project</c><00:06:32.840><c> I've</c><00:06:33.039><c> kept</c><00:06:33.280><c> M</c><00:06:33.479><c> on</c>
+
+00:06:33.589 --> 00:06:33.599 align:start position:0%
+recent recent project I've kept M on
+ 
+
+00:06:33.599 --> 00:06:35.230 align:start position:0%
+recent recent project I've kept M on
+select<00:06:33.840><c> a</c><00:06:33.960><c> template</c><00:06:34.360><c> because</c><00:06:34.560><c> I've</c><00:06:34.840><c> got</c><00:06:35.120><c> a</c>
+
+00:06:35.230 --> 00:06:35.240 align:start position:0%
+select a template because I've got a
+ 
+
+00:06:35.240 --> 00:06:38.909 align:start position:0%
+select a template because I've got a
+load<00:06:35.479><c> of</c><00:06:35.800><c> templates</c><00:06:36.800><c> saved</c><00:06:37.800><c> and</c><00:06:38.520><c> yeah</c><00:06:38.720><c> that's</c>
+
+00:06:38.909 --> 00:06:38.919 align:start position:0%
+load of templates saved and yeah that's
+ 
+
+00:06:38.919 --> 00:06:41.510 align:start position:0%
+load of templates saved and yeah that's
+just<00:06:39.080><c> what</c><00:06:39.199><c> I</c><00:06:39.319><c> like</c><00:06:39.440><c> to</c><00:06:39.520><c> keep</c><00:06:39.720><c> on</c><00:06:40.080><c> so</c><00:06:40.280><c> to</c><00:06:40.599><c> set</c><00:06:41.000><c> up</c>
+
+00:06:41.510 --> 00:06:41.520 align:start position:0%
+just what I like to keep on so to set up
+ 
+
+00:06:41.520 --> 00:06:43.790 align:start position:0%
+just what I like to keep on so to set up
+your<00:06:42.039><c> midi</c><00:06:42.680><c> so</c><00:06:42.840><c> if</c><00:06:42.919><c> you</c><00:06:43.039><c> got</c><00:06:43.120><c> a</c><00:06:43.199><c> midi</c><00:06:43.479><c> keyboard</c>
+
+00:06:43.790 --> 00:06:43.800 align:start position:0%
+your midi so if you got a midi keyboard
+ 
+
+00:06:43.800 --> 00:06:46.589 align:start position:0%
+your midi so if you got a midi keyboard
+and<00:06:43.880><c> you</c><00:06:43.960><c> want</c><00:06:44.080><c> to</c><00:06:44.720><c> trigger</c><00:06:45.560><c> some</c><00:06:45.800><c> sounds</c><00:06:46.440><c> with</c>
+
+00:06:46.589 --> 00:06:46.599 align:start position:0%
+and you want to trigger some sounds with
+ 
+
+00:06:46.599 --> 00:06:48.270 align:start position:0%
+and you want to trigger some sounds with
+your<00:06:46.919><c> mini</c><00:06:47.199><c> keyboard</c><00:06:47.599><c> and</c><00:06:47.880><c> this</c><00:06:47.960><c> is</c><00:06:48.080><c> how</c><00:06:48.160><c> you</c>
+
+00:06:48.270 --> 00:06:48.280 align:start position:0%
+your mini keyboard and this is how you
+ 
+
+00:06:48.280 --> 00:06:51.110 align:start position:0%
+your mini keyboard and this is how you
+set<00:06:48.479><c> up</c><00:06:49.280><c> go</c><00:06:49.479><c> to</c><00:06:50.120><c> control</c>
+
+00:06:51.110 --> 00:06:51.120 align:start position:0%
+set up go to control
+ 
+
+00:06:51.120 --> 00:06:55.309 align:start position:0%
+set up go to control
+surfaces<00:06:52.120><c> and</c><00:06:53.039><c> set</c><00:06:53.479><c> up</c><00:06:54.479><c> and</c><00:06:54.639><c> then</c><00:06:54.800><c> you</c><00:06:55.000><c> just</c><00:06:55.160><c> go</c>
+
+00:06:55.309 --> 00:06:55.319 align:start position:0%
+surfaces and set up and then you just go
+ 
+
+00:06:55.319 --> 00:06:59.670 align:start position:0%
+surfaces and set up and then you just go
+to<00:06:55.560><c> new</c><00:06:56.720><c> install</c><00:06:57.720><c> look</c><00:06:57.960><c> for</c><00:06:58.319><c> your</c><00:06:59.000><c> midi</c><00:06:59.319><c> key</c>
+
+00:06:59.670 --> 00:06:59.680 align:start position:0%
+to new install look for your midi key
+ 
+
+00:06:59.680 --> 00:07:02.469 align:start position:0%
+to new install look for your midi key
+board<00:07:00.160><c> and</c><00:07:00.960><c> set</c><00:07:01.199><c> it</c><00:07:01.319><c> up</c><00:07:01.560><c> that</c><00:07:01.720><c> way</c><00:07:02.039><c> so</c><00:07:02.240><c> now</c><00:07:02.360><c> you</c>
+
+00:07:02.469 --> 00:07:02.479 align:start position:0%
+board and set it up that way so now you
+ 
+
+00:07:02.479 --> 00:07:05.150 align:start position:0%
+board and set it up that way so now you
+can<00:07:02.599><c> start</c><00:07:02.879><c> playing</c><00:07:03.160><c> some</c><00:07:04.160><c> some</c><00:07:04.360><c> sounds</c><00:07:04.919><c> using</c>
+
+00:07:05.150 --> 00:07:05.160 align:start position:0%
+can start playing some some sounds using
+ 
+
+00:07:05.160 --> 00:07:06.629 align:start position:0%
+can start playing some some sounds using
+your<00:07:05.280><c> midi</c><00:07:05.560><c> keyboard</c><00:07:06.000><c> if</c><00:07:06.080><c> you</c><00:07:06.240><c> haven't</c><00:07:06.479><c> got</c><00:07:06.560><c> a</c>
+
+00:07:06.629 --> 00:07:06.639 align:start position:0%
+your midi keyboard if you haven't got a
+ 
+
+00:07:06.639 --> 00:07:09.309 align:start position:0%
+your midi keyboard if you haven't got a
+midi<00:07:06.919><c> keyboard</c><00:07:07.280><c> press</c><00:07:07.840><c> command</c><00:07:08.160><c> and</c><00:07:08.440><c> K</c><00:07:09.160><c> and</c>
+
+00:07:09.309 --> 00:07:09.319 align:start position:0%
+midi keyboard press command and K and
+ 
+
+00:07:09.319 --> 00:07:11.189 align:start position:0%
+midi keyboard press command and K and
+logic<00:07:09.599><c> is</c><00:07:09.680><c> going</c><00:07:09.800><c> to</c><00:07:09.879><c> bring</c><00:07:10.039><c> up</c><00:07:10.199><c> a</c><00:07:10.319><c> little</c>
+
+00:07:11.189 --> 00:07:11.199 align:start position:0%
+logic is going to bring up a little
+ 
+
+00:07:11.199 --> 00:07:14.230 align:start position:0%
+logic is going to bring up a little
+keyboard<00:07:11.800><c> thing</c><00:07:12.039><c> that</c><00:07:12.199><c> you</c><00:07:12.280><c> can</c><00:07:12.840><c> use</c><00:07:13.840><c> using</c>
+
+00:07:14.230 --> 00:07:14.240 align:start position:0%
+keyboard thing that you can use using
+ 
+
+00:07:14.240 --> 00:07:17.790 align:start position:0%
+keyboard thing that you can use using
+your<00:07:14.840><c> keypad</c><00:07:15.840><c> or</c><00:07:16.440><c> keyboard</c><00:07:17.440><c> I've</c><00:07:17.560><c> already</c>
+
+00:07:17.790 --> 00:07:17.800 align:start position:0%
+your keypad or keyboard I've already
+ 
+
+00:07:17.800 --> 00:07:20.029 align:start position:0%
+your keypad or keyboard I've already
+explained<00:07:18.199><c> the</c><00:07:18.319><c> panels</c><00:07:18.639><c> on</c><00:07:18.759><c> the</c><00:07:18.919><c> left</c><00:07:19.440><c> press</c><00:07:19.759><c> y</c>
+
+00:07:20.029 --> 00:07:20.039 align:start position:0%
+explained the panels on the left press y
+ 
+
+00:07:20.039 --> 00:07:22.710 align:start position:0%
+explained the panels on the left press y
+that<00:07:20.240><c> bring</c><00:07:20.400><c> up</c><00:07:20.560><c> your</c><00:07:20.759><c> library</c><00:07:21.759><c> press</c><00:07:22.199><c> I</c><00:07:22.639><c> that</c>
+
+00:07:22.710 --> 00:07:22.720 align:start position:0%
+that bring up your library press I that
+ 
+
+00:07:22.720 --> 00:07:24.790 align:start position:0%
+that bring up your library press I that
+will<00:07:22.879><c> bring</c><00:07:23.039><c> up</c><00:07:23.199><c> your</c><00:07:23.319><c> inspect</c><00:07:23.759><c> T</c><00:07:24.560><c> where</c><00:07:24.680><c> you</c>
+
+00:07:24.790 --> 00:07:24.800 align:start position:0%
+will bring up your inspect T where you
+ 
+
+00:07:24.800 --> 00:07:28.670 align:start position:0%
+will bring up your inspect T where you
+can<00:07:24.960><c> find</c><00:07:25.199><c> all</c><00:07:25.400><c> your</c><00:07:26.360><c> effects</c><00:07:26.840><c> and</c><00:07:27.639><c> inserts</c><00:07:28.520><c> so</c>
+
+00:07:28.670 --> 00:07:28.680 align:start position:0%
+can find all your effects and inserts so
+ 
+
+00:07:28.680 --> 00:07:30.510 align:start position:0%
+can find all your effects and inserts so
+let's<00:07:28.879><c> open</c><00:07:29.080><c> up</c><00:07:29.199><c> an</c><00:07:29.520><c> instrument</c><00:07:30.080><c> let's</c><00:07:30.280><c> go</c><00:07:30.360><c> for</c>
+
+00:07:30.510 --> 00:07:30.520 align:start position:0%
+let's open up an instrument let's go for
+ 
+
+00:07:30.520 --> 00:07:33.550 align:start position:0%
+let's open up an instrument let's go for
+some<00:07:31.039><c> drums</c><00:07:32.039><c> let's</c><00:07:32.360><c> head</c><00:07:32.599><c> over</c><00:07:32.840><c> to</c><00:07:33.039><c> electronic</c>
+
+00:07:33.550 --> 00:07:33.560 align:start position:0%
+some drums let's head over to electronic
+ 
+
+00:07:33.560 --> 00:07:36.390 align:start position:0%
+some drums let's head over to electronic
+drums<00:07:34.039><c> and</c><00:07:34.240><c> click</c><00:07:34.440><c> on</c><00:07:35.000><c> after</c><00:07:35.479><c> party</c><00:07:36.080><c> so</c><00:07:36.280><c> then</c>
+
+00:07:36.390 --> 00:07:36.400 align:start position:0%
+drums and click on after party so then
+ 
+
+00:07:36.400 --> 00:07:39.070 align:start position:0%
+drums and click on after party so then
+we<00:07:36.599><c> go</c><00:07:36.759><c> to</c><00:07:37.560><c> our</c><00:07:37.800><c> Channel</c><00:07:38.360><c> and</c><00:07:38.479><c> we</c><00:07:38.599><c> can</c><00:07:38.800><c> right</c>
+
+00:07:39.070 --> 00:07:39.080 align:start position:0%
+we go to our Channel and we can right
+ 
+
+00:07:39.080 --> 00:07:42.869 align:start position:0%
+we go to our Channel and we can right
+click<00:07:39.440><c> and</c><00:07:39.840><c> click</c><00:07:40.080><c> on</c><00:07:40.520><c> create</c><00:07:40.919><c> pattern</c>
+
+00:07:42.869 --> 00:07:42.879 align:start position:0%
+click and click on create pattern
+ 
+
+00:07:42.879 --> 00:07:44.710 align:start position:0%
+click and click on create pattern
+region<00:07:43.879><c> it's</c><00:07:44.039><c> going</c><00:07:44.159><c> to</c><00:07:44.280><c> bring</c><00:07:44.440><c> up</c><00:07:44.560><c> this</c>
+
+00:07:44.710 --> 00:07:44.720 align:start position:0%
+region it's going to bring up this
+ 
+
+00:07:44.720 --> 00:07:45.950 align:start position:0%
+region it's going to bring up this
+sequence<00:07:45.080><c> and</c><00:07:45.240><c> there</c><00:07:45.360><c> that</c><00:07:45.520><c> we</c><00:07:45.599><c> can</c><00:07:45.720><c> create</c>
+
+00:07:45.950 --> 00:07:45.960 align:start position:0%
+sequence and there that we can create
+ 
+
+00:07:45.960 --> 00:07:49.350 align:start position:0%
+sequence and there that we can create
+some<00:07:46.120><c> drums</c><00:07:46.720><c> so</c><00:07:46.879><c> we're</c><00:07:47.280><c> 120</c><00:07:47.879><c> BPM</c><00:07:48.840><c> now</c><00:07:49.000><c> let's</c><00:07:49.199><c> go</c>
+
+00:07:49.350 --> 00:07:49.360 align:start position:0%
+some drums so we're 120 BPM now let's go
+ 
+
+00:07:49.360 --> 00:07:50.869 align:start position:0%
+some drums so we're 120 BPM now let's go
+for
+
+00:07:50.869 --> 00:07:50.879 align:start position:0%
+for
+ 
+
+00:07:50.879 --> 00:07:53.790 align:start position:0%
+for
+105<00:07:51.879><c> four</c><00:07:52.240><c> to</c><00:07:52.360><c> the</c><00:07:52.479><c> floor</c><00:07:53.199><c> and</c><00:07:53.400><c> just</c><00:07:53.560><c> going</c><00:07:53.639><c> to</c>
+
+00:07:53.790 --> 00:07:53.800 align:start position:0%
+105 four to the floor and just going to
+ 
+
+00:07:53.800 --> 00:07:56.149 align:start position:0%
+105 four to the floor and just going to
+add<00:07:53.960><c> in</c><00:07:54.120><c> some</c>
+
+00:07:56.149 --> 00:07:56.159 align:start position:0%
+add in some
+ 
+
+00:07:56.159 --> 00:07:58.710 align:start position:0%
+add in some
+midi<00:07:57.159><c> we</c><00:07:57.319><c> can</c><00:07:57.479><c> change</c><00:07:57.720><c> the</c><00:07:57.879><c> step</c><00:07:58.080><c> sequencer</c><00:07:58.560><c> to</c>
+
+00:07:58.710 --> 00:07:58.720 align:start position:0%
+midi we can change the step sequencer to
+ 
+
+00:07:58.720 --> 00:08:02.189 align:start position:0%
+midi we can change the step sequencer to
+32<00:07:59.199><c> step</c><00:07:59.840><c> and</c><00:07:59.960><c> then</c><00:08:00.199><c> add</c><00:08:00.319><c> in</c><00:08:00.639><c> some</c><00:08:01.639><c> four</c><00:08:01.960><c> to</c><00:08:02.120><c> the</c>
+
+00:08:02.189 --> 00:08:02.199 align:start position:0%
+32 step and then add in some four to the
+ 
+
+00:08:02.199 --> 00:08:08.029 align:start position:0%
+32 step and then add in some four to the
+floor
+
+00:08:08.029 --> 00:08:08.039 align:start position:0%
+ 
+ 
+
+00:08:08.039 --> 00:08:12.189 align:start position:0%
+ 
+drums
+
+00:08:12.189 --> 00:08:12.199 align:start position:0%
+ 
+ 
+
+00:08:12.199 --> 00:08:15.550 align:start position:0%
+ 
+whoops<00:08:13.199><c> so</c><00:08:13.360><c> we</c><00:08:13.520><c> got</c><00:08:13.599><c> a</c>
+
+00:08:15.550 --> 00:08:15.560 align:start position:0%
+whoops so we got a
+ 
+
+00:08:15.560 --> 00:08:19.469 align:start position:0%
+whoops so we got a
+kick
+
+00:08:19.469 --> 00:08:19.479 align:start position:0%
+ 
+ 
+
+00:08:19.479 --> 00:08:36.230 align:start position:0%
+ 
+snare<00:08:20.479><c> add</c><00:08:20.680><c> some</c><00:08:20.919><c> high</c><00:08:21.120><c> hats</c><00:08:21.400><c> in</c>
+
+00:08:36.230 --> 00:08:36.240 align:start position:0%
+ 
+ 
+
+00:08:36.240 --> 00:08:38.909 align:start position:0%
+ 
+we<00:08:36.360><c> can</c><00:08:36.560><c> change</c><00:08:36.880><c> the</c><00:08:37.039><c> velocities</c><00:08:37.640><c> if</c><00:08:37.760><c> you</c><00:08:37.919><c> want</c>
+
+00:08:38.909 --> 00:08:38.919 align:start position:0%
+we can change the velocities if you want
+ 
+
+00:08:38.919 --> 00:08:45.509 align:start position:0%
+we can change the velocities if you want
+give<00:08:39.080><c> it</c><00:08:39.200><c> a</c><00:08:39.320><c> bit</c><00:08:39.440><c> of</c><00:08:40.080><c> human</c>
+
+00:08:45.509 --> 00:08:45.519 align:start position:0%
+ 
+ 
+
+00:08:45.519 --> 00:08:47.750 align:start position:0%
+ 
+feel
+
+00:08:47.750 --> 00:08:47.760 align:start position:0%
+feel
+ 
+
+00:08:47.760 --> 00:08:50.350 align:start position:0%
+feel
+and<00:08:48.760><c> we</c><00:08:48.920><c> add</c><00:08:49.040><c> a</c><00:08:49.240><c> little</c><00:08:49.519><c> another</c><00:08:49.880><c> little</c><00:08:50.040><c> sign</c>
+
+00:08:50.350 --> 00:08:50.360 align:start position:0%
+and we add a little another little sign
+ 
+
+00:08:50.360 --> 00:09:30.470 align:start position:0%
+and we add a little another little sign
+in<00:08:50.519><c> there</c>
+
+00:09:30.470 --> 00:09:30.480 align:start position:0%
+ 
+ 
+
+00:09:30.480 --> 00:09:31.790 align:start position:0%
+ 
+and<00:09:30.600><c> then</c><00:09:30.760><c> say</c><00:09:30.959><c> for</c><00:09:31.120><c> example</c><00:09:31.360><c> we</c><00:09:31.480><c> wanted</c><00:09:31.640><c> to</c>
+
+00:09:31.790 --> 00:09:31.800 align:start position:0%
+and then say for example we wanted to
+ 
+
+00:09:31.800 --> 00:09:35.590 align:start position:0%
+and then say for example we wanted to
+use<00:09:32.360><c> some</c><00:09:32.800><c> samples</c><00:09:33.760><c> we</c><00:09:33.880><c> can</c><00:09:34.079><c> go</c><00:09:34.200><c> to</c><00:09:34.399><c> the</c><00:09:34.959><c> sample</c>
+
+00:09:35.590 --> 00:09:35.600 align:start position:0%
+use some samples we can go to the sample
+ 
+
+00:09:35.600 --> 00:09:38.389 align:start position:0%
+use some samples we can go to the sample
+library<00:09:36.600><c> look</c><00:09:36.800><c> for</c><00:09:36.959><c> something</c><00:09:37.279><c> that's</c><00:09:37.480><c> in</c><00:09:37.600><c> the</c>
+
+00:09:38.389 --> 00:09:38.399 align:start position:0%
+library look for something that's in the
+ 
+
+00:09:38.399 --> 00:09:43.430 align:start position:0%
+library look for something that's in the
+similar
+
+00:09:43.430 --> 00:09:43.440 align:start position:0%
+ 
+ 
+
+00:09:43.440 --> 00:09:46.829 align:start position:0%
+ 
+[Music]
+
+00:09:46.829 --> 00:09:46.839 align:start position:0%
+ 
+ 
+
+00:09:46.839 --> 00:09:49.870 align:start position:0%
+ 
+BPM<00:09:47.839><c> and</c><00:09:48.040><c> we're</c><00:09:48.200><c> just</c><00:09:48.320><c> going</c><00:09:48.440><c> to</c><00:09:48.640><c> drop</c><00:09:48.959><c> that</c><00:09:49.079><c> in</c>
+
+00:09:49.870 --> 00:09:49.880 align:start position:0%
+BPM and we're just going to drop that in
+ 
+
+00:09:49.880 --> 00:09:52.069 align:start position:0%
+BPM and we're just going to drop that in
+so<00:09:50.040><c> you</c><00:09:50.120><c> can</c><00:09:50.279><c> audition</c><00:09:50.680><c> The</c><00:09:50.839><c> Sound</c><00:09:51.560><c> by</c><00:09:51.800><c> just</c>
+
+00:09:52.069 --> 00:09:52.079 align:start position:0%
+so you can audition The Sound by just
+ 
+
+00:09:52.079 --> 00:09:57.670 align:start position:0%
+so you can audition The Sound by just
+clicking<00:09:52.399><c> on</c>
+
+00:09:57.670 --> 00:09:57.680 align:start position:0%
+ 
+ 
+
+00:09:57.680 --> 00:10:00.470 align:start position:0%
+ 
+it<00:09:58.680><c> and</c><00:09:58.839><c> we</c><00:09:58.920><c> can</c><00:09:59.040><c> turn</c><00:09:59.160><c> it</c><00:09:59.200><c> off</c><00:09:59.560><c> that</c><00:09:59.680><c> way</c><00:10:00.320><c> so</c>
+
+00:10:00.470 --> 00:10:00.480 align:start position:0%
+it and we can turn it off that way so
+ 
+
+00:10:00.480 --> 00:10:01.870 align:start position:0%
+it and we can turn it off that way so
+now<00:10:00.640><c> we've</c><00:10:00.760><c> got</c><00:10:00.880><c> a</c><00:10:00.959><c> little</c><00:10:01.120><c> Loop</c><00:10:01.360><c> in</c><00:10:01.519><c> there</c><00:10:01.760><c> and</c>
+
+00:10:01.870 --> 00:10:01.880 align:start position:0%
+now we've got a little Loop in there and
+ 
+
+00:10:01.880 --> 00:10:03.790 align:start position:0%
+now we've got a little Loop in there and
+it's<00:10:02.120><c> automatically</c><00:10:02.720><c> synced</c><00:10:03.279><c> so</c><00:10:03.480><c> let's</c><00:10:03.640><c> just</c>
+
+00:10:03.790 --> 00:10:03.800 align:start position:0%
+it's automatically synced so let's just
+ 
+
+00:10:03.800 --> 00:10:09.750 align:start position:0%
+it's automatically synced so let's just
+listen<00:10:04.000><c> to</c><00:10:04.160><c> how</c><00:10:04.279><c> that</c>
+
+00:10:09.750 --> 00:10:09.760 align:start position:0%
+ 
+ 
+
+00:10:09.760 --> 00:10:12.910 align:start position:0%
+ 
+sounds
+
+00:10:12.910 --> 00:10:12.920 align:start position:0%
+ 
+ 
+
+00:10:12.920 --> 00:10:15.870 align:start position:0%
+ 
+okay<00:10:13.920><c> yeah</c><00:10:14.079><c> not</c><00:10:14.279><c> my</c><00:10:14.480><c> usual</c><00:10:14.920><c> di</c><00:10:15.200><c> for</c><00:10:15.399><c> sound</c><00:10:15.720><c> but</c>
+
+00:10:15.870 --> 00:10:15.880 align:start position:0%
+okay yeah not my usual di for sound but
+ 
+
+00:10:15.880 --> 00:10:18.590 align:start position:0%
+okay yeah not my usual di for sound but
+we<00:10:16.079><c> run</c><00:10:16.399><c> with</c><00:10:16.560><c> it</c><00:10:16.720><c> for</c>
+
+00:10:18.590 --> 00:10:18.600 align:start position:0%
+we run with it for
+ 
+
+00:10:18.600 --> 00:10:21.230 align:start position:0%
+we run with it for
+now<00:10:19.600><c> all</c><00:10:19.680><c> right</c><00:10:19.839><c> let's</c><00:10:20.000><c> get</c><00:10:20.160><c> rid</c><00:10:20.279><c> of</c><00:10:20.440><c> that</c>
+
+00:10:21.230 --> 00:10:21.240 align:start position:0%
+now all right let's get rid of that
+ 
+
+00:10:21.240 --> 00:10:23.910 align:start position:0%
+now all right let's get rid of that
+one<00:10:22.240><c> let's</c><00:10:22.480><c> try</c>
+
+00:10:23.910 --> 00:10:23.920 align:start position:0%
+one let's try
+ 
+
+00:10:23.920 --> 00:10:31.870 align:start position:0%
+one let's try
+this<00:10:24.920><c> so</c><00:10:25.079><c> we</c><00:10:25.279><c> drop</c><00:10:25.519><c> our</c><00:10:26.000><c> Loop</c><00:10:26.399><c> in</c>
+
+00:10:31.870 --> 00:10:31.880 align:start position:0%
+ 
+ 
+
+00:10:31.880 --> 00:10:34.310 align:start position:0%
+ 
+so<00:10:32.079><c> we</c><00:10:32.160><c> can</c><00:10:32.279><c> close</c><00:10:32.480><c> that</c><00:10:32.920><c> window</c><00:10:33.920><c> can</c><00:10:34.079><c> close</c>
+
+00:10:34.310 --> 00:10:34.320 align:start position:0%
+so we can close that window can close
+ 
+
+00:10:34.320 --> 00:10:36.030 align:start position:0%
+so we can close that window can close
+our
+
+00:10:36.030 --> 00:10:36.040 align:start position:0%
+our
+ 
+
+00:10:36.040 --> 00:10:39.260 align:start position:0%
+our
+library<00:10:37.040><c> and</c><00:10:37.279><c> say</c><00:10:37.440><c> for</c><00:10:37.600><c> example</c><00:10:38.040><c> you</c>
+
+00:10:39.260 --> 00:10:39.270 align:start position:0%
+library and say for example you
+ 
+
+00:10:39.270 --> 00:10:40.470 align:start position:0%
+library and say for example you
+[Music]
+
+00:10:40.470 --> 00:10:40.480 align:start position:0%
+[Music]
+ 
+
+00:10:40.480 --> 00:10:43.509 align:start position:0%
+[Music]
+have<00:10:41.480><c> some</c><00:10:42.079><c> media</c><00:10:42.480><c> instruments</c><00:10:42.839><c> youve</c><00:10:43.000><c> got</c><00:10:43.320><c> a</c>
+
+00:10:43.509 --> 00:10:43.519 align:start position:0%
+have some media instruments youve got a
+ 
+
+00:10:43.519 --> 00:10:45.990 align:start position:0%
+have some media instruments youve got a
+nice<00:10:43.839><c> base</c><00:10:44.200><c> syn</c><00:10:44.639><c> that</c><00:10:44.720><c> you</c><00:10:44.800><c> want</c><00:10:44.920><c> to</c><00:10:45.040><c> use</c><00:10:45.360><c> in</c>
+
+00:10:45.990 --> 00:10:46.000 align:start position:0%
+nice base syn that you want to use in
+ 
+
+00:10:46.000 --> 00:10:49.110 align:start position:0%
+nice base syn that you want to use in
+there<00:10:47.000><c> we</c><00:10:47.200><c> just</c><00:10:47.360><c> go</c><00:10:47.519><c> to</c><00:10:47.920><c> our</c>
+
+00:10:49.110 --> 00:10:49.120 align:start position:0%
+there we just go to our
+ 
+
+00:10:49.120 --> 00:10:52.300 align:start position:0%
+there we just go to our
+instruments<00:10:50.120><c> and</c><00:10:50.560><c> let's</c><00:10:51.040><c> go</c>
+
+00:10:52.300 --> 00:10:52.310 align:start position:0%
+instruments and let's go
+ 
+
+00:10:52.310 --> 00:10:55.829 align:start position:0%
+instruments and let's go
+[Music]
+
+00:10:55.829 --> 00:10:55.839 align:start position:0%
+[Music]
+ 
+
+00:10:55.839 --> 00:10:57.910 align:start position:0%
+[Music]
+with<00:10:56.839><c> so</c><00:10:57.000><c> you</c><00:10:57.079><c> want</c><00:10:57.200><c> to</c><00:10:57.320><c> add</c><00:10:57.440><c> your</c><00:10:57.560><c> own</c><00:10:57.720><c> little</c>
+
+00:10:57.910 --> 00:10:57.920 align:start position:0%
+with so you want to add your own little
+ 
+
+00:10:57.920 --> 00:11:00.030 align:start position:0%
+with so you want to add your own little
+base<00:10:58.120><c> in</c><00:10:58.279><c> there</c><00:10:58.480><c> open</c><00:10:58.720><c> it</c><00:10:58.920><c> open</c><00:10:59.399><c> your</c>
+
+00:11:00.030 --> 00:11:00.040 align:start position:0%
+base in there open it open your
+ 
+
+00:11:00.040 --> 00:11:02.389 align:start position:0%
+base in there open it open your
+instrument<00:11:01.040><c> choose</c><00:11:01.279><c> your</c>
+
+00:11:02.389 --> 00:11:02.399 align:start position:0%
+instrument choose your
+ 
+
+00:11:02.399 --> 00:11:04.840 align:start position:0%
+instrument choose your
+sand<00:11:03.399><c> let's</c><00:11:03.560><c> go</c><00:11:03.720><c> for</c><00:11:03.880><c> this</c><00:11:04.079><c> Cloud</c>
+
+00:11:04.840 --> 00:11:04.850 align:start position:0%
+sand let's go for this Cloud
+ 
+
+00:11:04.850 --> 00:11:06.389 align:start position:0%
+sand let's go for this Cloud
+[Music]
+
+00:11:06.389 --> 00:11:06.399 align:start position:0%
+[Music]
+ 
+
+00:11:06.399 --> 00:11:10.870 align:start position:0%
+[Music]
+base<00:11:07.399><c> and</c><00:11:07.519><c> I'm</c><00:11:07.639><c> just</c><00:11:07.720><c> going</c><00:11:07.839><c> to</c><00:11:08.480><c> play</c>
+
+00:11:10.870 --> 00:11:10.880 align:start position:0%
+ 
+ 
+
+00:11:10.880 --> 00:11:12.510 align:start position:0%
+ 
+in<00:11:11.880><c> our</c>
+
+00:11:12.510 --> 00:11:12.520 align:start position:0%
+in our
+ 
+
+00:11:12.520 --> 00:11:14.590 align:start position:0%
+in our
+[Music]
+
+00:11:14.590 --> 00:11:14.600 align:start position:0%
+[Music]
+ 
+
+00:11:14.600 --> 00:11:17.150 align:start position:0%
+[Music]
+sound<00:11:15.600><c> so</c><00:11:15.760><c> you</c><00:11:15.920><c> notice</c><00:11:16.160><c> that</c><00:11:16.279><c> it's</c><00:11:16.399><c> too</c><00:11:16.639><c> lad</c><00:11:17.000><c> so</c>
+
+00:11:17.150 --> 00:11:17.160 align:start position:0%
+sound so you notice that it's too lad so
+ 
+
+00:11:17.160 --> 00:11:18.750 align:start position:0%
+sound so you notice that it's too lad so
+we<00:11:17.360><c> just</c><00:11:17.519><c> open</c><00:11:17.720><c> up</c><00:11:17.839><c> our</c><00:11:18.000><c> mixer</c><00:11:18.279><c> window</c><00:11:18.639><c> by</c>
+
+00:11:18.750 --> 00:11:18.760 align:start position:0%
+we just open up our mixer window by
+ 
+
+00:11:18.760 --> 00:11:21.750 align:start position:0%
+we just open up our mixer window by
+pressing<00:11:19.160><c> X</c><00:11:19.600><c> or</c><00:11:19.800><c> you</c><00:11:19.880><c> can</c><00:11:20.079><c> go</c><00:11:20.279><c> to</c><00:11:21.240><c> the</c><00:11:21.440><c> top</c>
+
+00:11:21.750 --> 00:11:21.760 align:start position:0%
+pressing X or you can go to the top
+ 
+
+00:11:21.760 --> 00:11:24.509 align:start position:0%
+pressing X or you can go to the top
+there<00:11:22.079><c> and</c><00:11:22.680><c> click</c><00:11:22.880><c> on</c><00:11:23.360><c> it</c><00:11:23.480><c> makes</c><00:11:23.680><c> a</c><00:11:23.800><c> window</c>
+
+00:11:24.509 --> 00:11:24.519 align:start position:0%
+there and click on it makes a window
+ 
+
+00:11:24.519 --> 00:11:26.710 align:start position:0%
+there and click on it makes a window
+just<00:11:24.639><c> going</c><00:11:24.760><c> to</c><00:11:24.839><c> pull</c><00:11:25.079><c> that</c><00:11:25.519><c> the</c><00:11:25.720><c> loop</c><00:11:26.440><c> sounds</c>
+
+00:11:26.710 --> 00:11:26.720 align:start position:0%
+just going to pull that the loop sounds
+ 
+
+00:11:26.720 --> 00:11:28.750 align:start position:0%
+just going to pull that the loop sounds
+a<00:11:26.839><c> bit</c><00:11:27.000><c> aggressive</c><00:11:27.399><c> a</c><00:11:27.519><c> bit</c><00:11:27.720><c> lad</c><00:11:28.320><c> so</c><00:11:28.519><c> we</c><00:11:28.639><c> just</c>
+
+00:11:28.750 --> 00:11:28.760 align:start position:0%
+a bit aggressive a bit lad so we just
+ 
+
+00:11:28.760 --> 00:11:39.629 align:start position:0%
+a bit aggressive a bit lad so we just
+pulled<00:11:29.000><c> that</c>
+
+00:11:39.629 --> 00:11:39.639 align:start position:0%
+ 
+ 
+
+00:11:39.639 --> 00:11:40.790 align:start position:0%
+ 
+so<00:11:39.839><c> we</c>
+
+00:11:40.790 --> 00:11:40.800 align:start position:0%
+so we
+ 
+
+00:11:40.800 --> 00:11:47.720 align:start position:0%
+so we
+press<00:11:41.800><c> record</c><00:11:42.600><c> it's</c><00:11:42.760><c> going</c><00:11:42.839><c> to</c><00:11:42.959><c> give</c><00:11:43.079><c> us</c><00:11:43.160><c> a</c><00:11:43.279><c> c</c>
+
+00:11:47.720 --> 00:11:47.730 align:start position:0%
+ 
+ 
+
+00:11:47.730 --> 00:11:53.790 align:start position:0%
+ 
+[Music]
+
+00:11:53.790 --> 00:11:53.800 align:start position:0%
+ 
+ 
+
+00:11:53.800 --> 00:11:58.230 align:start position:0%
+ 
+in<00:11:54.800><c> and</c><00:11:55.120><c> then</c><00:11:55.279><c> we've</c><00:11:55.519><c> got</c><00:11:56.079><c> some</c><00:11:56.600><c> new</c><00:11:57.040><c> midi</c><00:11:58.040><c> so</c>
+
+00:11:58.230 --> 00:11:58.240 align:start position:0%
+in and then we've got some new midi so
+ 
+
+00:11:58.240 --> 00:11:59.590 align:start position:0%
+in and then we've got some new midi so
+now<00:11:58.360><c> we've</c><00:11:58.480><c> got</c><00:11:58.600><c> our</c><00:11:58.680><c> midi</c><00:11:58.959><c> notes</c><00:11:59.279><c> for</c><00:11:59.399><c> our</c>
+
+00:11:59.590 --> 00:11:59.600 align:start position:0%
+now we've got our midi notes for our
+ 
+
+00:11:59.600 --> 00:12:01.550 align:start position:0%
+now we've got our midi notes for our
+base<00:12:00.320><c> we</c><00:12:00.440><c> can</c><00:12:00.680><c> name</c>
+
+00:12:01.550 --> 00:12:01.560 align:start position:0%
+base we can name
+ 
+
+00:12:01.560 --> 00:12:04.430 align:start position:0%
+base we can name
+it<00:12:02.560><c> by</c><00:12:02.760><c> double</c><00:12:03.040><c> clicking</c><00:12:03.320><c> in</c><00:12:03.519><c> that</c><00:12:04.120><c> little</c>
+
+00:12:04.430 --> 00:12:04.440 align:start position:0%
+it by double clicking in that little
+ 
+
+00:12:04.440 --> 00:12:06.790 align:start position:0%
+it by double clicking in that little
+section<00:12:04.880><c> on</c><00:12:05.079><c> your</c><00:12:05.360><c> channel</c><00:12:06.200><c> and</c><00:12:06.320><c> then</c><00:12:06.440><c> we</c><00:12:06.560><c> can</c>
+
+00:12:06.790 --> 00:12:06.800 align:start position:0%
+section on your channel and then we can
+ 
+
+00:12:06.800 --> 00:12:09.629 align:start position:0%
+section on your channel and then we can
+also<00:12:07.360><c> color</c><00:12:07.680><c> code</c><00:12:07.880><c> them</c><00:12:08.160><c> by</c><00:12:08.360><c> pressing</c><00:12:08.920><c> alt</c><00:12:09.279><c> and</c>
+
+00:12:09.629 --> 00:12:09.639 align:start position:0%
+also color code them by pressing alt and
+ 
+
+00:12:09.639 --> 00:12:11.350 align:start position:0%
+also color code them by pressing alt and
+c<00:12:10.200><c> and</c><00:12:10.320><c> that's</c><00:12:10.440><c> going</c><00:12:10.560><c> to</c><00:12:10.639><c> bring</c><00:12:10.839><c> up</c><00:12:11.000><c> your</c>
+
+00:12:11.350 --> 00:12:11.360 align:start position:0%
+c and that's going to bring up your
+ 
+
+00:12:11.360 --> 00:12:12.990 align:start position:0%
+c and that's going to bring up your
+color<00:12:11.639><c> palette</c><00:12:12.000><c> so</c><00:12:12.160><c> we</c><00:12:12.320><c> change</c><00:12:12.600><c> we've</c><00:12:12.720><c> changed</c>
+
+00:12:12.990 --> 00:12:13.000 align:start position:0%
+color palette so we change we've changed
+ 
+
+00:12:13.000 --> 00:12:16.590 align:start position:0%
+color palette so we change we've changed
+our<00:12:13.440><c> base</c><00:12:13.720><c> we</c><00:12:13.920><c> choose</c><00:12:14.399><c> a</c><00:12:14.639><c> red</c><00:12:15.560><c> and</c><00:12:16.120><c> choose</c><00:12:16.360><c> a</c>
+
+00:12:16.590 --> 00:12:16.600 align:start position:0%
+our base we choose a red and choose a
+ 
+
+00:12:16.600 --> 00:12:19.829 align:start position:0%
+our base we choose a red and choose a
+color<00:12:16.880><c> for</c><00:12:17.560><c> the</c><00:12:18.079><c> aggressive</c><00:12:18.519><c> stance</c><00:12:19.079><c> base</c>
+
+00:12:19.829 --> 00:12:19.839 align:start position:0%
+color for the aggressive stance base
+ 
+
+00:12:19.839 --> 00:12:22.470 align:start position:0%
+color for the aggressive stance base
+choose<00:12:20.160><c> the</c><00:12:20.399><c> green</c><00:12:21.000><c> for</c><00:12:21.240><c> that</c><00:12:21.880><c> and</c><00:12:22.079><c> if</c><00:12:22.199><c> we</c><00:12:22.360><c> want</c>
+
+00:12:22.470 --> 00:12:22.480 align:start position:0%
+choose the green for that and if we want
+ 
+
+00:12:22.480 --> 00:12:25.509 align:start position:0%
+choose the green for that and if we want
+to<00:12:23.000><c> make</c><00:12:23.279><c> it</c><00:12:23.399><c> longer</c><00:12:23.920><c> we</c><00:12:24.040><c> can</c><00:12:24.839><c> highlight</c>
+
+00:12:25.509 --> 00:12:25.519 align:start position:0%
+to make it longer we can highlight
+ 
+
+00:12:25.519 --> 00:12:29.710 align:start position:0%
+to make it longer we can highlight
+everything<00:12:26.320><c> press</c><00:12:26.760><c> command</c><00:12:27.519><c> and</c><00:12:28.000><c> r</c>
+
+00:12:29.710 --> 00:12:29.720 align:start position:0%
+everything press command and r
+ 
+
+00:12:29.720 --> 00:12:33.550 align:start position:0%
+everything press command and r
+and<00:12:29.880><c> it's</c><00:12:30.000><c> going</c><00:12:30.120><c> to</c><00:12:30.480><c> create</c><00:12:31.160><c> Some</c><00:12:31.399><c> Loops</c><00:12:32.560><c> or</c>
+
+00:12:33.550 --> 00:12:33.560 align:start position:0%
+and it's going to create Some Loops or
+ 
+
+00:12:33.560 --> 00:12:36.870 align:start position:0%
+and it's going to create Some Loops or
+you<00:12:33.760><c> can</c><00:12:34.160><c> just</c><00:12:35.160><c> press</c><00:12:35.480><c> L</c><00:12:36.440><c> and</c><00:12:36.560><c> it's</c><00:12:36.680><c> going</c><00:12:36.800><c> to</c>
+
+00:12:36.870 --> 00:12:36.880 align:start position:0%
+you can just press L and it's going to
+ 
+
+00:12:36.880 --> 00:12:39.269 align:start position:0%
+you can just press L and it's going to
+create<00:12:37.160><c> a</c><00:12:37.279><c> whole</c><00:12:37.480><c> Loop</c><00:12:38.360><c> bear</c><00:12:38.600><c> in</c><00:12:38.720><c> mind</c><00:12:39.000><c> if</c><00:12:39.120><c> you</c>
+
+00:12:39.269 --> 00:12:39.279 align:start position:0%
+create a whole Loop bear in mind if you
+ 
+
+00:12:39.279 --> 00:12:42.910 align:start position:0%
+create a whole Loop bear in mind if you
+press<00:12:39.600><c> L</c><00:12:40.600><c> on</c><00:12:40.760><c> a</c><00:12:40.920><c> loop</c><00:12:41.360><c> and</c><00:12:41.480><c> it</c><00:12:41.639><c> creates</c><00:12:41.959><c> a</c><00:12:42.079><c> loop</c>
+
+00:12:42.910 --> 00:12:42.920 align:start position:0%
+press L on a loop and it creates a loop
+ 
+
+00:12:42.920 --> 00:12:45.150 align:start position:0%
+press L on a loop and it creates a loop
+you<00:12:43.040><c> can</c><00:12:43.199><c> only</c><00:12:43.440><c> manipulate</c><00:12:43.959><c> the</c><00:12:44.120><c> sand</c><00:12:44.839><c> from</c>
+
+00:12:45.150 --> 00:12:45.160 align:start position:0%
+you can only manipulate the sand from
+ 
+
+00:12:45.160 --> 00:12:49.389 align:start position:0%
+you can only manipulate the sand from
+the<00:12:45.639><c> first</c><00:12:46.760><c> region</c><00:12:47.760><c> this</c><00:12:47.880><c> is</c><00:12:48.079><c> just</c><00:12:48.399><c> a</c>
+
+00:12:49.389 --> 00:12:49.399 align:start position:0%
+the first region this is just a
+ 
+
+00:12:49.399 --> 00:12:51.829 align:start position:0%
+the first region this is just a
+duplicate<00:12:49.959><c> of</c><00:12:50.160><c> the</c><00:12:50.320><c> first</c><00:12:50.560><c> region</c><00:12:51.000><c> really</c>
+
+00:12:51.829 --> 00:12:51.839 align:start position:0%
+duplicate of the first region really
+ 
+
+00:12:51.839 --> 00:12:54.670 align:start position:0%
+duplicate of the first region really
+hope<00:12:52.040><c> that's</c><00:12:52.199><c> all</c><00:12:52.360><c> making</c><00:12:52.720><c> sense</c><00:12:53.680><c> so</c><00:12:53.880><c> let's</c>
+
+00:12:54.670 --> 00:12:54.680 align:start position:0%
+hope that's all making sense so let's
+ 
+
+00:12:54.680 --> 00:13:01.550 align:start position:0%
+hope that's all making sense so let's
+try<00:12:55.680><c> another</c><00:12:56.120><c> loop</c>
+
+00:13:01.550 --> 00:13:01.560 align:start position:0%
+ 
+ 
+
+00:13:01.560 --> 00:13:03.949 align:start position:0%
+ 
+and<00:13:01.800><c> drop</c><00:13:02.079><c> that</c><00:13:02.240><c> into</c><00:13:02.639><c> there</c><00:13:03.399><c> drop</c><00:13:03.639><c> that</c><00:13:03.760><c> into</c>
+
+00:13:03.949 --> 00:13:03.959 align:start position:0%
+and drop that into there drop that into
+ 
+
+00:13:03.959 --> 00:13:05.910 align:start position:0%
+and drop that into there drop that into
+your<00:13:04.120><c> window</c><00:13:04.600><c> now</c><00:13:04.760><c> we've</c><00:13:04.959><c> got</c>
+
+00:13:05.910 --> 00:13:05.920 align:start position:0%
+your window now we've got
+ 
+
+00:13:05.920 --> 00:13:08.910 align:start position:0%
+your window now we've got
+two<00:13:06.920><c> and</c><00:13:07.079><c> we're</c><00:13:07.240><c> going</c><00:13:07.320><c> to</c><00:13:07.560><c> color</c><00:13:07.920><c> code</c>
+
+00:13:08.910 --> 00:13:08.920 align:start position:0%
+two and we're going to color code
+ 
+
+00:13:08.920 --> 00:13:11.389 align:start position:0%
+two and we're going to color code
+that<00:13:09.920><c> and</c><00:13:10.040><c> if</c><00:13:10.120><c> you</c><00:13:10.279><c> press</c><00:13:10.600><c> command</c><00:13:11.079><c> as</c><00:13:11.199><c> well</c>
+
+00:13:11.389 --> 00:13:11.399 align:start position:0%
+that and if you press command as well
+ 
+
+00:13:11.399 --> 00:13:12.670 align:start position:0%
+that and if you press command as well
+when<00:13:11.480><c> you</c><00:13:11.600><c> press</c><00:13:11.800><c> the</c><00:13:11.959><c> color</c><00:13:12.279><c> it's</c><00:13:12.399><c> going</c><00:13:12.519><c> to</c>
+
+00:13:12.670 --> 00:13:12.680 align:start position:0%
+when you press the color it's going to
+ 
+
+00:13:12.680 --> 00:13:16.310 align:start position:0%
+when you press the color it's going to
+change<00:13:13.040><c> the</c><00:13:13.199><c> color</c><00:13:13.519><c> on</c><00:13:13.639><c> your</c><00:13:13.920><c> actual</c><00:13:14.880><c> mixer</c>
+
+00:13:16.310 --> 00:13:16.320 align:start position:0%
+change the color on your actual mixer
+ 
+
+00:13:16.320 --> 00:13:18.949 align:start position:0%
+change the color on your actual mixer
+window<00:13:17.320><c> as</c><00:13:17.440><c> you</c><00:13:17.600><c> can</c><00:13:17.760><c> see</c><00:13:18.440><c> and</c><00:13:18.560><c> then</c><00:13:18.680><c> for</c><00:13:18.839><c> the</c>
+
+00:13:18.949 --> 00:13:18.959 align:start position:0%
+window as you can see and then for the
+ 
+
+00:13:18.959 --> 00:13:21.110 align:start position:0%
+window as you can see and then for the
+Afterparty<00:13:19.560><c> drums</c><00:13:19.839><c> you're</c><00:13:19.959><c> going</c><00:13:20.040><c> to</c><00:13:20.199><c> go</c><00:13:20.360><c> for</c>
+
+00:13:21.110 --> 00:13:21.120 align:start position:0%
+Afterparty drums you're going to go for
+ 
+
+00:13:21.120 --> 00:13:23.550 align:start position:0%
+Afterparty drums you're going to go for
+red<00:13:22.079><c> it</c><00:13:22.199><c> will</c><00:13:22.399><c> change</c><00:13:22.639><c> the</c><00:13:22.800><c> color</c><00:13:23.079><c> on</c><00:13:23.279><c> your</c>
+
+00:13:23.550 --> 00:13:23.560 align:start position:0%
+red it will change the color on your
+ 
+
+00:13:23.560 --> 00:13:26.030 align:start position:0%
+red it will change the color on your
+mixer<00:13:23.920><c> window</c><00:13:24.360><c> and</c><00:13:24.480><c> then</c><00:13:24.600><c> you</c><00:13:24.760><c> just</c><00:13:25.600><c> change</c><00:13:25.880><c> it</c>
+
+00:13:26.030 --> 00:13:26.040 align:start position:0%
+mixer window and then you just change it
+ 
+
+00:13:26.040 --> 00:13:28.629 align:start position:0%
+mixer window and then you just change it
+on<00:13:26.279><c> your</c><00:13:26.920><c> region</c><00:13:27.920><c> so</c><00:13:28.079><c> I</c><00:13:28.160><c> showed</c><00:13:28.399><c> you</c><00:13:28.480><c> a</c><00:13:28.519><c> little</c>
+
+00:13:28.629 --> 00:13:28.639 align:start position:0%
+on your region so I showed you a little
+ 
+
+00:13:28.639 --> 00:13:30.910 align:start position:0%
+on your region so I showed you a little
+bit<00:13:28.760><c> about</c><00:13:28.880><c> thex</c><00:13:29.120><c> Mi</c><00:13:29.240><c> a</c><00:13:29.360><c> window</c><00:13:30.240><c> press</c><00:13:30.519><c> X</c><00:13:30.800><c> and</c>
+
+00:13:30.910 --> 00:13:30.920 align:start position:0%
+bit about thex Mi a window press X and
+ 
+
+00:13:30.920 --> 00:13:33.430 align:start position:0%
+bit about thex Mi a window press X and
+you<00:13:31.040><c> can</c><00:13:31.399><c> manipulate</c><00:13:32.120><c> the</c><00:13:32.279><c> sand</c><00:13:32.800><c> the</c><00:13:32.959><c> levels</c>
+
+00:13:33.430 --> 00:13:33.440 align:start position:0%
+you can manipulate the sand the levels
+ 
+
+00:13:33.440 --> 00:13:37.030 align:start position:0%
+you can manipulate the sand the levels
+of<00:13:33.639><c> your</c><00:13:34.120><c> Sands</c><00:13:34.959><c> here's</c><00:13:35.199><c> your</c><00:13:35.440><c> master</c><00:13:36.440><c> volume</c>
+
+00:13:37.030 --> 00:13:37.040 align:start position:0%
+of your Sands here's your master volume
+ 
+
+00:13:37.040 --> 00:13:38.670 align:start position:0%
+of your Sands here's your master volume
+fader
+
+00:13:38.670 --> 00:13:38.680 align:start position:0%
+fader
+ 
+
+00:13:38.680 --> 00:13:41.030 align:start position:0%
+fader
+again<00:13:39.680><c> leave</c><00:13:40.040><c> that</c><00:13:40.240><c> where</c><00:13:40.399><c> it</c><00:13:40.519><c> is</c><00:13:40.680><c> leave</c><00:13:40.920><c> that</c>
+
+00:13:41.030 --> 00:13:41.040 align:start position:0%
+again leave that where it is leave that
+ 
+
+00:13:41.040 --> 00:13:43.030 align:start position:0%
+again leave that where it is leave that
+on<00:13:41.240><c> zero</c><00:13:41.920><c> because</c><00:13:42.240><c> when</c><00:13:42.360><c> it</c><00:13:42.519><c> comes</c><00:13:42.839><c> when</c><00:13:42.920><c> you</c>
+
+00:13:43.030 --> 00:13:43.040 align:start position:0%
+on zero because when it comes when you
+ 
+
+00:13:43.040 --> 00:13:45.069 align:start position:0%
+on zero because when it comes when you
+come<00:13:43.199><c> to</c><00:13:43.360><c> bouncing</c><00:13:43.959><c> your</c><00:13:44.120><c> track</c><00:13:44.760><c> you</c><00:13:44.880><c> don't</c>
+
+00:13:45.069 --> 00:13:45.079 align:start position:0%
+come to bouncing your track you don't
+ 
+
+00:13:45.079 --> 00:13:47.710 align:start position:0%
+come to bouncing your track you don't
+want<00:13:45.240><c> it</c><00:13:45.320><c> to</c><00:13:45.440><c> be</c><00:13:45.600><c> lower</c><00:13:46.000><c> than</c><00:13:46.959><c> everyone</c><00:13:47.320><c> else's</c>
+
+00:13:47.710 --> 00:13:47.720 align:start position:0%
+want it to be lower than everyone else's
+ 
+
+00:13:47.720 --> 00:13:50.629 align:start position:0%
+want it to be lower than everyone else's
+music<00:13:48.040><c> out</c><00:13:48.279><c> there</c><00:13:49.199><c> so</c><00:13:49.920><c> keep</c><00:13:50.120><c> yeah</c><00:13:50.279><c> just</c><00:13:50.399><c> keep</c>
+
+00:13:50.629 --> 00:13:50.639 align:start position:0%
+music out there so keep yeah just keep
+ 
+
+00:13:50.639 --> 00:13:52.710 align:start position:0%
+music out there so keep yeah just keep
+that<00:13:50.800><c> on</c><00:13:51.040><c> on</c><00:13:51.240><c> zero</c><00:13:51.800><c> I</c><00:13:51.880><c> would</c><00:13:52.199><c> I</c><00:13:52.279><c> would</c><00:13:52.399><c> advise</c>
+
+00:13:52.710 --> 00:13:52.720 align:start position:0%
+that on on zero I would I would advise
+ 
+
+00:13:52.720 --> 00:13:54.550 align:start position:0%
+that on on zero I would I would advise
+to<00:13:52.839><c> keep</c><00:13:53.199><c> the</c><00:13:53.279><c> stereo</c><00:13:53.639><c> output</c><00:13:53.959><c> on</c><00:13:54.120><c> zero</c><00:13:54.399><c> as</c>
+
+00:13:54.550 --> 00:13:54.560 align:start position:0%
+to keep the stereo output on zero as
+ 
+
+00:13:54.560 --> 00:13:55.580 align:start position:0%
+to keep the stereo output on zero as
+well
+
+00:13:55.580 --> 00:13:55.590 align:start position:0%
+well
+ 
+
+00:13:55.590 --> 00:14:07.710 align:start position:0%
+well
+[Music]
+
+00:14:07.710 --> 00:14:07.720 align:start position:0%
+[Music]
+ 
+
+00:14:07.720 --> 00:14:11.350 align:start position:0%
+[Music]
+so<00:14:07.920><c> that</c><00:14:08.079><c> sounding</c><00:14:08.440><c> a</c><00:14:08.560><c> bit</c><00:14:08.720><c> funky</c><00:14:09.600><c> so</c><00:14:10.600><c> the</c><00:14:10.959><c> base</c>
+
+00:14:11.350 --> 00:14:11.360 align:start position:0%
+so that sounding a bit funky so the base
+ 
+
+00:14:11.360 --> 00:14:13.509 align:start position:0%
+so that sounding a bit funky so the base
+region<00:14:11.759><c> that</c><00:14:11.839><c> I've</c><00:14:12.000><c> created</c><00:14:12.480><c> the</c><00:14:12.959><c> the</c><00:14:13.079><c> mid</c><00:14:13.480><c> the</c>
+
+00:14:13.509 --> 00:14:13.519 align:start position:0%
+region that I've created the the mid the
+ 
+
+00:14:13.519 --> 00:14:15.230 align:start position:0%
+region that I've created the the mid the
+mid<00:14:13.800><c> notes</c><00:14:14.000><c> that</c><00:14:14.079><c> I</c><00:14:14.160><c> created</c><00:14:14.399><c> for</c><00:14:14.519><c> the</c><00:14:14.639><c> base</c>
+
+00:14:15.230 --> 00:14:15.240 align:start position:0%
+mid notes that I created for the base
+ 
+
+00:14:15.240 --> 00:14:17.230 align:start position:0%
+mid notes that I created for the base
+they're<00:14:15.440><c> a</c><00:14:15.560><c> little</c><00:14:15.759><c> bit</c><00:14:16.279><c> off</c><00:14:16.800><c> we</c><00:14:16.920><c> can</c><00:14:17.040><c> go</c>
+
+00:14:17.230 --> 00:14:17.240 align:start position:0%
+they're a little bit off we can go
+ 
+
+00:14:17.240 --> 00:14:18.150 align:start position:0%
+they're a little bit off we can go
+inside
+
+00:14:18.150 --> 00:14:18.160 align:start position:0%
+inside
+ 
+
+00:14:18.160 --> 00:14:21.150 align:start position:0%
+inside
+it<00:14:19.160><c> and</c><00:14:19.519><c> and</c><00:14:19.800><c> tweak</c><00:14:20.160><c> up</c><00:14:20.360><c> the</c><00:14:20.440><c> sounds</c><00:14:20.800><c> a</c><00:14:20.959><c> little</c>
+
+00:14:21.150 --> 00:14:21.160 align:start position:0%
+it and and tweak up the sounds a little
+ 
+
+00:14:21.160 --> 00:14:24.350 align:start position:0%
+it and and tweak up the sounds a little
+bit<00:14:21.759><c> just</c><00:14:21.920><c> to</c><00:14:22.079><c> make</c><00:14:22.240><c> sure</c><00:14:22.480><c> it's</c><00:14:22.759><c> on</c><00:14:22.920><c> the</c><00:14:23.199><c> right</c>
+
+00:14:24.350 --> 00:14:24.360 align:start position:0%
+bit just to make sure it's on the right
+ 
+
+00:14:24.360 --> 00:14:26.550 align:start position:0%
+bit just to make sure it's on the right
+notes<00:14:25.360><c> so</c><00:14:25.560><c> as</c><00:14:25.639><c> you</c><00:14:25.720><c> can</c><00:14:25.839><c> see</c><00:14:26.040><c> the</c><00:14:26.160><c> first</c><00:14:26.360><c> note</c>
+
+00:14:26.550 --> 00:14:26.560 align:start position:0%
+notes so as you can see the first note
+ 
+
+00:14:26.560 --> 00:14:28.030 align:start position:0%
+notes so as you can see the first note
+didn't<00:14:26.839><c> play</c><00:14:27.079><c> so</c><00:14:27.240><c> we</c>
+
+00:14:28.030 --> 00:14:28.040 align:start position:0%
+didn't play so we
+ 
+
+00:14:28.040 --> 00:14:32.110 align:start position:0%
+didn't play so we
+can<00:14:29.120><c> bring</c><00:14:29.360><c> that</c><00:14:29.480><c> forward</c>
+
+00:14:32.110 --> 00:14:32.120 align:start position:0%
+ 
+ 
+
+00:14:32.120 --> 00:14:35.150 align:start position:0%
+ 
+attach<00:14:33.120><c> so</c><00:14:33.279><c> we</c><00:14:33.360><c> can</c><00:14:33.519><c> highlight</c><00:14:33.839><c> them</c><00:14:34.160><c> all</c>
+
+00:14:35.150 --> 00:14:35.160 align:start position:0%
+attach so we can highlight them all
+ 
+
+00:14:35.160 --> 00:14:37.710 align:start position:0%
+attach so we can highlight them all
+press<00:14:35.440><c> q</c><00:14:36.040><c> and</c><00:14:36.199><c> it's</c><00:14:36.320><c> going</c><00:14:36.440><c> to</c><00:14:36.600><c> quantize</c><00:14:37.199><c> to</c>
+
+00:14:37.710 --> 00:14:37.720 align:start position:0%
+press q and it's going to quantize to
+ 
+
+00:14:37.720 --> 00:14:39.420 align:start position:0%
+press q and it's going to quantize to
+16th
+
+00:14:39.420 --> 00:14:39.430 align:start position:0%
+16th
+ 
+
+00:14:39.430 --> 00:14:48.629 align:start position:0%
+16th
+[Music]
+
+00:14:48.629 --> 00:14:48.639 align:start position:0%
+ 
+ 
+
+00:14:48.639 --> 00:14:50.749 align:start position:0%
+ 
+note<00:14:49.639><c> that's</c><00:14:49.839><c> cool</c><00:14:50.000><c> it's</c><00:14:50.120><c> better</c><00:14:50.399><c> without</c>
+
+00:14:50.749 --> 00:14:50.759 align:start position:0%
+note that's cool it's better without
+ 
+
+00:14:50.759 --> 00:14:53.829 align:start position:0%
+note that's cool it's better without
+that<00:14:51.560><c> crazy</c><00:14:51.880><c> St</c><00:14:52.360><c> space</c><00:14:53.240><c> so</c><00:14:53.360><c> you've</c><00:14:53.519><c> created</c><00:14:53.759><c> a</c>
+
+00:14:53.829 --> 00:14:53.839 align:start position:0%
+that crazy St space so you've created a
+ 
+
+00:14:53.839 --> 00:14:56.670 align:start position:0%
+that crazy St space so you've created a
+little<00:14:54.000><c> Masterpiece</c><00:14:54.800><c> you</c><00:14:55.000><c> got</c><00:14:55.600><c> a</c><00:14:55.759><c> loop</c><00:14:56.440><c> and</c>
+
+00:14:56.670 --> 00:14:56.680 align:start position:0%
+little Masterpiece you got a loop and
+ 
+
+00:14:56.680 --> 00:14:59.030 align:start position:0%
+little Masterpiece you got a loop and
+you<00:14:56.759><c> want</c><00:14:56.880><c> to</c><00:14:57.160><c> record</c><00:14:57.639><c> your</c><00:14:57.839><c> vocals</c><00:14:58.440><c> so</c><00:14:58.800><c> you</c>
+
+00:14:59.030 --> 00:14:59.040 align:start position:0%
+you want to record your vocals so you
+ 
+
+00:14:59.040 --> 00:15:01.550 align:start position:0%
+you want to record your vocals so you
+you<00:14:59.120><c> might</c><00:14:59.279><c> be</c><00:14:59.399><c> a</c><00:14:59.639><c> singer</c><00:15:00.639><c> rapper</c><00:15:01.199><c> and</c><00:15:01.320><c> now</c><00:15:01.440><c> you</c>
+
+00:15:01.550 --> 00:15:01.560 align:start position:0%
+you might be a singer rapper and now you
+ 
+
+00:15:01.560 --> 00:15:02.949 align:start position:0%
+you might be a singer rapper and now you
+want<00:15:01.639><c> to</c><00:15:01.759><c> get</c><00:15:01.880><c> some</c><00:15:02.079><c> vocals</c><00:15:02.440><c> down</c><00:15:02.680><c> I'm</c><00:15:02.759><c> not</c><00:15:02.880><c> a</c>
+
+00:15:02.949 --> 00:15:02.959 align:start position:0%
+want to get some vocals down I'm not a
+ 
+
+00:15:02.959 --> 00:15:04.749 align:start position:0%
+want to get some vocals down I'm not a
+singer<00:15:03.240><c> I'm</c><00:15:03.320><c> not</c><00:15:03.440><c> a</c><00:15:03.519><c> rapper</c><00:15:04.199><c> but</c><00:15:04.399><c> I</c><00:15:04.480><c> will</c>
+
+00:15:04.749 --> 00:15:04.759 align:start position:0%
+singer I'm not a rapper but I will
+ 
+
+00:15:04.759 --> 00:15:08.310 align:start position:0%
+singer I'm not a rapper but I will
+record<00:15:05.560><c> a</c><00:15:05.720><c> little</c><00:15:06.519><c> Melody</c><00:15:07.079><c> sort</c><00:15:07.279><c> of</c><00:15:07.399><c> thing</c><00:15:08.120><c> so</c>
+
+00:15:08.310 --> 00:15:08.320 align:start position:0%
+record a little Melody sort of thing so
+ 
+
+00:15:08.320 --> 00:15:10.710 align:start position:0%
+record a little Melody sort of thing so
+you<00:15:08.480><c> can</c><00:15:08.959><c> see</c><00:15:09.240><c> how</c><00:15:09.360><c> you</c><00:15:09.480><c> can</c><00:15:09.639><c> record</c><00:15:10.000><c> vocals</c><00:15:10.440><c> so</c>
+
+00:15:10.710 --> 00:15:10.720 align:start position:0%
+you can see how you can record vocals so
+ 
+
+00:15:10.720 --> 00:15:13.189 align:start position:0%
+you can see how you can record vocals so
+make<00:15:10.839><c> sure</c><00:15:11.000><c> that</c><00:15:11.120><c> your</c><00:15:11.279><c> input</c><00:15:11.880><c> is</c><00:15:12.320><c> selected</c><00:15:13.040><c> on</c>
+
+00:15:13.189 --> 00:15:13.199 align:start position:0%
+make sure that your input is selected on
+ 
+
+00:15:13.199 --> 00:15:15.470 align:start position:0%
+make sure that your input is selected on
+your<00:15:13.639><c> interface</c><00:15:14.639><c> and</c><00:15:14.800><c> then</c><00:15:15.000><c> we're</c><00:15:15.120><c> going</c><00:15:15.240><c> to</c>
+
+00:15:15.470 --> 00:15:15.480 align:start position:0%
+your interface and then we're going to
+ 
+
+00:15:15.480 --> 00:15:17.269 align:start position:0%
+your interface and then we're going to
+click
+
+00:15:17.269 --> 00:15:17.279 align:start position:0%
+click
+ 
+
+00:15:17.279 --> 00:15:20.470 align:start position:0%
+click
+on<00:15:18.279><c> the</c><00:15:18.560><c> eye</c><00:15:19.120><c> just</c><00:15:19.240><c> to</c><00:15:19.519><c> make</c>
+
+00:15:20.470 --> 00:15:20.480 align:start position:0%
+on the eye just to make
+ 
+
+00:15:20.480 --> 00:15:23.189 align:start position:0%
+on the eye just to make
+sure<00:15:21.480><c> that</c><00:15:21.600><c> we</c><00:15:21.759><c> got</c><00:15:21.880><c> some</c><00:15:22.199><c> signal</c><00:15:22.839><c> so</c><00:15:23.079><c> let's</c>
+
+00:15:23.189 --> 00:15:23.199 align:start position:0%
+sure that we got some signal so let's
+ 
+
+00:15:23.199 --> 00:15:24.389 align:start position:0%
+sure that we got some signal so let's
+get<00:15:23.320><c> a</c><00:15:23.399><c> little</c><00:15:23.600><c> recording</c><00:15:24.040><c> there</c><00:15:24.199><c> you've</c>
+
+00:15:24.389 --> 00:15:24.399 align:start position:0%
+get a little recording there you've
+ 
+
+00:15:24.399 --> 00:15:26.870 align:start position:0%
+get a little recording there you've
+chose<00:15:24.680><c> your</c><00:15:24.880><c> channel</c><00:15:25.600><c> the</c><00:15:25.800><c> input</c><00:15:26.240><c> selected</c>
+
+00:15:26.870 --> 00:15:26.880 align:start position:0%
+chose your channel the input selected
+ 
+
+00:15:26.880 --> 00:15:29.710 align:start position:0%
+chose your channel the input selected
+your<00:15:27.079><c> mic</c><00:15:27.440><c> is</c><00:15:27.759><c> on</c><00:15:28.199><c> and</c><00:15:28.319><c> then</c><00:15:28.440><c> we're</c><00:15:28.560><c> going</c><00:15:28.639><c> to</c>
+
+00:15:29.710 --> 00:15:29.720 align:start position:0%
+your mic is on and then we're going to
+ 
+
+00:15:29.720 --> 00:15:31.110 align:start position:0%
+your mic is on and then we're going to
+click<00:15:29.920><c> on</c><00:15:30.040><c> the</c><00:15:30.199><c> little</c><00:15:30.440><c> eye</c><00:15:30.720><c> down</c><00:15:30.920><c> there</c><00:15:31.040><c> in</c>
+
+00:15:31.110 --> 00:15:31.120 align:start position:0%
+click on the little eye down there in
+ 
+
+00:15:31.120 --> 00:15:33.470 align:start position:0%
+click on the little eye down there in
+the<00:15:31.279><c> channel</c><00:15:31.720><c> so</c><00:15:31.880><c> we</c><00:15:31.959><c> can</c><00:15:32.120><c> hear</c><00:15:32.360><c> ourself</c><00:15:33.360><c> and</c>
+
+00:15:33.470 --> 00:15:33.480 align:start position:0%
+the channel so we can hear ourself and
+ 
+
+00:15:33.480 --> 00:15:35.150 align:start position:0%
+the channel so we can hear ourself and
+when<00:15:33.600><c> you're</c><00:15:33.759><c> ready</c><00:15:34.040><c> just</c><00:15:34.240><c> press</c><00:15:34.480><c> record</c><00:15:35.040><c> and</c>
+
+00:15:35.150 --> 00:15:35.160 align:start position:0%
+when you're ready just press record and
+ 
+
+00:15:35.160 --> 00:15:37.670 align:start position:0%
+when you're ready just press record and
+you're<00:15:35.279><c> good</c><00:15:35.440><c> to</c>
+
+00:15:37.670 --> 00:15:37.680 align:start position:0%
+ 
+ 
+
+00:15:37.680 --> 00:15:39.990 align:start position:0%
+ 
+go
+
+00:15:39.990 --> 00:15:40.000 align:start position:0%
+go
+ 
+
+00:15:40.000 --> 00:15:42.269 align:start position:0%
+go
+check
+
+00:15:42.269 --> 00:15:42.279 align:start position:0%
+check
+ 
+
+00:15:42.279 --> 00:15:46.700 align:start position:0%
+check
+che
+
+00:15:46.700 --> 00:15:46.710 align:start position:0%
+ 
+ 
+
+00:15:46.710 --> 00:15:48.509 align:start position:0%
+ 
+[Music]
+
+00:15:48.509 --> 00:15:48.519 align:start position:0%
+[Music]
+ 
+
+00:15:48.519 --> 00:15:51.309 align:start position:0%
+[Music]
+check<00:15:49.519><c> so</c><00:15:49.880><c> yeah</c><00:15:50.120><c> that's</c>
+
+00:15:51.309 --> 00:15:51.319 align:start position:0%
+check so yeah that's
+ 
+
+00:15:51.319 --> 00:15:53.670 align:start position:0%
+check so yeah that's
+uh<00:15:52.319><c> that's</c><00:15:52.519><c> my</c><00:15:52.720><c> little</c><00:15:53.000><c> free</c><00:15:53.360><c> that's</c><00:15:53.519><c> my</c>
+
+00:15:53.670 --> 00:15:53.680 align:start position:0%
+uh that's my little free that's my
+ 
+
+00:15:53.680 --> 00:15:56.150 align:start position:0%
+uh that's my little free that's my
+little<00:15:53.920><c> attempt</c><00:15:54.240><c> at</c><00:15:54.360><c> of</c><00:15:54.880><c> freestyle</c><00:15:55.880><c> not</c><00:15:56.040><c> my</c>
+
+00:15:56.150 --> 00:15:56.160 align:start position:0%
+little attempt at of freestyle not my
+ 
+
+00:15:56.160 --> 00:15:58.069 align:start position:0%
+little attempt at of freestyle not my
+thing<00:15:56.399><c> I</c><00:15:56.519><c> leave</c><00:15:56.639><c> it</c><00:15:56.759><c> up</c><00:15:56.880><c> to</c><00:15:57.000><c> you</c><00:15:57.240><c> artists</c><00:15:57.920><c> so</c>
+
+00:15:58.069 --> 00:15:58.079 align:start position:0%
+thing I leave it up to you artists so
+ 
+
+00:15:58.079 --> 00:15:59.749 align:start position:0%
+thing I leave it up to you artists so
+now<00:15:58.199><c> we</c><00:15:58.279><c> can</c><00:15:58.440><c> take</c><00:15:58.560><c> it</c><00:15:58.680><c> out</c><00:15:58.800><c> of</c><00:15:59.120><c> input</c><00:15:59.399><c> monitor</c>
+
+00:15:59.749 --> 00:15:59.759 align:start position:0%
+now we can take it out of input monitor
+ 
+
+00:15:59.759 --> 00:16:01.430 align:start position:0%
+now we can take it out of input monitor
+in<00:16:00.000><c> because</c><00:16:00.120><c> we</c><00:16:00.240><c> don't</c><00:16:00.360><c> want</c><00:16:00.480><c> to</c><00:16:00.639><c> hear</c><00:16:00.839><c> oursel</c>
+
+00:16:01.430 --> 00:16:01.440 align:start position:0%
+in because we don't want to hear oursel
+ 
+
+00:16:01.440 --> 00:16:03.790 align:start position:0%
+in because we don't want to hear oursel
+anymore<00:16:02.399><c> I</c><00:16:02.560><c> definitely</c><00:16:02.880><c> don't</c><00:16:03.000><c> want</c><00:16:03.120><c> to</c><00:16:03.199><c> hear</c>
+
+00:16:03.790 --> 00:16:03.800 align:start position:0%
+anymore I definitely don't want to hear
+ 
+
+00:16:03.800 --> 00:16:06.150 align:start position:0%
+anymore I definitely don't want to hear
+myself<00:16:04.800><c> uh</c><00:16:04.920><c> we</c><00:16:05.000><c> can</c><00:16:05.120><c> turn</c><00:16:05.319><c> out</c><00:16:05.480><c> the</c><00:16:05.600><c> gain</c><00:16:05.839><c> a</c><00:16:05.959><c> bit</c>
+
+00:16:06.150 --> 00:16:06.160 align:start position:0%
+myself uh we can turn out the gain a bit
+ 
+
+00:16:06.160 --> 00:16:08.030 align:start position:0%
+myself uh we can turn out the gain a bit
+if<00:16:06.319><c> we</c><00:16:06.480><c> haven't</c><00:16:06.720><c> got</c><00:16:06.880><c> the</c><00:16:07.120><c> correct</c><00:16:07.519><c> signal</c><00:16:07.920><c> I</c>
+
+00:16:08.030 --> 00:16:08.040 align:start position:0%
+if we haven't got the correct signal I
+ 
+
+00:16:08.040 --> 00:16:09.470 align:start position:0%
+if we haven't got the correct signal I
+should<00:16:08.160><c> have</c><00:16:08.279><c> said</c><00:16:08.680><c> to</c><00:16:08.839><c> you</c><00:16:08.959><c> in</c><00:16:09.040><c> the</c><00:16:09.160><c> beginning</c>
+
+00:16:09.470 --> 00:16:09.480 align:start position:0%
+should have said to you in the beginning
+ 
+
+00:16:09.480 --> 00:16:10.629 align:start position:0%
+should have said to you in the beginning
+to<00:16:09.600><c> make</c><00:16:09.720><c> sure</c><00:16:09.920><c> that</c><00:16:10.000><c> you've</c><00:16:10.160><c> got</c><00:16:10.360><c> enough</c>
+
+00:16:10.629 --> 00:16:10.639 align:start position:0%
+to make sure that you've got enough
+ 
+
+00:16:10.639 --> 00:16:12.629 align:start position:0%
+to make sure that you've got enough
+signal<00:16:11.279><c> when</c><00:16:11.399><c> you</c><00:16:11.560><c> record</c><00:16:12.120><c> but</c><00:16:12.279><c> it</c><00:16:12.360><c> doesn't</c>
+
+00:16:12.629 --> 00:16:12.639 align:start position:0%
+signal when you record but it doesn't
+ 
+
+00:16:12.639 --> 00:16:14.590 align:start position:0%
+signal when you record but it doesn't
+have<00:16:12.759><c> to</c><00:16:12.880><c> be</c><00:16:13.160><c> super</c><00:16:13.480><c> hot</c><00:16:13.880><c> as</c><00:16:13.959><c> you</c><00:16:14.079><c> can</c><00:16:14.199><c> see</c><00:16:14.480><c> we</c>
+
+00:16:14.590 --> 00:16:14.600 align:start position:0%
+have to be super hot as you can see we
+ 
+
+00:16:14.600 --> 00:16:17.189 align:start position:0%
+have to be super hot as you can see we
+can<00:16:14.720><c> turn</c><00:16:15.000><c> it</c><00:16:15.160><c> up</c><00:16:15.800><c> a</c><00:16:15.920><c> bit</c><00:16:16.079><c> later</c><00:16:16.519><c> but</c><00:16:16.720><c> I</c><00:16:16.839><c> would</c>
+
+00:16:17.189 --> 00:16:17.199 align:start position:0%
+can turn it up a bit later but I would
+ 
+
+00:16:17.199 --> 00:16:19.910 align:start position:0%
+can turn it up a bit later but I would
+advise<00:16:17.519><c> you</c><00:16:17.639><c> to</c><00:16:17.800><c> record</c><00:16:18.160><c> at</c><00:16:18.279><c> a</c><00:16:18.480><c> decent</c><00:16:18.920><c> level</c>
+
+00:16:19.910 --> 00:16:19.920 align:start position:0%
+advise you to record at a decent level
+ 
+
+00:16:19.920 --> 00:16:22.389 align:start position:0%
+advise you to record at a decent level
+so<00:16:20.040><c> we</c><00:16:20.199><c> got</c><00:16:20.319><c> some</c><00:16:20.519><c> vocals</c><00:16:20.959><c> there</c>
+
+00:16:22.389 --> 00:16:22.399 align:start position:0%
+so we got some vocals there
+ 
+
+00:16:22.399 --> 00:16:26.870 align:start position:0%
+so we got some vocals there
+check<00:16:23.399><c> the</c><00:16:23.600><c> M</c><00:16:23.880><c> check</c><00:16:24.560><c> the</c><00:16:24.720><c> one</c><00:16:24.920><c> to</c><00:16:25.560><c> with</c><00:16:25.680><c> the</c><00:16:25.880><c> m</c>
+
+00:16:26.870 --> 00:16:26.880 align:start position:0%
+check the M check the one to with the m
+ 
+
+00:16:26.880 --> 00:16:30.430 align:start position:0%
+check the M check the one to with the m
+check<00:16:27.880><c> with</c><00:16:28.000><c> the</c><00:16:28.160><c> one</c><00:16:28.399><c> to</c><00:16:28.959><c> really</c><00:16:29.279><c> check</c><00:16:29.839><c> check</c>
+
+00:16:30.430 --> 00:16:30.440 align:start position:0%
+check with the one to really check check
+ 
+
+00:16:30.440 --> 00:16:34.710 align:start position:0%
+check with the one to really check check
+my<00:16:30.639><c> check</c><00:16:31.440><c> okay</c><00:16:32.440><c> I</c><00:16:32.560><c> might</c><00:16:32.800><c> have</c><00:16:32.920><c> to</c><00:16:33.480><c> um</c><00:16:34.440><c> add</c>
+
+00:16:34.710 --> 00:16:34.720 align:start position:0%
+my check okay I might have to um add
+ 
+
+00:16:34.720 --> 00:16:38.309 align:start position:0%
+my check okay I might have to um add
+rapper<00:16:35.399><c> to</c><00:16:35.759><c> my</c><00:16:36.440><c> my</c><00:16:36.959><c> repto</c><00:16:37.959><c> so</c><00:16:38.079><c> we're</c><00:16:38.199><c> going</c><00:16:38.279><c> to</c>
+
+00:16:38.309 --> 00:16:38.319 align:start position:0%
+rapper to my my repto so we're going to
+ 
+
+00:16:38.319 --> 00:16:39.749 align:start position:0%
+rapper to my my repto so we're going to
+add<00:16:38.440><c> a</c><00:16:38.519><c> little</c><00:16:38.639><c> bit</c><00:16:38.720><c> of</c><00:16:38.800><c> Reverb</c><00:16:39.120><c> to</c><00:16:39.199><c> the</c><00:16:39.319><c> vocals</c>
+
+00:16:39.749 --> 00:16:39.759 align:start position:0%
+add a little bit of Reverb to the vocals
+ 
+
+00:16:39.759 --> 00:16:41.430 align:start position:0%
+add a little bit of Reverb to the vocals
+you<00:16:39.839><c> can</c><00:16:40.000><c> do</c><00:16:40.120><c> it</c><00:16:40.240><c> two</c><00:16:40.440><c> ways</c><00:16:40.680><c> you</c><00:16:40.880><c> do</c><00:16:41.000><c> it</c><00:16:41.120><c> by</c><00:16:41.319><c> just</c>
+
+00:16:41.430 --> 00:16:41.440 align:start position:0%
+you can do it two ways you do it by just
+ 
+
+00:16:41.440 --> 00:16:43.790 align:start position:0%
+you can do it two ways you do it by just
+adding<00:16:41.680><c> in</c><00:16:41.959><c> insert</c><00:16:42.399><c> and</c><00:16:42.519><c> then</c><00:16:42.800><c> choosing</c>
+
+00:16:43.790 --> 00:16:43.800 align:start position:0%
+adding in insert and then choosing
+ 
+
+00:16:43.800 --> 00:16:46.350 align:start position:0%
+adding in insert and then choosing
+Reverb<00:16:44.399><c> going</c><00:16:44.480><c> to</c><00:16:44.639><c> go</c><00:16:44.880><c> for</c><00:16:45.480><c> Chroma</c><00:16:45.920><c> verb</c><00:16:46.199><c> nice</c>
+
+00:16:46.350 --> 00:16:46.360 align:start position:0%
+Reverb going to go for Chroma verb nice
+ 
+
+00:16:46.360 --> 00:16:50.410 align:start position:0%
+Reverb going to go for Chroma verb nice
+and<00:16:46.680><c> simple</c><00:16:47.680><c> and</c><00:16:47.839><c> you</c><00:16:48.040><c> got</c><00:16:48.800><c> some</c>
+
+00:16:50.410 --> 00:16:50.420 align:start position:0%
+and simple and you got some
+ 
+
+00:16:50.420 --> 00:16:52.230 align:start position:0%
+and simple and you got some
+[Music]
+
+00:16:52.230 --> 00:16:52.240 align:start position:0%
+[Music]
+ 
+
+00:16:52.240 --> 00:16:55.550 align:start position:0%
+[Music]
+Reverb<00:16:53.240><c> the</c><00:16:53.399><c> want</c><00:16:53.600><c> to</c><00:16:54.240><c> with</c><00:16:54.360><c> the</c><00:16:54.560><c> m</c>
+
+00:16:55.550 --> 00:16:55.560 align:start position:0%
+Reverb the want to with the m
+ 
+
+00:16:55.560 --> 00:16:58.509 align:start position:0%
+Reverb the want to with the m
+check<00:16:56.560><c> with</c><00:16:56.720><c> the</c><00:16:56.839><c> want</c><00:16:57.079><c> to</c><00:16:57.639><c> with</c><00:16:57.800><c> the</c><00:16:58.000><c> check</c>
+
+00:16:58.509 --> 00:16:58.519 align:start position:0%
+check with the want to with the check
+ 
+
+00:16:58.519 --> 00:17:02.030 align:start position:0%
+check with the want to with the check
+check<00:16:59.120><c> my</c><00:16:59.560><c> check</c><00:17:00.560><c> so</c><00:17:00.759><c> we</c><00:17:00.920><c> use</c><00:17:01.240><c> this</c><00:17:01.440><c> wet</c><00:17:01.680><c> knob</c>
+
+00:17:02.030 --> 00:17:02.040 align:start position:0%
+check my check so we use this wet knob
+ 
+
+00:17:02.040 --> 00:17:04.429 align:start position:0%
+check my check so we use this wet knob
+here<00:17:02.360><c> just</c><00:17:02.560><c> to</c><00:17:02.959><c> give</c><00:17:03.079><c> us</c><00:17:03.279><c> the</c><00:17:03.399><c> amount</c><00:17:03.720><c> of</c>
+
+00:17:04.429 --> 00:17:04.439 align:start position:0%
+here just to give us the amount of
+ 
+
+00:17:04.439 --> 00:17:07.189 align:start position:0%
+here just to give us the amount of
+Reverb<00:17:04.959><c> that</c><00:17:05.039><c> we</c><00:17:05.160><c> need</c>
+
+00:17:07.189 --> 00:17:07.199 align:start position:0%
+Reverb that we need
+ 
+
+00:17:07.199 --> 00:17:09.470 align:start position:0%
+Reverb that we need
+check
+
+00:17:09.470 --> 00:17:09.480 align:start position:0%
+check
+ 
+
+00:17:09.480 --> 00:17:12.390 align:start position:0%
+check
+check
+
+00:17:12.390 --> 00:17:12.400 align:start position:0%
+check
+ 
+
+00:17:12.400 --> 00:17:15.829 align:start position:0%
+check
+check<00:17:13.400><c> so</c><00:17:13.559><c> you</c><00:17:13.720><c> notice</c><00:17:14.400><c> the</c><00:17:14.559><c> more</c><00:17:14.880><c> wet</c><00:17:15.240><c> you</c><00:17:15.439><c> use</c>
+
+00:17:15.829 --> 00:17:15.839 align:start position:0%
+check so you notice the more wet you use
+ 
+
+00:17:15.839 --> 00:17:18.829 align:start position:0%
+check so you notice the more wet you use
+the<00:17:16.160><c> more</c><00:17:16.439><c> Reverb</c><00:17:16.959><c> that</c><00:17:17.039><c> you</c><00:17:17.160><c> get</c><00:17:18.160><c> and</c><00:17:18.600><c> yeah</c>
+
+00:17:18.829 --> 00:17:18.839 align:start position:0%
+the more Reverb that you get and yeah
+ 
+
+00:17:18.839 --> 00:17:20.789 align:start position:0%
+the more Reverb that you get and yeah
+just<00:17:19.039><c> it's</c><00:17:19.199><c> just</c><00:17:19.400><c> preference</c><00:17:19.880><c> and</c><00:17:20.360><c> the</c><00:17:20.480><c> sound</c>
+
+00:17:20.789 --> 00:17:20.799 align:start position:0%
+just it's just preference and the sound
+ 
+
+00:17:20.799 --> 00:17:21.990 align:start position:0%
+just it's just preference and the sound
+that<00:17:20.880><c> you</c><00:17:21.000><c> want</c><00:17:21.360><c> so</c><00:17:21.480><c> I'm</c><00:17:21.600><c> not</c><00:17:21.679><c> going</c><00:17:21.799><c> to</c><00:17:21.880><c> get</c>
+
+00:17:21.990 --> 00:17:22.000 align:start position:0%
+that you want so I'm not going to get
+ 
+
+00:17:22.000 --> 00:17:24.029 align:start position:0%
+that you want so I'm not going to get
+into<00:17:22.559><c> how</c><00:17:22.880><c> to</c><00:17:23.000><c> use</c><00:17:23.120><c> it</c><00:17:23.199><c> on</c><00:17:23.400><c> buses</c><00:17:23.799><c> that's</c><00:17:23.919><c> just</c>
+
+00:17:24.029 --> 00:17:24.039 align:start position:0%
+into how to use it on buses that's just
+ 
+
+00:17:24.039 --> 00:17:25.990 align:start position:0%
+into how to use it on buses that's just
+going<00:17:24.120><c> to</c><00:17:24.240><c> keep</c><00:17:24.360><c> it</c><00:17:24.520><c> simple</c><00:17:25.520><c> and</c><00:17:25.640><c> show</c><00:17:25.799><c> you</c><00:17:25.919><c> how</c>
+
+00:17:25.990 --> 00:17:26.000 align:start position:0%
+going to keep it simple and show you how
+ 
+
+00:17:26.000 --> 00:17:27.949 align:start position:0%
+going to keep it simple and show you how
+to<00:17:26.120><c> use</c><00:17:26.240><c> it</c><00:17:26.319><c> in</c><00:17:26.520><c> insert</c><00:17:27.240><c> you</c><00:17:27.319><c> can</c><00:17:27.520><c> also</c><00:17:27.760><c> add</c>
+
+00:17:27.949 --> 00:17:27.959 align:start position:0%
+to use it in insert you can also add
+ 
+
+00:17:27.959 --> 00:17:29.750 align:start position:0%
+to use it in insert you can also add
+other<00:17:28.439><c> effects</c><00:17:28.919><c> if</c><00:17:29.000><c> you</c><00:17:29.080><c> want</c><00:17:29.200><c> to</c><00:17:29.360><c> you</c><00:17:29.440><c> can</c><00:17:29.600><c> add</c>
+
+00:17:29.750 --> 00:17:29.760 align:start position:0%
+other effects if you want to you can add
+ 
+
+00:17:29.760 --> 00:17:32.549 align:start position:0%
+other effects if you want to you can add
+some<00:17:30.000><c> delay</c><00:17:30.360><c> in</c><00:17:30.600><c> there</c><00:17:31.160><c> just</c><00:17:31.320><c> go</c><00:17:31.480><c> to</c><00:17:31.720><c> delay</c>
+
+00:17:32.549 --> 00:17:32.559 align:start position:0%
+some delay in there just go to delay
+ 
+
+00:17:32.559 --> 00:17:34.890 align:start position:0%
+some delay in there just go to delay
+choose<00:17:33.200><c> your</c>
+
+00:17:34.890 --> 00:17:34.900 align:start position:0%
+choose your
+ 
+
+00:17:34.900 --> 00:17:41.789 align:start position:0%
+choose your
+[Music]
+
+00:17:41.789 --> 00:17:41.799 align:start position:0%
+[Music]
+ 
+
+00:17:41.799 --> 00:17:44.549 align:start position:0%
+[Music]
+delay<00:17:42.799><c> same</c><00:17:43.080><c> again</c><00:17:43.480><c> with</c><00:17:43.600><c> the</c><00:17:43.760><c> output</c><00:17:44.160><c> mix</c><00:17:44.440><c> you</c>
+
+00:17:44.549 --> 00:17:44.559 align:start position:0%
+delay same again with the output mix you
+ 
+
+00:17:44.559 --> 00:17:47.870 align:start position:0%
+delay same again with the output mix you
+choose<00:17:44.960><c> how</c><00:17:45.160><c> much</c><00:17:45.880><c> how</c><00:17:46.760><c> much</c><00:17:47.080><c> delay</c><00:17:47.600><c> how</c><00:17:47.720><c> much</c>
+
+00:17:47.870 --> 00:17:47.880 align:start position:0%
+choose how much how much delay how much
+ 
+
+00:17:47.880 --> 00:17:51.540 align:start position:0%
+choose how much how much delay how much
+of<00:17:48.000><c> the</c><00:17:48.200><c> effect</c><00:17:48.440><c> you</c><00:17:48.559><c> want</c><00:17:48.679><c> to</c><00:17:49.000><c> have</c><00:17:50.000><c> on</c><00:17:50.520><c> your</c>
+
+00:17:51.540 --> 00:17:51.550 align:start position:0%
+of the effect you want to have on your
+ 
+
+00:17:51.550 --> 00:17:55.630 align:start position:0%
+of the effect you want to have on your
+[Music]
+
+00:17:55.630 --> 00:17:55.640 align:start position:0%
+ 
+ 
+
+00:17:55.640 --> 00:17:57.630 align:start position:0%
+ 
+sound<00:17:56.640><c> so</c><00:17:56.760><c> you</c><00:17:56.880><c> created</c><00:17:57.120><c> your</c><00:17:57.240><c> beat</c><00:17:57.480><c> you've</c>
+
+00:17:57.630 --> 00:17:57.640 align:start position:0%
+sound so you created your beat you've
+ 
+
+00:17:57.640 --> 00:18:00.950 align:start position:0%
+sound so you created your beat you've
+recorded<00:17:57.960><c> some</c><00:17:58.240><c> vocals</c><00:17:58.919><c> and</c><00:17:59.559><c> now</c><00:18:00.559><c> before</c><00:18:00.799><c> you</c>
+
+00:18:00.950 --> 00:18:00.960 align:start position:0%
+recorded some vocals and now before you
+ 
+
+00:18:00.960 --> 00:18:03.870 align:start position:0%
+recorded some vocals and now before you
+balance<00:18:01.280><c> it</c><00:18:01.400><c> down</c><00:18:02.240><c> save</c><00:18:02.559><c> it</c><00:18:03.559><c> should</c><00:18:03.720><c> have</c>
+
+00:18:03.870 --> 00:18:03.880 align:start position:0%
+balance it down save it should have
+ 
+
+00:18:03.880 --> 00:18:05.789 align:start position:0%
+balance it down save it should have
+mentioned<00:18:04.200><c> that</c><00:18:04.360><c> to</c><00:18:04.480><c> you</c>
+
+00:18:05.789 --> 00:18:05.799 align:start position:0%
+mentioned that to you
+ 
+
+00:18:05.799 --> 00:18:07.870 align:start position:0%
+mentioned that to you
+earlier<00:18:06.799><c> so</c><00:18:06.960><c> to</c><00:18:07.080><c> save</c><00:18:07.320><c> you</c><00:18:07.440><c> just</c><00:18:07.600><c> press</c>
+
+00:18:07.870 --> 00:18:07.880 align:start position:0%
+earlier so to save you just press
+ 
+
+00:18:07.880 --> 00:18:09.789 align:start position:0%
+earlier so to save you just press
+command<00:18:08.200><c> and</c><00:18:08.400><c> S</c><00:18:08.960><c> and</c><00:18:09.200><c> it's</c><00:18:09.320><c> going</c><00:18:09.440><c> to</c><00:18:09.559><c> give</c><00:18:09.679><c> you</c>
+
+00:18:09.789 --> 00:18:09.799 align:start position:0%
+command and S and it's going to give you
+ 
+
+00:18:09.799 --> 00:18:11.990 align:start position:0%
+command and S and it's going to give you
+the<00:18:10.000><c> option</c><00:18:10.960><c> it's</c><00:18:11.120><c> going</c><00:18:11.200><c> to</c><00:18:11.360><c> give</c><00:18:11.559><c> bring</c><00:18:11.760><c> up</c><00:18:11.880><c> a</c>
+
+00:18:11.990 --> 00:18:12.000 align:start position:0%
+the option it's going to give bring up a
+ 
+
+00:18:12.000 --> 00:18:13.590 align:start position:0%
+the option it's going to give bring up a
+box<00:18:12.200><c> for</c><00:18:12.360><c> you</c><00:18:12.440><c> to</c><00:18:12.600><c> save</c><00:18:12.840><c> it</c><00:18:13.240><c> we're</c><00:18:13.400><c> going</c><00:18:13.480><c> to</c>
+
+00:18:13.590 --> 00:18:13.600 align:start position:0%
+box for you to save it we're going to
+ 
+
+00:18:13.600 --> 00:18:18.789 align:start position:0%
+box for you to save it we're going to
+call<00:18:13.880><c> this</c><00:18:14.799><c> how</c><00:18:15.559><c> to</c><00:18:16.240><c> get</c>
+
+00:18:18.789 --> 00:18:18.799 align:start position:0%
+call this how to get
+ 
+
+00:18:18.799 --> 00:18:23.510 align:start position:0%
+call this how to get
+started<00:18:19.799><c> in</c><00:18:20.159><c> logic</c><00:18:21.039><c> pro</c><00:18:22.039><c> and</c><00:18:22.520><c> you</c><00:18:22.919><c> can</c><00:18:23.200><c> choose</c>
+
+00:18:23.510 --> 00:18:23.520 align:start position:0%
+started in logic pro and you can choose
+ 
+
+00:18:23.520 --> 00:18:25.390 align:start position:0%
+started in logic pro and you can choose
+if<00:18:23.640><c> you</c><00:18:23.720><c> want</c><00:18:23.799><c> to</c><00:18:24.440><c> make</c><00:18:24.600><c> it</c><00:18:24.720><c> a</c><00:18:24.919><c> package</c><00:18:25.200><c> or</c>
+
+00:18:25.390 --> 00:18:25.400 align:start position:0%
+if you want to make it a package or
+ 
+
+00:18:25.400 --> 00:18:28.029 align:start position:0%
+if you want to make it a package or
+folder<00:18:26.080><c> I've</c><00:18:27.000><c> I've</c><00:18:27.120><c> been</c><00:18:27.240><c> using</c><00:18:27.480><c> folders</c><00:18:27.840><c> for</c>
+
+00:18:28.029 --> 00:18:28.039 align:start position:0%
+folder I've I've been using folders for
+ 
+
+00:18:28.039 --> 00:18:30.510 align:start position:0%
+folder I've I've been using folders for
+years<00:18:29.039><c> I'll</c><00:18:29.240><c> just</c><00:18:29.400><c> keep</c><00:18:29.559><c> it</c><00:18:29.679><c> as</c><00:18:29.880><c> that</c>
+
+00:18:30.510 --> 00:18:30.520 align:start position:0%
+years I'll just keep it as that
+ 
+
+00:18:30.520 --> 00:18:31.830 align:start position:0%
+years I'll just keep it as that
+everything<00:18:30.840><c> that</c><00:18:30.960><c> you</c><00:18:31.039><c> want</c><00:18:31.159><c> to</c><00:18:31.360><c> include</c>
+
+00:18:31.830 --> 00:18:31.840 align:start position:0%
+everything that you want to include
+ 
+
+00:18:31.840 --> 00:18:33.390 align:start position:0%
+everything that you want to include
+inside<00:18:32.159><c> your</c><00:18:32.280><c> folder</c><00:18:32.720><c> so</c><00:18:32.919><c> if</c><00:18:33.000><c> you</c><00:18:33.080><c> want</c><00:18:33.159><c> to</c>
+
+00:18:33.390 --> 00:18:33.400 align:start position:0%
+inside your folder so if you want to
+ 
+
+00:18:33.400 --> 00:18:35.310 align:start position:0%
+inside your folder so if you want to
+include<00:18:33.720><c> your</c><00:18:33.840><c> audio</c><00:18:34.159><c> files</c><00:18:34.600><c> the</c><00:18:34.760><c> samples</c>
+
+00:18:35.310 --> 00:18:35.320 align:start position:0%
+include your audio files the samples
+ 
+
+00:18:35.320 --> 00:18:37.470 align:start position:0%
+include your audio files the samples
+that<00:18:35.440><c> you've</c><00:18:35.760><c> used</c><00:18:36.679><c> um</c><00:18:36.919><c> the</c><00:18:37.039><c> audio</c><00:18:37.320><c> that</c><00:18:37.400><c> You'</c>
+
+00:18:37.470 --> 00:18:37.480 align:start position:0%
+that you've used um the audio that You'
+ 
+
+00:18:37.480 --> 00:18:40.630 align:start position:0%
+that you've used um the audio that You'
+used<00:18:37.679><c> in</c><00:18:37.760><c> the</c><00:18:38.320><c> Samplers</c><00:18:39.320><c> your</c><00:18:39.520><c> Ultra</c><00:18:39.919><c> beat</c>
+
+00:18:40.630 --> 00:18:40.640 align:start position:0%
+used in the Samplers your Ultra beat
+ 
+
+00:18:40.640 --> 00:18:44.870 align:start position:0%
+used in the Samplers your Ultra beat
+audio<00:18:41.080><c> which</c><00:18:41.159><c> is</c><00:18:41.320><c> another</c><00:18:42.039><c> drum</c><00:18:42.760><c> drum</c><00:18:43.640><c> syn</c><00:18:44.640><c> and</c>
+
+00:18:44.870 --> 00:18:44.880 align:start position:0%
+audio which is another drum drum syn and
+ 
+
+00:18:44.880 --> 00:18:46.029 align:start position:0%
+audio which is another drum drum syn and
+yeah<00:18:45.000><c> whatever</c><00:18:45.280><c> you've</c><00:18:45.480><c> used</c><00:18:45.760><c> in</c><00:18:45.880><c> your</c>
+
+00:18:46.029 --> 00:18:46.039 align:start position:0%
+yeah whatever you've used in your
+ 
+
+00:18:46.039 --> 00:18:48.590 align:start position:0%
+yeah whatever you've used in your
+project<00:18:46.440><c> just</c><00:18:46.960><c> click</c><00:18:47.200><c> the</c><00:18:47.360><c> Box</c><00:18:47.679><c> check</c><00:18:47.880><c> the</c><00:18:48.039><c> box</c>
+
+00:18:48.590 --> 00:18:48.600 align:start position:0%
+project just click the Box check the box
+ 
+
+00:18:48.600 --> 00:18:51.029 align:start position:0%
+project just click the Box check the box
+and<00:18:49.000><c> hit</c><00:18:49.320><c> save</c><00:18:50.320><c> make</c><00:18:50.480><c> sure</c><00:18:50.600><c> you're</c><00:18:50.720><c> saving</c><00:18:50.960><c> it</c>
+
+00:18:51.029 --> 00:18:51.039 align:start position:0%
+and hit save make sure you're saving it
+ 
+
+00:18:51.039 --> 00:18:52.029 align:start position:0%
+and hit save make sure you're saving it
+in<00:18:51.120><c> your</c><00:18:51.240><c> logic</c>
+
+00:18:52.029 --> 00:18:52.039 align:start position:0%
+in your logic
+ 
+
+00:18:52.039 --> 00:18:54.430 align:start position:0%
+in your logic
+folder<00:18:53.039><c> so</c><00:18:53.240><c> that's</c><00:18:53.440><c> done</c><00:18:53.760><c> it's</c><00:18:53.919><c> saved</c><00:18:54.240><c> you</c><00:18:54.320><c> can</c>
+
+00:18:54.430 --> 00:18:54.440 align:start position:0%
+folder so that's done it's saved you can
+ 
+
+00:18:54.440 --> 00:18:56.669 align:start position:0%
+folder so that's done it's saved you can
+go<00:18:54.640><c> back</c><00:18:54.760><c> to</c><00:18:54.880><c> it</c><00:18:55.159><c> tweak</c><00:18:55.559><c> again</c><00:18:55.840><c> if</c><00:18:55.960><c> you</c><00:18:56.080><c> want</c>
+
+00:18:56.669 --> 00:18:56.679 align:start position:0%
+go back to it tweak again if you want
+ 
+
+00:18:56.679 --> 00:18:57.950 align:start position:0%
+go back to it tweak again if you want
+and<00:18:56.840><c> do</c><00:18:56.960><c> whatever</c><00:18:57.200><c> you</c><00:18:57.280><c> want</c><00:18:57.440><c> with</c><00:18:57.559><c> it</c><00:18:57.760><c> it's</c>
+
+00:18:57.950 --> 00:18:57.960 align:start position:0%
+and do whatever you want with it it's
+ 
+
+00:18:57.960 --> 00:19:00.669 align:start position:0%
+and do whatever you want with it it's
+saved<00:18:58.440><c> when</c><00:18:58.799><c> you're</c><00:18:58.919><c> balancing</c><00:18:59.360><c> down</c><00:19:00.280><c> your</c>
+
+00:19:00.669 --> 00:19:00.679 align:start position:0%
+saved when you're balancing down your
+ 
+
+00:19:00.679 --> 00:19:02.630 align:start position:0%
+saved when you're balancing down your
+project<00:19:01.120><c> make</c><00:19:01.280><c> sure</c><00:19:01.480><c> that</c><00:19:01.600><c> your</c><00:19:01.760><c> locators</c><00:19:02.400><c> are</c>
+
+00:19:02.630 --> 00:19:02.640 align:start position:0%
+project make sure that your locators are
+ 
+
+00:19:02.640 --> 00:19:05.549 align:start position:0%
+project make sure that your locators are
+set<00:19:03.000><c> to</c><00:19:03.200><c> your</c><00:19:03.400><c> project</c><00:19:04.200><c> length</c><00:19:05.200><c> otherwise</c>
+
+00:19:05.549 --> 00:19:05.559 align:start position:0%
+set to your project length otherwise
+ 
+
+00:19:05.559 --> 00:19:08.110 align:start position:0%
+set to your project length otherwise
+it's<00:19:05.720><c> just</c><00:19:05.880><c> going</c><00:19:06.000><c> to</c><00:19:06.960><c> keep</c><00:19:07.159><c> going</c><00:19:07.679><c> and</c><00:19:07.880><c> keep</c>
+
+00:19:08.110 --> 00:19:08.120 align:start position:0%
+it's just going to keep going and keep
+ 
+
+00:19:08.120 --> 00:19:09.909 align:start position:0%
+it's just going to keep going and keep
+going<00:19:08.480><c> and</c><00:19:08.640><c> keep</c><00:19:08.880><c> going</c><00:19:09.200><c> and</c><00:19:09.360><c> keep</c><00:19:09.559><c> going</c><00:19:09.799><c> to</c>
+
+00:19:09.909 --> 00:19:09.919 align:start position:0%
+going and keep going and keep going to
+ 
+
+00:19:09.919 --> 00:19:11.270 align:start position:0%
+going and keep going and keep going to
+the<00:19:10.000><c> end</c><00:19:10.159><c> of</c><00:19:10.280><c> the</c><00:19:10.400><c> project</c><00:19:10.880><c> and</c><00:19:11.000><c> you</c><00:19:11.080><c> don't</c>
+
+00:19:11.270 --> 00:19:11.280 align:start position:0%
+the end of the project and you don't
+ 
+
+00:19:11.280 --> 00:19:13.149 align:start position:0%
+the end of the project and you don't
+want<00:19:11.480><c> that</c><00:19:11.640><c> you</c><00:19:11.760><c> just</c><00:19:11.840><c> want</c><00:19:11.960><c> to</c><00:19:12.080><c> do</c><00:19:12.840><c> whatever</c>
+
+00:19:13.149 --> 00:19:13.159 align:start position:0%
+want that you just want to do whatever
+ 
+
+00:19:13.159 --> 00:19:15.190 align:start position:0%
+want that you just want to do whatever
+you've<00:19:13.400><c> made</c><00:19:14.280><c> so</c><00:19:14.440><c> you</c><00:19:14.520><c> can</c><00:19:14.799><c> highlight</c>
+
+00:19:15.190 --> 00:19:15.200 align:start position:0%
+you've made so you can highlight
+ 
+
+00:19:15.200 --> 00:19:17.870 align:start position:0%
+you've made so you can highlight
+everything<00:19:15.480><c> you've</c><00:19:16.080><c> made</c><00:19:17.080><c> press</c><00:19:17.360><c> command</c><00:19:17.679><c> and</c>
+
+00:19:17.870 --> 00:19:17.880 align:start position:0%
+everything you've made press command and
+ 
+
+00:19:17.880 --> 00:19:20.590 align:start position:0%
+everything you've made press command and
+new<00:19:18.559><c> if</c><00:19:18.679><c> you've</c><00:19:18.919><c> used</c><00:19:19.440><c> some</c><00:19:19.760><c> reverbs</c><00:19:20.240><c> and</c>
+
+00:19:20.590 --> 00:19:20.600 align:start position:0%
+new if you've used some reverbs and
+ 
+
+00:19:20.600 --> 00:19:23.190 align:start position:0%
+new if you've used some reverbs and
+whatnot<00:19:21.600><c> effects</c><00:19:22.240><c> then</c><00:19:22.400><c> leave</c><00:19:22.760><c> a</c><00:19:22.880><c> little</c><00:19:23.080><c> bit</c>
+
+00:19:23.190 --> 00:19:23.200 align:start position:0%
+whatnot effects then leave a little bit
+ 
+
+00:19:23.200 --> 00:19:24.390 align:start position:0%
+whatnot effects then leave a little bit
+of
+
+00:19:24.390 --> 00:19:24.400 align:start position:0%
+of
+ 
+
+00:19:24.400 --> 00:19:27.950 align:start position:0%
+of
+a<00:19:25.400><c> space</c><00:19:26.080><c> which</c><00:19:26.240><c> will</c><00:19:26.640><c> allow</c><00:19:26.960><c> for</c><00:19:27.360><c> the</c><00:19:27.480><c> reverbs</c>
+
+00:19:27.950 --> 00:19:27.960 align:start position:0%
+a space which will allow for the reverbs
+ 
+
+00:19:27.960 --> 00:19:30.270 align:start position:0%
+a space which will allow for the reverbs
+and<00:19:28.120><c> that</c><00:19:28.280><c> to</c><00:19:28.400><c> have</c><00:19:28.480><c> a</c><00:19:28.760><c> tail</c><00:19:29.400><c> once</c><00:19:29.600><c> you've</c><00:19:30.039><c> set</c>
+
+00:19:30.270 --> 00:19:30.280 align:start position:0%
+and that to have a tail once you've set
+ 
+
+00:19:30.280 --> 00:19:33.350 align:start position:0%
+and that to have a tail once you've set
+your<00:19:30.440><c> locators</c><00:19:31.440><c> you're</c><00:19:31.760><c> happy</c><00:19:32.000><c> with</c><00:19:32.120><c> your</c><00:19:32.280><c> mix</c>
+
+00:19:33.350 --> 00:19:33.360 align:start position:0%
+your locators you're happy with your mix
+ 
+
+00:19:33.360 --> 00:19:36.029 align:start position:0%
+your locators you're happy with your mix
+you're<00:19:34.360><c> ready</c><00:19:34.840><c> to</c><00:19:35.159><c> balance</c><00:19:35.520><c> down</c><00:19:35.720><c> your</c><00:19:35.960><c> your</c>
+
+00:19:36.029 --> 00:19:36.039 align:start position:0%
+you're ready to balance down your your
+ 
+
+00:19:36.039 --> 00:19:38.430 align:start position:0%
+you're ready to balance down your your
+file<00:19:36.400><c> your</c><00:19:36.520><c> song</c><00:19:37.360><c> So</c><00:19:37.600><c> press</c><00:19:37.840><c> command</c><00:19:38.120><c> and</c><00:19:38.280><c> B</c>
+
+00:19:38.430 --> 00:19:38.440 align:start position:0%
+file your song So press command and B
+ 
+
+00:19:38.440 --> 00:19:39.950 align:start position:0%
+file your song So press command and B
+it's<00:19:38.520><c> going</c><00:19:38.600><c> to</c><00:19:38.679><c> bring</c><00:19:38.840><c> up</c><00:19:38.960><c> a</c><00:19:39.120><c> box</c><00:19:39.320><c> for</c><00:19:39.480><c> you</c><00:19:39.840><c> you</c>
+
+00:19:39.950 --> 00:19:39.960 align:start position:0%
+it's going to bring up a box for you you
+ 
+
+00:19:39.960 --> 00:19:40.789 align:start position:0%
+it's going to bring up a box for you you
+got<00:19:40.080><c> your</c>
+
+00:19:40.789 --> 00:19:40.799 align:start position:0%
+got your
+ 
+
+00:19:40.799 --> 00:19:43.110 align:start position:0%
+got your
+destination<00:19:41.799><c> um</c><00:19:42.080><c> wave</c>
+
+00:19:43.110 --> 00:19:43.120 align:start position:0%
+destination um wave
+ 
+
+00:19:43.120 --> 00:19:46.470 align:start position:0%
+destination um wave
+MP3<00:19:44.120><c> is</c><00:19:44.360><c> the</c><00:19:44.520><c> two</c><00:19:44.799><c> that</c><00:19:44.919><c> I</c><00:19:45.039><c> use</c><00:19:45.440><c> most</c><00:19:46.240><c> and</c><00:19:46.360><c> you</c>
+
+00:19:46.470 --> 00:19:46.480 align:start position:0%
+MP3 is the two that I use most and you
+ 
+
+00:19:46.480 --> 00:19:48.070 align:start position:0%
+MP3 is the two that I use most and you
+got<00:19:46.600><c> your</c><00:19:46.679><c> file</c><00:19:47.000><c> type</c><00:19:47.200><c> your</c><00:19:47.360><c> bit</c><00:19:47.600><c> depth</c><00:19:47.919><c> your</c>
+
+00:19:48.070 --> 00:19:48.080 align:start position:0%
+got your file type your bit depth your
+ 
+
+00:19:48.080 --> 00:19:50.310 align:start position:0%
+got your file type your bit depth your
+sample<00:19:48.440><c> rate</c><00:19:48.640><c> your</c><00:19:48.760><c> format</c><00:19:49.159><c> your</c><00:19:49.320><c> diing</c><00:19:50.159><c> I</c>
+
+00:19:50.310 --> 00:19:50.320 align:start position:0%
+sample rate your format your diing I
+ 
+
+00:19:50.320 --> 00:19:54.549 align:start position:0%
+sample rate your format your diing I
+just<00:19:50.520><c> stick</c><00:19:50.919><c> with</c><00:19:51.200><c> wave</c><00:19:51.600><c> 24</c><00:19:52.000><c> bit</c><00:19:52.600><c> 44.1</c><00:19:53.600><c> khz</c><00:19:54.480><c> you</c>
+
+00:19:54.549 --> 00:19:54.559 align:start position:0%
+just stick with wave 24 bit 44.1 khz you
+ 
+
+00:19:54.559 --> 00:19:56.310 align:start position:0%
+just stick with wave 24 bit 44.1 khz you
+can<00:19:54.720><c> change</c><00:19:54.960><c> the</c><00:19:55.080><c> mode</c><00:19:55.760><c> so</c><00:19:55.919><c> if</c><00:19:56.000><c> you</c><00:19:56.080><c> choose</c>
+
+00:19:56.310 --> 00:19:56.320 align:start position:0%
+can change the mode so if you choose
+ 
+
+00:19:56.320 --> 00:19:57.549 align:start position:0%
+can change the mode so if you choose
+real<00:19:56.559><c> time</c><00:19:56.840><c> you're</c><00:19:56.960><c> going</c><00:19:57.039><c> to</c><00:19:57.159><c> hear</c><00:19:57.280><c> it</c><00:19:57.400><c> in</c>
+
+00:19:57.549 --> 00:19:57.559 align:start position:0%
+real time you're going to hear it in
+ 
+
+00:19:57.559 --> 00:19:59.149 align:start position:0%
+real time you're going to hear it in
+real<00:19:57.760><c> time</c><00:19:58.039><c> if</c><00:19:58.120><c> you</c><00:19:58.240><c> choose</c>
+
+00:19:59.149 --> 00:19:59.159 align:start position:0%
+real time if you choose
+ 
+
+00:19:59.159 --> 00:20:01.070 align:start position:0%
+real time if you choose
+offline<00:20:00.039><c> you're</c><00:20:00.200><c> not</c><00:20:00.320><c> going</c><00:20:00.400><c> to</c><00:20:00.520><c> hear</c><00:20:00.679><c> it</c><00:20:00.919><c> but</c>
+
+00:20:01.070 --> 00:20:01.080 align:start position:0%
+offline you're not going to hear it but
+ 
+
+00:20:01.080 --> 00:20:04.029 align:start position:0%
+offline you're not going to hear it but
+it's<00:20:01.200><c> a</c><00:20:01.360><c> lot</c><00:20:01.840><c> quicker</c><00:20:02.840><c> and</c><00:20:03.280><c> sometimes</c><00:20:03.880><c> you</c>
+
+00:20:04.029 --> 00:20:04.039 align:start position:0%
+it's a lot quicker and sometimes you
+ 
+
+00:20:04.039 --> 00:20:05.430 align:start position:0%
+it's a lot quicker and sometimes you
+might<00:20:04.280><c> been</c><00:20:04.400><c> a</c><00:20:04.520><c> ration</c><00:20:04.799><c> you</c><00:20:04.960><c> just</c><00:20:05.039><c> want</c><00:20:05.159><c> to</c><00:20:05.320><c> get</c>
+
+00:20:05.430 --> 00:20:05.440 align:start position:0%
+might been a ration you just want to get
+ 
+
+00:20:05.440 --> 00:20:08.590 align:start position:0%
+might been a ration you just want to get
+it<00:20:05.919><c> done</c><00:20:06.280><c> quick</c><00:20:06.880><c> normalized</c><00:20:07.440><c> I</c><00:20:07.559><c> like</c><00:20:07.720><c> to</c><00:20:07.840><c> keep</c>
+
+00:20:08.590 --> 00:20:08.600 align:start position:0%
+it done quick normalized I like to keep
+ 
+
+00:20:08.600 --> 00:20:11.190 align:start position:0%
+it done quick normalized I like to keep
+off<00:20:09.600><c> you</c><00:20:09.720><c> can</c><00:20:10.000><c> change</c><00:20:10.320><c> that</c><00:20:10.440><c> if</c><00:20:10.520><c> you</c><00:20:10.640><c> want</c><00:20:11.039><c> have</c>
+
+00:20:11.190 --> 00:20:11.200 align:start position:0%
+off you can change that if you want have
+ 
+
+00:20:11.200 --> 00:20:13.110 align:start position:0%
+off you can change that if you want have
+the<00:20:11.320><c> overload</c><00:20:11.840><c> protection</c><00:20:12.200><c> on</c><00:20:12.520><c> but</c><00:20:12.720><c> I</c><00:20:12.840><c> don't</c>
+
+00:20:13.110 --> 00:20:13.120 align:start position:0%
+the overload protection on but I don't
+ 
+
+00:20:13.120 --> 00:20:15.510 align:start position:0%
+the overload protection on but I don't
+really<00:20:13.799><c> like</c><00:20:13.960><c> to</c><00:20:14.120><c> use</c><00:20:14.400><c> that</c><00:20:14.960><c> so</c><00:20:15.159><c> once</c><00:20:15.320><c> we're</c>
+
+00:20:15.510 --> 00:20:15.520 align:start position:0%
+really like to use that so once we're
+ 
+
+00:20:15.520 --> 00:20:18.149 align:start position:0%
+really like to use that so once we're
+happy<00:20:15.720><c> with</c><00:20:15.840><c> that</c><00:20:15.960><c> we</c><00:20:16.120><c> press</c><00:20:16.520><c> okay</c><00:20:17.520><c> we</c><00:20:17.720><c> chose</c><00:20:17.960><c> a</c>
+
+00:20:18.149 --> 00:20:18.159 align:start position:0%
+happy with that we press okay we chose a
+ 
+
+00:20:18.159 --> 00:20:20.230 align:start position:0%
+happy with that we press okay we chose a
+name<00:20:18.440><c> how</c><00:20:18.600><c> to</c><00:20:18.760><c> get</c><00:20:18.880><c> started</c><00:20:19.159><c> in</c><00:20:19.320><c> logic</c><00:20:19.720><c> pro</c>
+
+00:20:20.230 --> 00:20:20.240 align:start position:0%
+name how to get started in logic pro
+ 
+
+00:20:20.240 --> 00:20:23.830 align:start position:0%
+name how to get started in logic pro
+which<00:20:20.720><c> is</c><00:20:21.720><c> what</c><00:20:21.840><c> we</c><00:20:21.960><c> saved</c><00:20:22.400><c> as</c><00:20:23.400><c> and</c><00:20:23.559><c> we</c><00:20:23.679><c> ready</c>
+
+00:20:23.830 --> 00:20:23.840 align:start position:0%
+which is what we saved as and we ready
+ 
+
+00:20:23.840 --> 00:20:28.410 align:start position:0%
+which is what we saved as and we ready
+to<00:20:24.000><c> bounce</c><00:20:24.840><c> so</c><00:20:25.120><c> click</c><00:20:25.360><c> bounce</c>
+
+00:20:28.410 --> 00:20:28.420 align:start position:0%
+ 
+ 
+
+00:20:28.420 --> 00:20:34.950 align:start position:0%
+ 
+[Music]
+
+00:20:34.950 --> 00:20:34.960 align:start position:0%
+[Music]
+ 
+
+00:20:34.960 --> 00:20:39.070 align:start position:0%
+[Music]
+cringe<00:20:35.960><c> absolute</c><00:20:36.640><c> cringe</c><00:20:37.480><c> so</c><00:20:37.679><c> that's</c><00:20:38.080><c> done</c>
+
+00:20:39.070 --> 00:20:39.080 align:start position:0%
+cringe absolute cringe so that's done
+ 
+
+00:20:39.080 --> 00:20:40.630 align:start position:0%
+cringe absolute cringe so that's done
+then<00:20:39.200><c> we're</c><00:20:39.360><c> going</c><00:20:39.440><c> to</c><00:20:39.559><c> go</c><00:20:39.679><c> to</c><00:20:39.799><c> our</c>
+
+00:20:40.630 --> 00:20:40.640 align:start position:0%
+then we're going to go to our
+ 
+
+00:20:40.640 --> 00:20:42.990 align:start position:0%
+then we're going to go to our
+folder<00:20:41.640><c> had</c><00:20:41.760><c> to</c><00:20:41.880><c> get</c><00:20:42.000><c> started</c><00:20:42.240><c> in</c><00:20:42.360><c> logic</c><00:20:42.720><c> pro</c>
+
+00:20:42.990 --> 00:20:43.000 align:start position:0%
+folder had to get started in logic pro
+ 
+
+00:20:43.000 --> 00:20:45.620 align:start position:0%
+folder had to get started in logic pro
+checking<00:20:43.280><c> our</c><00:20:43.440><c> boun's</c><00:20:43.880><c> folder</c><00:20:44.400><c> and</c><00:20:44.760><c> there</c><00:20:44.840><c> you</c>
+
+00:20:45.620 --> 00:20:45.630 align:start position:0%
+checking our boun's folder and there you
+ 
+
+00:20:45.630 --> 00:20:49.110 align:start position:0%
+checking our boun's folder and there you
+[Music]
+
+00:20:49.110 --> 00:20:49.120 align:start position:0%
+[Music]
+ 
+
+00:20:49.120 --> 00:20:51.149 align:start position:0%
+[Music]
+go<00:20:50.120><c> I</c><00:20:50.200><c> don't</c><00:20:50.360><c> know</c><00:20:50.480><c> if</c><00:20:50.559><c> I'm</c><00:20:50.640><c> going</c><00:20:50.760><c> to</c><00:20:50.880><c> add</c><00:20:51.039><c> that</c>
+
+00:20:51.149 --> 00:20:51.159 align:start position:0%
+go I don't know if I'm going to add that
+ 
+
+00:20:51.159 --> 00:20:53.549 align:start position:0%
+go I don't know if I'm going to add that
+into<00:20:51.360><c> the</c><00:20:51.480><c> video</c><00:20:52.120><c> anyway</c><00:20:53.120><c> now</c><00:20:53.240><c> you</c><00:20:53.320><c> know</c><00:20:53.480><c> how</c>
+
+00:20:53.549 --> 00:20:53.559 align:start position:0%
+into the video anyway now you know how
+ 
+
+00:20:53.559 --> 00:20:54.990 align:start position:0%
+into the video anyway now you know how
+to<00:20:53.679><c> get</c><00:20:53.760><c> started</c><00:20:54.039><c> in</c><00:20:54.120><c> logic</c><00:20:54.440><c> pro</c><00:20:54.679><c> you</c><00:20:54.799><c> got</c><00:20:54.919><c> a</c>
+
+00:20:54.990 --> 00:20:55.000 align:start position:0%
+to get started in logic pro you got a
+ 
+
+00:20:55.000 --> 00:20:56.710 align:start position:0%
+to get started in logic pro you got a
+better<00:20:55.480><c> understanding</c><00:20:55.679><c> of</c><00:20:55.799><c> how</c><00:20:55.919><c> to</c><00:20:56.120><c> create</c>
+
+00:20:56.710 --> 00:20:56.720 align:start position:0%
+better understanding of how to create
+ 
+
+00:20:56.720 --> 00:20:58.630 align:start position:0%
+better understanding of how to create
+from<00:20:56.960><c> scratch</c><00:20:57.480><c> so</c><00:20:57.640><c> once</c><00:20:57.760><c> you</c><00:20:57.919><c> open</c><00:20:58.159><c> Logic</c><00:20:58.360><c> Pro</c>
+
+00:20:58.630 --> 00:20:58.640 align:start position:0%
+from scratch so once you open Logic Pro
+ 
+
+00:20:58.640 --> 00:21:00.549 align:start position:0%
+from scratch so once you open Logic Pro
+you<00:20:58.720><c> know</c><00:20:59.240><c> where</c><00:20:59.360><c> your</c><00:20:59.480><c> Loops</c><00:20:59.840><c> are</c><00:21:00.280><c> where</c><00:21:00.400><c> your</c>
+
+00:21:00.549 --> 00:21:00.559 align:start position:0%
+you know where your Loops are where your
+ 
+
+00:21:00.559 --> 00:21:06.590 align:start position:0%
+you know where your Loops are where your
+midi<00:21:00.960><c> is</c><00:21:01.679><c> how</c><00:21:01.880><c> to</c><00:21:02.840><c> record</c><00:21:04.320><c> audio</c><00:21:05.320><c> and</c><00:21:06.280><c> now</c><00:21:06.480><c> that</c>
+
+00:21:06.590 --> 00:21:06.600 align:start position:0%
+midi is how to record audio and now that
+ 
+
+00:21:06.600 --> 00:21:08.590 align:start position:0%
+midi is how to record audio and now that
+you<00:21:06.720><c> know</c><00:21:06.919><c> that</c><00:21:07.360><c> might</c><00:21:07.520><c> be</c><00:21:07.640><c> a</c><00:21:07.720><c> good</c><00:21:07.880><c> idea</c><00:21:08.120><c> to</c>
+
+00:21:08.590 --> 00:21:08.600 align:start position:0%
+you know that might be a good idea to
+ 
+
+00:21:08.600 --> 00:21:10.470 align:start position:0%
+you know that might be a good idea to
+understand<00:21:08.960><c> how</c><00:21:09.080><c> to</c><00:21:09.240><c> use</c><00:21:09.559><c> basses</c><00:21:09.919><c> and</c><00:21:10.080><c> sends</c>
+
+00:21:10.470 --> 00:21:10.480 align:start position:0%
+understand how to use basses and sends
+ 
+
+00:21:10.480 --> 00:21:12.310 align:start position:0%
+understand how to use basses and sends
+which<00:21:10.600><c> I</c><00:21:10.720><c> mentioned</c><00:21:11.120><c> earlier</c><00:21:11.400><c> in</c><00:21:11.520><c> the</c><00:21:11.640><c> video</c>
+
+00:21:12.310 --> 00:21:12.320 align:start position:0%
+which I mentioned earlier in the video
+ 
+
+00:21:12.320 --> 00:21:13.590 align:start position:0%
+which I mentioned earlier in the video
+so<00:21:12.520><c> go</c><00:21:12.679><c> and</c><00:21:12.760><c> check</c><00:21:12.960><c> that</c><00:21:13.039><c> out</c><00:21:13.279><c> and</c><00:21:13.360><c> I'll</c><00:21:13.520><c> see</c>
+
+00:21:13.590 --> 00:21:13.600 align:start position:0%
+so go and check that out and I'll see
+ 
+
+00:21:13.600 --> 00:21:16.760 align:start position:0%
+so go and check that out and I'll see
+you<00:21:13.720><c> over</c><00:21:13.960><c> there</c>
+

@@ -1,0 +1,454 @@
+if you're new to logic pro and you don't
+know where to start this video is for
+you so I'm going to walk you through
+everything you need to know so that you
+can get up and running making beats
+recording and mixing your own music
+let's get into it so you've downloaded
+logic pro you've downloaded your sample
+packs you've downloaded the instruments
+and you're ready to go you're ready to
+start creating some music so first of
+all let's open up logic pro so we're
+going to go to empty project double
+click on empty project and it's going to
+give you some options got four options
+MIDI pattern session player and audio
+when you click on each one of these it's
+going to give you some different options
+to choose from so for now we just going
+choose midi and down here you can see in
+the details box we're going to choose
+empty Channel strip if you choose
+default patch I believe it brings up all
+different type of buses and stuff that
+it's going to get a bit complicated for
+you straight away so we can keep that an
+empty Channel strip leave the audio
+output on stereo output and number of
+tracks we're just going to stick with
+one create so I just quickly walk you
+through what you can see straight away
+so up here we've got the control bar and
+on the left you've got your your library
+for your different sounds and you've got
+your inspector window panel and you've
+also got the option to have the help
+help function on so when you hover over
+something it will just it will tell you
+exactly what it does for
+example stop button playhead position
+Tempo so if you ever get stuck then you
+could leave that on but I like to keep
+that turned off it's a bit confusing so
+here we got the toolbar button I don't
+really bother with that you can if you
+want to but just to keep it simple we're
+not going to bother with that and then
+You' got your smart control button so
+that will bring up certain plugins that
+you using and you got your mixer and
+this one here you got your your midi
+editor your edit window your editor so
+you can edit some midi down here if you
+want
+to we'll get to that in a bit so here
+we've got the rewind rewind forward stop
+play record rewind in place is that free
+tempor recording and you got your cycle
+option so you can Loop a section over
+here we've got the display that shows
+you your Beats your bars your Tempo your
+time signature the key that you're in
+and this can all be changed if you want
+to you can just click on that little
+arrow and change it to whatever you're
+comfortable with seeing
+just going to leave it on Beats and
+project for now here you've got got your
+replace button and you've got your
+solo button and we've got the can in and
+your metronome here's the volume overall
+volume please don't touch that just
+leave it in zero and on the right here
+we've got the list so this will be your
+list once you start to create you see
+all different stuff going on in here
+event marker Tempo signature
+all of that stuff you got your notepad
+so you can write some stuff down for the
+project or on the partic the individual
+track which is cool and then you got you
+got your Loops your sound packs and here
+is your project folder so once you start
+to save things you'll see them appear in
+here and then you got your all files
+where you can just navigate to different
+samples or whatever stuff that it is
+that you're using and want to bring into
+your project which is cool so let's go
+back to the left got your library here
+you're going to have all s the different
+sample packs that you've downloaded
+press y get rid of that and then you've
+got your inspector panel which is for
+your instruments and your audio whenever
+you make a channel you're going to see
+this channel strip appear and that's
+where you can add your effects your
+instruments and all the good stuff so to
+quickly walk you through this midi
+Channel you've got your settings where
+you can save stuff from the channel that
+you created EQ double click on the EQ is
+going to bring up logic proos stock EQ
+now you're going to see on your first
+insert just get rid of that instrument
+that's where you open up all your
+instruments so if we wanted to say for
+example choose a dram
+syn that's how you open your
+instruments and then next section you've
+got your audio effects so your eqs your
+compressors your phases modulation all
+all of that type of stuff that's where
+you open up your audio effects got your
+send here which is sends allows you to
+send some signal to a bus and an ORS
+which is maybe a little bit too much to
+get into in this video here's your
+stereo output stereo out so all your
+signal will be going to the stereo out
+which is this channel here you can
+change that you can put them on buses
+which like I said is a little bit too
+much for this video I feel and this hair
+is your automation so you can use this
+to create automation so automation is
+you can automate your volumes you can
+automate almost anything inside that
+channel which comes in handy when you're
+creating doing your mixing or you're
+creating and you adding a few effects or
+some type of air candy so it just keeps
+interest in your music and then the
+stereo outputs stereo mono add your
+effects got the EQ again Logic Pro Stock
+EQ you can get rid of that by just
+pressing command command and click and
+again you can do some automation on
+there if you want and that's your
+balance button so when once you've
+created all your music you can balance
+it down to wavel MP3 which I'll will
+show you later on in the video next
+thing I want to talk about is setting up
+your your med keyboard and your order
+interface so if you've got say for
+example um Apollo twin you go to logic
+pro settings audio and just choose
+whatever audio interface that you're
+using
+I'm using the Apollo twin so that's what
+I would choose here choose whatever
+you've got if you haven't got one then
+you're just going to probably use the
+match Judo speakers but I would strongly
+suggest that you get an noo interface if
+you're looking to take this a little bit
+serious so I just want to go to Project
+handling and in general if you click on
+General and project handling you can
+change what happens when you open a
+session in logic pro startup action you
+can select a template you can say to
+logic do nothing or open your most
+recent recent project I've kept M on
+select a template because I've got a
+load of templates saved and yeah that's
+just what I like to keep on so to set up
+your midi so if you got a midi keyboard
+and you want to trigger some sounds with
+your mini keyboard and this is how you
+set up go to control
+surfaces and set up and then you just go
+to new install look for your midi key
+board and set it up that way so now you
+can start playing some some sounds using
+your midi keyboard if you haven't got a
+midi keyboard press command and K and
+logic is going to bring up a little
+keyboard thing that you can use using
+your keypad or keyboard I've already
+explained the panels on the left press y
+that bring up your library press I that
+will bring up your inspect T where you
+can find all your effects and inserts so
+let's open up an instrument let's go for
+some drums let's head over to electronic
+drums and click on after party so then
+we go to our Channel and we can right
+click and click on create pattern
+region it's going to bring up this
+sequence and there that we can create
+some drums so we're 120 BPM now let's go
+for
+105 four to the floor and just going to
+add in some
+midi we can change the step sequencer to
+32 step and then add in some four to the
+floor
+drums
+whoops so we got a
+kick
+snare add some high hats in
+we can change the velocities if you want
+give it a bit of human
+feel
+and we add a little another little sign
+in there
+and then say for example we wanted to
+use some samples we can go to the sample
+library look for something that's in the
+similar
+[Music]
+BPM and we're just going to drop that in
+so you can audition The Sound by just
+clicking on
+it and we can turn it off that way so
+now we've got a little Loop in there and
+it's automatically synced so let's just
+listen to how that
+sounds
+okay yeah not my usual di for sound but
+we run with it for
+now all right let's get rid of that
+one let's try
+this so we drop our Loop in
+so we can close that window can close
+our
+library and say for example you
+have some media instruments youve got a
+nice base syn that you want to use in
+there we just go to our
+instruments and let's go
+with so you want to add your own little
+base in there open it open your
+instrument choose your
+sand let's go for this Cloud
+base and I'm just going to play
+in our
+sound so you notice that it's too lad so
+we just open up our mixer window by
+pressing X or you can go to the top
+there and click on it makes a window
+just going to pull that the loop sounds
+a bit aggressive a bit lad so we just
+pulled that
+so we
+press record it's going to give us a c
+in and then we've got some new midi so
+now we've got our midi notes for our
+base we can name
+it by double clicking in that little
+section on your channel and then we can
+also color code them by pressing alt and
+c and that's going to bring up your
+color palette so we change we've changed
+our base we choose a red and choose a
+color for the aggressive stance base
+choose the green for that and if we want
+to make it longer we can highlight
+everything press command and r
+and it's going to create Some Loops or
+you can just press L and it's going to
+create a whole Loop bear in mind if you
+press L on a loop and it creates a loop
+you can only manipulate the sand from
+the first region this is just a
+duplicate of the first region really
+hope that's all making sense so let's
+try another loop
+and drop that into there drop that into
+your window now we've got
+two and we're going to color code
+that and if you press command as well
+when you press the color it's going to
+change the color on your actual mixer
+window as you can see and then for the
+Afterparty drums you're going to go for
+red it will change the color on your
+mixer window and then you just change it
+on your region so I showed you a little
+bit about thex Mi a window press X and
+you can manipulate the sand the levels
+of your Sands here's your master volume
+fader
+again leave that where it is leave that
+on zero because when it comes when you
+come to bouncing your track you don't
+want it to be lower than everyone else's
+music out there so keep yeah just keep
+that on on zero I would I would advise
+to keep the stereo output on zero as
+well
+so that sounding a bit funky so the base
+region that I've created the the mid the
+mid notes that I created for the base
+they're a little bit off we can go
+inside
+it and and tweak up the sounds a little
+bit just to make sure it's on the right
+notes so as you can see the first note
+didn't play so we
+can bring that forward
+attach so we can highlight them all
+press q and it's going to quantize to
+16th
+note that's cool it's better without
+that crazy St space so you've created a
+little Masterpiece you got a loop and
+you want to record your vocals so you
+you might be a singer rapper and now you
+want to get some vocals down I'm not a
+singer I'm not a rapper but I will
+record a little Melody sort of thing so
+you can see how you can record vocals so
+make sure that your input is selected on
+your interface and then we're going to
+click
+on the eye just to make
+sure that we got some signal so let's
+get a little recording there you've
+chose your channel the input selected
+your mic is on and then we're going to
+click on the little eye down there in
+the channel so we can hear ourself and
+when you're ready just press record and
+you're good to
+go
+check
+che
+check so yeah that's
+uh that's my little free that's my
+little attempt at of freestyle not my
+thing I leave it up to you artists so
+now we can take it out of input monitor
+in because we don't want to hear oursel
+anymore I definitely don't want to hear
+myself uh we can turn out the gain a bit
+if we haven't got the correct signal I
+should have said to you in the beginning
+to make sure that you've got enough
+signal when you record but it doesn't
+have to be super hot as you can see we
+can turn it up a bit later but I would
+advise you to record at a decent level
+so we got some vocals there
+check the M check the one to with the m
+check with the one to really check check
+my check okay I might have to um add
+rapper to my my repto so we're going to
+add a little bit of Reverb to the vocals
+you can do it two ways you do it by just
+adding in insert and then choosing
+Reverb going to go for Chroma verb nice
+and simple and you got some
+Reverb the want to with the m
+check with the want to with the check
+check my check so we use this wet knob
+here just to give us the amount of
+Reverb that we need
+check so you notice the more wet you use
+the more Reverb that you get and yeah
+just it's just preference and the sound
+that you want so I'm not going to get
+into how to use it on buses that's just
+going to keep it simple and show you how
+to use it in insert you can also add
+other effects if you want to you can add
+some delay in there just go to delay
+choose your
+delay same again with the output mix you
+choose how much how much delay how much
+of the effect you want to have on your
+sound so you created your beat you've
+recorded some vocals and now before you
+balance it down save it should have
+mentioned that to you
+earlier so to save you just press
+command and S and it's going to give you
+the option it's going to give bring up a
+box for you to save it we're going to
+call this how to get
+started in logic pro and you can choose
+if you want to make it a package or
+folder I've I've been using folders for
+years I'll just keep it as that
+everything that you want to include
+inside your folder so if you want to
+include your audio files the samples
+that you've used um the audio that You'
+used in the Samplers your Ultra beat
+audio which is another drum drum syn and
+yeah whatever you've used in your
+project just click the Box check the box
+and hit save make sure you're saving it
+in your logic
+folder so that's done it's saved you can
+go back to it tweak again if you want
+and do whatever you want with it it's
+saved when you're balancing down your
+project make sure that your locators are
+set to your project length otherwise
+it's just going to keep going and keep
+going and keep going and keep going to
+the end of the project and you don't
+want that you just want to do whatever
+you've made so you can highlight
+everything you've made press command and
+new if you've used some reverbs and
+whatnot effects then leave a little bit
+of
+a space which will allow for the reverbs
+and that to have a tail once you've set
+your locators you're happy with your mix
+you're ready to balance down your your
+file your song So press command and B
+it's going to bring up a box for you you
+got your
+destination um wave
+MP3 is the two that I use most and you
+got your file type your bit depth your
+sample rate your format your diing I
+just stick with wave 24 bit 44.1 khz you
+can change the mode so if you choose
+real time you're going to hear it in
+real time if you choose
+offline you're not going to hear it but
+it's a lot quicker and sometimes you
+might been a ration you just want to get
+it done quick normalized I like to keep
+off you can change that if you want have
+the overload protection on but I don't
+really like to use that so once we're
+happy with that we press okay we chose a
+name how to get started in logic pro
+which is what we saved as and we ready
+to bounce so click bounce
+cringe absolute cringe so that's done
+then we're going to go to our
+folder had to get started in logic pro
+checking our boun's folder and there you
+go I don't know if I'm going to add that
+into the video anyway now you know how
+to get started in logic pro you got a
+better understanding of how to create
+from scratch so once you open Logic Pro
+you know where your Loops are where your
+midi is how to record audio and now that
+you know that might be a good idea to
+understand how to use basses and sends
+which I mentioned earlier in the video
+so go and check that out and I'll see
+you over there

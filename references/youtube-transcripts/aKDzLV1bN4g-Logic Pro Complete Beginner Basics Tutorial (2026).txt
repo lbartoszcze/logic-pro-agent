@@ -1,0 +1,1093 @@
+So, you want to start making music.
+You've opened up Logic Pro. You're
+looking at the blank screen and you're
+thinking, "Where do I even start?" Don't
+worry. I've got you covered in this
+video. Today, I'm going to be walking
+you through everything you need to know
+to start making music within Logic Pro.
+You're going to learn how to finally
+take the ideas in your head, shape it,
+arrange it, and bring it to life within
+the door. And by the end of this video,
+you're going to be super comfortable in
+the software and finally make your first
+track. If you're new here, welcome to
+the channel. I'm Ocean. I'm a music
+producer and a DJ and I've been using
+Logic Pro ever since 2016, so almost a
+decade now. I've tried loads of other
+doors out there and while they're all
+good in their own way, Logic has just
+been the one that's been easiest for me
+to get my ideas out. And it's completely
+changed my life, allowing me to work
+with some of the biggest artists in the
+UK, collaborating with big brands,
+becoming a full-time musician, and now
+making my own dance music and [music]
+being an electronic artist. And I'm sure
+once you move past this awkward,
+overwhelmed stage of first starting out
+in Logic Pro, it can do the same for
+you, too. I'm going to leave timestamps
+below, so feel free to click around and
+jump to sections that are the most
+useful for you and come back to this
+video whenever you need. So, let's jump
+right in. So, I have just opened up
+Logic Pro, and this is what we're
+seeing. But just in case you actually
+don't have a copy yourself, you can go
+ahead and get a 90-day free trial on
+their website, which is super clutch.
+But I've got mine open right now and I
+understand that when you first look at
+this, it's not really clear where we
+start. So, let me break it down for you.
+Logic Pro is divided into a few key
+sections. And once you understand these
+sections, you pretty much good to go.
+The first thing I want to talk about is
+this big gray area in the middle. And
+this is the workspace area or the
+timeline. And this is essentially where
+our entire track lives. all of our
+sounds, our audio, our MIDI. Everything
+here gets arranged from left to right.
+And we can think of this as our blank
+canvas. This is where we're going to be
+doing our painting or our track. Now,
+whenever we make a song, you can think
+of each sound within the track as its
+own layer. So, if we break down the
+drums, you've got a kick layer, a snare
+layer, a open hat layer, maybe a keys
+layer, etc. And each of those layers is
+divided by tracks. So on one track is
+where one sound will live. To open up a
+new track, we can just hit this plus
+button and we can choose what kind of
+track we want to put in. And that track
+is automatically assigned to a mixer
+channel. And that's where we can
+manipulate our sound even more. And we
+can find that mixer channel on the left,
+directly to the left of us, which is
+called the inspector channel. So it's
+controlled by this one up here, or if
+you just press I, it will reveal itself.
+The one that is farmost on the left is
+where your track is assigned. This one
+on the right, this mixer channel is the
+master channel and that controls the
+whole entire track. On this expected
+channel, we have a few different
+options. We can choose a VST, which
+stands for virtual instrument player,
+and that's the instruments that we use
+to create our sounds, which we'll get
+into a bit later on. We can choose a
+audio effect. We also have some other
+stuff here that allows us to manipulate
+our sound and our volume fader. Now, if
+we move even further left, we have our
+library, which is this button right
+here, or we can press Y for a shortcut.
+And this gives us loads of different
+instruments that are stock plugins
+within Logic Pro. So, if we want to open
+up a keyboard, we can go ahead and do
+that and flick through their sounds.
+They've got pianos, they got horn
+sections, and this arrow button just
+means that the content isn't downloaded
+yet. We would have to click that and it
+will download automatically for us. And
+it's completely free. It comes with
+Logic Pro, luckily. Now, if I just press
+Grandma's Piano, for example, it will
+automatically be assigned to a track,
+whatever track that we've got selected.
+Now, just coming back to this top
+toolbar right here, there is this
+question mark button. And if we have
+that enabled, it's actually just going
+to give us a quick help tab. So,
+whatever we have selected, it's going to
+tell us what to do essentially, which
+will also be super helpful if you are
+brand new to Logic. So, just have that
+on and it will help you navigate a
+little bit quicker. Now, we're going to
+move on to the complete other side of
+the door, the right hand side, and we're
+going to open up this button right here,
+which is the browser. So, now that I've
+got the browser open, I can go and find
+individual folders that have our own
+sounds. So, this is good for finding our
+own drum sounds, our own samples, and I
+can click in. This is my core kit, which
+is completely free, by the way. If you
+do need some sounds, I've got you click
+the link in the description and download
+core, which is going to give you a nice
+foundation for dance music. I use these
+all the time. We can click into the
+drums, and it's going to allow us to
+preview [music]
+our sounds right here. Also here we've
+got the notepad. If we wanted to write
+some lyrics, we can do that's the main
+areas that we want to focus on. Right.
+Moving along, we've got our metronome.
+If we press K, we can turn that on and
+off. If we double click it, we can enter
+into the metronome settings and change
+our sound and the way it clicks.
+Continuing along, we've got our section
+where we can change our BPM. We could
+even change the time signature and the
+key signature. And we've got our
+playback section here. So, it's as
+simple as play,
+stopping the track, hitting record,
+which we can also use if we press R. And
+the good thing about this is if you just
+wave your cursor over these buttons,
+it's going to tell you the shortcut. And
+the more we get used to it, the more we
+start to familiarize oursel with the
+shortcuts and it'll just make our
+workflow so much easier. Some more
+things I want to talk about within this
+main view. If we do want to pull up our
+MIDI section or even the section to edit
+our audio, we can press E and it will
+take us to our piano roll. And this is
+where [music]
+we can start to pencil in our notes or
+play in our notes. Once we hit record,
+it will automatically create the MIDI
+box for us. But we can also just go
+ahead and create a MIDI region by double
+clicking. And then lastly, we can open
+up the mixer channel by pressing X. And
+this is where all the inspector tracks
+on the left will appear. And we can have
+it all within our face at one time.
+Before we even go ahead and create our
+track, I want to give you a couple of
+gems that is just going to help you set
+up for success and make your life way
+easier. One of the key things that we
+want to make sure that we set up
+properly is our audio. So, we can hear
+things properly. There is no delays.
+There's no headache or anything like
+that. So, we want to go to Logic Pro.
+We're going to hit settings and we're
+going to hit audio. The output device is
+where the audio that is playing within
+Logic is outputting to so we can hear
+it. At the moment, I've got it set up to
+system setting. So, whatever audio that
+you've assigned your Mac to, it will
+just automatically do. I'd recommend
+setting it up to whatever audio
+interface you're using or if you're
+using headphones. The interface that I'm
+using is the Audio Fuse. So, I'm just
+going to go ahead and select that. And
+it's also selected the input for me. So,
+if I want to use a mic, if I want to
+record in audio, I plug that up into my
+audio interface. And then the input is
+coming through there. Now, in terms of
+your buffer size, I would suggest
+leaving it at 128. That's like a nice
+sweet spot. But if you're getting a lot
+of latency and your machine is just
+struggling to cope, I would recommend
+just increasing that buffer size. Now,
+by default, Logic for some reason, it
+hides a lot of its features and it makes
+it very confusing later on as we're
+starting to create. So before we even
+get started, I'd recommend going over to
+this advanced tab and switch on enable
+complete features and that's going to
+give us everything and we don't have to
+worry about that again. So let's exit
+out of that settings menu. And at the
+moment we've got a basic view of this
+section here. Personally I prefer to
+actually switch it from beats and
+project to custom. And that gives us a
+more in-depth view of our track. So now
+the time stamp is way more accurate down
+to the millisecond. We can also mess
+around with the BPM way more accurately.
+And we can see how our project is moving
+on the CPU. Depending on the size of
+your screen, it might take away your
+metronome, but that is just right here
+if we click this arrow. And lastly,
+probably one of the most overlooked
+tips, but it's definitely going to be a
+lifesaver. It's just changing your smart
+tempo project settings. And the way we
+navigate to that, hover over keep tempo,
+select smart tempo project settings, and
+set imported files to on plus align
+beats. So, let's say we change our tempo
+to 150 BPM and we're using an audio loop
+that is 140 BPM. If we drag that in, we
+want it to automatically click into the
+right BPM.
+And by having that setting on, it does
+it for us.
+[music] One final thing just to set you
+up for success when it comes to using
+third party VSTs. to make sure that
+they're installed correctly. And we can
+find them once we open up a new track.
+We just want to go over to Logic Pro
+settings plug-in manager and find it
+within the list here and just make sure
+that we've got it ticked off. Once it's
+ticked off, that means that we're good
+to go and we'll be able to put it up in
+our instrument section. So now that
+we've got a good understanding of the
+interface and we've set oursel up for
+success, I just want to talk very
+quickly about two different tracks
+within Logic. And this is what's going
+to make up our whole entire song. So
+once we start a new track and we hit the
+plus, the most important two that we're
+going to be using is MIDI and audio. And
+there is a difference between the two.
+If we choose audio, an audio clip is the
+sound itself. The easiest way to
+recognize it, if I drag in one of these
+melody loops here, you're going to see
+all these kind of weird wriggly lines.
+This is the waveform. This tells us this
+is a audio.
+[music] And if we look on the mixer
+strip, the settings are slightly
+different. Usually, you can only add
+audio effects to it. Usually, if you're
+recording your own instrument, like a
+guitar straight into Logic Pro or a
+synth, then it's going to be an audio
+file. The other kind of track that we're
+mainly going to be using is the MIDI
+track. And MIDI isn't sound itself. MIDI
+is information that it tells the sound
+to play. So what this means is if we
+look over here, we first need to select
+an instrument like a VST. So right now
+I've got a piano selected. Then once
+we're in our MIDI clip,
+we can type in some notes. And these
+little rectangle boxes, this is the
+information that is feeding to our
+instrument that produces a sound. But it
+cannot make sound just by itself. It
+needs to be connected. MIDI is great
+because it's very customizable. You can
+change the velocities. You can change
+where the notes land. Whereas audio is
+just usually that sound and that sound
+itself. So, we know the difference
+between the two. Let's go ahead and
+finally start building our track. And
+I'm going to start with the drums today.
+Now, when it comes to adding in drums
+within Logic Pro, we actually have two
+different ways to do this. We can do it
+with the MIDI or we can do it with a
+more specific way called the pattern.
+So, if we select that and hit create,
+it's going to open a track with a
+pattern interface. So, on the side here,
+I've got the library open and we're in
+the electronic drum section. Here are
+all the different stock drum kits that
+we can use. So, for example, I'm just
+going to go ahead with Titans of Bass as
+the presets. Here is all our different
+drum sounds. If I click the icon,
+it will play us the sound. In this
+section, all these boxes are the
+sequence, and it makes it very visually
+easy. So, for the kick, if I click one
+of these boxes, it's going to let us
+put our sound down. And I've got the
+kick on every beat.
+Then I can add in a snare that comes
+every other beat
+and an open hat that comes on the
+offbeat. [music]
+So, now we've got a very simple drum
+beat down. If we move over to this
+section right here, 16 steps, we can
+actually just lengthen how many steps
+this is. Now, this is a very easy and
+visual way to make your drums. You can
+do it all in one window if you choose
+to. And if we select the individual
+sound, so right now I've selected kick
+to the right of it, it opens up our kick
+channel where we can customize the sound
+even more. Or if we hit the instrument
+DMD, which is the drum machine designer,
+we can click that. It gives us all our
+sounds. We can drag in a different
+sample to give us a different kick. So,
+it's actually very simple. However, the
+preferred method I like is to do
+everything within its own separate MIDI
+channel. So, I'm actually just going to
+go back and hit MIDI. I'm going to
+select instrument and I'm going to
+choose quick sampler. So, now it's
+opened up this VST right here. I'm going
+to go to my core kit, go to my drums,
+and I'm going to start with a kick
+first. So, let's put in kick number one.
+I'm going to drag it into original and
+make sure it's on the classic setting.
+Let's rename this to kick just to make
+sure that organization is good. If we
+make sure our organization is good from
+the start, makes arrangement so much
+easier. And then I'm going to create
+MIDI region. And within here, I'm
+actually going to do my drums
+separately. So, let's put the kick on
+every beat.
+And so, I don't have to keep drawing out
+the notes, we can just repeat it over by
+making sure that our MIDI box is
+selected, going to hit command R,
+repeat, repeat, repeat. Then we can
+select all of those boxes by hovering
+over it and then hitting command J to
+join them up. [music]
+So now we've got the kick down on its
+own complete separate channel. For me,
+when it comes to arrangement, I prefer
+to do it this way. And you're going to
+see later on when we go to structure out
+our beat. So now that we've got our kick
+laid down, I've added [snorts] in
+another track, which is going to be for
+our open hats. We've got open hat audio
+file loaded already into the quick
+sampler. So again, I'm just going to
+create MIDI track. I'm going to open it
+up. And on every offbeat is when I'm
+going to add the open hat. So if the
+beat is one, two, three, four, the open
+hat is going to go one, two, three,
+four.
+And just something to keep in mind, the
+length of our note does matter. If we
+make it longer, then the open hat will
+last longer. If we make it shorter, the
+open hat will be very sharp and very
+quick. So we've got that down, and I'm
+going to repeat that across the eight
+bars. Now I want to add in a clap. And
+the clap is going to go on every second
+beat. [music]
+And then again, just repeat that across.
+And I would like my clap to last a
+little bit longer. So to select all the
+notes at the same time, we can hit
+command A. And you can see that it's
+lighted up, which means that we've got
+them selected. And then we can drag it
+across to make it last a little bit
+longer. [music]
+Let's add in a snare. And I want the
+snare to kind of go like this. [music]
+You hear this kind of pattern a lot with
+Garage Beats. And just a quick note,
+whenever you're playing your track, if
+you want it to play from the beginning
+every time you hit the space bar, which
+is the playback button, you want to make
+sure that you have your loop section on
+just by clicking on it. So, let's go
+ahead and put in those snares. So, now
+we got a pattern like this. [music]
+And that sounds cool, but I feel like
+the snares, they're a bit rigid. They're
+very much on beat. So, a way that we can
+just add in some swing is on the left
+here, we've got a time quantise feature,
+and this allows us to snap the MIDI into
+different grooves. So, if I select this
+116th swing C groove, as you can see,
+it's kind of just taking it off the
+grid. And then here, we can adjust how
+much of a swing we want. So, if we put
+the swing really far, [music]
+it makes the snares really swung. We
+just adjust it a little bit.
+So, that sounds way cooler now. And then
+another thing we could do to make this
+sound even more natural is messing
+around with the functions of the MIDI.
+So if we click this functions button
+here and hit MIDI transform, we can
+actually change and randomize our MIDI.
+So for example, if we humanize it, it
+brings up this menu right here. At the
+moment, it's got the randomize set to
+this. So if we put select and operate,
+it's going to change the velocities and
+the position of each of those MIDI
+files. So it's going to sound literally
+like we played it in on our keyboard.
+&gt;&gt; [music]
+&gt;&gt; So some snares are hitting harder than
+others and they're actually not in the
+exact same position, but this again just
+makes it sound a bit more human. So with
+that foundation, let's continue on
+building our drums. I want to add in
+some loops.
+[music]
+So we can go ahead and drag this audio
+file straight onto the timeline and it's
+going to automatically create an audio
+track for us. So we don't actually have
+to create an audio track separately.
+It's already done for us. and before
+because we selected that option where
+every time we drag in an audio, it will
+automatically snap to the tempo of our
+project. Now, if we just hit this S
+button right here, that's going to solo
+this one track, and we can just hear
+this loop by itself. [music]
+If I unselect it, we'll play everything
+at the same time. So, I've got this loop
+pulled in. It's a old drum break,
+and I think that could fit really well
+with the drums that we got going
+already.
+&gt;&gt; As you can hear, it's slightly just a
+little bit busy. So, what I'm going to
+do first of all is apply some processing
+to these drums. And processing just
+means that we're going to put some
+effects plugins. And usually, as we're
+going along building our track, we're
+applying slight processing. So, the
+first thing I'm going to do is use an
+EQ. And luckily in Logic Pro, if you
+just select this box right here, it
+automatically pulls in an EQ, the stock
+EQ, which is really, really good. So,
+what an EQ does, if we press play, you
+can see that the signal spans across
+from left to right. In the left, on the
+lower section, that's the lower
+frequencies. And on the higher section
+is the higher frequencies. And I have
+this shape that cuts frequencies. The
+more I move it to the right, it's
+actually cutting all the frequencies on
+the left, all the lower frequencies. So,
+here's how that sounds. [music]
+So, the more I move it to the right, you
+can only hear the high section. If I
+keep it at this side, you can hear
+pretty much everything. And we use an EQ
+to basically shape our sounds and
+balance out the volumes. Because our
+kick usually hits in the lower
+frequencies, [music]
+we don't actually need the kick coming
+from this break. So, let's just take
+that out. [music]
+That's sounding good to me. That's
+enough EQ. The second plugin that I'm
+going to put on this is one called Smack
+Attack by Waves. And what this does is
+shorten the transients of the notes. So
+if we take a listen to the drum break
+once again,
+there's a lot going on. It's quite busy.
+But if we use this plugin to adjust the
+transients and bring it down a little
+bit, you're going to hear that it's
+going to be a bit more sharper, a bit
+more snappier. [music]
+It's almost like it's taking out the
+reverb. So now with the rest of our
+instruments, it sounds a lot cleaner.
+And as you go along making your beat,
+[music] it's always good to just adjust
+the volumes and make sure that it's
+hitting right. And this, of course, is
+just a stylistic thing. Sometimes you
+might want your clap to hit harder than
+your snares or your loop. So you adjust
+accordingly. So I'm happy with that.
+Let's add in a few more loops to add to
+the groove. So we got two more sounds in
+here. We got tambourine going.
+We got shaker.
+And if you notice here, there is a
+little green light that is slightly to
+the right. And this is known as the
+panning knob. And what this knob does,
+we're moving our sound in one direction.
+So I've got it slightly panned to the
+right, which means that if you're
+listening in headphones, the sound
+should come out slightly more to the
+right, or you can move it more to the
+left. And that just gives us space for
+the sound. So it's not all coming down
+the middle. Sometimes we can spread the
+sound and make the track sound wider.
+And then the last sound that I've got in
+is a ride.
+So altogether our drums are sounding
+like this. [music]
+All right, that's sounding good. I'm
+happy with the drums. Let's move on to
+making a melody. So first things first,
+we need to add in a new track. And we're
+going to add in an instrument track, a
+MIDI track, or as it says here, software
+instruments. Let's go ahead and create
+that. And if we navigate over to the
+mixer strip, we can add in a third party
+plugin. If we go to AU instruments,
+these are all our plugins here. or we
+can open up the library section and we
+can add in a stock plugin. So, for now,
+I'm going to choose piano and I'm going
+to go with this grandma's piano. Next
+thing we want to do to create our sound
+is just right click and create MIDI
+region. And here, if we double click
+into it, it's going to open up our piano
+roll. This is where we can draw in our
+notes and start to create a melody. Or
+if you wanted to play it in and you
+don't have a MIDI keyboard, you can hit
+command K on your keyboard
+and you can play in a melody. Now, if
+you're a complete beginner with music
+theory, essentially the first thing you
+want to do is just pick a scale. A scale
+is a series of notes that sound good
+together. Once you decide on what that
+scale is, and you click any note within
+that scale, it's going to sound fine.
+The easiest way to start is if you take
+all the white notes on the keyboard and
+disregard all the black notes will be in
+the same scale. This is known as the C
+major scale or the relative minor is a
+minor scale. Major means it's more of a
+happy sounding scale. So it sound like
+this.
+Sounds quite upbeat and happy. And if we
+want to make something that sounds a bit
+more sad, then we'll start on the A.
+When we play it together, it sounds a
+bit more moody, a bit more sad.
+depending on what kind of vibe you go
+for is the kind of scale that you're
+going to choose. So for this example,
+let's just go ahead and use the A minor
+scale. Now, if we play three notes,
+[music] that's known as a chord. And
+chords kind of build a nice foundation
+for the melody. And if we put a couple
+of chords together, something like this,
+that's called a chord progression. So,
+let's go ahead by putting in our first
+chord. I'm just going to extend out the
+note. So, I'm putting down a. If you
+just hover your pencil over the note,
+then you can see what the note is. So,
+that's A. Then, I'm going to go to C.
+And I'm going to go to
+E. [music] And then I'm just going to
+add in an extra note at the top here, G.
+Now, I've copied all my notes, and I'm
+just going to repeat it by pressing
+Command R. I'm going to shift it down
+five. That will be in the same key
+still.
+&gt;&gt; So, at the moment, the notes sound
+really nice together, but we can switch
+up the pattern and move it so it only
+takes up two squares. And then I'm
+holding down option key as I'm dragging.
+And then that's just going to copy over
+the notes. And I'm going to find a cool
+pattern.
+&gt;&gt; So there we have our first chord [music]
+progression right there. To make this
+sound a little bit cooler, especially if
+we're using a piano, we can hit
+functions again, MIDI transform it, and
+humanize it. So instead of it sounding
+so robotic like we actually did pencil
+it in because we did pencil it in. We
+want to make it sound like instead we
+actually played this. So I selected and
+operated, changed some of the velocities
+and the position of the notes. [music]
+And we could even turn down the
+velocities in general. I've controlled
+everything and I'm moving the velocity
+down. And now it's going to sound a
+little bit softer.
+So there we have it. That's our first
+melody, our first chord progression. So
+now that we've got our chord melody, we
+did it all in a minor, but let's say h
+we want to switch the scale. What we can
+do is command A to control everything.
+And if we hit option and up or down,
+it's going to transpose our notes and
+move it into a different scale. So I'm
+just going to move it up two.
+That sounds nice to be fair. [music]
+We could even move it up another two.
+And if we hold shift option up and down,
+it will move those notes a whole octave
+up or down.
+That sounds a [music] lot brighter. And
+to undo it, we can just press command Z.
+What we could even do is invert notes,
+which means that we'll take some of the
+notes and we'll move it up an octave,
+but not the whole chord. So, I'm just
+taking some of these bottom notes and
+I'm moving it up.
+So, I'm going to go into the library and
+I'm just going to choose piano. And I've
+noticed that they've got some of these
+sounds here, which are actual chords and
+samples. So, I'm just going to choose
+one of these random ones. I like that
+sample. Sounds cool. To record this in,
+I'm going to just hit R.
+And then let's click into that. I'm just
+going to move it up an octave.
+Now, if we wanted to make it sound a
+little bit more quantized, we can just
+hit Q, and it's just going to snap all
+the
+notes into the grid. So, I've gone ahead
+and put in my melody, which is sounding
+like this.
+And then also, what I've done is layered
+the melody with the exact same MIDI. To
+make it easy, you can just command D,
+and that's going to duplicate the
+channel. And then you can go and find
+another sound. And then just to
+duplicate this channel down, you hold
+option and drag that box down. So with
+it layered, it sounds like this.
+And now if we want to apply effects to
+the whole entire channel, what we can do
+is group this together. So what I did
+there was just hold down shift and
+selected the last one. And now it
+selected and highlighted all of these.
+Then we can double click, hit create
+track stack, hit create. And what it's
+done here is grouped our tracks into
+what's known as a group stack or a
+summon track. And now if we apply
+effects to this track, it's going to
+apply to all of them at once. I've put a
+tiny bit of delay, a little bit of side
+chaining, a little bit of reverb, and
+now it's sounding more like this.
+So now that we've got our melody down,
+the next thing that we want to add in is
+our baseline. So, what we're going to do
+once again is hit this plus button and
+open up another software instrument. And
+for my baseline, I'm using this third
+party VST called Diva because it sounds
+amazing. [music]
+Now, when it comes to your bass notes,
+the easiest way to do this is just by
+using the bass notes in the chords that
+you used. So, if we take a look at the
+chords that we played in earlier, the
+bass notes are literally just the lowest
+notes. So, it would be sounding
+something like this. [music]
+That is by far the easiest way to make a
+baseline. And from there, you can switch
+up the pattern. But that's how you're
+going to guarantee for sure that those
+are the correct bass notes. So, if we go
+back to our stabs, [music]
+because I'm pretty much playing a
+sample, it's not actually clear what the
+bass notes is. So, an easy way to just
+figure this out is to throw on an EQ and
+EQ out all the highend so you can just
+hear the lows. [music]
+And you just got to use your ears on
+this one.
+That's what I'm hearing.
+Now, in terms of processing with the
+bass, really and truly, it's got to mesh
+well with the kick because they're
+hitting at kind of similar frequencies.
+So to make your kick punch through, the
+easiest way to do this is what's known
+as side chaining. So every time the kick
+is played, the bass will slightly duck.
+The plugin I'm going to use is kick
+start. And if I hit play on every beat,
+the bass [music] is slightly ducking.
+And again, that just gives room for the
+kick to really punch through the mix and
+not clash with your bass too much. So
+for the bass, the drums, the melody all
+together, we are sounding like this.
+So, we've got our foundation there. It's
+sounding cool. The ideas are there. But
+where the track really comes alive now
+is all about the arrangement. So, let's
+move on to the D. And the way to
+structure a track, honestly, it's a
+stylistic thing. It's down to you, but
+I'm going to give you a basic framework.
+Usually, you want to start with an
+intro, then you want to go into a break,
+and then you want to go into the hook,
+which will probably be the most
+energetic part. Then, we'll bring down
+the energy. Once again, we can go into a
+second break that is slightly different
+from the first break. Go back into the
+hook again with some energy and then we
+bring it back down. And the way how I do
+this within my project, I usually copy
+everything over and eliminate as I go
+along. So, first things first, every
+section I have in eight bars, if we have
+any audio clips or any MIDI clips that
+are not eight bars, we can just group
+them together. So, the way how we do
+this with audio clips, we control
+everything, we right click, and we pack
+it in a folder. So if you hit here, you
+can just choose pack in folder and it
+will group all of them together. So when
+we command R to repeat that, it repeats
+the whole eight bars. And if it was a
+MIDI clip, instead we can just command J
+and join that together. So let's go
+ahead and copy over a few times. I'm
+just hitting command R to repeat. And
+like I said, we usually start with the
+intro. In the intro, it's always a good
+idea to just start with drums. And with
+our track, as we progress, we want to
+start to introduce elements to keep it
+interesting for the listener. We don't
+want to give everything away. So even
+with the drums, we can take away the
+ride, [music] maybe even the shaker,
+maybe even the main clap.
+At the end of the first eight bars just
+to let the listener know, okay, we're
+finishing these eight bars. We can just
+take in the kick. So as we go into the
+next [music] section, it drops out and
+then we start again. For each section,
+too, a nice way just to introduce the
+next section is to add a crash on the
+first beat. So let's go ahead and do
+that. So I'm just going to duplicate
+this down. Let's rename this one to
+crash. I'm going to open up my quick
+sampler.
+I'm going to drag in this crash. I'm
+going to create a MIDI clip and pencil
+that sound in. So, we could have the
+crash be very quick and very short like
+this. Or if we want to extend the note,
+we can hit shift and backslash and
+that's going to force legato. So, now
+it's going to ring out. [music]
+So, we could have that one there. And
+over here, we could also have one. And
+I'm just going to zoom in and make this
+even quicker. [music]
+So having a crash is a nice way just to
+introduce a new section too. And then as
+we go along and we have just the drums,
+we can start to introduce some more
+stuff. So this time I'm going to bring
+in the main clap. And with the piano,
+I'm actually going to change it slightly
+and just have the same note repeating.
+So, I'm literally just having the same
+chord repeating. And I'm going to do the
+same thing with the baseline.
+And if you hear very subtly with that
+audio file, you can hear it click a
+little bit. That doesn't sound great.
+It's kind of annoying. So, the way we
+get rid of that is selecting our audio
+clip, go into region, hit more, and then
+we just want to fade out that audio
+clip. And that takes it away. And then
+let's go ahead and repeat this baseline
+over. I'm just going to pack it in a
+folder. And then we can repeat that. So
+my thinking here is that we're not
+giving away the whole track. We're
+starting with just the bass and the
+first chord.
+And then as we go along, we could
+probably filter it in using some
+automation. So after that first part,
+now we can get rid of the drums and have
+a break. So literally just going to
+delete all of it.
+Get rid of the baseline.
+Then we can start to bring back in the
+drums again.
+And I'm leaving just a gap here. [music]
+So it kind of pauses with the drums.
+And then when it all comes in, it hits
+[music] a lot heavier. So right now
+we've got an intro. We build it up. We
+have a breakdown. And then we go into
+the section which has the main hook. To
+make the arrangement hit a bit more, we
+can add sounds such as uplifters which
+are usually the buildups,
+downlifters which come after the drop,
+impacts, and again crashes. So for
+example, as we go from I guess what you
+could call the verse into the first
+breakdown, we could have this kind of
+sound coming in.
+&gt;&gt; And then of course we want to end that
+with the crash. So we can just drag that
+over holding option.
+And to make that crash hit a bit more,
+we can add in the downl.
+[music] So I've gone ahead and finished
+structuring out the track. Of course,
+there is a lot more tracks that's added
+to it, especially with all the
+uplifterss, the downlers, the crashes,
+and even vocals. But one more thing that
+I want to introduce to you when it comes
+to structuring breeze is the
+automations. And to get to the
+automation window, you need to hit this
+line right here. And that will bring us
+a drop-own menu. One of the places I
+added in some automation is on this
+break right here.
+So what we're doing is we're automating
+the filter. We're bringing it up as the
+drums go along. So if we look right
+here, you're going to see that it moves
+by itself.
+The easiest way to do this, select the
+track that you want to automate. So here
+I've created one for my breakdown. I've
+applied my effect, which is the low pass
+filter. And then in this drop-own menu
+right here, we want to make sure that
+read is on. We select our plugin and we
+select what we want to automate within
+our plug-in. So that's going to be the
+cutff frequency. And then we can
+literally just draw it in right here. So
+if I click and bring it down, and then I
+click again and bring it up. Now, what
+it's going to do is bring that filter up
+by itself. But I think it's going too
+quick. So, instead, we what we can do is
+click the arrow up here, and we're going
+to change our pointer to the automatic
+curve tool. And now, we can just click
+on our line and drag it down. And that's
+going to change how the automation
+performs, how quick it goes. That's the
+simplest way to do automation. Another
+way you can do it, too, is actually
+drawing it in in real time. So to do it
+that way, what we're going to do is go
+down to the mixer channel on our track.
+Instead of read, we're going to switch
+it to right. Hit okay. Now we need to
+open up that plugin and we're going to
+manually draw it in. So we're going to
+start here. We're going to hit play.
+And then we're going to drag this up.
+And then once we finish, we can stop the
+playback. And now we've got our
+automation drawn in. And it's important
+that after we do this, we got to switch
+it back to read so it reads the
+automation. But I prefer to actually
+just draw it in like how we had it
+before, just because it gives a bit more
+accuracy on the automation itself. So
+now we're happy with our arrangement.
+The only thing that's left to do is to
+apply a little bit of mixing and a
+little bit of mastering. Now, as you
+noticed, as I go along making the track,
+I'm essentially mixing the track at the
+same time by adding in some EQs, maybe
+even a little bit of compression every
+now and again, and stylistic choices
+like delays and filters. So, when we're
+talking about mixing the beat or mixing
+our track, our song, we're essentially
+just talking about adjusting the volumes
+and adjusting the sounds to bring it all
+together. And when we're talking about
+mastering now, what we really mean is
+polishing up the track, making sure that
+it sounds good once we play it out loud,
+big, doesn't matter if we're listening
+to it in our headphones or in the car,
+it slaps everywhere. And usually
+mastering is done right at the end once
+we have all our elements, all our mix
+down. Now, when it comes to mastering,
+to be fully honest with you, I don't
+always do it myself. I like to make a
+track, mix it as best as possible, and
+then I'll pass it off to my mastering
+engineer, who would do a way better job
+than me. Because honestly, mixing and
+mastering is a skill within itself,
+separate from music production. But if I
+do need a quick master, I have created
+my own channel, and I'll just walk you
+through it very, very briefly. So, we're
+going to go onto our master channel. If
+you don't have that up, you can hit
+shift commandm and it'll bring it up for
+you right down here. The first thing I
+apply is a stylistic choice called the
+Kramer. It's a compression, but it just
+adds a little bit of character, and I
+use this preset, mastering clean and
+open. Also, when I'm doing this, I'm
+listening to the part which has the most
+energy in the track. So, I apply some
+Kramer tape. Then, I put a EQ on it just
+to take out some of the lows and some of
+the highs that we won't hear. Then, I
+add a bit of compression, and I pretty
+much tweak it to how I want it to hit,
+usually within that 0 to four range.
+Sometimes I'll even add a second
+compressor, this one right here, with
+this preset. And then what some might
+consider controversial is just adding a
+touch of reverb to the master. It adds a
+bit of character. You don't have to do
+it. Same thing with this free plugin
+called Fresh Air. It just adds a little
+bit of character in the highest. Then I
+add in a L3 multi maximizer which is a
+limiter plugin. And that just gets the
+beat to hit a bit harder. And then the
+very very last thing that I put on top
+is the ultimate mastering plugin. It's
+called Ozone. And I just use this techno
+preset here. This is the chain that I
+use to get it to sound the way how I
+like. and I tweak it for every single
+track, but pretty much these are all
+that I'm using. And so that's your first
+track made in Logic. Let's take a listen
+to my version.
+So, we're just starting with that groovy
+one note [music] on the bass and the
+chords
+bringing the rides.
+And as you're playing your track back,
+you can just adjust levels to how you
+like it. [music]
+with your head. [music]
+Dance till you're dead.
+Hello. [music]
+dance
+fire.
+&gt;&gt; So, congratulations. Now you finished up
+your first track in Logic, but we need
+to take it out of the door. Take it out
+of Logic Pro and we need to turn it into
+an actual file. The way we do this
+usually, first thing I'll just make sure
+that all my sounds are selected up until
+the end. So I'm just dragging the cycle
+range, putting it to the end. Then we're
+going to go to file. We're going to go
+to bounce and we're going to go to
+bounce project or selection or as you
+can see, we can just command and B. Then
+we're going to choose the kind of file
+that we want to bounce it into. Usually
+I would say bounce it into MP3 is fine
+or you can bounce it into a wave file
+that's fine too or both of them. It's up
+to you. MP3 just usually takes up a
+little bit less space. Then we can hit
+okay and just make sure that our
+starting point and our end point is
+accurate. Then we want to name our file
+first beat and bounce. Now we've hit
+bounce. It's in process. Usually takes a
+few seconds maybe a couple of minutes
+depending on how big the project file
+is. And that is the full beginner
+tutorial, full walkthrough of Logic Pro
+from opening it up to the first time to
+finishing your first track. Feel free to
+come back to this video whenever you
+just need to brush up on your skills. It
+just takes time. The more hours that you
+spend in Logic Pro or in any door, the
+better you're going to become. You're
+going to find your workflow and you will
+get faster, especially when it comes to
+getting your ideas out of your head and
+right into the canvas. I hope you found
+this useful and have everything that you
+need to create. Let me know in the
+comments below if there's any other
+tutorials that you want to see. And
+thanks for watching. I'll catch you in
+the next one.

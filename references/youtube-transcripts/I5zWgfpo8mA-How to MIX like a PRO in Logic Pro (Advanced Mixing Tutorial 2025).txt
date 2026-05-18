@@ -1,0 +1,640 @@
+are you struggling to get your music to
+sound professional inside logic well I
+hate to break it to you but it's not
+logic's fault but it also isn't
+necessarily your fault or your music's
+fault either it could just be more the
+mixing process that you're taking the
+reality is there's a lot of little steps
+that go into the mixing process but it
+doesn't have to be complicated and in
+today's video I want to give you a
+simple six-step process that just goes
+through six steps that all professional
+mixes have and how you can do them
+specifically inside logic let's talk
+about
+that
+welcome back to the band guide I'm your
+band guy Colin and today we're looking
+at the six steps to a promix inside
+logic now before we even get into it I
+want to give you something I've put
+together a downloadable guide so that
+you don't have to keep coming back to
+this video anytime you're mixing it's
+completely free from Link in the
+description below and it just goes
+through these six steps that all
+professional mixes have and a quick easy
+reference so you can follow along
+without having to come back to this but
+let's go and get into it starting with
+step number one which is the static mix
+now the static mix is the most important
+part of the mixing process and the
+amazing thing is it's also the simplest
+part of the process there is only two
+things that we're focusing on this step
+our volume and our pan position so our
+goal with our static mix is to make our
+mix sound as good as we possibly can
+without any plugins without any effects
+and if you get this right your mix is
+going to sound great a lot of people
+skip the skep they just kind of jump
+straight from recording into mixing by
+putting on EQ and compression and
+effects and they don't really spend time
+focusing on the most powerful tool at
+their disposal which just the volume a
+lot of people don't realize that volume
+is massively impactful to how we
+actually hear everything in our mix and
+the relative volume of Everything is
+Everything so if your a source is
+quieter it's going to sound duller it's
+going to sound further away it's not
+going to have as much lowend if it's
+louder it's going to have more low-end
+more high-end brightness it's going to
+sound more upfront closer to you so if
+you want your drums to sound big and
+full and round and Punchy you need them
+to be at the right volume if you want
+your vocal sent up front and present it
+needs to be sitting at the right volume
+and you have to get these things set at
+the right volume and initially and then
+mix around them to clear everything up
+and get everything sitting well next to
+each other but you start with just your
+volume in your pan position so before
+you even do this I recommend taking off
+any plugins that you've already said if
+you put on like a logic preset or
+something like that take off anything
+that's not part of the sound so if you
+have an amp on your guitar leave that
+amp designer on your guitar you don't
+want to take off that kind of stuff but
+you want to take off anything that's not
+part of the sound if you put an a Reverb
+on it and it it has to be part of that
+sound then leave it on but don't have
+reverbs all over your mix because they
+Cloud your mix and they Cloud your
+judgment so we want as little
+intercession as we can possibly get and
+then we want to bring our volume all the
+way down on every single track and then
+we want to bring them up in order of
+importance so if you have struggle with
+your vocals cutting through in a mix
+that's probably because you've not
+started with your vocals in early in the
+stage of setting your individual volumes
+I never struggle with a vocal being able
+to be loud enough in a mix because I set
+my vocal volume and mix around it so the
+way that I like to do it is I set my
+volume for the vocal and then I mix my
+kick and my snare around it then I mix
+my drums around it then my lowend and
+then all my mid-range stuff my guitars
+my backend vocals all that stuff so
+that's the way I would encourage you to
+do it as well now a couple tips with
+this first you need to keep Headroom at
+the top of your mix so there's a digital
+zero point that if your mix goes past it
+just gets cut off so you need to make
+sure that you keep Headroom from that
+digital zero point to the loudest point
+of your mix and we do this by monitoring
+the output of our mix my favorite way to
+do this is just to put the level meter
+plugin on my stereo output or Master
+track or two bus or mix bus whatever you
+want to call it I think in logic at
+defaults to being called the stereo out
+you want to just put your level meter as
+a last plugin and keep that up the whole
+time you're setting your static mix this
+allows you to keep an eye on that level
+and make sure that it never goes past -6
+to -3 in the loudest section of your
+song so I'd also recommend starting in
+the loudest section of your song looping
+that section typically it's kind of the
+last chorus or something like that
+looping the loudest section of of your
+song that way you're not mixing in a
+quieter section and then you go to a
+louder section and now you're way too
+loud and it's getting past that digital
+zero point so really important to check
+your level and keep Headroom tip number
+two is take advantage of wide panning a
+lot of people miss this early on but you
+want to have something's far left and
+something's far right if you want your
+mix to feel big and wide you need that
+width now you can play with this you can
+have sections in your song where
+everything's a little bit smaller and
+then when it gets to the course
+everything's big and wide but don't be
+afraid to have some things far left and
+far right and with that keep in mind
+that you also want to have things
+balanced you don't want your mix to lean
+off to one side too much so if you put a
+guitar far left what are you going to
+put in the other ear to make sure that
+it still feels balanced in your Final
+Mix now in the guide that I link to in
+the description below the six-step
+checklist to a pro mix I have a helpful
+guide that gives you kind of a starting
+point for painting positions to get some
+far left and Far Right painting in your
+mix and not start throwing off your mix
+and making it sound unprofessional you
+want to be intentional with your
+painting and that guy can help you out
+okay so that is everything for the the
+static mix once you finished the static
+mix it is time for step number two which
+is Master track processing now Master
+track processing is sometimes called
+top- down mixing either way the idea
+here is that we're just doing a little
+bit of processing on our entire song in
+one place this is going to help jump
+starter mix and make it feel like a
+cohesive mix that's not just a bunch of
+random tracks but one mix that all gels
+together so you want to find your stereo
+output your master track your two bus
+your mix bus whatever you want to call
+it in logic at defaults to call it your
+stereo out you want to find that track
+and you just want to do a little bit of
+EQ and compression here now with EQ we
+have to be super subtle if you start to
+do too big of moves it's going to start
+to feel very unnatural and overprocessed
+so I recommend maybe 1 D up to 3 D in
+boosts or Cuts if necessary and focus
+really primarily on the lowend and the
+high end of your mix so your sub and
+your base and then the upper shelf area
+where you're adding the brightness and
+the shein your mix and again 1 to two DB
+maybe 3 DB on the high end for these EQ
+moves moves but you can bring it up more
+initially find the point that sounds
+good and then scale it back down to
+where it's a little bit more reasonable
+and not making it sound overprocessed
+and then when it comes to compression
+again we want to be very very subtle
+here so here I generally recommend a 30
+millisecond attack time so that the
+initial hits can come through somewhere
+around 100 millisecond release time so
+that it's not just moving a lot and
+giving a pumping sensation and then we
+want to do a ratio that's somewhere
+around 3: 1 you can go higher if it's
+rock music lower if it's something a
+little bit lighter and then then you
+just set your threshold to where you're
+getting somewhere around two to 3 DB of
+gain reduction in a louder section of
+the song you can go a little bit high or
+push that a little bit if you want to if
+it's a real rock song you can go a
+little bit lower if it's a lighter song
+but just a little bit just think of it
+as kissing the meter so that meter just
+should be flickering a little bit in a
+latter section of the song but these two
+plugins together are going to make your
+mix feel way more cohesive way more
+gelled together and it's going to get
+you closer to that final product before
+you've even done anything on any
+individual track so this whole step
+could could take you 3 minutes and your
+mix is going to sound better and save
+you time in all the other mixing that
+you're going to do if you need a little
+more brightness on all your tracks which
+is very common in a home studio
+recording scenario if you need a little
+bit more brightness on all your tracks
+if you do one shelf on the master track
+that brightens it all up you might do
+little to no brightening on individual
+tracks so it's going to save you time
+and help you mix faster in the end so
+Master track processing do not skip it
+top down mixing whatever you want to
+call it don't skip it it's a really
+really powerful tool now before we move
+on to step number three I just want to
+say this is an overview video and if you
+want to see me actually apply this stuff
+then definitely come back next week if
+you're not already subscribed to the
+channel be sure to subscribe so that you
+see this but next week we're going to go
+start going through this entire process
+together in real time you'll get to see
+me walk through make these decisions
+exactly what I'm looking at kind of
+watch over my shoulder as I mix so
+definitely subscribe if you're not
+already so you don't miss that and if
+you like this video and you think it
+would be helpful to other people be sure
+to like the video so that other people
+will see it help the YouTube algorithm
+all that good stuff smash the like
+button you get it anyway let's move on
+to step number three which is EQ on
+individual channels EQ is the most
+powerful tool you have inside logic
+volume may be the most powerful thing in
+the mix but EQ is the most powerful
+actual tool that we have inside logic EQ
+is how we shape the actual sound of
+everything going on so if you want more
+clarity in your mix between all your
+instruments you want more definition of
+your guitar and your Kick Drum and your
+snare drum that's EQ if you want your
+vocal to sound more present that's EQ if
+you want the kick drum to have more
+lowend that's EQ if you want that bass
+to feel round you want that guitar to
+feel less harsh all those things they're
+all done with EQ so it's a really really
+powerful tool but a lot of people over
+complicate it they make it seem really
+really confusing at the end of the day
+all you can really do with EQ is Boost
+or cut that's all you should be thinking
+about so I like to think of it as two
+moves and three goals our two moves are
+boost or cut and our three goals are
+highlight the good so anything that we
+want to come through a little bit more
+in the mix We highlight boost with it to
+minimize the bad so if anything is kind
+of sounding a little bit weird or
+there's a little bit of a too much of
+any sound a lot of times in amateur
+mixes or home recordings there's a
+little little bit of a boxiness A
+wooliness in the mid-range that we can
+kind of minimize that helps clean it up
+a lot give you less of a muddy sound to
+your mix so minimize the bad that's our
+second step and our third is mix space
+for every source so for example there's
+only so much lowend that you have in
+your mix and if you have all sorts of
+just noise coming from all the
+microphones in your mix you can highpass
+those microphones and it makes a little
+bit extra space for just Clarity and
+punch in the low end from your Kick Drum
+and your bass and your other sources
+that really actually have and need that
+low end so think of EQ simply as
+boosting or cutting highlighting the
+good minimizing the bad and making space
+for every source and with EQ I have two
+big tips for you tip number one if you
+struggle to hear EQ boost like crazy
+until you hear what's really going on
+and then bring down the volume of that
+boost to either cut if you're trying to
+cut or just down to a more reasonable
+level and tip number two along lines
+with that most of my EQ moves probably
+end up being somewhere between 4 to 6 DB
+if I want to sound fairly natural but
+you want to do as little as you can but
+as much as you need so 4 to 6 DB is fine
+but if you need 9 DB 10 DB 15 DB that's
+all fine as well so do as little as you
+can but as much as you need to to get it
+to sound the way that you want it to now
+again in that guide the six-step
+checklist through prom mix there is a
+little EQ cheat sheet that just breaks
+down the different sections of the EQ so
+you know where to go to boost or cut if
+you're hearing something specific so if
+you're hearing kind of a boominess where
+on the EQ do you actually go for that so
+if you struggle with EQ again this guide
+is really going to help you out it's
+completely free let's go move on to step
+number four which is compression
+compression is one of the least
+understood least used tools by most home
+studio artists but one of the most used
+tools by any professional mix engineer
+every song you've ever heard on the
+radio has compression all over it it's a
+very important part in the mixing
+process now a lot of people make
+impression seem very confusing but it's
+actually a very simple tool you want to
+think of it like an automatic volume
+fader and you can use this volume fader
+to smooth out big Peaks and audio or
+make a drum punchier cut through a
+little bit more in the mix or bring up
+the subtleties you know the quieter
+words and a vocal think of it with those
+three goals in mind but fundamentally
+it's just an automatic volume fader but
+instead of you having to ride that
+volume fader up and down constantly it's
+doing it for you so continuing with this
+idea of it being an automatic volume
+fader imagine a fader like you'd have on
+a mixing console you set a threshold
+anytime the sound gets louder than that
+threshold it's going to get turned down
+how quickly it gets turned down is
+determined by the attack time so if you
+have it wait a second before it gets
+turned down then that's going to allow
+the sound to punch through a little bit
+more like a kick drum or a snare drum
+punch through a little bit more and then
+get turned down so it's actually making
+it punchier and seem like it's cutting
+through more or if you make it really
+really quick it's going to help smooth
+out those big Peaks that you might have
+in your audio so that's great on a vocal
+or something that's really dynamic damic
+like that and then how quickly it lets
+itself back up it turns itself back up
+is the release time so if you want to
+just quickly pop back up that's a short
+release time if you wanted to slowly let
+itself back up and kind of turn down the
+stuff in between that's a slow release
+time so you could have a hit that is
+slow where it lets the hit through the
+kick drum and then it slowly releases
+back up so it's released back up right
+before the next hit and that's going to
+make each hit feel punchier and kind of
+turn down the stuff in between but let
+that initial hit through okay so the
+next thing to understand is the ratio
+that's just how intensely it's going to
+turn it down so a light ratio is going
+to turn down less a higher ratio is
+going to turn down more and then you
+have your makeup gain which is just to
+make up the gain that you might lose
+because it's inherently going to be
+turning it down so that's a compressor
+don't make it too complicated think of
+it as an automatic volume fader you're
+just setting a threshold how quickly
+it's going to turn it down attack time
+how quickly it's going to let it back up
+release time how intensely it's going to
+turn it down ratio and then the makeup
+gain so you're not losing any volume
+that's it that's it's a compressor so a
+very powerful tool that seems
+complicated takes a little bit to get
+your head around but as long as you
+understand conceptually what you're
+doing even if you struggle to hear the
+the minute differences you can set a
+compressor just based on the concepts of
+it that I just laid out so don't be
+afraid of compression it's a very
+important part of the mixing process
+okay step number five is effects effects
+are things like Reverb and delay and a
+lot of people start with this way way
+too early they have a vocal the first
+thing they do is slap some Reverb on it
+you do not want to do that because
+Reverb literally clouds up the mix it
+takes the sound and dissipates it longer
+throughout the mix and makes it harder
+to tell what's going on and what is
+getting muddy and all those things if
+you wait until step five to actually
+start introducing effects into your mix
+or at least primary effects into your
+mix then you're going to have a much
+cleaner mix and you'll be able to tell
+if things start to get muddy that it's
+the effects that are doing it not
+anything else going on in the mix so
+shape your entire mix get it where it's
+feeling really really good and nice and
+clear and then build that space in
+around it and fill in those little gaps
+with with effects and if you hold off
+it's going to help you out now with
+effects there's four really most common
+types of effects there's small room
+reverbs this is something kind of like a
+realistic space the second is like a
+medium to long Reverb this is typically
+a little Lusher often a little bit more
+obvious kind of filling in space filling
+in gaps in a mix best in slower mixes in
+a lot of cases or on slower sounds then
+we have a time delay this would be
+something end time with the song that's
+like a delay delay delay you get it and
+it's in time with the song and then we
+have a slapback delay this would be a
+really really fast delay that you don't
+necessarily obviously notice but it's
+kind of giving you the effect of sound
+slapping back off a wall I typically
+break these out into two camps that are
+more about the size of the space that it
+makes you think of a small room Reverb
+and a slapback delay create kind of a
+smaller sense of space and then a medium
+to long Reverb and a time delay give you
+a longer sense of space and you can
+blend all four of these together in one
+mix sometimes but often kind of finding
+the vibe that fits the mix if it's going
+to be smaller if it's going to be bigger
+that can help it sound more cohesive now
+two big tips when it comes to using
+effects tip number one the best effects
+are felt not heard so a lot of times the
+way that I set my effects is I bring
+them up till I start to hear them and
+then I scale them back just a little bit
+as soon as I start to hear it I actually
+want to turn it down and make it a
+little less obvious tip number two is to
+use buses these are huge timesavers and
+can help create a more cohesive sound
+buses seem confusing but are actually
+very very simple I'll link to a video I
+did above here where I explain
+everything you really need to understand
+about buses in about 5 minutes so
+definitely check that out but buses are
+basically just where you can send over
+to one track where you have your effect
+so if you create one vocal Reverb sound
+that you really love you could send all
+your vocal tracks over to that one
+Reverb effect as opposed to having to
+put a Reverb plug in and dial it in for
+every single plugin that's using a lot
+of CPU power it's taking longer bus of
+effects are just huge Time Savers and
+because you just have one or a few
+tracks that you're using throughout your
+mix it helps create a more cohesive
+sound so that's effects that's step
+number five and finally finally we get
+into step number six which is automation
+automation is crazy it's kind of like
+having a million little minions running
+around inside logic just doing things
+for you turning something up painting
+something off a little bit more to the
+right turning your Reverb about bringing
+a rav back down whatever you want you
+can have logic do for you and really
+tweak your mix to be exact what you want
+it to be back in the day you used to
+have to do this all manually while you
+were printing a tape or if you had more
+things than you could physically do
+you'd have to have an assistant come in
+or an intern come in and turn a knob and
+bring things down and if you get it
+wrong you're just printed and you can't
+do anything about it you have to start
+all over again but if you get it wrong
+inside logic you just continue to tweak
+until it's right so really powerful now
+you can automate just about anything you
+can automate individual plugins you
+could automate an EQ band One EQ band
+get really specific but while you can do
+everything I'd recommend you really just
+start with three things the first is
+your vocal volume we call this vocal
+writing and the idea here is after
+you've set your compression you just
+want to listen through your vocal in the
+context of your mix and listen if
+anything gets too loud or too quiet if
+anything gets lost in the mix just bring
+it up with a little bit of Automation
+and turn it up just a little bit if it
+gets too loud you just turn it down a
+little bit another cool trick you can do
+here is turn up the end of phrases so
+that you get this real sense of
+closeness from the singer so as they
+Trail off a word you just bring it up a
+little bit extra that can really be a
+nice touch as well okay second is our
+pan knob so is there anything that we
+can adjust painting wise to give a
+little bit more width or a little less
+width at different points so for example
+I'll often bring my guitars in a little
+bit in the verses and then pop them all
+the way left and right in the chuses so
+that the chuses feel a little bit bigger
+and wider so play with your pan
+Automation and then third is your effect
+automation so very common that we make
+verses feel a little bit tighter a
+little more intimate a little bit
+smaller and then choruses everything
+balloons out and feels really huge so
+I'll bring the effects down or all the
+way off in the verse and then they'll
+come back big and strong in the choruses
+okay so those are the three main areas
+that I would recommend automating and
+the last note about automation is that
+the biggest mistake I see people make in
+mixing is that they automate their
+volumes way too early you likely need to
+do less volume Automation and you don't
+know what volume automation you need to
+do until after you've done your
+compression so hold off on automation
+until this very final step and just use
+it as a final point to tweak and perfect
+your mix to get as close to what you're
+hearing in your head as you possibly can
+so that's the six steps static Mix
+Master track processing EQ on individual
+channels compression on individual
+channels effects and finally automation
+now it's really important to know that
+mixing is not where we make our song
+loud when you finish this mix it's
+likely going to feel quiet and that's to
+be expected mastering is where we
+actually bring the volume level up to a
+commercial volume so don't worry when
+you finish this mix that it's quiet then
+it's time for mastering and we'll talk
+about that coming up soon but first if
+this video is helpful be sure to leave a
+comment and like this video to make sure
+that more people can see this and if you
+know anyone else looking to get better
+at making music inside logic then be
+sure to share this with them I'd love to
+hear from you are there any of these
+steps that you've been missing that
+you're excited to start implementing
+into your mixing process let me know in
+the comments below and just let me know
+if this is helpful in general I'd love
+to know that this video is helpful to
+people and be sure to grab the six-step
+checklist to a promix it's really going
+to help you out and finally don't forget
+to subscribe because next week we're
+going to be back and we're going to
+start going through this process
+together in real time where you can see
+me actually going through and making
+these mixing decisions if this video was
+helpful be sure to like comment and
+subscribe and I'll see you next week
+with another
+video one thing at a time I can only
+handle one thing at a
+time one thing at a
+time I'm the gold briak
+champion

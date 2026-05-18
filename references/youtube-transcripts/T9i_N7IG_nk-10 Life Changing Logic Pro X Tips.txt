@@ -1,0 +1,558 @@
+logic pro has a ton of different
+features in it that can actually make
+your life so much easier so much more
+efficient and faster in this video i'm
+going to be sharing 10 of them with you
+that i know that have made my life a
+heck of a lot easier and i think you're
+going to find them to make your life a
+lot easier as well
+let's do it tip number one is when you
+are working with actual audio samples
+here's what a lot of people do but go in
+here and be like hey that's a cool
+sample and they will drag it and drop it
+directly into the timeline or the
+arrangement window and then it'll be
+like hey i want on b2 boom it's on b2
+right and then they play it and then
+they're literally just working with
+audio and then they're going in here and
+they're copying it and moving it
+wherever the heck they actually want it
+that my friends is not the best way of
+doing this instead what you should do is
+this go ahead and grab the audio sample
+that you want like this grab it and drag
+it and then actually put it right
+underneath the tracks in here and it's
+now going to ask you here create new
+track using it's going to give you a few
+different options in this particular
+case i tend to prefer using quick
+sampler but you could use drum machine
+alchemy the sampler with a zone per note
+i'm just going to go ahead and use the
+quick sampler instead of two original it
+will automatically create a midi region
+with that sample dropped in using the
+quick sampler within logic and now check
+this out
+boom and we can actually start
+manipulating it inside of this itself
+and i usually don't but now i can go in
+here and record
+obviously that's just an example that's
+not actually a song i'm working on
+and now we have the actual midi here we
+can quantize it we can start working
+with it as actual midi instead of having
+to work with it as an audio file that
+right there alone has made my life so
+much easier and i think it's gonna make
+your life easier too that's tip number
+one that brings us to tip number two and
+this is something that i have found
+incredibly useful when i'm working
+either with myself as a vocalist or
+playing guitar recording anything or
+especially if i'm working with a
+vocalist in the studio here and that is
+adjusting the metronome settings so all
+you need to do is go up here to where
+your actual metronome is hover over it
+and when you have this little arrow
+right there you're just gonna hold down
+your mouse go to metronome settings so
+now we actually have the metronome
+settings pulled up now there are three
+different things that i'm going to
+adjust within the metronome settings
+depending on what i'm needing help with
+in a lot of cases if i'm working on a
+really dense track the metronome where
+the click can get buried within the
+track where the vocalist might not
+really be able to hear the metronome so
+the very first thing that i'll do is
+adjust the tone of the metronome so as
+we move the tone of this metronome
+listen to what's happening
+let's open it up
+so obviously as we move the tone to the
+right hand side it's going to really
+open up the sound and make it a lot more
+bright the next thing we can do is
+adjust the actual volume of the
+metronome
+and this is something again i find
+incredibly helpful because when i have
+vocalists or other musicians in the
+studio in a lot of cases i have issues
+with them maybe rushing a little bit or
+maybe they're behind the beat because
+they're just not hearing the metronome
+as well as they should be able to hear
+the metronome and these two things alone
+are very helpful but that brings me to
+the third thing that i oftentimes will
+do within this and that is actually
+adding the division listen to what
+happens when i add the division
+it actually throws 16th notes into the
+mix now we can adjust the velocity and
+we can also adjust the note so check
+this out adjust the note
+the velocity
+so that's going to essentially adjust
+the actual volume of the subdivision and
+so again one of the big reasons i use
+the subdivision is just to help make
+sure that you can really get a sense for
+the actual timing of the track
+especially if you're working in a track
+that is a slower tempo or there's not
+really anything percussive happening in
+the production very ethereal type things
+where it's going to be a lot easier to
+get off beat that right there my friends
+is going to make your life a whole lot
+easier with the metronome tip number
+three how often has it been that you've
+been working on a production maybe it's
+a big production maybe you just don't
+have the best computer in the world and
+you start having issues where when you
+try recording vocals or recording
+anything with a guitar microphone di
+whatever the case it may be you start
+having latency the big thing that a lot
+of people are going to do is they're
+going to try to jump in here and open up
+their preferences and the first thing
+they're going to do is you say i'm going
+to change the i o buffer size and
+they're going to try to make it so that
+the buffer size changes however what you
+should try first before going to this
+and i'm not saying that's not a good
+solution the very first thing that you
+should try go up to record and make sure
+they have the low latency monitoring
+mode on and what this is going to do if
+you have like a preset or something on
+top of this and then we actually turn
+the monitoring on look at what happens
+with these uh plugins over here turn
+that on it's automatically to take the
+plugins that are pretty heavily cpu
+dependent it's going to shut them off
+temporarily until we turn monitoring
+back off so this makes it so that when
+we are actually recording it's going to
+basically monitor in such a way where
+you're not going to have that latency or
+very low latency and then once you turn
+it off it will add those plugins back in
+so this is incredibly helpful i've been
+using it more and more because i'm
+working on very dense productions where
+i do have to use it even with a computer
+with 64 gig of ram and that brings us to
+tip number four which i just learned
+recently and this has everything to do
+with how you actually approach
+overlapping audio hear me out this one
+kind of blew my mind so you can go to
+record and you can adjust how you want
+the overlapping audio recordings to
+handle depending on if you have the
+cycle on or if you have the cycle off so
+in this case right here i have cycle on
+and so if we go to record overlapping
+audio regions automatically it's going
+to just create another take folder which
+is something i think we're very used to
+so when you record something and you
+record over top it's just going to go
+ahead and create a nice take folder for
+you however what you can do instead is
+do create tracks in mute now watch what
+happens when we do this
+[Music]
+so in most cases it's going to go ahead
+and create a take folder but in this
+specific case what it actually does is
+it makes it so that it puts it on new
+tracks now the benefit of doing this is
+in many cases when i'm doing group
+vocals or gang vocals which is basically
+where i want it to sound like a big
+crowd a big audience of people singing
+something like this where to be shouting
+i want 15 different versions of this
+instead of having a take folder and then
+having to unpack all those takes we can
+actually create all these new tracks
+where the audio is already split out and
+then all we have to do is go in here and
+then create however many new audio
+regions we want so let's say we do 10
+times and we just grab the audio and
+move the audio up to those new tracks
+and now we have it so that we do not
+have to unpack the audio tracks at all
+now the reason i do this is because for
+some reason it's going to treat these as
+if it's the same track so notice when
+i'm moving the fader it's actually
+moving these as if it's one same thing
+with panning it's moving as if it's one
+that's not something you want so this is
+just kind of a workaround and now we
+have it so that we have these two audio
+pieces on two individual tracks
+again you can obviously imagine doing
+this 10 15 20 times and now you boom
+you've got your gang vocals that brings
+us to tip number five and that is using
+logic remote when you were recording
+yourself now logic remote is useful for
+a handful of different things it's not
+just this you can use it for a lot of
+different things but one of the biggest
+reasons i love logic remote by opening
+it up by the way you can just open up
+logic remote it's totally free by
+opening it it will automatically connect
+into the wi-fi and we now have this
+opened up in such a way that we can
+start controlling the actual daw from
+here on my phone now in a lot of cases i
+will sometimes sing things where i'm
+just like sitting down but if i'm doing
+something like lead vocals if i'm
+actually the singer i don't want to be
+sitting down i want to be standing up
+but here's the problem is if we take
+this mic we put it up here and then say
+we're going to go ahead and do some
+recording well if i want to start
+recording and i'm not using logic remote
+then i have to literally come over here
+be like okay all right gotta get this
+ready to go okay now we're ready okay
+cool
+gotta give myself enough time
+right which is super annoying not very
+fun especially if you don't want to be
+this close to the to the computer like
+say for example the fan is is going
+really loud you don't want to be
+capturing that fan noise with your
+microphone you might want to go even
+further away across the room so instead
+you just use logic remote and we can
+stand over here and then we can start
+controlling the actual timeline on here
+we could turn that cycle on we can turn
+the cycle off go it's off now you can
+turn it back on we can control where we
+want to be and then from here i can
+control everything from the fader to
+record
+boom there we go so using logic remote
+is definitely one of the most valuable
+things that i've done i've had this
+question so many times how do i record
+myself without having to like walk all
+the way over and change it to where it's
+like a two bar countenance that i have
+enough time to run back over the
+microphone and then record and sing and
+blah blah blah and this is so much
+faster so much easier so if you have an
+apple phone an iphone make sure you get
+this it's totally free to do you're
+welcome that brings us to tip number six
+and that is that you can actually take
+audio and convert your audio into a midi
+region now nathan how is this actually
+useful let me show you say for example
+you're not a wizard of a keyboard player
+for me i'm really fortunate i'm a
+pianist so this is not a problem for me
+but let's say you have a really cool
+idea in your head and you're singing a
+song you're like
+so you've got this melody right but you
+can't play it out so you're like okay
+now i'm gonna have to go create a media
+region and then i'm gonna have to go in
+here i'm gonna have to now try to figure
+out okay what notes are these
+like that's so annoying and then
+all right so you know this is what most
+people are gonna do right they're just
+gonna like draw it in again i'm talking
+about this if you don't actually play
+the keyboard takes forever super
+annoying not fun because now i'm sitting
+here wasting time doing this here's what
+you can do instead just grab your trusty
+microphone and literally all we're going
+to do is sing this idea in
+all right not the best performance in
+the world but you get the idea you could
+do this on guitar too so if your guitar
+player you could just play that guitar
+riff in because you know you know how to
+play it in but maybe you might not be
+able to get into midi so now all we have
+to do is go in here open it up in the
+editor window turn on flex turn on pitch
+so once you actually have this in flex
+you open up flex pitch you're going to
+go over to edit and you're going to
+create midi track from flex pitch data
+yeah look at this beautiful beautiful
+thing we have here of course we go here
+and quantize it now we can grab this
+audio we can now just place it on that
+track we had before so the first thing
+is it's gonna be really quiet so we have
+to increase the velocities on this so we
+can actually hear it here we go
+all right so obviously there are some
+little discrepancies and mistakes that
+you need to fix up and clean up you know
+you might not want that
+but one way or the other this is by far
+the fastest way to turn something into
+an idea in your head singing it or you
+know playing it on an instrument
+recording it in and then converting it
+into midi and now we can actually start
+working with this boom all right that
+brings us to tip number seven and that
+is actually using the midi arpeggiator
+that is built right inside of logic now
+i know many of you are gonna say okay
+yeah i get it i'm actually gonna show
+you a couple little crazy tricks that i
+have found that i think you know just a
+little extra added value for watching
+the video if you will so if we go to
+this keyboard instrument right here it's
+like this muted plucky thing
+right very short
+what we can do here is go to the midi
+effect we can grab the arpeggiator and
+just by opening the appreciator
+obviously it's going to do what an
+arpeggiator does and this is built
+directly into logic and this is
+something that i love about logic is
+that you have this directly built into
+it you can get extremely creative about
+how you use this you can do the live
+mode which is where you can literally
+just
+just play out ideas you can change the
+rate from slow to fast eighth note
+basically just based on the actual
+rhythm itself into octave range you can
+do variations
+which that's cool but then you can also
+go into the grid mode you can turn on
+chord pattern and you can adjust the
+actual velocities of these which is
+really kind of cool so say we want to do
+a chord pattern
+you can also adjust the actual rhythmic
+value of this not the rhythmic value but
+how long it hangs onto these notes by
+just dragging in here so if you want to
+have like short so long short short and
+then like maybe long here like this
+which is pretty cool and here's one of
+the really cool things i really love
+doing with arpeggiators that i think is
+going to blow your mind we can actually
+take this and do a crazy fast rhythm
+let's do like this
+i mean that just sounds ridiculous right
+but watch this
+[Applause]
+set this to like a crazy fast rhythm and
+then you can actually start creating
+melodies with this so check this out
+let's just hypothetically say we want
+some crazy lead kind of sound
+i mean that that's pretty ridiculous
+right now i'm just going to show you one
+thing i could do with this because you
+might be hearing this and thinking
+that's kind of ridiculous but you do
+this in combination with a few extra
+little fun things like for example using
+some sidechain compression or in my case
+just using the lfo tool check this out
+now we get this crazy kind of sound we
+could use something like spaced out to
+add some reverb and now it's going to
+start sounding a little less crazy a
+little less weird a little more awesome
+check this out
+i mean come on you throw in some drums
+some bass some crazy stuff as just a
+wave reminder this is what we started
+out with
+what we ended up with
+and again that's that's literally using
+something that's built directly into
+logic obviously the lfo tool is spaced
+out or not but you could use other
+plugins that are logic plugins for that
+but by getting creative with how you're
+actually using your arpeggiator that is
+directly built right inside of logic i
+think the midi arpeggiator is one of
+those things that like a lot of people
+don't know about but it's actually very
+useful to doing things very quickly that
+brings us to tip number eight and that
+is a feature called chase midi now i
+want to show you this right here if we
+have midi notes like this that are very
+elongated say you're using strings or in
+this case something that sounds like
+this
+right very ethereal it's long notes long
+patches if you have a lot of instruments
+like this stacked up the problem is is
+that what if i want to start on bar five
+in the middle of the note if i play this
+it's going to wait until the next midi
+notes actually play in order for it to
+then basically play so what we're going
+to do instead is make it so that when we
+play in the middle it's basically going
+to catch the midi notes or chase the
+midi notes to then play them right away
+even though that's not actually when
+those midi notes start so the way that
+you actually set this up is by going up
+here file go to project settings go to
+midi and then go to midi over here and
+make sure you have chase selected and
+select
+notes by simply doing that now when we
+play this
+no matter where we click and play
+it's going to automatically chase those
+midi notes and play them by the way if
+you think these sounds are awesome this
+is from the hammers and wave library i'm
+a huge huge fan incredible you should
+totally check them out all right that
+brings us to number nine so this is
+actually a tool that you can use within
+logic so when we go to our tools up here
+you can notice that you have this
+automation curve tool so let's go ahead
+and take this sound that we had before
+it's pretty ethereal cool sound but what
+if we wanted the sound to be more
+dynamic now you can do this with strings
+as well this is actually one of the best
+ways of automating and making strings
+more dynamic so we're going to make this
+actually a lot bigger so what i want
+this to start doing is i want this to
+start swelling so i'm just going here
+and use volume automation to do this and
+so i want this to swell for each cord
+change and so we're going to do is put a
+pin on each time the cord actually
+changes and then we're going to put a
+pin halfway through so it kind of swells
+up swells down so we're basically
+putting a little drop here and then
+we're going to go ahead and pull this
+down
+let's say that much why not pull this
+down pull this down so if i just go and
+play this this isn't going to sound bad
+but listen
+okay this doesn't sound bad right but
+here's what we can do with the
+automation curve tool we're just going
+to go and grab this we can now actually
+set it up so that it's going to actually
+add a natural curve to this which is
+going to be a lot more musical check
+now we could go in here maybe we don't
+want this curve to be quite as
+aggressive oh don't go crazy on me maybe
+we don't want this curve to be quite as
+aggressive on the slope down so we can
+obviously adjust this curve so it's not
+as crazy we can actually adjust it
+upwards as well which is another really
+great way of doing it i think i'm going
+to go and try that here let's check this
+out
+so you can do this obviously with volume
+automation but if you're using strings
+you're using the modulation and
+expression control do the exact same
+thing with your strings this is going to
+make things feel so much more natural
+and don't do it with just these types of
+long expressive things you can try this
+out in a handful of different ways it's
+going to sound a lot more musical and
+creative than simply having a straight
+line that's the next one and that brings
+us to number 10 and that is actually
+setting it up so that way when you play
+anything in with midi it will
+automatically quantize for you because
+this is one of those things that is not
+difficult to do but over the longevity
+of recording things with midi the more
+you do it the more you're going to
+realize i'm pretty much always
+quantizing things so let's go ahead and
+go back to this kind of art thing that
+we have here
+all right so what we're going to do here
+is click on the track that you want and
+then make sure you pull the drop down
+window on region in the inspector window
+and you have this quantize button here
+drop down menu and it's typically going
+to be set to off but instead you can set
+this to automatically quantize to
+whatever value it is that you want so
+for me i'm typically going to go ahead
+and quantize two 16th notes because i'm
+typically not doing things beyond 16th
+notes obviously if you are you can make
+however the adjustments are that you
+need to make and now we can go ahead and
+record and it will automatically
+quantize these notes for me
+all right so i'm done open up the editor
+window and voila just like that it's
+already quantized which saves a nice
+little step in the process and again
+this might not seem like a very
+significant thing but over the long term
+of actually doing this this is going to
+save you a huge amount of time if you
+think these logic pro tips are helpful i
+have a whole other set of videos on
+logic you can check out right here and
+i'll see you there

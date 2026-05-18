@@ -135,6 +135,25 @@ const CMD = {
   cc([ch, n, v]) { if (ch == null || n == null || v == null) throw new Error("cc <ch> <num> <val>"); M.cc(+ch, +n, +v); console.log(`CC ch${ch} ${n}=${v}`); },
   "midi-note"([ch, p, v, ms]) { if (ch == null || p == null) throw new Error("midi-note <ch> <pitch> [vel] [ms]"); M.note(+ch, +p, v ? +v : 100, ms ? +ms : 250); console.log(`note ch${ch} ${p}`); },
   pc([ch, prog]) { if (ch == null || prog == null) throw new Error("pc <ch> <program>"); M.programChange(+ch, +prog); console.log(`PC ch${ch} ${prog}`); },
+  assign([m]) { if (!m) throw new Error("assign <track|send|pan|plugin|eq|instrument>"); M.assign(m); console.log(`vpot assign = ${m}`); },
+  nav([w]) { if (!w) throw new Error("nav <bank-left|bank-right|chan-left|chan-right|flip|global-view|name-value>"); M.nav(w); console.log(`nav ${w}`); },
+
+  // Complete Bounce flow (analog of FCP complete-Share): open the Bounce
+  // dialog via menu, then press the Bounce button on the settings sheet
+  // and again on the Save sheet. `scope` = project (default) | regions |
+  // tracks | replace.
+  async bounce([scope = "project"]) {
+    const leaf = { project: "Project or Section…", regions: "Regions in Place…",
+      tracks: "Tracks in Place…", replace: "And Replace All Tracks…" }[scope];
+    if (!leaf) throw new Error("bounce <project|regions|tracks|replace>");
+    const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+    clickMenu(["File", "Bounce", leaf]);
+    await wait(1500);
+    try { dialogPress("Bounce"); } catch (_) {}
+    await wait(1500);
+    try { dialogPress("Bounce"); } catch (_) { try { dialogPress("Save"); } catch (_) {} }
+    console.log(`bounce: ${scope}`);
+  },
 
   ...WRAPPERS,
 };
@@ -146,7 +165,8 @@ if (!cmd || !CMD[cmd]) {
   process.exit(1);
 }
 try {
-  CMD[cmd](rest);
+  const r = CMD[cmd](rest);
+  if (r && typeof r.then === "function") r.catch((e) => { console.error(e.message); process.exit(1); });
 } catch (e) {
   console.error(e.message);
   process.exit(1);

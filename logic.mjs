@@ -138,6 +138,20 @@ const CMD = {
   assign([m]) { if (!m) throw new Error("assign <track|send|pan|plugin|eq|instrument>"); M.assign(m); console.log(`vpot assign = ${m}`); },
   nav([w]) { if (!w) throw new Error("nav <bank-left|bank-right|chan-left|chan-right|flip|global-view|name-value>"); M.nav(w); console.log(`nav ${w}`); },
 
+  // Open the Control Surfaces settings pane (verified non-capturing menu
+  // path) and print the precise one-time Mackie install steps. The install
+  // dialog's AX elements carry only generic role-name descriptions (no
+  // titles), so the final 3 clicks cannot be targeted without screen
+  // capture — this lands you one pane away and tells you exactly what to do.
+  "setup-mackie"() {
+    clickMenu(["Logic Pro", "Settings", "Control Surfaces…"]);
+    console.log("Control Surfaces settings opened. One-time install:");
+    console.log("  1. New ▸ Install…   2. pick 'Mackie Control' (Mackie Designs)");
+    console.log("  3. set its Input/Output port to 'Logic Agent', then close.");
+    console.log("After that every fader/mute/solo/transport/assign/vpot call is");
+    console.log("deterministic. Raw note/cc already work on 'Logic Pro Virtual In'.");
+  },
+
   // Complete Bounce flow (analog of FCP complete-Share): open the Bounce
   // dialog via menu, then press the Bounce button on the settings sheet
   // and again on the Save sheet. `scope` = project (default) | regions |

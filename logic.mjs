@@ -23,6 +23,7 @@ import {
 } from "./lib/logic-cua-cmds.mjs";
 import { clickMenu, listMenus, getAttr, setAttr, performAction, dumpTree, dialogPress } from "./lib/logic/menu.mjs";
 import { WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
+import * as M from "./lib/logic/midi-control.mjs";
 
 const CMD = {
   tracks() { console.log(JSON.stringify(listTracks(), null, 2)); },
@@ -121,6 +122,20 @@ const CMD = {
     console.log(`Named wrappers (${Object.keys(WRAPPERS).length}):`);
     for (const [g, ns] of WRAPPERS_HELP) { console.log("  " + g + ":"); console.log("    " + ns.join("  ")); }
   },
+  // ---- MIDI control plane (non-capturing: pure MIDI, no cursor/screen) ----
+  "midi-dests"() { console.log(M.listDestinations()); },
+  fader([s, v]) { if (s == null || v == null) throw new Error("fader <strip 0-7> <0..1>"); M.fader(+s, +v); console.log(`fader ${s} = ${v}`); },
+  "master-fader"([v]) { if (v == null) throw new Error("master-fader <0..1>"); M.masterFader(+v); console.log(`master = ${v}`); },
+  "mute-ch"([s]) { if (s == null) throw new Error("mute-ch <strip 0-7>"); M.mute(+s); console.log(`mute strip ${s}`); },
+  "solo-ch"([s]) { if (s == null) throw new Error("solo-ch <strip 0-7>"); M.solo(+s); console.log(`solo strip ${s}`); },
+  recarm([s]) { if (s == null) throw new Error("recarm <strip 0-7>"); M.recArm(+s); console.log(`rec-arm strip ${s}`); },
+  "track-select"([s]) { if (s == null) throw new Error("track-select <strip 0-7>"); M.trackSelect(+s); console.log(`select strip ${s}`); },
+  vpot([s, d]) { if (s == null || d == null) throw new Error("vpot <strip 0-7> <delta>"); M.vpot(+s, +d); console.log(`vpot ${s} ${d}`); },
+  mtransport([a]) { if (!a) throw new Error("mtransport <play|stop|record|rewind|ffwd|cycle>"); M.transport(a); console.log(`transport ${a}`); },
+  cc([ch, n, v]) { if (ch == null || n == null || v == null) throw new Error("cc <ch> <num> <val>"); M.cc(+ch, +n, +v); console.log(`CC ch${ch} ${n}=${v}`); },
+  "midi-note"([ch, p, v, ms]) { if (ch == null || p == null) throw new Error("midi-note <ch> <pitch> [vel] [ms]"); M.note(+ch, +p, v ? +v : 100, ms ? +ms : 250); console.log(`note ch${ch} ${p}`); },
+  pc([ch, prog]) { if (ch == null || prog == null) throw new Error("pc <ch> <program>"); M.programChange(+ch, +prog); console.log(`PC ch${ch} ${prog}`); },
+
   ...WRAPPERS,
 };
 

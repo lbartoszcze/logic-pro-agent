@@ -1,0 +1,492 @@
+Apple > About This Mac
+Apple > System Information
+Apple > System Settings…, 1 update
+Apple > App Store…, 12 updates
+Apple > Recent Items
+Apple > Recent Items > Applications
+Apple > Recent Items > Adobe Acrobat
+Apple > Recent Items > Show “Adobe Acrobat” in Finder
+Apple > Recent Items > App Store
+Apple > Recent Items > Show “App Store” in Finder
+Apple > Recent Items > Final Cut Pro
+Apple > Recent Items > Show “Final Cut Pro” in Finder
+Apple > Recent Items > Google Chrome
+Apple > Recent Items > Show “Google Chrome” in Finder
+Apple > Recent Items > Preview
+Apple > Recent Items > Show “Preview” in Finder
+Apple > Recent Items > QuickTime Player
+Apple > Recent Items > Show “QuickTime Player” in Finder
+Apple > Recent Items > Slack
+Apple > Recent Items > Show “Slack” in Finder
+Apple > Recent Items > System Settings
+Apple > Recent Items > Show “System Settings” in Finder
+Apple > Recent Items > Unity Hub
+Apple > Recent Items > Show “Unity Hub” in Finder
+Apple > Recent Items > WhatsApp
+Apple > Recent Items > Show “WhatsApp” in Finder
+Apple > Recent Items > Documents
+Apple > Recent Items > 120027887.jpeg
+Apple > Recent Items > Show “120027887.jpeg” in Finder
+Apple > Recent Items > Atlas documents - Wisent-AI_ Inc. (5)
+Apple > Recent Items > Show “Atlas documents - Wisent-AI_ Inc. (5)” in Finder
+Apple > Recent Items > backends
+Apple > Recent Items > Show “backends” in Finder
+Apple > Recent Items > content-platform
+Apple > Recent Items > Show “content-platform” in Finder
+Apple > Recent Items > growth-tactics
+Apple > Recent Items > Show “growth-tactics” in Finder
+Apple > Recent Items > IMG_3935.PNG
+Apple > Recent Items > Show “IMG_3935.PNG” in Finder
+Apple > Recent Items > Screenshot 2026-04-17 at 7.52.03 PM
+Apple > Recent Items > Show “Screenshot 2026-04-17 at 7.52.03 PM” in Finder
+Apple > Recent Items > singularity
+Apple > Recent Items > Show “singularity” in Finder
+Apple > Recent Items > trading-autonomy
+Apple > Recent Items > Show “trading-autonomy” in Finder
+Apple > Recent Items > Wisent
+Apple > Recent Items > Show “Wisent” in Finder
+Apple > Recent Items > Servers
+Apple > Recent Items > Macintosh HD
+Apple > Recent Items > Clear Menu
+Apple > Force Quit…
+Apple > Force Quit Logic Pro
+Apple > Sleep
+Apple > Restart…
+Apple > Restart
+Apple > Shut Down…
+Apple > Shut Down
+Apple > Lock Screen
+Apple > Log Out Lukasz Bartoszcze…
+Apple > Log Out Lukasz Bartoszcze
+Logic Pro > About Logic Pro
+Logic Pro > Settings
+Logic Pro > Settings > General…
+Logic Pro > Settings > Audio…
+Logic Pro > Settings > Recording…
+Logic Pro > Settings > MIDI…
+Logic Pro > Settings > Score…
+Logic Pro > Settings > Movie…
+Logic Pro > Settings > Automation…
+Logic Pro > Settings > Control Surfaces…
+Logic Pro > Settings > View…
+Logic Pro > Settings > My Info…
+Logic Pro > Settings > Advanced…
+Logic Pro > Settings > Reset All Settings Except Key Command Assignments…
+Logic Pro > Settings > Plug-in Manager…
+Logic Pro > Settings > Chord Grid Library…
+Logic Pro > Control Surfaces
+Logic Pro > Control Surfaces > Learn Assignment for “-”
+Logic Pro > Control Surfaces > Controller Assignments…
+Logic Pro > Control Surfaces > Setup…
+Logic Pro > Control Surfaces > Settings…
+Logic Pro > Control Surfaces > Rebuild Defaults
+Logic Pro > Control Surfaces > Bypass All Control Surfaces
+Logic Pro > Key Commands
+Logic Pro > Sound Library
+Logic Pro > Sound Library > Download Essential Sounds
+Logic Pro > Sound Library > Download All Available Sounds
+Logic Pro > Sound Library > Reinstall Sound Library
+Logic Pro > Sound Library > Open Sound Library Manager…
+Logic Pro > Sound Library > Relocate Sound Library…
+Logic Pro > Provide Logic Pro Feedback
+Logic Pro > Learn About Logic Remote…
+Logic Pro > Learn About MainStage…
+Logic Pro > Services
+Logic Pro > Services > Activity Monitor
+Logic Pro > Services > Allocations & Leaks
+Logic Pro > Services > File Activity
+Logic Pro > Services > System Trace
+Logic Pro > Services > Services Settings…
+Logic Pro > Hide Logic Pro
+Logic Pro > Hide Others
+Logic Pro > Show All
+Logic Pro > Quit Logic Pro
+File > New
+File > New from Template…
+File > Open…
+File > Open Recent
+File > Open Recent > Untitled.logicx
+File > Open Recent > Clear Menu
+File > Close
+File > Close Project
+File > Save
+File > Save As…
+File > Save A Copy As…
+File > Save as Template…
+File > Revert to
+File > Project Alternatives
+File > Project Management
+File > Project Management > Clean Up…
+File > Project Management > Consolidate…
+File > Project Management > Rename…
+File > Project Management > Show in Finder…
+File > Project Settings
+File > Project Settings > General…
+File > Project Settings > Audio…
+File > Project Settings > Recording…
+File > Project Settings > Smart Tempo…
+File > Project Settings > MIDI…
+File > Project Settings > Score…
+File > Project Settings > Movie…
+File > Project Settings > Synchronization…
+File > Project Settings > Metronome…
+File > Project Settings > Tuning…
+File > Project Settings > Assets…
+File > Project Settings > Import Project Settings…
+File > Page Setup…
+File > Print
+File > Movie
+File > Movie > Open Movie…
+File > Movie > Remove Movie
+File > Movie > Show in Finder
+File > Movie > Move Movie Files out of Project…
+File > Movie > Import Audio from Movie
+File > Movie > Export Audio to Movie…
+File > Import
+File > Import > Logic Projects…
+File > Import > Live Loops Grid…
+File > Import > Audio File…
+File > Import > MIDI File…
+File > Import > MusicXML…
+File > Import > Music Memos File…
+File > Import > Final Cut Pro XML…
+File > Import > AAF…
+File > Import > Create Project from ADM BWF…
+File > Import > Other…
+File > Export
+File > Export > Region/Cell to Loop Library…
+File > Export > Regions as Audio Files…
+File > Export > Audio Files As…
+File > Export > Selection as Audio File…
+File > Export > Selection as MIDI File…
+File > Export > Tracks as Audio Files…
+File > Export > All Tracks as Audio Files…
+File > Export > All MIDI Tracks as MIDI File…
+File > Export > Project as AAF File…
+File > Export > Project to Final Cut Pro XML…
+File > Export > Project as ADM BWF…
+File > Export > Selection as ADM BWF…
+File > Export > Score as MusicXML…
+File > Bounce
+File > Bounce > Regions in Place…
+File > Bounce > Tracks in Place…
+File > Bounce > And Replace All Tracks…
+File > Bounce > Project or Section…
+File > Share
+File > Share > Song to iTunes…
+File > Share > AirDrop…
+File > Share > Mail…
+File > Share > Project to GarageBand for iOS…
+Edit > Can’t Undo
+Edit > Can’t Redo
+Edit > Undo History…
+Edit > Delete Undo History
+Edit > Cut
+Edit > Copy
+Edit > Paste
+Edit > Delete
+Edit > Select All
+Edit > Writing Tools
+Edit > Writing Tools > Show Writing Tools
+Edit > Writing Tools > Proofread
+Edit > Writing Tools > Rewrite
+Edit > Writing Tools > Make Friendly
+Edit > Writing Tools > Make Professional
+Edit > Writing Tools > Make Concise
+Edit > Writing Tools > Summarize
+Edit > Writing Tools > Create Key Points
+Edit > Writing Tools > Make List
+Edit > Writing Tools > Make Table
+Edit > Writing Tools > Compose…
+Edit > AutoFill
+Edit > AutoFill > Contact…
+Edit > AutoFill > Passwords…
+Edit > AutoFill > Credit Card…
+Edit > Start Dictation…
+Edit > Emoji & Symbols
+Track > New Tracks…
+Track > New Audio Track
+Track > New Software Instrument Track
+Track > New Drummer Track
+Track > New External MIDI Track
+Track > Other
+Track > Other > New Track With Duplicate Settings
+Track > Other > New Track With Next Channel
+Track > Other > New Track With Same Channel
+Track > Other > New Track For Overlapped Regions
+Track > Other > New Track For Selected Regions
+Track > Rename Track
+Track > Delete Track
+Track > Delete Unused Tracks
+Track > Create Track Stack…
+Track > Flatten Stack
+Track > Global Tracks
+Track > Global Tracks > Global Tracks
+Track > Global Tracks > Configure Global Tracks…
+Track > Global Tracks > Arrangement Track
+Track > Global Tracks > Marker Track
+Track > Global Tracks > Movie Track
+Track > Global Tracks > Signature Track
+Track > Global Tracks > Transposition Track
+Track > Global Tracks > Tempo Track
+Track > Global Tracks > Beat Mapping Track
+Track > Track Alternatives
+Track > Master Track
+Track > Replace or Double Drum Track…
+Track > Convert Regions to New Sampler Track…
+Track > Hide/Show Selected Tracks
+Track > Hide/Show Unselected Tracks
+Track > Unhide All Tracks
+Track > Toggle Hide View
+Track > Sort Tracks by
+Track > Sort Tracks by > MIDI Channel
+Track > Sort Tracks by > Audio Channel
+Track > Sort Tracks by > Output Channel
+Track > Sort Tracks by > Instrument Name
+Track > Sort Tracks by > Track Name
+Track > Sort Tracks by > Used, Unused
+Track > Assign Track Color…
+Track > Assign Track Icon…
+Track > Configure Track Header…
+Navigate > Go To
+Navigate > Go To > Position…
+Navigate > Go To > Left Locator
+Navigate > Go To > Right Locator
+Navigate > Go To > Selection Start
+Navigate > Go To > Selection End
+Navigate > Go To > Next Marker
+Navigate > Go To > Previous Marker
+Navigate > Go To > Marker Number…
+Navigate > Scroll to Selection
+Navigate > Set Locators by Selection and Enable Cycle
+Navigate > Set Rounded Locators by Selection and Enable Cycle
+Navigate > Move Locators Forward by Cycle Length
+Navigate > Move Locators Backwards by Cycle Length
+Navigate > Create Marker
+Navigate > Other
+Navigate > Other > Create Marker for Selected Regions
+Navigate > Other > Create Without Rounding
+Navigate > Other > Import Marker from Audio File
+Navigate > Other > Export Marker to Audio File
+Navigate > Other > Remove Marker from Audio File
+Navigate > Other > Create Movie Scene Cut Markers
+Navigate > Other > Create Movie Scene Cut Markers > Auto Range
+Navigate > Other > Create Movie Scene Cut Markers > Marquee Selection
+Navigate > Other > Create Movie Scene Cut Markers > Cycle Area
+Navigate > Other > Create Movie Scene Cut Markers > Selected Regions
+Navigate > Other > Create Movie Scene Cut Markers > Entire Movie
+Navigate > Other > Remove Movie Scene Cut Markers
+Navigate > Other > Remove Movie Scene Cut Markers > Auto Range
+Navigate > Other > Remove Movie Scene Cut Markers > Marquee Selection
+Navigate > Other > Remove Movie Scene Cut Markers > Cycle Area
+Navigate > Other > Remove Movie Scene Cut Markers > Selected Regions
+Navigate > Other > Remove Movie Scene Cut Markers > All Scene Markers
+Navigate > Rename Marker
+Navigate > Delete Marker at Playhead Position
+Navigate > Open Marker List
+Navigate > Open Marker Text
+Navigate > Play Button Options
+Navigate > Play Button Options > Play from Marquee Selection
+Navigate > Play Button Options > Play from Cycle Start
+Navigate > Play Button Options > Play From Selected Region
+Navigate > Play Button Options > Play From Last Locate Position
+Navigate > Stop Button Options
+Navigate > Stop Button Options > Stop
+Navigate > Stop Button Options > Stop and Go to Left Locator
+Navigate > Stop Button Options > Stop and Go to Last Locate Position
+Navigate > Stop Button Options > Jump between Marquee- and Project Start if stopped
+Navigate > Stop Button Options > Jump between Cycle- and Project Start if stopped
+Navigate > Stop Button Options > Jump between Selected Region- and Project Start if stopped
+Navigate > Stop Button Options > Jump between Last Locate Position and Project Start if stopped
+Navigate > Auto Set Locators
+Navigate > Auto Set Locators > By Marquee Selection
+Navigate > Auto Set Locators > By Region Selection
+Navigate > Auto Set Locators > By Note Selection
+Navigate > Auto Set Locators > Enable Auto Set Locators
+Record > Count-in
+Record > Count-in > None
+Record > Count-in > 1 Bar
+Record > Count-in > 2 Bars
+Record > Count-in > 3 Bars
+Record > Count-in > 4 Bars
+Record > Count-in > 5 Bars
+Record > Count-in > 6 Bars
+Record > Count-in > 1/4
+Record > Count-in > 2/4
+Record > Count-in > 3/4
+Record > Count-in > 4/4
+Record > Count-in > 5/4
+Record > Count-in > 6/4
+Record > Count-in > 7/4
+Record > Count-in > 8/4
+Record > Count-in > 9/4
+Record > Metronome Settings…
+Record > Use Musical Grid
+Record > Allow Quick Punch-In
+Record > Auto Input Monitoring
+Record > Low Latency Monitoring Mode
+Record > Record Button Options
+Record > Record Button Options > Record
+Record > Record Button Options > Record / Record Toggle
+Record > Record Button Options > Record / Record Repeat
+Record > Overlapping MIDI Recordings
+Record > Overlapping MIDI Recordings > Cycle Off
+Record > Overlapping MIDI Recordings > Create Take Folder
+Record > Overlapping MIDI Recordings > Merge
+Record > Overlapping MIDI Recordings > Overlap
+Record > Overlapping MIDI Recordings > Overlap / Merge Selected Regions
+Record > Overlapping MIDI Recordings > Create Track
+Record > Overlapping MIDI Recordings > Create Track Alternative
+Record > Overlapping MIDI Recordings > Cycle On
+Record > Overlapping MIDI Recordings > Create Take Folder
+Record > Overlapping MIDI Recordings > Merge
+Record > Overlapping MIDI Recordings > Merge Current Recording Only
+Record > Overlapping MIDI Recordings > Create Tracks
+Record > Overlapping MIDI Recordings > Create Tracks and Mute
+Record > Overlapping MIDI Recordings > Create Track Alternatives
+Record > Overlapping MIDI Recordings > Replace
+Record > Overlapping MIDI Recordings > Region Erase
+Record > Overlapping MIDI Recordings > Region Punch
+Record > Overlapping MIDI Recordings > Content Erase
+Record > Overlapping MIDI Recordings > Content Punch
+Record > Overlapping Audio Recordings
+Record > Overlapping Audio Recordings > Cycle Off
+Record > Overlapping Audio Recordings > Create Take Folder
+Record > Overlapping Audio Recordings > Create New Track
+Record > Overlapping Audio Recordings > Create Track Alternative
+Record > Overlapping Audio Recordings > Cycle On
+Record > Overlapping Audio Recordings > Create Take Folder
+Record > Overlapping Audio Recordings > Create Tracks And Mute
+Record > Overlapping Audio Recordings > Create Track Alternatives
+Record > Recording Settings…
+Mix > Show Automation
+Mix > Create Track Automation
+Mix > Create Track Automation > Create 1 Automation Point at Region Borders
+Mix > Create Track Automation > Create 2 Automation Points at Region Borders
+Mix > Create Track Automation > Create 1 Automation Point each for Volume, Pan, Sends
+Mix > Create Track Automation > Create 2 Automation Points each for Volume, Pan, Sends
+Mix > Create Track Automation > Create 1 Automation Point for Visible Parameter
+Mix > Create Track Automation > Create 2 Automation Points for Visible Parameter
+Mix > Create Track Automation > Create Volume Fade-Out on Main Output
+Mix > Convert Automation
+Mix > Convert Automation > Convert Visible Track Automation to Region Automation
+Mix > Convert Automation > Convert Visible Region Automation to Track Automation
+Mix > Convert Automation > Convert All Track Automation to Region Automation
+Mix > Convert Automation > Convert All Region Automation to Track Automation
+Mix > Delete Automation
+Mix > Delete Automation > Delete Visible Automation on Selected Tracks
+Mix > Delete Automation > Delete All Automation on Selected Tracks
+Mix > Delete Automation > Delete Orphaned Automation on Selected Tracks
+Mix > Delete Automation > Delete Redundant Automation Points
+Mix > Delete Automation > Delete All Track Automation
+Mix > Move Track Automation with Regions
+Mix > Move Track Automation with Regions > Never
+Mix > Move Track Automation with Regions > Always
+Mix > Move Track Automation with Regions > Ask
+Mix > Enable Automation Quick Access
+Mix > Autoselect Automation Parameter in Read Mode
+Mix > Automation Settings…
+Mix > Group Settings
+Mix > Groups Active
+Mix > Create Group
+Mix > I/O Labels…
+Mix > I/O Assignments…
+Mix > Pre-Fader Metering
+Mix > Dolby Atmos…
+Mix > Mastering Assistant…
+Mix > Open Apogee Control Panel
+Mix > Open EuControl Settings
+View > Show Tab Bar
+View > Show All Tabs
+View > Library
+View > Inspector
+View > Mixer
+View > Smart Controls
+View > Editor
+View > List Editors
+View > Note Pads
+View > Loop Browser
+View > Browsers
+View > Control Bar
+View > Customize Control Bar and Display…
+View > Toolbar
+View > Customize Toolbar…
+View > Movie Window
+View > Colors
+View > Enter Full Screen
+Window > Minimize
+Window > Minimize All
+Window > Zoom
+Window > Zoom All
+Window > Fill
+Window > Center
+Window > Move & Resize
+Window > Move & Resize > Halves
+Window > Move & Resize > Left
+Window > Move & Resize > Right
+Window > Move & Resize > Top
+Window > Move & Resize > Bottom
+Window > Move & Resize > Quarters
+Window > Move & Resize > Top Left
+Window > Move & Resize > Top Right
+Window > Move & Resize > Bottom Left
+Window > Move & Resize > Bottom Right
+Window > Move & Resize > Arrange
+Window > Move & Resize > Left & Right
+Window > Move & Resize > Left & Quarters
+Window > Move & Resize > Right & Left
+Window > Move & Resize > Right & Quarters
+Window > Move & Resize > Top & Bottom
+Window > Move & Resize > Top & Quarters
+Window > Move & Resize > Bottom & Top
+Window > Move & Resize > Bottom & Quarters
+Window > Move & Resize > Quarters
+Window > Move & Resize > Return to Previous Size
+Window > Full Screen Tile
+Window > Remove Window from Set
+Window > Cycle Through Windows
+Window > Bring All to Front
+Window > Arrange in Front
+Window > Show Previous Tab
+Window > Show Next Tab
+Window > Move Tab to New Window
+Window > Merge All Windows
+Window > Open Main Window
+Window > Open Mixer
+Window > Open Smart Controls
+Window > Open Piano Roll
+Window > Open Score Editor
+Window > Open Step Sequencer
+Window > Open Step Editor
+Window > Open Audio Track Editor
+Window > Open Audio File Editor
+Window > Open Smart Tempo Editor
+Window > Open Event List
+Window > Open Signature List
+Window > Open Project Audio
+Window > Open MIDI Transform
+Window > Open Transport Float
+Window > Event Float
+Window > Region Inspector Float
+Window > Keyboard
+Window > Musical Typing
+Window > Step Input Keyboard
+Window > All Plug-in Windows
+Window > Choose a Project
+1 > No Project open
+Help > Quick Help - Open as Floating Window
+Help > Quick Help appears as
+Help > Quick Help appears as > Inspector Pane
+Help > Quick Help appears as > Floating Window
+Help > Quick Help appears as > Bubbles at Pointer Location
+Help > Logic Pro Tutorials
+Help > Logic Pro Help
+Help > Logic Pro Instruments
+Help > Logic Pro Effects
+Help > Logic Pro Control Surfaces Support
+Help > What’s New in Logic Pro
+Help > Release Notes
+Help > Logic Pro Support
+Help > Logic Pro on the Web
+Help > Logic Pro Discussions
+Help > Create Support Profile…

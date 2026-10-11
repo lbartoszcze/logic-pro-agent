@@ -156,9 +156,19 @@ const CMD = {
     const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     clickMenu(["File", "Bounce", leaf]);
     await wait(1500);
-    try { dialogPress("Bounce"); } catch (_) {}
+    // The settings sheet's Bounce, then the save sheet's Bounce or Save: a
+    // press that fails is kept with its cause, and a bounce whose last sheet
+    // took no press is refused instead of reported as done.
+    const failed = [];
+    const press = (button) => {
+      try { dialogPress(button); return true; } catch (e) { failed.push(`${button}: ${e.message}`); return false; }
+    };
+    press("Bounce");
     await wait(1500);
-    try { dialogPress("Bounce"); } catch (_) { try { dialogPress("Save"); } catch (_) {} }
+    if (!press("Bounce") && !press("Save")) {
+      throw new Error(`bounce ${scope}: the save sheet took no press (${failed.join("; ")})`);
+    }
+    if (failed.length) console.error(`bounce ${scope}: ${failed.join("; ")}`);
     console.log(`bounce: ${scope}`);
   },
 

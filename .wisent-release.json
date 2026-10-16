@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "product": "logic-pro-agent",
+  "releases": false,
+  "reason": "The repository holds the logic.mjs command and its Swift helpers, run from the checkout on the Mac that drives Logic Pro; it has no release workflow, publishes no package or image, and hosts nothing, so it declares no versioned artifact publisher."
+}

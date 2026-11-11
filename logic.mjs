@@ -152,7 +152,7 @@ const CMD = {
   async bounce([scope = "project"]) {
     const leaf = { project: "Project or Section…", regions: "Regions in Place…",
       tracks: "Tracks in Place…", replace: "And Replace All Tracks…" }[scope];
-    if (!leaf) throw new Error("bounce <project|regions|tracks|replace>");
+    if (!leaf) throw new Error(`bounce <project|regions|tracks|replace>; got ${JSON.stringify(scope)}`);
     const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     clickMenu(["File", "Bounce", leaf]);
     await wait(1500);

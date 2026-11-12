@@ -1,0 +1,5 @@
+# Paths this repository declares to the size audit, with the reason each one
+# is declared.
+
+# references/: YouTube tutorial transcripts captured with yt-dlp (references/logic-transcripts.md) and logic-menus.txt, the menu catalogue enumerated live from Logic Pro.
+references

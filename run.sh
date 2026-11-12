@@ -32,21 +32,27 @@ done
 # Prime the Cua daemon + element cache. Safe to run every time.
 node logic.mjs cua-init >/dev/null
 
-# Background patch swaps via Cua. Other apps can stay frontmost.
+# Background patch swaps via Cua. Other apps can stay frontmost. A swap or
+# the mastering that fails leaves Logic's default and is named at the end;
+# its own words are on stderr above.
+skipped=""
+swap() {
+  node logic.mjs cua-swap "$1" "$2" || skipped="$skipped; swapping $1 for $2 exited $?"
+}
 case "$STYLE" in
   trap)
-    node logic.mjs cua-swap "SoCal" "Electro Trap Combo" || true
-    node logic.mjs cua-swap "Pulse Bass" "Tough 808 Bass" || true
-    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
+    swap "SoCal" "Electro Trap Combo"
+    swap "Pulse Bass" "Tough 808 Bass"
+    swap "80s FM Piano" "Watery Rhodes"
     ;;
   drill)
-    node logic.mjs cua-swap "SoCal" "Electro Trap Combo" || true
-    node logic.mjs cua-swap "Pulse Bass" "Heavy 808 Bass" || true
-    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
+    swap "SoCal" "Electro Trap Combo"
+    swap "Pulse Bass" "Heavy 808 Bass"
+    swap "80s FM Piano" "Watery Rhodes"
     ;;
   lo-fi)
-    node logic.mjs cua-swap "Pulse Bass" "Soft Acoustic Bass" || true
-    node logic.mjs cua-swap "80s FM Piano" "Watery Rhodes" || true
+    swap "Pulse Bass" "Soft Acoustic Bass"
+    swap "80s FM Piano" "Watery Rhodes"
     ;;
   boom-bap)
     ;;
@@ -54,13 +60,16 @@ esac
 
 # Drop Logic 11 Mastering Assistant on the stereo out — auto EQ + compression
 # + adaptive limiter, tuned to the project.
-node logic.mjs cua-master || true
+node logic.mjs cua-master || skipped="$skipped; the Mastering Assistant exited $?"
 sleep 1.5
+[ -z "$skipped" ] || echo "Kept Logic's defaults where a step failed: ${skipped#; }" >&2
 
 # Render the mastered project to audio. File lands in Logic's default Bounces
 # folder (usually ~/Music/Logic/Bounces/). Tagged with style + key + bpm.
+# A bounce that fails leaves nothing to play, so it ends the run.
 BOUNCE_NAME="beat-${STYLE}-${RANDOM}"
-node logic.mjs cua-bounce "$BOUNCE_NAME" || true
+node logic.mjs cua-bounce "$BOUNCE_NAME" \
+  || { status=$?; echo "Logic did not bounce $BOUNCE_NAME (exit $status); the beat is in Logic, unrendered" >&2; exit 1; }
 
 BOUNCE_FILE="$HOME/Music/Logic/Bounces/${BOUNCE_NAME}.aif"
 echo "Beat ready in Logic. 'node logic.mjs cua-play' to play (no focus steal)."

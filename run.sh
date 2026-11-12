@@ -22,12 +22,21 @@ node make-beat.mjs "$@"
 node logic.mjs open beat.mid
 
 # Poll until Logic has imported the 4 tracks.
+# A listing Logic refuses while it imports is retried; the last refusal is
+# said if the tracks never arrive, instead of being thrown away.
+n=0
+tracks_error=""
 for i in $(seq 1 30); do
-  n=$(node logic.mjs tracks 2>/dev/null | grep -c '"number":' || true)
+  if listing="$(node logic.mjs tracks 2>&1)"; then
+    n=$(printf '%s\n' "$listing" | grep -c '"number":' || [ $? -eq 1 ])
+    tracks_error=""
+  else
+    tracks_error=$listing
+  fi
   [ "$n" -ge 4 ] && break
   sleep 0.5
 done
-[ "$n" -ge 4 ] || { echo "Logic did not finish importing (only $n tracks)"; exit 1; }
+[ "$n" -ge 4 ] || { echo "Logic did not finish importing (only $n tracks)${tracks_error:+; the last listing failed: $tracks_error}" >&2; exit 1; }
 
 # Prime the Cua daemon + element cache. Safe to run every time.
 node logic.mjs cua-init >/dev/null

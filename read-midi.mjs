@@ -12,11 +12,15 @@
 //
 // `node read-midi.mjs doctor --check import-sources`: the Logic Pro and GarageBand projects
 // in the folders they save to by default (~/Music/Logic, ~/Music/GarageBand), each with
-// the export that brings its notes in.
+// the export that brings its notes in. `sources share yes | no` answers, once, whether each
+// discovery reports logic-pro-agent.sources.discovered (the adapter, whether the file is
+// MIDI, its tracks and note events rounded into buckets; never a note or path) to Wisent
+// Integrations with LOGIC_PRO_AGENT_STADO_INTEGRATION_TOKEN (lib/sharing.mjs).
 import { readdirSync, readFileSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
 import { readSMF } from './lib/midi-read.mjs';
+import * as sharing from './lib/sharing.mjs';
 
 const ADAPTERS = [
   { adapter: 'IMP-LOGI-02', source: 'a Standard MIDI File (Logic Pro, GarageBand, Ableton or any DAW)', kind: 'F', read_by: 'node read-midi.mjs <file.mid>' },
@@ -40,10 +44,18 @@ function sources(words) {
   const at = words.indexOf('--path');
   const path = at < 0 ? undefined : words[at + 1];
   const plain = words.filter((word, index) => word !== '--all' && word !== '--path' && !(at >= 0 && index === at + 1));
-  if (!plain.length) return { adapters: [...ADAPTERS.map((adapter) => ({ ...adapter, found: false })), ...NAMED], all: words.includes('--all') };
+  if (!plain.length) return { adapters: [...ADAPTERS.map((adapter) => ({ ...adapter, found: false })), ...NAMED], all: words.includes('--all'), sharing: sharing.question() };
   const [verb, id, ...rest] = plain;
   if (WRITES.includes(verb)) refuse(`sources ${verb}: the agent keeps nothing; read-midi.mjs prints a file's schedule for a new beat`);
-  if (verb !== 'discover' || !id || rest.length) refuse(`sources takes no words, or discover <adapter> --path <file.mid>; got ${plain.join(' ')}`);
+  if (verb === 'share' && !rest.length && (id === undefined || id === 'yes' || id === 'no')) {
+    try {
+      return sharing.share(id === undefined ? undefined : id === 'yes');
+    } catch (error) {
+      console.error(error.message);
+      process.exit(1);
+    }
+  }
+  if (verb !== 'discover' || !id || rest.length) refuse(`sources takes no words, discover <adapter> --path <file.mid>, or share [yes | no]; got ${plain.join(' ')}`);
   const named = NAMED.find((candidate) => candidate.adapter === id);
   if (named) return named;
   const adapter = ADAPTERS.find((candidate) => candidate.adapter === id);
@@ -53,7 +65,7 @@ function sources(words) {
     const { tracks } = readSMF(readFileSync(path));
     // Every scheduled event that is no controller (kind 2) is a note's on or off.
     const noteEvents = tracks.reduce((sum, track) => sum + track.schedule.filter((event) => event.kind !== 2).length, 0);
-    return { ...adapter, path, found: tracks.length > 0, tracks: tracks.length, note_events: noteEvents };
+    return sharing.reported({ ...adapter, path, found: tracks.length > 0, tracks: tracks.length, note_events: noteEvents }, adapter.adapter, tracks.length > 0, { tracks: tracks.length, note_events: noteEvents });
   } catch (error) {
     return { ...adapter, path, found: false, why_not: error.message };
   }
@@ -81,12 +93,12 @@ function importSourcesCheck(words) {
 
 const [file, ...rest] = process.argv.slice(2);
 if (file === 'sources') {
-  console.log(JSON.stringify(sources(rest), null, 2));
+  console.log(JSON.stringify(await sources(rest), null, 2));
 } else if (file === 'doctor') {
   console.log(JSON.stringify(importSourcesCheck(rest), null, 2));
 } else {
   if (!file) {
-    console.error('usage: node read-midi.mjs <file.mid> | node read-midi.mjs sources [--all] | sources discover <adapter> --path <file.mid> | doctor --check import-sources');
+    console.error('usage: node read-midi.mjs <file.mid> | node read-midi.mjs sources [--all] | sources discover <adapter> --path <file.mid> | sources share [yes | no] | doctor --check import-sources');
     process.exit(2);
   }
   try {

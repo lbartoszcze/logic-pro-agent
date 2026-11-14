@@ -1,0 +1,46 @@
+schemaVersion: 1
+appId: logic-pro-agent
+productId: logic-pro-agent
+owner: Logic Pro Agent maintainers
+repositories:
+  - repository: logic-pro-agent
+    mappings:
+      - paths:
+          - make-beat.mjs
+          - read-midi.mjs
+          - lib/midi.mjs
+          - lib/midi-read.mjs
+          - lib/logic/styles.mjs
+          - lib/production.mjs
+          - tests/midi/**
+          - .probierz/logic-pro-agent/journeys/**
+        journeys: [beat-to-midi]
+surfaces:
+  tui:
+    spec: journeys/
+    journeys: [beat-to-midi]
+    conditions:
+      WISENT_WORKSPACE: "{workspace}"
+journeys:
+  beat-to-midi:
+    owner: Logic Pro Agent maintainers
+    timeoutMs: 120000
+    description: make-beat writes a 96 BPM lo-fi beat in A minor as a Standard MIDI File; read-midi reads it back at 96 BPM with named tracks holding notes; a file not opening with MThd is refused naming why; the agent's own MIDI reading test runs; a beat.mid already in the checkout is put back.
+    value: A beat made for Logic Pro is real MIDI any DAW reads as written.
+artifacts:
+  retain:
+    pullRequestDays: 14
+    nightlyDays: 30
+    adhocDays: 7
+  redact: [TOKEN, SECRET, PASSWORD, KEY, COOKIE, AUTH]
+  pii: unlikely
+pullRequestPolicy:
+  minimumEvidence: E2
+  requiredTargets: [tui]
+  requiredJourneys: [beat-to-midi]
+releasePolicy:
+  minimumEvidence: E2
+  requiredTargets: [tui]
+  requiredJourneys: [beat-to-midi]
+  requireProtectedArtifacts: false
+  requireSecretScan: true

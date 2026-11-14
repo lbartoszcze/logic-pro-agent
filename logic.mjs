@@ -12,7 +12,7 @@ import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
 import {
   activate, listTracks, selectTrack, keystroke, keyCode,
-  setLibrarySearch, listLibraryRows, findLibraryRow, doubleClick, osa, sleep,
+  setLibrarySearch, listLibraryRows, findLibraryRow, osa, sleep,
 } from "./lib/logic-ax.mjs";
 import { ensureDaemon, getLogic, makePixelClicker } from "./lib/logic-cua.mjs";
 import {

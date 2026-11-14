@@ -50,7 +50,8 @@ try {
   }
   expect(Math.round(song.tempoBpm ?? 0) === 96, `the beat read back at ${song.tempoBpm} BPM, not 96`);
   const tracks = song.tracks ?? [];
-  const withNotes = tracks.filter((track) => (track.schedule ?? []).some((event) => /on/i.test(event.type ?? event.kind ?? '')));
+  // lib/midi-read.mjs marks a note on as kind 1, a note off as kind 0.
+  const withNotes = tracks.filter((track) => (track.schedule ?? []).some((event) => event.kind === 1));
   expect(withNotes.length > 0 && withNotes.every((track) => track.name), `the beat holds no named track with notes: ${JSON.stringify(tracks.map((track) => track.name))}`);
 
   const garbage = join(own, 'not-midi.mid');

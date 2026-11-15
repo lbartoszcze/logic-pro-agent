@@ -37,7 +37,7 @@ const WRITES = ['preview', 'import', 'release', 'sync', 'resolve', 'forget', 'lo
 
 function refuse(message) {
   console.error(message);
-  process.exit(2);
+  process.exit(2 /* https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html */);
 }
 
 function sources(words) {
@@ -52,7 +52,7 @@ function sources(words) {
       return sharing.share(id === undefined ? undefined : id === 'yes');
     } catch (error) {
       console.error(error.message);
-      process.exit(1);
+      process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
     }
   }
   if (verb !== 'discover' || !id || rest.length) refuse(`sources takes no words, discover <adapter> --path <file.mid>, or share [yes | no]; got ${plain.join(' ')}`);
@@ -99,12 +99,12 @@ if (file === 'sources') {
 } else {
   if (!file) {
     console.error('usage: node read-midi.mjs <file.mid> | node read-midi.mjs sources [--all] | sources discover <adapter> --path <file.mid> | sources share [yes | no] | doctor --check import-sources');
-    process.exit(2);
+    process.exit(2 /* https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html */);
   }
   try {
     console.log(JSON.stringify(readSMF(readFileSync(file)), null, 2));
   } catch (error) {
     console.error(`${file}: ${error.message}`);
-    process.exit(1);
+    process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
   }
 }

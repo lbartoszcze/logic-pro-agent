@@ -179,12 +179,12 @@ const [cmd, ...rest] = process.argv.slice(2);
 if (!cmd || !CMD[cmd]) {
   console.error("Usage: node logic.mjs <command> [args...]");
   console.error("Commands: " + Object.keys(CMD).join(", "));
-  process.exit(1);
+  process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }
 try {
   const r = CMD[cmd](rest);
-  if (r && typeof r.then === "function") r.catch((e) => { console.error(e.message); process.exit(1); });
+  if (r && typeof r.then === "function") r.catch((e) => { console.error(e.message); process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */); });
 } catch (e) {
   console.error(e.message);
-  process.exit(1);
+  process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }

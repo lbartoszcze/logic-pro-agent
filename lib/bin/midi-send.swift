@@ -44,7 +44,7 @@ if args.first == "--list" {
         let name = nameRef?.takeRetainedValue() as String? ?? "?"
         print("dest[\(i)] \(name)")
     }
-    exit(0)
+    exit(EXIT_SUCCESS)
 }
 
 guard let (_, source) = makeClientAndSource() else {
@@ -67,7 +67,7 @@ if args.first == "--burst" {
     let bytes = args.compactMap { UInt8($0, radix: 16) }
     if bytes.isEmpty {
         FileHandle.standardError.write("midi-send: no MIDI bytes\n".data(using: .utf8)!)
-        exit(1)
+        exit(EXIT_FAILURE)
     }
     send(source, bytes)
 }

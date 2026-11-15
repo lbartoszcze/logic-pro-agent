@@ -27,7 +27,7 @@ import CoreGraphics
 
 func die(_ msg: String) -> Never {
   FileHandle.standardError.write((msg + "\n").data(using: .utf8)!)
-  exit(1)
+  exit(EXIT_FAILURE)
 }
 
 let args = CommandLine.arguments
@@ -45,7 +45,7 @@ if args.count == 5 && args[1] == "--hold",
     up.post(tap: .cghidEventTap)
   }
   print("hold-clicked (\(Int(hx)), \(Int(hy))) for \(holdMs)ms")
-  exit(0)
+  exit(EXIT_SUCCESS)
 }
 
 let listMode = args.count == 4 && args[1] == "--list"
@@ -111,7 +111,7 @@ if listMode {
     let pos = positionOf(e).map { "x=\(Int($0.x)),y=\(Int($0.y))" } ?? "no-pos"
     print("  \(i + 1): \(pos)")
   }
-  exit(0)
+  exit(EXIT_SUCCESS)
 }
 
 guard slotIndex >= 1, slotIndex <= found.count else {
@@ -122,6 +122,6 @@ let target = found[slotIndex - 1]
 let err = AXUIElementPerformAction(target, actionName)
 if err == .success {
   print("performed \"\(args[4])\" on slot \(slotIndex)/\(found.count)")
-  exit(0)
+  exit(EXIT_SUCCESS)
 }
 die("AXUIElementPerformAction returned \(err.rawValue)")

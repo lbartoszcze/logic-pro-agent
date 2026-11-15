@@ -72,8 +72,9 @@ if (!cmd || !CMD[cmd]) {
   console.error("Commands: " + Object.keys(CMD).join(", "));
   process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }
-// A golem failure exits with golem's own status (3 not found, 4 ambiguous, 5 not
-// confirmed, 6 permission, 7 Logic not running: golem README), anything else with 1.
+// A failure exits with the status of the program that failed: golem's own (3 not
+// found, 4 ambiguous, 5 not confirmed, 6 permission, 7 Logic not running: golem
+// README) or midi-send's; one without a status, such as a usage error, with 1.
 const fail = (e) => {
   console.error(e.message);
   process.exit(e.status ?? 1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);

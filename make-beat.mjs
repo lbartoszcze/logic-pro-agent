@@ -7,16 +7,8 @@ import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
-  TPB,
-  tempoMeta,
-  tempoMetaAt,
-  trackName,
-  TIME_SIG,
-  END_OF_TRACK,
-  programChange,
-  buildTrack,
-  buildSMF,
-  scheduleToEvents,
+  TPB, tempoMeta, tempoMetaAt, trackName, TIME_SIG, END_OF_TRACK,
+  programChange, buildTrack, buildSMF, scheduleToEvents,
 } from "./lib/midi/midi.mjs";
 import {
   reseed, humanVel, swungTick, trapHatVel, lofiHatVel,

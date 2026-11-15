@@ -8,10 +8,10 @@ repositories:
       - paths:
           - make-beat.mjs
           - read-midi.mjs
-          - lib/midi.mjs
-          - lib/midi-read.mjs
+          - lib/midi/midi.mjs
+          - lib/midi/midi-read.mjs
           - lib/logic/styles.mjs
-          - lib/production.mjs
+          - lib/midi/production.mjs
           - tests/midi/**
           - .probierz/logic-pro-agent/journeys/**
         journeys: [beat-to-midi]

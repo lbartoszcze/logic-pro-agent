@@ -280,7 +280,8 @@ function metaTrack(name, bpm, bars) {
   return buildTrack(events);
 }
 
-const args = parseArgs(process.argv.slice(2));
+const [, , ...words] = process.argv;
+const args = parseArgs(words);
 const style = { ...STYLES[args.style], styleName: args.style };
 const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
 const keyRoot = parseKey(args.key || styleDefault(args.style, "key") || "Fm");

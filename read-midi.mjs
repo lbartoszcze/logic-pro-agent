@@ -91,7 +91,7 @@ function importSourcesCheck(words) {
   return { check: 'import-sources', outside };
 }
 
-const [file, ...rest] = process.argv.slice(2);
+const [, , file, ...rest] = process.argv;
 if (file === 'sources') {
   console.log(JSON.stringify(await sources(rest), null, 2));
 } else if (file === 'doctor') {

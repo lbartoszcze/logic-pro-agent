@@ -1,124 +1,43 @@
 #!/usr/bin/env node
-// logic.mjs - Logic Pro X automation CLI. Two backends:
-//   AX + cliclick  (raises Logic): tracks, select, play, stop, rewind, swap,
-//                  mute, solo, search, undo, redo, save-as, open
-//   cua-driver     (Logic stays backgrounded):
-//                  cua-init, cua-snapshot, cua-click <idx>, cua-play,
-//                  cua-stop, cua-press <key>, cua-type <text>, cua-find <label>,
-//                  cua-swap <track> <patch>, cua-master, cua-mute <track>,
-//                  cua-solo <track>, cua-save [name], cua-bounce [name]
+// logic.mjs - Logic Pro automation CLI. Logic stays in the background: the
+// Logic commands go through golem (lib/golem.mjs), the mixer and transport
+// controls through MIDI (lib/logic/midi-control.mjs).
+//   open <file>, doctor, tracks, select, play, stop, rewind, cycle, metronome,
+//   zoom-fit, mute, solo, tempo, master, search, swap <track> <patch>,
+//   save [name], bounce [name], bounce-in-place <scope>, key, type, menu,
+//   golem <command> [arguments] (any golem command against Logic),
+//   wrappers (named menu commands), and the MIDI commands below.
 
-import { execFileSync } from "node:child_process";
-import { resolve } from "node:path";
-import {
-  activate, listTracks, selectTrack, keystroke, keyCode,
-  setLibrarySearch, listLibraryRows, findLibraryRow, osa, sleep,
-} from "./lib/logic-ax.mjs";
-import { ensureDaemon, getLogic, makePixelClicker } from "./lib/logic-cua.mjs";
-import {
-  cuaInit, cuaSnapshotCmd, cuaClickCmd, cuaPlayCmd, cuaStopCmd,
-  cuaPressCmd, cuaTypeCmd, cuaFindCmd, cuaSwapCmd, cuaMaster,
-  cuaMute, cuaSolo, cuaSave, cuaBounce, cuaTempo, cuaCycle, cuaMetronome,
-  cuaUndo, cuaRedo, cuaTracks, cuaZoomFit,
-} from "./lib/logic-cua-cmds.mjs";
-import { clickMenu, listMenus, getAttr, setAttr, performAction, dumpTree, dialogPress } from "./lib/logic/menu.mjs";
+import * as L from "./lib/logic/control.mjs";
 import { WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 import * as M from "./lib/logic/midi-control.mjs";
 
 const CMD = {
-  tracks() { console.log(JSON.stringify(listTracks(), null, 2)); },
-  select([h]) { if (!h) throw new Error("select <hint>"); console.log(JSON.stringify(selectTrack(h), null, 2)); },
-  play() { keyCode(49); },
-  stop() { keyCode(49); },
-  rewind() { keyCode(36); },
+  ...WRAPPERS,
+  open: L.open,
+  doctor: L.doctor,
+  tracks: L.tracks,
+  select: L.select,
+  play: L.play,
+  stop: L.stop,
+  rewind: L.rewind,
+  cycle: L.cycle,
+  metronome: L.metronome,
+  "zoom-fit": L.zoomFit,
+  mute: L.mute,
+  solo: L.solo,
+  tempo: L.tempo,
+  master: L.master,
+  search: L.search,
+  swap: L.swap,
+  save: L.save,
+  bounce: L.bounce,
+  "bounce-in-place": L.bounceInPlace,
+  key: L.key,
+  type: L.type,
+  menu: L.menu,
+  golem: L.passthrough,
 
-  swap([hint, patch]) {
-    if (!hint || !patch) throw new Error("swap <track-hint> <patch>");
-    selectTrack(hint);
-    setLibrarySearch(patch);
-    const coord = findLibraryRow(patch);
-    if (coord === "none") throw new Error(`patch not found in Library: ${patch}`);
-    const [x, y] = coord.split(",").map(Number);
-    ensureDaemon();
-    const { pid, window_id } = getLogic();
-    makePixelClicker(pid, window_id).click(x, y, { count: 2 });
-    sleep(0.8);
-    console.log(`loaded ${patch} on ${hint}`);
-  },
-
-  mute([h]) { if (!h) throw new Error("mute <track-hint>"); selectTrack(h); keystroke("m"); },
-  solo([h]) { if (!h) throw new Error("solo <track-hint>"); selectTrack(h); keystroke("s"); },
-  search([q]) { if (!q) throw new Error("search <query>"); activate(); setLibrarySearch(q); console.log(listLibraryRows()); },
-  undo() { keystroke("z", ["command"]); },
-  redo() { keystroke("z", ["command", "shift"]); },
-
-  "save-as"([path]) {
-    if (!path) throw new Error("save-as <absolute-path>");
-    const abs = resolve(path);
-    activate();
-    keystroke("s", ["command", "shift"]);
-    sleep(0.8);
-    keystroke("g", ["command", "shift"]);
-    sleep(0.4);
-    osa(`tell application "System Events" to keystroke "${abs.replace(/"/g, '\\"')}"`);
-    sleep(0.3);
-    keyCode(36);
-    sleep(0.4);
-    keyCode(36);
-  },
-
-  open([file]) {
-    if (!file) throw new Error("open <path>");
-    execFileSync("open", ["-a", "Logic Pro X", resolve(file)]);
-  },
-
-  // Cua-backed (background-safe) commands — implementations in lib/logic-cua-cmds.mjs.
-  "cua-init":     cuaInit,
-  "cua-snapshot": cuaSnapshotCmd,
-  "cua-click":    cuaClickCmd,
-  "cua-play":     cuaPlayCmd,
-  "cua-stop":     cuaStopCmd,
-  "cua-press":    cuaPressCmd,
-  "cua-type":     cuaTypeCmd,
-  "cua-find":     cuaFindCmd,
-  "cua-swap":     cuaSwapCmd,
-  "cua-master":   cuaMaster,
-  "cua-mute":     cuaMute,
-  "cua-solo":     cuaSolo,
-  "cua-save":     cuaSave,
-  "cua-bounce":     cuaBounce,
-  "cua-tempo":      cuaTempo,
-  "cua-cycle":      cuaCycle,
-  "cua-metronome":  cuaMetronome,
-  "cua-undo":       cuaUndo,
-  "cua-redo":       cuaRedo,
-  "cua-tracks":     cuaTracks,
-  "cua-zoom-fit":   cuaZoomFit,
-
-  // ---- Non-capturing AX surface (mirror of the FCP driver) ----
-  menu(args) {
-    const [, ...below] = args;
-    if (below.length === 0) throw new Error('menu <Top> [<Sub>...] <Leaf>   e.g. menu File Save');
-    clickMenu(args); console.log("menu: " + args.join(" → "));
-  },
-  menus() { process.stdout.write(listMenus()); },
-  "ax-get"([attr, ...rest]) {
-    if (!attr || !rest.length) throw new Error("ax-get <attr> <needle...>");
-    process.stdout.write(getAttr(rest.join(" "), attr) + "\n");
-  },
-  "ax-set"([attr, needle, ...v]) {
-    if (!attr || !needle || !v.length) throw new Error("ax-set <attr> <needle> <value>");
-    setAttr(needle, attr, v.join(" ")); console.log(`ax-set ${attr} of "${needle}" = ${v.join(" ")}`);
-  },
-  "ax-press"([action, ...rest]) {
-    if (!action || !rest.length) throw new Error("ax-press <action> <needle...>");
-    performAction(rest.join(" "), action); console.log(`ax-press ${action} on "${rest.join(" ")}"`);
-  },
-  "dialog-button"([...rest]) {
-    if (!rest.length) throw new Error("dialog-button <label...>");
-    dialogPress(rest.join(" ")); console.log("dialog button: " + rest.join(" "));
-  },
-  dump() { process.stdout.write(dumpTree()); },
   wrappers() {
     console.log(`Named wrappers (${Object.keys(WRAPPERS).length}):`);
     for (const [g, ns] of WRAPPERS_HELP) { console.log("  " + g + ":"); console.log("    " + ns.join("  ")); }
@@ -145,35 +64,6 @@ const CMD = {
   rtplay()  { M.transportRT("play");     console.log("transport: play (RT+MMC)"); },
   rtstop()  { M.transportRT("stop");     console.log("transport: stop (RT+MMC)"); },
   rtcont()  { M.transportRT("continue"); console.log("transport: continue (RT+MMC)"); },
-
-  // Complete Bounce flow (analog of FCP complete-Share): open the Bounce
-  // dialog via menu, then press the Bounce button on the settings sheet
-  // and again on the Save sheet. `scope` = project (default) | regions |
-  // tracks | replace.
-  async bounce([scope = "project"]) {
-    const leaf = { project: "Project or Section…", regions: "Regions in Place…",
-      tracks: "Tracks in Place…", replace: "And Replace All Tracks…" }[scope];
-    if (!leaf) throw new Error(`bounce <project|regions|tracks|replace>; got ${JSON.stringify(scope)}`);
-    const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-    clickMenu(["File", "Bounce", leaf]);
-    await wait(1500);
-    // The settings sheet's Bounce, then the save sheet's Bounce or Save: a
-    // press that fails is kept with its cause, and a bounce whose last sheet
-    // took no press is refused instead of reported as done.
-    const failed = [];
-    const press = (button) => {
-      try { dialogPress(button); return true; } catch (e) { failed.push(`${button}: ${e.message}`); return false; }
-    };
-    press("Bounce");
-    await wait(1500);
-    if (!press("Bounce") && !press("Save")) {
-      throw new Error(`bounce ${scope}: the save sheet took no press (${failed.join("; ")})`);
-    }
-    if (failed.length) console.error(`bounce ${scope}: ${failed.join("; ")}`);
-    console.log(`bounce: ${scope}`);
-  },
-
-  ...WRAPPERS,
 };
 
 const [, , cmd, ...rest] = process.argv;

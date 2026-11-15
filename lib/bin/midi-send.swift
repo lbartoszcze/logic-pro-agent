@@ -4,8 +4,8 @@
 // bytes given as hex pairs on argv. Logic Pro consumes Mackie Control +
 // MMC on a virtual port natively (no per-parameter learn), so this is the
 // non-capturing control plane: pure MIDI, no Accessibility, no input
-// events, no screen access. Mirrors the lib/bin/ax-perform.swift pattern —
-// built once: swiftc midi-send.swift -o midi-send ; .mjs shells to it.
+// events, no screen access. Built once:
+// swiftc midi-send.swift -o midi-send ; .mjs shells to it.
 //
 // Usage:
 //   midi-send <hexbyte> <hexbyte> ...           one message

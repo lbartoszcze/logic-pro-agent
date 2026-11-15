@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Generate beat.mid with optional style/key/bpm flags, open it in Logic,
 # poll until import finishes, then apply style-appropriate patch swaps
-# fully in the background (Logic never needs to be frontmost).
+# fully in the background through golem (Logic never needs to be frontmost).
 #
 # Usage:
 #   ./run.sh                                  # trap Fm 140 16 bars
@@ -18,6 +18,9 @@ for arg in "$@"; do
   esac
 done
 
+# golem needs Accessibility for the program running this script; say so
+# before anything is changed in Logic.
+node logic.mjs doctor >/dev/null
 node make-beat.mjs "$@"
 node logic.mjs open beat.mid
 
@@ -38,15 +41,12 @@ for i in $(seq 1 30); do
 done
 [ "$n" -ge 4 ] || { echo "Logic did not finish importing (only $n tracks)${tracks_error:+; the last listing failed: $tracks_error}" >&2; exit 1; }
 
-# Prime the Cua daemon + element cache. Safe to run every time.
-node logic.mjs cua-init >/dev/null
-
-# Background patch swaps via Cua. Other apps can stay frontmost. A swap or
-# the mastering that fails leaves Logic's default and is named at the end;
+# Background patch swaps through golem. Other apps can stay frontmost. A swap
+# or the mastering that fails leaves Logic's default and is named at the end;
 # its own words are on stderr above.
 skipped=""
 swap() {
-  node logic.mjs cua-swap "$1" "$2" || skipped="$skipped; swapping $1 for $2 exited $?"
+  node logic.mjs swap "$1" "$2" || skipped="$skipped; swapping $1 for $2 exited $?"
 }
 case "$STYLE" in
   trap)
@@ -69,7 +69,7 @@ esac
 
 # Drop Logic 11 Mastering Assistant on the stereo out — auto EQ + compression
 # + adaptive limiter, tuned to the project.
-node logic.mjs cua-master || skipped="$skipped; the Mastering Assistant exited $?"
+node logic.mjs master || skipped="$skipped; the Mastering Assistant exited $?"
 sleep 1.5
 [ -z "$skipped" ] || echo "Kept Logic's defaults where a step failed: ${skipped#; }" >&2
 
@@ -77,11 +77,11 @@ sleep 1.5
 # folder (usually ~/Music/Logic/Bounces/). Tagged with style + key + bpm.
 # A bounce that fails leaves nothing to play, so it ends the run.
 BOUNCE_NAME="beat-${STYLE}-${RANDOM}"
-node logic.mjs cua-bounce "$BOUNCE_NAME" \
+node logic.mjs bounce "$BOUNCE_NAME" \
   || { status=$?; echo "Logic did not bounce $BOUNCE_NAME (exit $status); the beat is in Logic, unrendered" >&2; exit 1; }
 
 BOUNCE_FILE="$HOME/Music/Logic/Bounces/${BOUNCE_NAME}.aif"
-echo "Beat ready in Logic. 'node logic.mjs cua-play' to play (no focus steal)."
+echo "Beat ready in Logic. 'node logic.mjs play' to play (no focus steal)."
 echo "Audio rendered: $BOUNCE_FILE"
 
 # Wait for the bounce file to actually appear, then play it through the

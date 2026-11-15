@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // `node read-midi.mjs <file.mid>`: a MIDI file a person already has, printed as the
-// schedule make-beat.mjs writes notes from (lib/midi-read.mjs), so a part made in another
+// schedule make-beat.mjs writes notes from (lib/midi/midi-read.mjs), so a part made in another
 // DAW is placed in a new beat as written.
 //
 // `node read-midi.mjs sources [--all] | sources discover <adapter> --path <file.mid>`: what
@@ -19,7 +19,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
-import { readSMF } from './lib/midi-read.mjs';
+import { readSMF } from './lib/midi/midi-read.mjs';
 import * as sharing from './lib/sharing.mjs';
 
 const ADAPTERS = [

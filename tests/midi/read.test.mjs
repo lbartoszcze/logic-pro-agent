@@ -1,5 +1,5 @@
 // A Standard MIDI File reads back into the schedule make-beat.mjs writes notes
-// from: a file built by lib/midi.mjs returns its tempo, its track name and
+// from: a file built by lib/midi/midi.mjs returns its tempo, its track name and
 // every note on, note off and controller at its tick, at the file's own
 // resolution; running status and a note on of velocity 0 read as the SMF 1.0
 // specification defines them; a file that counts SMPTE frames, or does not
@@ -13,8 +13,8 @@ import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { TPB, buildSMF, buildTrack, controlChange, END_OF_TRACK, programChange, scheduleToEvents, tempoMeta, trackName } from '../../lib/midi.mjs'
-import { readSMF } from '../../lib/midi-read.mjs'
+import { TPB, buildSMF, buildTrack, controlChange, END_OF_TRACK, programChange, scheduleToEvents, tempoMeta, trackName } from '../../lib/midi/midi.mjs'
+import { readSMF } from '../../lib/midi/midi-read.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 const scratch = join(root, '.build', 'tests', randomUUID())

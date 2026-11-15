@@ -97,7 +97,8 @@ const CMD = {
 
   // ---- Non-capturing AX surface (mirror of the FCP driver) ----
   menu(args) {
-    if (args.length < 2) throw new Error('menu <Top> [<Sub>...] <Leaf>   e.g. menu File Save');
+    const [, ...below] = args;
+    if (below.length === 0) throw new Error('menu <Top> [<Sub>...] <Leaf>   e.g. menu File Save');
     clickMenu(args); console.log("menu: " + args.join(" → "));
   },
   menus() { process.stdout.write(listMenus()); },
@@ -133,7 +134,7 @@ const CMD = {
   vpot([s, d]) { if (s == null || d == null) throw new Error("vpot <strip 0-7> <delta>"); M.vpot(+s, +d); console.log(`vpot ${s} ${d}`); },
   mtransport([a]) { if (!a) throw new Error("mtransport <play|stop|record|rewind|ffwd|cycle>"); M.transport(a); console.log(`transport ${a}`); },
   cc([ch, n, v]) { if (ch == null || n == null || v == null) throw new Error("cc <ch> <num> <val>"); M.cc(+ch, +n, +v); console.log(`CC ch${ch} ${n}=${v}`); },
-  "midi-note"([ch, p, v, ms]) { if (ch == null || p == null) throw new Error("midi-note <ch> <pitch> [vel] [ms]"); M.note(+ch, +p, v ? +v : 100, ms ? +ms : 250); console.log(`note ch${ch} ${p}`); },
+  "midi-note"([ch, p, v, ms]) { if (ch == null || p == null) throw new Error("midi-note <ch> <pitch> [vel] [ms]"); M.note(+ch, +p, v ? +v : undefined, ms ? +ms : undefined); console.log(`note ch${ch} ${p}`); },
   pc([ch, prog]) { if (ch == null || prog == null) throw new Error("pc <ch> <program>"); M.programChange(+ch, +prog); console.log(`PC ch${ch} ${prog}`); },
   assign([m]) { if (!m) throw new Error("assign <track|send|pan|plugin|eq|instrument>"); M.assign(m); console.log(`vpot assign = ${m}`); },
   nav([w]) { if (!w) throw new Error("nav <bank-left|bank-right|chan-left|chan-right|flip|global-view|name-value>"); M.nav(w); console.log(`nav ${w}`); },
@@ -175,7 +176,7 @@ const CMD = {
   ...WRAPPERS,
 };
 
-const [cmd, ...rest] = process.argv.slice(2);
+const [, , cmd, ...rest] = process.argv;
 if (!cmd || !CMD[cmd]) {
   console.error("Usage: node logic.mjs <command> [args...]");
   console.error("Commands: " + Object.keys(CMD).join(", "));

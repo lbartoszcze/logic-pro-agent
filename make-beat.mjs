@@ -17,13 +17,13 @@ import {
   buildTrack,
   buildSMF,
   scheduleToEvents,
-} from "./lib/midi.mjs";
+} from "./lib/midi/midi.mjs";
 import {
   reseed, humanVel, swungTick, trapHatVel, lofiHatVel,
   isFillBar, isFinalFillBar, isSectionStart, FILL_PATTERNS,
   trap808Bar, hatRoll, motifIndex, sectionOf, partActiveIn,
   sidechainCC7,
-} from "./lib/production.mjs";
+} from "./lib/midi/production.mjs";
 import { listStyles, styleDefault } from "./lib/logic/styles.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));

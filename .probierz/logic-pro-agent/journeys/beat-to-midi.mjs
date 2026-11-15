@@ -18,6 +18,7 @@ function required(name) {
   const value = process.env[name]?.trim();
   if (!value) {
     process.stderr.write(`${name} is not set: run this journey through \`probierz run tui --app logic-pro-agent\`\n`);
+    // Usage error: https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html
     process.exit(2);
   }
   return value;
@@ -48,7 +49,7 @@ try {
   } catch {
     broken.push(`read-midi printed no reading: ${read.stderr.trim()}`);
   }
-  expect(Math.round(song.tempoBpm ?? 0) === 96, `the beat read back at ${song.tempoBpm} BPM, not 96`);
+  expect(Math.round(song.tempoBpm) === 96, `the beat read back at ${song.tempoBpm} BPM, not 96`);
   const tracks = song.tracks ?? [];
   // lib/midi-read.mjs marks a note on as kind 1, a note off as kind 0.
   const withNotes = tracks.filter((track) => (track.schedule ?? []).some((event) => event.kind === 1));
@@ -70,6 +71,7 @@ try {
 
 if (broken.length > 0) {
   process.stderr.write(`${broken.join('\n')}\n`);
+  // EXIT_FAILURE: https://pubs.opengroup.org/onlinepubs/9799919799/functions/exit.html
   process.exit(1);
 }
 process.stdout.write('The Logic Pro agent wrote a 96 BPM lo-fi beat as MIDI and read it back as written\n');

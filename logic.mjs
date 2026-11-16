@@ -10,7 +10,8 @@
 //   wait-file <path>, key, type, menu,
 //   golem <command> [arguments] (any golem command against Logic),
 //   wrappers (named menu commands), wrappers-check (each wrapper's menu path
-//   against Logic's menus now), and the MIDI commands below.
+//   against Logic's menus now), selectors-check (each selector control.mjs
+//   relies on against the open project), and the MIDI commands below.
 // Nothing waits for a set time: a wait ends when what it waits for shows,
 // when Logic quits, or when you interrupt it, and says meanwhile what it sees.
 
@@ -19,7 +20,7 @@ import { resolve } from "node:path";
 
 import { beat, fileAppears } from "./lib/beat.mjs";
 import * as L from "./lib/logic/control.mjs";
-import { doctor } from "./lib/logic/doctor.mjs";
+import { checkSelectors, doctor } from "./lib/logic/doctor.mjs";
 import { checkWrappers, WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 import * as M from "./lib/logic/midi-control.mjs";
 
@@ -63,6 +64,7 @@ const CMD = {
     for (const [g, ns] of WRAPPERS_HELP) { console.log("  " + g + ":"); console.log("    " + ns.join("  ")); }
   },
   "wrappers-check": checkWrappers,
+  "selectors-check": checkSelectors,
   // ---- MIDI control plane (non-capturing: pure MIDI, no cursor/screen) ----
   "midi-dests"() { console.log(M.listDestinations()); },
   fader([s, v]) { if (s == null || v == null) throw new Error("fader <strip 0-7> <0..1>"); M.fader(+s, +v); console.log(`fader ${s} = ${v}`); },

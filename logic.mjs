@@ -10,8 +10,10 @@
 //   wait-file <path>, key, type, menu,
 //   golem <command> [arguments] (any golem command against Logic),
 //   wrappers (named menu commands), wrappers-check (every menu path the
-//   wrappers and commands press, against Logic's menus now), selectors-check (each selector control.mjs
-//   relies on against the open project), and the MIDI commands below.
+//   wrappers and commands press, against Logic's menus now), selectors-check
+//   (each selector control.mjs relies on, against the open project), check
+//   (doctor, then both checks: the first thing to run on a new Logic),
+//   and the MIDI commands below.
 // Nothing waits for a set time: a wait ends when what it waits for shows,
 // when Logic quits, or when you interrupt it, and says meanwhile what it sees.
 
@@ -101,6 +103,24 @@ const CMD = {
   },
   "wrappers-check": checkWrappers,
   "selectors-check": checkSelectors,
+  // doctor, then both checks against the open project, each run whatever the other found.
+  async check() {
+    await doctor();
+    const differing = [];
+    for (const [name, run] of [["selectors-check", checkSelectors], ["wrappers-check", checkWrappers]]) {
+      console.log(`\n${name}:`);
+      try {
+        await run();
+      } catch (error) {
+        console.error(error.message);
+        differing.push(name);
+      }
+    }
+    if (differing.length > 0) {
+      throw Object.assign(new Error(`this Logic differs from what logic-pro-agent relies on: ${differing.join(", ")} (each above)`), { status: 1 });
+    }
+    console.log("\nThis Logic holds every selector and menu path logic-pro-agent relies on.");
+  },
   // ---- MIDI control plane (non-capturing: pure MIDI, no cursor/screen) ----
   "midi-dests"() { console.log(M.listDestinations()); },
   fader([s, v]) { const use = "fader <strip 0-7> <level 0..1>"; M.fader(whole(use, "strip", s, STRIP), level(use, v)); console.log(`fader ${s} = ${v}`); },

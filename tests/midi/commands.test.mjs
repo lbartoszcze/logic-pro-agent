@@ -46,11 +46,17 @@ test('a word that names no mode is refused naming the modes there are', () => {
   assert.equal(stderr, 'assign mode "volume" is none of track|send|pan|plugin|eq|instrument\n')
 })
 
-test('an unknown command is named, with the commands sharing a word with it', () => {
+test('an unknown command is named, with the command nearest to it and those sharing a word with it', () => {
   const { status, stdout, stderr } = run('new-track')
   assert.equal(status, 1)
   assert.equal(stdout, '')
-  const [named, alike] = stderr.split('\n')
-  assert.equal(named, 'node logic.mjs knows no command "new-track"')
-  assert.match(alike, /^Commands sharing a word with it: .*\bnew-audio-track\b/)
+  const lines = stderr.split('\n')
+  assert.equal(lines[0], 'node logic.mjs knows no command "new-track"')
+  assert.ok(lines.includes('Nearest to it: new-tracks'), stderr)
+  assert.ok(lines.some((line) => /^Commands sharing a word with it: .*\bnew-audio-track\b/.test(line)), stderr)
+})
+
+test('a typo with no word in common still names the command meant', () => {
+  const { stderr } = run('tempp')
+  assert.ok(stderr.split('\n').includes('Nearest to it: tempo'), stderr)
 })

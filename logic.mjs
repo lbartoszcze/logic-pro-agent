@@ -134,14 +134,42 @@ const CMD = {
   rtcont()  { M.transportRT("continue"); console.log("transport: continue (RT+MMC)"); },
 };
 
+/** Levenshtein distance: insertions, deletions and substitutions turning `a` into `b`. */
+function distance(a, b) {
+  const row = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 0; i < a.length; i += 1) {
+    let diagonal = row[0];
+    row[0] = i + 1;
+    for (let j = 0; j < b.length; j += 1) {
+      const above = row[j + 1];
+      row[j + 1] = Math.min(diagonal + (a[i] === b[j] ? 0 : 1), row[j] + 1, above + 1);
+      diagonal = above;
+    }
+  }
+  return row[b.length];
+}
+
+// Most misspellings are one insertion, deletion, substitution or transposition
+// (Damerau, CACM 7(3), 1964); a transposition is two edits above. golem's
+// src/error/nearest.rs suggests by the same rule.
+const TYPO_EDITS = 2;
+
 const [, , cmd, ...rest] = process.argv;
 if (!Object.hasOwn(CMD, cmd)) {
-  // Commands sharing a word of what was typed (split at dashes), for a near miss such as "new-track".
-  const words = String(cmd).toLowerCase().split("-").filter((word) => word.length > 0);
-  const alike = Object.keys(CMD).filter((name) => words.some((word) => name.split("-").includes(word)));
+  const names = Object.keys(CMD);
+  // The command a typo meant ("tempp"), and those sharing a word of it split at dashes ("new-track").
+  const typed = String(cmd).toLowerCase();
+  const meant = names
+    .map((name) => ({ name, edits: distance(typed, name) }))
+    .filter(({ edits }) => edits <= TYPO_EDITS)
+    .sort((one, other) => one.edits - other.edits || one.name.localeCompare(other.name))
+    .map(({ name }) => name);
+  const words = typed.split("-").filter((word) => word.length > 0);
+  const alike = names.filter((name) => words.some((word) => name.split("-").includes(word)));
   console.error(cmd === undefined ? "Usage: node logic.mjs <command> [args...]: no command given" : `node logic.mjs knows no command ${JSON.stringify(cmd)}`);
+  if (cmd !== undefined && meant.length > 0) console.error(`Nearest to it: ${meant[0]}`);
   if (alike.length > 0) console.error(`Commands sharing a word with it: ${alike.join(", ")}`);
-  console.error("Commands: " + Object.keys(CMD).join(", "));
+  console.error("Commands: " + names.join(", "));
   console.error("Every menu wrapper by group: node logic.mjs wrappers");
   process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }

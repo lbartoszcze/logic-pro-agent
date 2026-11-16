@@ -71,8 +71,7 @@ const CMD = {
   tracks: L.tracks,
   "wait-tracks": L.waitTracks,
   async "wait-file"([path]) {
-    if (!path) throw new Error("wait-file <path>");
-    const target = resolve(path);
+    const target = resolve(need("node logic.mjs wait-file <path>", "the file's path", path));
     if (!existsSync(target)) console.error(`waiting for ${target} to appear (interrupt to stop)`);
     await fileAppears(target);
     console.log(target);

@@ -67,7 +67,16 @@ test('running status and a note on of velocity 0 read as the specification defin
 test('a file in SMPTE time or without MThd is refused naming why', () => {
   const smpte = Buffer.from([0x4d, 0x54, 0x68, 0x64, 0, 0, 0, 6, 0, 0, 0, 0, 0xe7, 40])
   assert.throws(() => readSMF(smpte), /counts time in SMPTE frames/)
-  assert.throws(() => readSMF(Buffer.from('RIFF0000')), /does not open with MThd/)
+  assert.throws(() => readSMF(Buffer.from('RIFF0000')), /does not open with MThd but with "RIFF"/)
+})
+
+test('a file cut short is refused naming where it ends, not read as fewer tracks', () => {
+  assert.throws(() => readSMF(Buffer.from('MThd')), /the file is 4 bytes, shorter than the 14-byte MThd header/)
+  const whole = buildSMF([buildTrack([trackName('Bass'), END_OF_TRACK]), buildTrack([trackName('Keys'), END_OF_TRACK])])
+  assert.throws(() => readSMF(whole.subarray(0, whole.length - 2)), /track 2 announces \d+ bytes from byte \d+, but the file ends at byte \d+: it is cut short/)
+  // Everything up to the second track's chunk, whose search starts past the first one's at byte 14.
+  const firstTrackOnly = whole.subarray(0, whole.indexOf('MTrk', 20))
+  assert.throws(() => readSMF(firstTrackOnly), /the header announces 2 tracks, but the file ends after 1/)
 })
 
 test('read-midi.mjs prints the reading and refuses a missing file as misuse', () => {

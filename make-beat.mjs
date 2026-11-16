@@ -16,7 +16,7 @@ import {
   trap808Bar, hatRoll, motifIndex, sectionOf, partActiveIn,
   sidechainCC7,
 } from "./lib/midi/production.mjs";
-import { listStyles, stylePack } from "./lib/logic/styles.mjs";
+import { DEFAULT_STYLE, listStyles, stylePack } from "./lib/logic/styles.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -91,7 +91,7 @@ function parseArgs(argv) {
   }
   // No hard key/bars defaults — unset so the archetype pack value fills
   // in when the user did not pass an explicit flag.
-  const out = { style: "trap", bpm: null };
+  const out = { style: DEFAULT_STYLE, bpm: null };
   for (const a of argv) {
     const m = a.match(/^--([^=]+)=(.+)$/);
     if (m) out[m[1]] = m[2];

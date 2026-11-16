@@ -11,40 +11,18 @@
 // Nothing waits for a set time: a wait ends when what it waits for shows,
 // when Logic quits, or when you interrupt it, and says meanwhile what it sees.
 
-import { existsSync, watch } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
 
+import { beat, fileAppears } from "./lib/beat.mjs";
 import * as L from "./lib/logic/control.mjs";
 import { doctor } from "./lib/logic/doctor.mjs";
 import { WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 import * as M from "./lib/logic/midi-control.mjs";
 
-/** The deepest folder of `path` that exists, to watch for the rest to appear. */
-function existingAncestor(path) {
-  let folder = dirname(path);
-  while (!existsSync(folder)) folder = dirname(folder);
-  return folder;
-}
-
-/** Resolves once `path` exists, woken by file-system events, not by polling. */
-function fileAppears(path) {
-  return new Promise((done) => {
-    const watcher = watch(existingAncestor(path), { recursive: true }, () => {
-      if (existsSync(path)) {
-        watcher.close();
-        done();
-      }
-    });
-    // It may have appeared before the watch began.
-    if (existsSync(path)) {
-      watcher.close();
-      done();
-    }
-  });
-}
-
 const CMD = {
   ...WRAPPERS,
+  beat,
   open: L.open,
   doctor,
   tracks: L.tracks,

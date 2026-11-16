@@ -17,6 +17,7 @@ import {
   sidechainCC7,
 } from "./lib/midi/production.mjs";
 import { DEFAULT_STYLE, listStyles, stylePack } from "./lib/logic/styles.mjs";
+import { parseKey, wholeNumber } from "./lib/midi/arguments.mjs";
 import { nearest } from "./lib/nearest.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -76,18 +77,6 @@ const DEGREES = {
   III:  [3, 7, 10],        III7: [3, 7, 10, 14],
   VII:  [10, 14, 17],      VII7: [10, 14, 17, 21],
 };
-
-const NOTE_TO_SEMI = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
-function parseKey(str) {
-  const m = str.match(/^([A-G])([#b]?)m?$/);
-  if (!m) {
-    // German and Polish note names call B "H": a likely reason for one.
-    const hint = /^H/.test(str) ? `; H is ${str.replace(/^H/, "B")} in English note names` : "";
-    throw new Error(`--key takes a note A-G, then # or b for sharp or flat, then m for minor (C, F#m, Bb); got ${JSON.stringify(str)}${hint}`);
-  }
-  const pc = (NOTE_TO_SEMI[m[1]] + (m[2] === "#" ? 1 : m[2] === "b" ? -1 : 0) + 12) % 12;
-  return 48 + pc;
-}
 
 function parseArgs(argv) {
   if (argv.includes("--list-styles")) {
@@ -279,13 +268,6 @@ function metaTrack(name, bpm, bars) {
   }
   events.push(END_OF_TRACK);
   return buildTrack(events);
-}
-
-/** `value` of flag --`name` as a whole number from 1, or the error naming what was given. */
-function wholeNumber(name, value) {
-  const number = Number(value);
-  if (!Number.isInteger(number) || number < 1) throw new Error(`--${name} takes a whole number from 1, not ${JSON.stringify(value)}`);
-  return number;
 }
 
 const [, , ...words] = process.argv;

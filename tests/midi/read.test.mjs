@@ -79,6 +79,25 @@ test('a file cut short is refused naming where it ends, not read as fewer tracks
   assert.throws(() => readSMF(firstTrackOnly), /the header announces 2 tracks, but the file ends after 1/)
 })
 
+/** One-track file around `body`, at 96 ticks per quarter note. */
+function oneTrack(body) {
+  const header = Buffer.from([0x4d, 0x54, 0x68, 0x64, 0, 0, 0, 6, 0, 0, 0, 1, 0, 96])
+  return Buffer.concat([header, Buffer.from('MTrk'), Buffer.from([0, 0, 0, body.length]), Buffer.from(body)])
+}
+
+test('a malformed event is refused naming the track and byte, not read as zeros', () => {
+  // A data byte first: running status with no status before it.
+  assert.throws(() => readSMF(oneTrack([0x00, 60, 100])), /track 1: data byte 0x3c at byte 23 has no status before it/)
+  // Running status after a meta event, which cancels it.
+  assert.throws(() => readSMF(oneTrack([0x00, 0x90, 60, 100, 0x00, 0xff, 0x03, 0x00, 0x00, 62, 90])), /data byte 0x3e at byte 31 has no status before it/)
+  // A note on whose velocity lies past the track's end.
+  assert.throws(() => readSMF(oneTrack([0x00, 0x90, 60])), /track 1: a channel message's 2 data byte\(s\) at byte 24 runs past the track's end at byte 25/)
+  // A delta-time of five continuation bytes.
+  assert.throws(() => readSMF(oneTrack([0x81, 0x81, 0x81, 0x81, 0x01, 0x90, 60, 100])), /the variable-length number at byte 22 runs past the 4 bytes it may take/)
+  // A system common byte, which a file cannot hold.
+  assert.throws(() => readSMF(oneTrack([0x00, 0xf2, 0x00, 0x00])), /status byte 0xf2 before byte 24 has no meaning in a Standard MIDI File/)
+})
+
 test('read-midi.mjs prints the reading and refuses a missing file as misuse', () => {
   const file = join(scratch, 'part.mid')
   writeFileSync(file, buildSMF([buildTrack([trackName('Bass'), controlChange(0, 1, 7, 100), END_OF_TRACK])]))

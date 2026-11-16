@@ -25,17 +25,22 @@ const missing = {
   exit: 3,
 }
 
-// The stand-in answers `menus` from menus.json and `find` by its selector,
-// its last argument: Play matches nothing, Cycle two elements, the rest one.
+// The stand-in answers `menus` from menus.json, `apps` with Logic running in
+// the background, `get` with the project's file, and `find` by its selector,
+// its last argument: Play matches nothing, Cycle two elements, Tempo one
+// reading 96, the rest one.
 const fake = join(scratch, 'golem')
 writeFileSync(fake, `#!/bin/sh
 for selector; do :; done
 case "$1" in
   menus) cat '${menusFile}' ;;
+  apps) printf '%s\\n' '[{"pid":4242,"name":"Logic Pro","bundleId":"com.apple.logic10","active":false,"hidden":false}]' ;;
+  get) printf '%s\\n' 'file:///Users/me/beat.logicx' ;;
   find)
     case "$selector" in
       *'"Play"'*) printf '%s\\n' '${JSON.stringify({ error: missing })}' >&2; exit 3 ;;
       *'"Cycle"'*) printf '%s\\n' '[{"role":"AXCheckBox"},{"role":"AXCheckBox"}]' ;;
+      *'"Tempo"'*) printf '%s\\n' '[{"role":"AXSlider","value":"96"}]' ;;
       *) printf '%s\\n' '[{"role":"AXGroup"}]' ;;
     esac ;;
 esac
@@ -45,7 +50,7 @@ process.env.GOLEM_BIN = fake
 // GOLEM is read when the modules load, so the stand-in is named first.
 const { WRAPPERS, checkWrappers } = await import('../../lib/logic/wrappers.mjs')
 const { CONTROL_MENUS } = await import('../../lib/logic/control.mjs')
-const { checkSelectors } = await import('../../lib/logic/doctor.mjs')
+const { checkSelectors, status } = await import('../../lib/logic/doctor.mjs')
 
 /** Runs `check` with console.log's lines collected instead of shown. */
 async function printed(check) {
@@ -87,4 +92,21 @@ test('selectors-check shows what golem saw for a missing selector and refuses on
   assert.ok(lines.includes('ok     \tTempo slider\tslider[label="Tempo"] (1 element)'))
   assert.equal(result.status, 1)
   assert.match(result.message, /^2 of control\.mjs's selectors do not fit this Logic: Play, Cycle\./)
+})
+
+test('status shows whether Logic runs, the project file, and each element with its count and value', async () => {
+  const { result, lines } = await printed(status)
+
+  assert.equal(result, undefined)
+  assert.deepEqual(lines, [
+    'Logic\trunning, pid 4242, in the background',
+    'project\tfile:///Users/me/beat.logicx',
+    'track headers\t1 showing',
+    'Play\tnot showing',
+    'Cycle\t2 showing',
+    'Metronome Click\t1 showing',
+    'Tempo slider\t1 showing, value 96',
+    'Library search field (Library open)\t1 showing',
+    'Library header naming the loaded patch (Library open)\t1 showing',
+  ])
 })

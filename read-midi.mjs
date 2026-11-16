@@ -83,8 +83,10 @@ function importSourcesCheck(words) {
     let names = [];
     try {
       names = readdirSync(folder).filter((name) => name.endsWith(extension));
-    } catch {
-      return [];
+    } catch (error) {
+      // A DAW that never saved a project has no folder: nothing outside. Any other refusal is said.
+      if (error.code === 'ENOENT') return [];
+      throw new Error(`cannot list ${folder} for ${adapter}: ${error.message}`);
     }
     return names.map((name) => ({ adapter, place: join(folder, name), moved_by: AS_MIDI }));
   });

@@ -16,7 +16,7 @@ import {
   trap808Bar, hatRoll, motifIndex, sectionOf, partActiveIn,
   sidechainCC7,
 } from "./lib/midi/production.mjs";
-import { listStyles, styleDefault } from "./lib/logic/styles.mjs";
+import { listStyles, stylePack } from "./lib/logic/styles.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -272,13 +272,22 @@ function metaTrack(name, bpm, bars) {
   return buildTrack(events);
 }
 
+/** `value` of flag --`name` as a whole number from 1, or the error naming what was given. */
+function wholeNumber(name, value) {
+  const number = Number(value);
+  if (!Number.isInteger(number) || number < 1) throw new Error(`--${name} takes a whole number from 1, not ${JSON.stringify(value)}`);
+  return number;
+}
+
 const [, , ...words] = process.argv;
 const args = parseArgs(words);
 const style = { ...STYLES[args.style], styleName: args.style };
-const bpm = args.bpm ? parseInt(args.bpm) : style.bpm;
-const keyRoot = parseKey(args.key || styleDefault(args.style, "key") || "Fm");
-const bars = parseInt(args.bars || styleDefault(args.style, "bars") || 16);
-if (!Number.isFinite(bars) || bars < 1) throw new Error(`bad --bars: ${args.bars}`);
+const pack = stylePack(args.style);
+// An explicit flag wins; otherwise the style's own value.
+const bpm = wholeNumber("bpm", args.bpm === null ? style.bpm : args.bpm);
+const keyName = args.key === undefined ? pack.key : args.key;
+const keyRoot = parseKey(keyName);
+const bars = wholeNumber("bars", args.bars === undefined ? pack.bars : args.bars);
 
 reseed((bpm * 1000 + keyRoot) >>> 0);
 
@@ -290,4 +299,4 @@ const parts = [
 ];
 const smf = buildSMF([metaTrack("Conductor", bpm, bars), ...parts.map((p) => p.track)]);
 writeFileSync(join(HERE, "beat.mid"), smf);
-console.log(`Wrote beat.mid (${args.style}, ${args.key || styleDefault(args.style, "key") || "Fm"}, ${bpm} BPM, ${bars} bars, humanized + fills + outro tempo dip)`);
+console.log(`Wrote beat.mid (${args.style}, ${keyName}, ${bpm} BPM, ${bars} bars, humanized + fills + outro tempo dip)`);

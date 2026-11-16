@@ -44,6 +44,7 @@ chmodSync(fake, 0o755)
 process.env.GOLEM_BIN = fake
 // GOLEM is read when the modules load, so the stand-in is named first.
 const { WRAPPERS, checkWrappers } = await import('../../lib/logic/wrappers.mjs')
+const { CONTROL_MENUS } = await import('../../lib/logic/control.mjs')
 const { checkSelectors } = await import('../../lib/logic/doctor.mjs')
 
 /** Runs `check` with console.log's lines collected instead of shown. */
@@ -58,21 +59,24 @@ async function printed(check) {
   }
 }
 
-test('wrappers-check names a moved item with where it went, and counts loose matches', async () => {
-  const paths = Object.values(WRAPPERS).map((press) => press.menuPath)
-    .filter((path) => path.join(' > ') !== 'View > Movie Window')
+test('wrappers-check names a moved wrapper or command item with where it went, and counts loose matches', async () => {
+  const moved = new Set(['View > Movie Window', 'Mix > Mastering Assistant…'])
+  const paths = [...Object.values(WRAPPERS).map((press) => press.menuPath), ...CONTROL_MENUS.map(({ path }) => path)]
+    .filter((path) => !moved.has(path.join(' > ')))
     .map((path) => path.join(' > ') === 'Track > Rename Track' ? ['Track', 'rename track'] : path)
-  writeFileSync(menusFile, JSON.stringify([...paths, ['Window', 'Movie Window']].map((path) => ({ path }))))
+  const now = [...paths, ['Window', 'Movie Window'], ['Window', 'Mastering Assistant']]
+  writeFileSync(menusFile, JSON.stringify(now.map((path) => ({ path }))))
 
   const { result, lines } = await printed(checkWrappers)
 
-  const total = Object.keys(WRAPPERS).length
+  const total = Object.keys(WRAPPERS).length + CONTROL_MENUS.length
   assert.deepEqual(lines, [
     'missing\tshow-movie-window\tView > Movie Window; Logic has Window > Movie Window',
-    `${total - 1} of ${total} wrappers name an item in Logic's menus (1 only up to case or ellipsis, which golem still presses)`,
+    'missing\tmaster\tMix > Mastering Assistant…; Logic has Window > Mastering Assistant',
+    `${total - 2} of ${total} menu paths name an item in Logic's menus (1 only up to case or ellipsis, which golem still presses)`,
   ])
   assert.equal(result.status, 1)
-  assert.match(result.message, /^1 wrappers name no item of this Logic: show-movie-window; fix their paths in lib\/logic\/wrappers\.mjs$/)
+  assert.equal(result.message, '2 menu paths name no item of this Logic: show-movie-window (lib/logic/wrappers.mjs), master (lib/logic/control.mjs); fix them where named')
 })
 
 test('selectors-check shows what golem saw for a missing selector and refuses one that matches several', async () => {

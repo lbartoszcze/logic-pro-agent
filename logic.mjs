@@ -9,8 +9,8 @@
 //   swap <track> <patch>, save [name], bounce [name], bounce-in-place <scope>,
 //   wait-file <path>, key, type, menu,
 //   golem <command> [arguments] (any golem command against Logic),
-//   wrappers (named menu commands), wrappers-check (each wrapper's menu path
-//   against Logic's menus now), selectors-check (each selector control.mjs
+//   wrappers (named menu commands), wrappers-check (every menu path the
+//   wrappers and commands press, against Logic's menus now), selectors-check (each selector control.mjs
 //   relies on against the open project), and the MIDI commands below.
 // Nothing waits for a set time: a wait ends when what it waits for shows,
 // when Logic quits, or when you interrupt it, and says meanwhile what it sees.

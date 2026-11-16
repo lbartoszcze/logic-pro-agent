@@ -4,7 +4,7 @@
 // controls through MIDI (lib/logic/midi-control.mjs).
 //   beat [--style=…] [--key=…] [--bpm=…] [--bars=…] (a whole beat: doctor,
 //   make-beat, open, swaps, mastering, bounce, playback; lib/beat.mjs),
-//   open <file>, doctor, tracks, wait-tracks <n>, select, play, stop, rewind,
+//   open <file>, doctor, status (what Logic shows now), tracks, wait-tracks <n>, select, play, stop, rewind,
 //   cycle, metronome, zoom-fit, mute, solo, tempo, master, search,
 //   swap <track> <patch>, save [name], bounce [name], bounce-in-place <scope>,
 //   wait-file <path>, key, type, menu,
@@ -22,7 +22,7 @@ import { resolve } from "node:path";
 
 import { beat, fileAppears } from "./lib/beat.mjs";
 import * as L from "./lib/logic/control.mjs";
-import { checkSelectors, doctor } from "./lib/logic/doctor.mjs";
+import { checkSelectors, doctor, status } from "./lib/logic/doctor.mjs";
 import { checkWrappers, WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 import * as M from "./lib/logic/midi-control.mjs";
 import { nearest } from "./lib/nearest.mjs";
@@ -67,6 +67,7 @@ const CMD = {
   beat,
   open: L.open,
   doctor,
+  status,
   tracks: L.tracks,
   "wait-tracks": L.waitTracks,
   async "wait-file"([path]) {

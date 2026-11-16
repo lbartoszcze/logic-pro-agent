@@ -135,9 +135,14 @@ const CMD = {
 };
 
 const [, , cmd, ...rest] = process.argv;
-if (!cmd || !CMD[cmd]) {
-  console.error("Usage: node logic.mjs <command> [args...]");
+if (!Object.hasOwn(CMD, cmd)) {
+  // Commands sharing a word of what was typed (split at dashes), for a near miss such as "new-track".
+  const words = String(cmd).toLowerCase().split("-").filter((word) => word.length > 0);
+  const alike = Object.keys(CMD).filter((name) => words.some((word) => name.split("-").includes(word)));
+  console.error(cmd === undefined ? "Usage: node logic.mjs <command> [args...]: no command given" : `node logic.mjs knows no command ${JSON.stringify(cmd)}`);
+  if (alike.length > 0) console.error(`Commands sharing a word with it: ${alike.join(", ")}`);
   console.error("Commands: " + Object.keys(CMD).join(", "));
+  console.error("Every menu wrapper by group: node logic.mjs wrappers");
   process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }
 // A failure exits with the status of the program that failed: golem's own (3 not

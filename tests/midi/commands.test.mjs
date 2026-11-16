@@ -45,3 +45,12 @@ test('a word that names no mode is refused naming the modes there are', () => {
   assert.equal(stdout, '')
   assert.equal(stderr, 'assign mode "volume" is none of track|send|pan|plugin|eq|instrument\n')
 })
+
+test('an unknown command is named, with the commands sharing a word with it', () => {
+  const { status, stdout, stderr } = run('new-track')
+  assert.equal(status, 1)
+  assert.equal(stdout, '')
+  const [named, alike] = stderr.split('\n')
+  assert.equal(named, 'node logic.mjs knows no command "new-track"')
+  assert.match(alike, /^Commands sharing a word with it: .*\bnew-audio-track\b/)
+})

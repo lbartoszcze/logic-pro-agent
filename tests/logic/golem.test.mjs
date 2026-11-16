@@ -44,8 +44,7 @@ esac
 chmodSync(fake, 0o755)
 process.env.GOLEM_BIN = fake
 // GOLEM is read when the module loads, so the stand-in is named first.
-const { golem, GolemFailure, golemHolds, literal, q } = await import('../../lib/golem.mjs')
-const { LogicFailure } = await import('../../lib/logic/control.mjs')
+const { golem, GolemFailure, golemHolds, literal, LogicFailure, q } = await import('../../lib/golem.mjs')
 
 /** Runs `act` with process.stderr's writes collected instead of shown. */
 async function capturingStderr(act) {

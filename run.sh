@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Generate beat.mid with optional style/key/bpm flags, open it in Logic,
-# poll until import finishes, then apply style-appropriate patch swaps
+# wait until the import finishes, then apply style-appropriate patch swaps
 # fully in the background through golem (Logic never needs to be frontmost).
+# Nothing here waits for a set time: each wait ends when what it waits for
+# shows, and says meanwhile on standard error what it waits for and sees.
 #
 # Usage:
 #   ./run.sh                                  # trap Fm 140 16 bars
@@ -18,28 +20,14 @@ for arg in "$@"; do
   esac
 done
 
-# golem needs Accessibility for the program running this script; say so
-# before anything is changed in Logic.
-node logic.mjs doctor >/dev/null
+# Everything a beat needs (golem, Accessibility, Logic and its first launch),
+# each missing piece with its fix, before anything is changed in Logic.
+node logic.mjs doctor
 node make-beat.mjs "$@"
 node logic.mjs open beat.mid
 
-# Poll until Logic has imported the 4 tracks.
-# A listing Logic refuses while it imports is retried; the last refusal is
-# said if the tracks never arrive, instead of being thrown away.
-n=0
-tracks_error=""
-for i in $(seq 1 30); do
-  if listing="$(node logic.mjs tracks 2>&1)"; then
-    n=$(printf '%s\n' "$listing" | grep -c '"number":' || [ $? -eq 1 ])
-    tracks_error=""
-  else
-    tracks_error=$listing
-  fi
-  [ "$n" -ge 4 ] && break
-  sleep 0.5
-done
-[ "$n" -ge 4 ] || { echo "Logic did not finish importing (only $n tracks)${tracks_error:+; the last listing failed: $tracks_error}" >&2; exit 1; }
+# The import is done once Logic shows the beat's 4 tracks.
+node logic.mjs wait-tracks 4
 
 # Background patch swaps through golem. Other apps can stay frontmost. A swap
 # or the mastering that fails leaves Logic's default and is named at the end;
@@ -67,11 +55,12 @@ case "$STYLE" in
     ;;
 esac
 
-# Drop Logic 11 Mastering Assistant on the stereo out — auto EQ + compression
-# + adaptive limiter, tuned to the project.
+# Logic's Mastering Assistant on the stereo out — auto EQ + compression +
+# adaptive limiter, tuned to the project; master returns once its window shows.
 node logic.mjs master || skipped="$skipped; the Mastering Assistant exited $?"
-sleep 1.5
-[ -z "$skipped" ] || echo "Kept Logic's defaults where a step failed: ${skipped#; }" >&2
+if [ -n "$skipped" ]; then
+  echo "Kept Logic's defaults where a step failed: ${skipped#; }" >&2
+fi
 
 # Render the mastered project to audio. File lands in Logic's default Bounces
 # folder (usually ~/Music/Logic/Bounces/). Tagged with style + key + bpm.
@@ -82,15 +71,11 @@ node logic.mjs bounce "$BOUNCE_NAME" \
 
 BOUNCE_FILE="$HOME/Music/Logic/Bounces/${BOUNCE_NAME}.aif"
 echo "Beat ready in Logic. 'node logic.mjs play' to play (no focus steal)."
-echo "Audio rendered: $BOUNCE_FILE"
 
-# Wait for the bounce file to actually appear, then play it through the
-# system speakers via afplay so you hear the result without opening Logic.
-for i in $(seq 1 30); do
-  if [ -f "$BOUNCE_FILE" ] && [ "$(stat -f %z "$BOUNCE_FILE" 2>/dev/null || echo 0)" -gt 100000 ]; then
-    echo "Playing $BOUNCE_FILE (Ctrl+C to stop)..."
-    afplay "$BOUNCE_FILE"
-    break
-  fi
-  sleep 0.5
-done
+# The file appears when Logic starts writing it and is whole once Logic's
+# bounce window has gone; then it plays through the system speakers.
+node logic.mjs wait-file "$BOUNCE_FILE"
+node logic.mjs golem wait --gone "window[title^=\"Bounce\"]"
+echo "Audio rendered: $BOUNCE_FILE"
+echo "Playing $BOUNCE_FILE (Ctrl+C to stop)..."
+afplay "$BOUNCE_FILE"

@@ -2,21 +2,60 @@
 // logic.mjs - Logic Pro automation CLI. Logic stays in the background: the
 // Logic commands go through golem (lib/golem.mjs), the mixer and transport
 // controls through MIDI (lib/logic/midi-control.mjs).
-//   open <file>, doctor, tracks, select, play, stop, rewind, cycle, metronome,
-//   zoom-fit, mute, solo, tempo, master, search, swap <track> <patch>,
-//   save [name], bounce [name], bounce-in-place <scope>, key, type, menu,
+//   open <file>, doctor, tracks, wait-tracks <n>, select, play, stop, rewind,
+//   cycle, metronome, zoom-fit, mute, solo, tempo, master, search,
+//   swap <track> <patch>, save [name], bounce [name], bounce-in-place <scope>,
+//   wait-file <path>, key, type, menu,
 //   golem <command> [arguments] (any golem command against Logic),
 //   wrappers (named menu commands), and the MIDI commands below.
+// Nothing waits for a set time: a wait ends when what it waits for shows,
+// when Logic quits, or when you interrupt it, and says meanwhile what it sees.
+
+import { existsSync, watch } from "node:fs";
+import { dirname, resolve } from "node:path";
 
 import * as L from "./lib/logic/control.mjs";
+import { doctor } from "./lib/logic/doctor.mjs";
 import { WRAPPERS, WRAPPERS_HELP } from "./lib/logic/wrappers.mjs";
 import * as M from "./lib/logic/midi-control.mjs";
+
+/** The deepest folder of `path` that exists, to watch for the rest to appear. */
+function existingAncestor(path) {
+  let folder = dirname(path);
+  while (!existsSync(folder)) folder = dirname(folder);
+  return folder;
+}
+
+/** Resolves once `path` exists, woken by file-system events, not by polling. */
+function fileAppears(path) {
+  return new Promise((done) => {
+    const watcher = watch(existingAncestor(path), { recursive: true }, () => {
+      if (existsSync(path)) {
+        watcher.close();
+        done();
+      }
+    });
+    // It may have appeared before the watch began.
+    if (existsSync(path)) {
+      watcher.close();
+      done();
+    }
+  });
+}
 
 const CMD = {
   ...WRAPPERS,
   open: L.open,
-  doctor: L.doctor,
+  doctor,
   tracks: L.tracks,
+  "wait-tracks": L.waitTracks,
+  async "wait-file"([path]) {
+    if (!path) throw new Error("wait-file <path>");
+    const target = resolve(path);
+    if (!existsSync(target)) console.error(`waiting for ${target} to appear (interrupt to stop)`);
+    await fileAppears(target);
+    console.log(target);
+  },
   select: L.select,
   play: L.play,
   stop: L.stop,
@@ -73,15 +112,12 @@ if (!cmd || !CMD[cmd]) {
   process.exit(1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
 }
 // A failure exits with the status of the program that failed: golem's own (3 not
-// found, 4 ambiguous, 5 not confirmed, 6 permission, 7 Logic not running: golem
-// README) or midi-send's; one without a status, such as a usage error, with 1.
-const fail = (e) => {
-  console.error(e.message);
-  process.exit(e.status ?? 1 /* https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html */);
-};
+// found, 4 ambiguous, 5 not as set, 6 permission, 7 Logic not running or quit:
+// golem README) or midi-send's. One with no status of its own, such as a usage
+// error, exits 1, EXIT_FAILURE: https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/stdlib.h.html
 try {
-  const r = CMD[cmd](rest);
-  if (r && typeof r.then === "function") r.catch(fail);
-} catch (e) {
-  fail(e);
+  await CMD[cmd](rest);
+} catch (error) {
+  console.error(error.message);
+  process.exit(Number.isInteger(error.status) ? error.status : 1);
 }

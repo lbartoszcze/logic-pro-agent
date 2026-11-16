@@ -17,6 +17,7 @@ import {
   sidechainCC7,
 } from "./lib/midi/production.mjs";
 import { DEFAULT_STYLE, listStyles, stylePack } from "./lib/logic/styles.mjs";
+import { nearest } from "./lib/nearest.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -79,7 +80,11 @@ const DEGREES = {
 const NOTE_TO_SEMI = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
 function parseKey(str) {
   const m = str.match(/^([A-G])([#b]?)m?$/);
-  if (!m) throw new Error(`unparseable key: ${str}`);
+  if (!m) {
+    // German and Polish note names call B "H": a likely reason for one.
+    const hint = /^H/.test(str) ? `; H is ${str.replace(/^H/, "B")} in English note names` : "";
+    throw new Error(`--key takes a note A-G, then # or b for sharp or flat, then m for minor (C, F#m, Bb); got ${JSON.stringify(str)}${hint}`);
+  }
   const pc = (NOTE_TO_SEMI[m[1]] + (m[2] === "#" ? 1 : m[2] === "b" ? -1 : 0) + 12) % 12;
   return 48 + pc;
 }
@@ -96,7 +101,11 @@ function parseArgs(argv) {
     const m = a.match(/^--([^=]+)=(.+)$/);
     if (m) out[m[1]] = m[2];
   }
-  if (!STYLES[out.style]) throw new Error(`unknown style: ${out.style}`);
+  if (!Object.hasOwn(STYLES, out.style)) {
+    const meant = nearest(out.style, Object.keys(STYLES));
+    const hint = meant.length > 0 ? `; nearest to it: ${meant[0]}` : "";
+    throw new Error(`unknown style: ${out.style}${hint}; the styles are ${Object.keys(STYLES).join(", ")} (--list-styles describes them)`);
+  }
   return out;
 }
 

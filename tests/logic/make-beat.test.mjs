@@ -19,8 +19,10 @@ for (const [flags, said] of [
   [['--bars=12abc'], '--bars takes a whole number from 1, not "12abc"'],
   [['--bars=0'], '--bars takes a whole number from 1, not "0"'],
   [['--bpm=96.5'], '--bpm takes a whole number from 1, not "96.5"'],
-  [['--style=polka'], 'unknown style: polka'],
-  [['--key=H'], 'unparseable key: H'],
+  [['--style=polka'], 'unknown style: polka; the styles are '],
+  [['--style=trapp'], 'unknown style: trapp; nearest to it: trap; the styles are '],
+  [['--style=toString'], 'unknown style: toString'],
+  [['--key=H'], '--key takes a note A-G, then # or b for sharp or flat, then m for minor (C, F#m, Bb); got "H"; H is B in English note names'],
 ]) {
   test(`make-beat ${flags.join(' ')} is refused and writes nothing`, () => {
     const before = beatNow()

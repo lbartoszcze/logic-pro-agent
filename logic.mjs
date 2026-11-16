@@ -2,6 +2,8 @@
 // logic.mjs - Logic Pro automation CLI. Logic stays in the background: the
 // Logic commands go through golem (lib/golem.mjs), the mixer and transport
 // controls through MIDI (lib/logic/midi-control.mjs).
+//   beat [--style=…] [--key=…] [--bpm=…] [--bars=…] (a whole beat: doctor,
+//   make-beat, open, swaps, mastering, bounce, playback; lib/beat.mjs),
 //   open <file>, doctor, tracks, wait-tracks <n>, select, play, stop, rewind,
 //   cycle, metronome, zoom-fit, mute, solo, tempo, master, search,
 //   swap <track> <patch>, save [name], bounce [name], bounce-in-place <scope>,
